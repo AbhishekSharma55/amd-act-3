@@ -1,0 +1,155 @@
+AMD Developer Hackathon: ACT III — Milan · Luma
+Discover Events
+Sign In
+Presented by
+lablab.ai Events
+Follow
+lablab.ai
+is a global platform supporting AI innovation through hackathons, workshops, and community-driven events. Stay updated on all our upcoming events and join our AI community!
+Hosted By
+lablab
+Josh Shulman
+WeAreDevelopers
+46 Going
+Tinnix He, Jastaj Singh and 44 others
+Contact the Host
+Report Event
+AI
+AMD Developer Hackathon: ACT III — Milan
+lablab.ai Events
+Via Giuseppe Ripamonti, 88
+Milano, Italy
+Registration
+Welcome! To join the event, please register below.
+Register
+About Event
+​
+Take your AI idea from prototype to working product at the
+AMD Developer Hackathon: ACT III in Milan
+.
+​
+This hackathon brings together developers, founders, engineers, students, and AI builders to create high-performance applications and agents using
+AMD GPUs in the cloud
+.
+​
+The challenge
+​
+Build an end-to-end
+AI application, agent, or developer tool powered by AMD technology
+.
+​
+Participants will get the opportunity to work with:
+​
+Cloud-accessible AMD GPUs
+​
+The ROCm open-source software stack
+​
+AI and machine learning development resources
+​
+Technical guidance from mentors and industry experts
+​
+Training and learning materials from the AMD ecosystem
+​
+Everything runs in the cloud. You do not need to own AMD hardware or complete a complex local setup before you begin.
+​
+You can explore AI agents, model training and fine-tuning, workload benchmarking, developer tooling, high-performance machine learning, or an original use case of your own. Detailed tracks will be announced before the kickoff.
+​
+Build at SmartCityLab Milano
+​
+The Milan on-site experience will take place at
+SmartCityLab Milano
+, an innovation hub where technology, sustainability, and design come together to turn ideas into practical projects.
+​
+Over the weekend, you’ll have space to:
+​
+Work intensively with your team
+​
+Exchange ideas with other AI builders
+​
+Get hands-on technical guidance
+​
+Test and improve your application
+​
+Prepare for the final submission
+​
+Pitch your project live
+​
+Connect with Milan’s startup and technology community
+​
+The total hackathon prize pool is
+$5,000
+.
+​
+Who is it for?
+​
+Join us if you are:
+​
+An AI or machine learning engineer
+​
+A software developer interested in GPU computing
+​
+A founder building an AI-powered product
+​
+A student looking for hands-on technical experience
+​
+A designer, product builder, or domain expert joining a technical team
+​
+Curious about AMD GPUs, ROCm, and cloud-based AI development
+​
+Previous hackathon experience is not required. You can build alone or in a team of up to six people.
+​
+Weekend schedule
+​
+Saturday, October 17
+​
+9:00 AM — Doors open
+​
+10:00 AM — Welcome and opening remarks
+​
+Building, mentoring, and team collaboration
+​
+7:00 PM — Doors close
+​
+Sunday, October 18
+​
+9:00 AM — Doors open
+​
+Final development and project preparation
+​
+4:00 PM — Submission deadline
+​
+5:00 PM — Live pitching and networking
+​
+7:00 PM — Doors close
+​
+Location
+​
+SmartCityLab Milano
+Via Giuseppe Ripamonti, 88
+20141 Milano MI, Italy
+​
+Organized by
+​
+lablab.ai
+A global platform connecting 300,000+ developers through AI hackathons, workshops, and community-driven events, with 100+ hackathons delivered worldwide.
+Location
+Via Giuseppe Ripamonti, 88
+20141 Milano MI, Italy
+Presented by
+lablab.ai Events
+Follow
+lablab.ai
+is a global platform supporting AI innovation through hackathons, workshops, and community-driven events. Stay updated on all our upcoming events and join our AI community!
+Hosted By
+lablab
+Josh Shulman
+WeAreDevelopers
+46 Going
+Tinnix He, Jastaj Singh and 44 others
+Contact the Host
+Report Event
+AI
+Discover
+Pricing
+Help
+Get the App

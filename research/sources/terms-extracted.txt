@@ -1,0 +1,166 @@
+_Last Revised: 1st july 2025
+NativelyAI Inc. a Delaware corporation ("NativelyAI") is a business that operates a hackathon platform, hereafter known as lablab.ai., and accelerator programs known as Slingshot, Gaia and Nextgrid (hereafter “Affiliates of Natively”). In addition, these Terms of Use shall govern your use of any NativelyAI product or service and each affiliate and their related website that links to these Terms of Use together with all of our applications, APIs, and online services (collectively, the “Site”), as well as our other services, offerings, and other interactions (e.g., customer service inquiries, user conferences, etc.) you may have with us (together with our Site, collectively referred to as our “Services”). By accessing or using our Services, you are agreeing to these terms and conditions (the “Terms”) and concluding a legally binding contract with NativelyAI and its Affiliates. Do not access or use our Services if you are unwilling or unable to be bound by the Terms.
+A. Parties
+“You” and “your” refer to you, as a user of our Services. A “user” is someone who accesses, posts, edits, browses, or in any way uses our Services.
+“We,” “us,” and “our” refer to NativelyAI.
+B. Content
+“Content” means text, images, photos, audio, video and all other forms of data or communication.
+“Your Content” means Content that you submit or transmit to, through, or in connection with our Services, such as posts, comments, invitations, messages, and information that you publicly display.
+“User Content” means Content that users submit or transmit to, through, or in connection with our Services.
+“Natively Content” means Content that we create and make available in connection with our Services.
+“Third Party Content” means Content that originates from parties other than NativelyAI or its users, which is made available in connection with our Services.
+“Site Content” means all of the Content that is made available in connection with our Services, including Your Content, User Content, Third Party Content, and NativelyAI Content.
+We may modify these Terms from time to time. You understand and agree that your access to or use of our Services is governed by the Terms effective at the time of your access to or use of our Services. If we make material changes to these Terms, we will notify you by email or by posting a revised version of the Terms on our Site. We will also indicate at the top of this page the date that revisions were last made. You should revisit these Terms on a regular basis as revised versions will be binding on you. You understand and agree that your continued access to or use of our Services after the effective date of modifications to the Terms indicates your acceptance of the modifications.
+A. Eligibility:
+B. Permission to Use the Site:
+C. Site Availability:
+D. User Accounts:
+E. Communications from NativelyAI and other Users:
+F. Startup Digest Curators:
+We will provide you with a playbook containing policies and procedures which we have found effective and which are for your recommended use in connection with your use of our Services as a Curator. You acknowledge and agree that how you utilize our Services as a Curator impacts our brand. Accordingly, you agree not to utilize our Services in a manner that diminishes and/or tarnishes our image and/or reputation, and that we may terminate your appointment as a Curator and/or license to use our Services immediately if you do so. You may not receive compensation or favor from third parties in connection with your status as a Curator. In addition, you may not enter into any form of agreement on behalf of NativelyAI without our written approval.
+A. Content Guidelines
+B. Responsibility for Your Content
+You may expose yourself to liability if, for example, (i) Your Content contains material that is false, intentionally misleading, or defamatory; (ii) violates any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right; (iii) contains material that is unlawful, including illegal hate speech or pornography; (iv) exploits or otherwise harms minors; or (v) violates or advocates the violation of any law or regulation.
+C. Our Right to Use Your Content:
+D. Ownership:
+As such, you may not modify, reproduce, distribute, create derivative works or adaptations of, publicly display or in any way exploit any of the NativelyAI Content in whole or in part except as expressly authorized by us. Except as expressly and unambiguously provided herein, we do not grant you any express or implied rights, and all rights in and to our Services and the NativelyAI Content are retained by us.
+E. Other:
+A.
+Violate our Content or Event Guidelines as set forth in these Terms
+Violate any third party’s rights, including any breach of confidence, copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right
+Threaten, stalk, harm, or harass others, or promote bigotry or discrimination
+Send bulk emails, surveys, or other mass messaging, whether commercial in nature or not
+Violate any applicable law
+B.
+Violate the Terms
+Modify, adapt, appropriate, reproduce, distribute, translate, create derivative works or adaptations of, publicly display, sell, trade, or in any way exploit our Services or Site Content (other than Your Content), except as expressly authorized by NativelyAI or its Affiliates
+Reverse engineer any portion of our Services
+Remove or modify any copyright, trademark or other proprietary rights notice that appears on any portion of our Services or on any materials printed or copied from our Services
+Record, process, or mine information about other companies and/or users, including but not limited to running scripts, software, routines, or other programs to capture data on other Users
+Reformat or frame any portion of our Services
+Attempt to gain unauthorized access to our Services, user accounts, computer systems or networks connected to our Services through hacking, password mining or any other means
+Use our Services or any Site Content to transmit any computer viruses, worms, defects, Trojan horses or other items of a destructive nature (collectively, “Viruses”)
+Use any device, software or routine that interferes with the proper working of our Services, or otherwise attempt to interfere with the proper working of our Services
+Use our Services to violate the security of any computer network, crack passwords or security encryption codes; disrupt or interfere with the security of, or otherwise cause harm to, our Services or Site Content
+Remove, circumvent, disable, damage or otherwise interfere with any security-related features of our Services, features that prevent or restrict the use or copying of Site Content, or features that enforce limitations on the use of our Services
+A. Events and Acceptance of Terms:
+B. Assumption of risk/release of liability/indemnity:
+You (for yourself, your heirs, personal representatives, or assigns, and anyone else who might make a claim on your behalf) hereby release, waive, discharge and covenant not to sue, NativelyAI and its Affiliates and its respective parent companies, subsidiaries, officers, directors, partners, shareholders, members, agents, employees, vendors, sponsors and volunteers from any and all claims, demands, causes of action, damages, losses or expenses (including court costs and reasonable attorneys’ fees) which may arise out of, result from, or relate in any way to your attendance at any NN Event or Non-NN Event, except for any gross negligence or willful misconduct on our part. You further agree to indemnify and hold NativelyAI and its Affiliates, its parents, subsidiaries, officers, directors, employees, agents and representatives harmless, including costs, liabilities and legal fees, from any claim or demand made by any third party due to, related to, or connected with your attendance or conduct at any NN Event or Non-NN Event.
+C. Photos:
+D. Termination.
+E. Unofficial Events
+A. Privacy
+here
+B. Copyright and Trademark Disputes
+Identification of the copyrighted or trademarked work that you claim has been infringed;
+Identification of the allegedly infringing content, and information reasonably sufficient to permit NativelyAI to locate it on our Site (e.g., the URL for the web page on which the content appears);
+A statement by you that you have a good faith belief that the use of the content identified in your notice in the manner complained of is not authorized by the copyright/trademark owner, its agent, or the law;
+A statement by you that you attest, under penalty of perjury, that the information in your notice is accurate and that you are the copyright/trademark owner or authorized to act on the owner’s behalf; and
+Your physical or electronic signature, together with your contact information (address, telephone number and, if available, email address).
+If you believe that your content should not have been removed for alleged copyright or trademark infringement, you may send us a written counter-notice with the following information:
+Identification of the copyrighted or trademarked work that was removed, and the location within our Services where it would have been found prior to its removal;
+A statement, under penalty of perjury, that you have a good faith belief that the content was removed as a result of a mistake or misidentification. For trademark disputes only: information reasonably sufficient to explain why you believe you are not infringing the trademarked work;
+A statement that you consent either to the jurisdiction of (a) the Federal District Court for the judicial district in which your address is located if you live in the United States, or (b) any judicial district in which NativelyAI is located if you live outside the United States. Please also include a statement that you will accept service of process from the person who sent
+Your physical or electronic signature, together with your contact information (address, telephone number and, if available, email address).
+We will respond to all such notices and comply with applicable law. We reserve the right to remove content alleged to be infringing without prior notice and at our sole discretion. We also reserve the right to terminate a user’s account if the user is determined to be a repeat infringer.
+You can send us your copyright or trademark notices to:
+Copyright Agent
+NativelyAI
+invoices@nativelyai.com
+By sending us any ideas, suggestions, documents or proposals (“Feedback”), you agree that (i) your Feedback does not contain the confidential or proprietary information of third parties, (ii) we are under no obligation of confidentiality, express or implied, with respect to the Feedback, (iii) we may have something similar to the Feedback already under consideration or in development, and (iv) you grant us an irrevocable, non-exclusive, royalty-free, perpetual, worldwide license to use, modify, prepare derivative works, publish, distribute and sublicense the Feedback, and you irrevocably waive, and cause to be waived, against NativelyAI and its users any claims and assertions of any moral rights contained in such Feedback.
+Our Services may contain links to third party websites. When you click on a link to any other website or location, you will leave our Services and you will be subject to the terms of use and privacy policy applicable to those websites. We have no control over, do not review, and cannot be responsible for, these outside websites or their content, and your use of such websites is at your own risk. The links to third party websites or locations are for your convenience and do not signify our endorsement of such third parties or their products, content or websites. Some of the services made available through our Services may be subject to additional third party or open source licensing terms and disclosures, which are incorporated herein by reference.
+You understand and agree that you are personally responsible for your behavior on our Services. You agree to indemnify, defend, and hold NativelyAI and its Affiliates, its parents, subsidiaries, any related companies, suppliers, licensors and partners, and the officers, directors, employees, agents and representatives of each of them (collectively, the “Natively Entities“) harmless, including costs, liabilities and legal fees, from any claim or demand made by any third party arising out of or relating to (i) your access to or use of our Services, (ii) your violation of the Terms, or (iii) the infringement by you, or any third party using your account, of any intellectual property or other right of any person or entity. NativelyAI reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us and you agree to cooperate with our defense of these claims. You agree not to settle any such matter without the prior written consent of NativelyAI. NativelyAI will use reasonable efforts to notify you of any such claim, action or proceeding upon becoming aware of it.
+You represent and warrant that you are not organized under the laws of, operating from, or otherwise located or resident in a country or territory that is subject to US economic or trade sanctions (i.e. an embargo, including North Korea, Iran, Cuba, Russia, but not limited to as this list is not exhaustive); identified on a list of prohibited or restricted persons; or otherwise the target of US sanctions.
+PLEASE READ THIS SECTION CAREFULLY SINCE IT LIMITS THE LIABILITY OF THE NativelyAI ENTITIES TO YOU. EACH OF THE SUBSECTIONS BELOW ONLY APPLIES UP TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW. NOTHING HEREIN IS INTENDED TO LIMIT ANY RIGHTS YOU MAY HAVE WHICH MAY NOT BE LAWFULLY LIMITED. IF YOU ARE UNSURE ABOUT THIS OR ANY OTHER SECTION OF THESE TERMS, PLEASE CONSULT WITH A LEGAL PROFESSIONAL PRIOR TO ACCESSING OR USING OUR SERVICES. BY ACCESSING OR USING OUR SERVICES, YOU REPRESENT THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO THESE TERMS, INCLUDING THIS SECTION. YOU ARE GIVING UP SUBSTANTIAL LEGAL RIGHTS BY AGREEING TO THESE TERMS.
+A.
+B.
+C.
+D.
+E.
+F.
+Delaware law will govern these Terms, as well as any claim, cause of action or dispute that might arise between you and NativelyAI or a NativelyAI Affiliate (a “Claim”), without regard to conflict of law provisions. FOR ANY CLAIM BROUGHT BY EITHER PARTY, YOU AGREE TO SUBMIT AND CONSENT TO THE PERSONAL AND EXCLUSIVE JURISDICTION IN, AND THE EXCLUSIVE VENUE OF, THE STATE AND FEDERAL COURTS LOCATED WITHIN SUSSEX COUNTY, DELAWARE.
+A.
+privacy@nativelyai.com
+B.
+C.
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+Please be aware that participation in lablab.ai hackathons is voluntary and subject to the specific rules and conditions outlined for each event. While we strive to provide a fair and rewarding experience for all participants, we cannot guarantee entry or success in securing prizes. All prizes and opportunities are subject to availability and participants must meet the established criteria to qualify. lablab.ai is not responsible nor held liable for any commitments or offers - including programs, giveaways, or prizes - made by third-party sponsors or partners of the hackathon. The availability and delivery of third-party prizes or benefits are solely at the discretion of the respective sponsors and are not guaranteed by lablab.ai. We reserve the right to make amendments, modifications, or cancellations to any part of the hackathon (including full cancellation of the event itself), including prizes and terms of participation, at our sole discretion. Whenever possible, we will endeavor to notify participants of significant changes within a reasonable timeframe. All submissions by participants must be original work, open source, and compliant with the MIT License unless specified otherwise. By participating, you agree to these terms, the overall event terms, and the lablab.ai general terms and are encouraged to review all event-related information carefully. Prize Distribution: lablab.ai and its partners reserve the right to distribute all prizes within a 90-day period following the announcement of the winners. This period allows for the proper processing and verification needed to award prizes appropriately.
+prize@lablab.ai
+1. Scope
+only to individuals
+2. Prize Notification & Deadline
+Prize Payout Form
+90 calendar days
+automatic forfeiture
+3. Payment Conditions
+U.S. Dollars (USD)
+Payouts are processed via:
+ACH
+SWIFT international wire transfer
+$15 processing fee
+after 90 days
+**We do not charge any service or administrative fees.
+**
+may be reduced
+U.S. federal tax withholding
+Bank fees
+Note
+gross value
+4. Required Documentation
+For U.S. individuals:
+Completed **Prize Payout Form
+**
+**IRS Form W-9
+**
+For non-U.S. individuals:
+Completed **Prize Payout Form
+**
+**IRS Form W-8BEN
+**
+U.S. TIN
+delay
+cancel
+5. Tax Withholding & Reporting
+U.S. Recipients:
+No tax is withheld
+$600
+Form 1099-MISC
+recipients are responsible
+Non-U.S. Recipients:
+30% U.S. federal tax
+valid tax treaty
+U.S. TIN
+Form 1042-S
+IRS Reporting Thresholds
+If total prize money ≤ $600 in a calendar year:
+not required
+No 1099-MISC
+report the income
+If total prize money > $600 in a calendar year:
+Form 1099-MISC
+January 31
+not withhold taxes
+recipient must report
+Line 8 of Form 1040
+6. Contact
+An automatic confirmation of receipt will be sent after form submission.
+only if corrections
+prize@lablab.ai
+7. Final Requirements & Forfeiture Clause
+successful completion and verification
+A completed **Prize Payout Form
+**
+IRS tax form
+A **government-issued photo ID
+**
+Bank account verification
+within 90 calendar days
+permanently forfeited
+No exceptions

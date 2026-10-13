@@ -1,0 +1,187 @@
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI about this hackathon.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help
+Join
+Challenge + Get $100 credits
+AI Hackathons
+AI Apps
+AI Tech
+AI Tutorials
+AI Articles
+NativelyAI
+Sponsor
+Toggle main menu
+AI app: AgeBand for AMD Developer Hackathon: ACT II
+Home
+App Discovery
+AgeBand
+AgeBand
+Created by team
+Kiano
+on
+July 09, 2026
+2
+AMD Developer Cloud
+AMD ROCm
+Gemma
+AgentOps
+Unicorn Track
+AgeBand — a privacy-first, passive age-assurance layer for chat products (AMD Hackathon ACT II, Track 3).
+
+  Problem:  Age verification is either invasive (biometrics, ID upload) or trivially bypassed (self-attestation). Neither fits AI companion apps, social/gaming/dating chat, or kids'/ed-tech, which need continuous protection without documents.
+
+  Approach: AgeBand reads the conversation, not the person. It passively infers a coarse age band from linguistic and behavioral signals and maps it to a proportionate safety posture (standard → caution → restricted → blocked). Its invariant:
+  LLM estimates → deterministic layer decides → confidence and gaps are first-class → human at the boundary → runs on AMD because the data can't leave. A multilingual model on MI300X/vLLM proposes cues and a candidate band; a deterministic Python shell assigns weights, computes confidence, and sets posture. The LLM never sets a weight or confidence — so it can't emit a confident-but-wrong verdict. Proof: a 27B model was fooled by an adversarial "child," but the deterministic evasion guard held.
+
+  Key decisions. Only strong cues (topic/disclosure) establish a band; style cues only nudge (kills false positives). Stated age is weighted evidence, not an override. Uncertainty and masking patterns feed a confidence penalty and can trigger a
+  step-up ladder — complementing, not competing with, biometric providers.
+
+  AMD story: "First-party, not basement": on-prem inside the product's own trust boundary. One image, one env-var contract, three targets (MI300X vLLM/ROCm, AMD VM, EKS+Fireworks).
+
+  Proven on MI300X (gemma-3-27b-it bf16): 100% eval accuracy, p95 2.1s single / 3.1s @10 concurrent, 598.6 tok/s, ~$0.139/1k turns, ≥10 sessions/GPU. Working browser demo, live eval/benchmark tab, session simulator, GPU telemetry badge. Pipeline
+  merged; 462 tests pass.
+Category tags:
+Security
+,
+Parenting
+,
+Language and Translation
+,
+Chatbot
+,
+Customer Support
+,
+Legal
+,
+Mental Health
+Github
+Presentation
+Demo
+Explore more applications
+WebRetriever — Deterministic Web Retrieval Agent
+WebRetriever is an autonomous web information retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. Ask in plain English and get back the specific information you asked for, with the exact source URLs behind it — or an honest refusal when no verifiable answer exists.
+
+How it works — five-stage pipeline with a deterministic core:
+
+Understand — parses the request into intent (price, contact, hours, spec, definition, how-to, date, fact), entities, and 2–4 search query variants. No ML model required.
+
+Search — provider chain with automatic fallback: TinyFish Search for the best quality (JS-aware), and DuckDuckGo HTML as the keyless fallback with no signup needed.
+
+Fetch + navigate — fetches top hits, then follows promising in-page links within a fixed budget (8 pages, 2 hops) when the answer looks like it is one click deeper.
+
+Extract — structure-aware parsing: JSON-LD (Product, Organization, FAQPage), HTML tables such as spec sheets, intent-specific patterns for prices, phone numbers, emails, hours and dates, plus ranked text spans.
+
+Verify — every candidate is checked against its own source text; independent multi-source agreement boosts confidence. If nothing is supported by evidence, the agent refuses instead of guessing.
+
+The core pipeline uses no LLM, so results are reproducible and cheap. Citations are mandatory, and the agent runs on the free tier with no paid APIs. MIT licensed and Docker-ready, with 12 unit tests.
+ArcOmega
+rest api
+WebScout ROCm
+WebScout is an advanced, high-efficiency autonomous web information retrieval engine built specifically to harness the massive parallel processing power of AMD ROCm hardware. Designed for modern AI agents and knowledge workers, WebScout delivers lightning-fast web scraping, DOM parsing, and vector embedding generation. By leveraging AMD ROCm and ROCm-accelerated local LLMs, WebScout processes millions of web tokens with minimal latency, ensuring robust data extraction, semantic search, and structured knowledge synthesis. Key features include intelligent adaptive rate limiting, automated anti-bot avoidance strategies, robust proxy rotation, DOM distillation to remove boilerplate clutter, and real-time vector embedding indexing directly on AMD Radeon and Instinct GPUs using PyTorch and ROCm hipBLAS. WebScout empowers autonomous agents to query live web data securely, efficiently, and at scale without relying on expensive commercial APIs.
+AMD AI Innovators
+AMD ROCm
+Kaminari Web Retrieval Agent
+An autonomous web retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. The agent accepts natural-language requests (for example: "find the current lead time for part X on the supplier site") and returns the exact information together with its source URL. Pipeline: (1) query understanding and target-site selection, (2) deterministic navigation with retries and fallbacks, (3) structure-aware content extraction, (4) evidence-grounded answer synthesis with citations, and (5) refusal when a fact cannot be verified against a primary source. A resident local model on AMD ROCm handles extraction and reranking so per-request latency stays within the evaluation budget. The verifier cross-checks every extracted value against the page it came from, and every answer carries the exact source link. Built solo by Eran Rosadi (Kaminari Research).
+Kaminari Research
+AMD ROCm
+AMD Developer Cloud
+HuggingFace Hub
+Why They Return
+An open Google model on an AMD GPU reads every review of a product, finds why it comes back (runs small, runs large, length, fabric, colour) and writes the size note and listing fix. Measured against renters' own labels.
+KHLab
+AMD ROCm
+AMD Developer Cloud
+Gemma
+HuggingFace Hub
+Streamlit
+Compressor Maintenance Copilot
+Catches compressor faults hours to days before they stop the line, explains them in plain language with cited manual pages and past repairs, and drafts the work order. An Evolus agent on an open model running on AMD GPUs.
+gheware
+AMD Developer Cloud
+Streamlit
+Badhrinath Padmanabhan
+Asish Bose
+Distinguished Architect
+Hyunsun Moon
+Upcoming AI Hackathons
+For Innovators & Creators
+Explore more applications
+WebRetriever — Deterministic Web Retrieval Agent
+WebRetriever is an autonomous web information retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. Ask in plain English and get back the specific information you asked for, with the exact source URLs behind it — or an honest refusal when no verifiable answer exists.
+
+How it works — five-stage pipeline with a deterministic core:
+
+Understand — parses the request into intent (price, contact, hours, spec, definition, how-to, date, fact), entities, and 2–4 search query variants. No ML model required.
+
+Search — provider chain with automatic fallback: TinyFish Search for the best quality (JS-aware), and DuckDuckGo HTML as the keyless fallback with no signup needed.
+
+Fetch + navigate — fetches top hits, then follows promising in-page links within a fixed budget (8 pages, 2 hops) when the answer looks like it is one click deeper.
+
+Extract — structure-aware parsing: JSON-LD (Product, Organization, FAQPage), HTML tables such as spec sheets, intent-specific patterns for prices, phone numbers, emails, hours and dates, plus ranked text spans.
+
+Verify — every candidate is checked against its own source text; independent multi-source agreement boosts confidence. If nothing is supported by evidence, the agent refuses instead of guessing.
+
+The core pipeline uses no LLM, so results are reproducible and cheap. Citations are mandatory, and the agent runs on the free tier with no paid APIs. MIT licensed and Docker-ready, with 12 unit tests.
+ArcOmega
+rest api
+WebScout ROCm
+WebScout is an advanced, high-efficiency autonomous web information retrieval engine built specifically to harness the massive parallel processing power of AMD ROCm hardware. Designed for modern AI agents and knowledge workers, WebScout delivers lightning-fast web scraping, DOM parsing, and vector embedding generation. By leveraging AMD ROCm and ROCm-accelerated local LLMs, WebScout processes millions of web tokens with minimal latency, ensuring robust data extraction, semantic search, and structured knowledge synthesis. Key features include intelligent adaptive rate limiting, automated anti-bot avoidance strategies, robust proxy rotation, DOM distillation to remove boilerplate clutter, and real-time vector embedding indexing directly on AMD Radeon and Instinct GPUs using PyTorch and ROCm hipBLAS. WebScout empowers autonomous agents to query live web data securely, efficiently, and at scale without relying on expensive commercial APIs.
+AMD AI Innovators
+AMD ROCm
+Kaminari Web Retrieval Agent
+An autonomous web retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. The agent accepts natural-language requests (for example: "find the current lead time for part X on the supplier site") and returns the exact information together with its source URL. Pipeline: (1) query understanding and target-site selection, (2) deterministic navigation with retries and fallbacks, (3) structure-aware content extraction, (4) evidence-grounded answer synthesis with citations, and (5) refusal when a fact cannot be verified against a primary source. A resident local model on AMD ROCm handles extraction and reranking so per-request latency stays within the evaluation budget. The verifier cross-checks every extracted value against the page it came from, and every answer carries the exact source link. Built solo by Eran Rosadi (Kaminari Research).
+Kaminari Research
+AMD ROCm
+AMD Developer Cloud
+HuggingFace Hub
+Why They Return
+An open Google model on an AMD GPU reads every review of a product, finds why it comes back (runs small, runs large, length, fabric, colour) and writes the size note and listing fix. Measured against renters' own labels.
+KHLab
+AMD ROCm
+AMD Developer Cloud
+Gemma
+HuggingFace Hub
+Streamlit
+Compressor Maintenance Copilot
+Catches compressor faults hours to days before they stop the line, explains them in plain language with cited manual pages and past repairs, and drafts the work order. An Evolus agent on an open model running on AMD GPUs.
+gheware
+AMD Developer Cloud
+Streamlit

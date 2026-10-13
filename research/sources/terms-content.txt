@@ -1,0 +1,844 @@
+.props.pageProps.source.compiledSource
+"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    h2: "h2",
+    hr: "hr",
+    li: "li",
+    p: "p",
+    span: "span",
+    strong: "strong",
+    ul: "ul",
+    ..._provideComponents(),
+    ...props.components
+  };
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.p, {
+      children: "_Last Revised: 1st july 2025"
+    }), "\n", _jsx(_components.p, {
+      children: "NativelyAI Inc. a Delaware corporation (\"NativelyAI\") is a business that operates a hackathon platform, hereafter known as lablab.ai., and accelerator programs known as Slingshot, Gaia and Nextgrid (hereafter “Affiliates of Natively”). In addition, these Terms of Use shall govern your use of any NativelyAI product or service and each affiliate and their related website that links to these Terms of Use together with all of our applications, APIs, and online services (collectively, the “Site”), as well as our other services, offerings, and other interactions (e.g., customer service inquiries, user conferences, etc.) you may have with us (together with our Site, collectively referred to as our “Services”). By accessing or using our Services, you are agreeing to these terms and conditions (the “Terms”) and concluding a legally binding contract with NativelyAI and its Affiliates. Do not access or use our Services if you are unwilling or unable to be bound by the Terms."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-1",
+      id: "1-definitions",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#1-definitions",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "1. Definitions"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "A. Parties"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "“You” and “your” refer to you, as a user of our Services. A “user” is someone who accesses, posts, edits, browses, or in any way uses our Services.\n“We,” “us,” and “our” refer to NativelyAI."
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "B. Content"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "“Content” means text, images, photos, audio, video and all other forms of data or communication."
+    }), "\n", _jsx(_components.p, {
+      children: "“Your Content” means Content that you submit or transmit to, through, or in connection with our Services, such as posts, comments, invitations, messages, and information that you publicly display."
+    }), "\n", _jsx(_components.p, {
+      children: "“User Content” means Content that users submit or transmit to, through, or in connection with our Services."
+    }), "\n", _jsx(_components.p, {
+      children: "“Natively Content” means Content that we create and make available in connection with our Services."
+    }), "\n", _jsx(_components.p, {
+      children: "“Third Party Content” means Content that originates from parties other than NativelyAI or its users, which is made available in connection with our Services."
+    }), "\n", _jsx(_components.p, {
+      children: "“Site Content” means all of the Content that is made available in connection with our Services, including Your Content, User Content, Third Party Content, and NativelyAI Content."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-2",
+      id: "2-changes-to-terms-of-use",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#2-changes-to-terms-of-use",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "2. Changes to Terms of Use"]
+    }), "\n", _jsx(_components.p, {
+      children: "We may modify these Terms from time to time. You understand and agree that your access to or use of our Services is governed by the Terms effective at the time of your access to or use of our Services. If we make material changes to these Terms, we will notify you by email or by posting a revised version of the Terms on our Site. We will also indicate at the top of this page the date that revisions were last made. You should revisit these Terms on a regular basis as revised versions will be binding on you. You understand and agree that your continued access to or use of our Services after the effective date of modifications to the Terms indicates your acceptance of the modifications."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-3",
+      id: "3-using-our-services",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#3-using-our-services",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "3. Using our Services"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A. Eligibility:"
+      }), " To access or use our Services, you must be 18 years or older and have the requisite power and authority to enter into these Terms. You may not access or use our Services if we have previously banned you from our Site or closed your account."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B. Permission to Use the Site:"
+      }), " We grant you permission to use our Services subject to the restrictions in these Terms. Your use of our Services is at your own risk."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "C. Site Availability:"
+      }), " Our Services may be modified, updated, interrupted, suspended or discontinued at any time without notice or liability."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "D. User Accounts:"
+      }), " You must create an account and provide certain information about yourself in order to use some of the features that are offered through our Services. You are responsible for maintaining the confidentiality of your account password. You are also responsible for all activities that occur in connection with your account. You agree to notify us immediately of any unauthorized use of your account. We are a worldwide company, and in some jurisdictions, such as the USA, such unauthorized use of your account by third parties can give rise to criminal prosecution. We reserve the right to close your account at any time for any or no reason."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "E. Communications from NativelyAI and other Users:"
+      }), " By creating an account, you agree to receive certain communications in connection with your use of our Services. For example, you might receive questions or requests from other Users related to information or events you post on using our Services. If you have subscribed to them, you also will receive reading lists and email newsletters about happenings in your area or in our online community. We provide unsubscribe links in all of our email footers if you no longer wish to receive those communications from us."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "F. Startup Digest Curators:"
+      }), " If you have applied and been accepted as a Curator for NativelyAI or one of its accelerators / incubators, such as lablab.ai, Slingshot or Gaia, you may utilize our Services to post materials, events, announcements and relevant news to your subscriber base in compliance with the Terms and during the period stated in your acceptance. As a Curator, you may use the NativelyAI trademarks and service marks in connection with your use of our Services so long as you comply with the branding use guidelines we provide to you, as may be amended from time to time."]
+    }), "\n", _jsx(_components.p, {
+      children: "We will provide you with a playbook containing policies and procedures which we have found effective and which are for your recommended use in connection with your use of our Services as a Curator. You acknowledge and agree that how you utilize our Services as a Curator impacts our brand. Accordingly, you agree not to utilize our Services in a manner that diminishes and/or tarnishes our image and/or reputation, and that we may terminate your appointment as a Curator and/or license to use our Services immediately if you do so. You may not receive compensation or favor from third parties in connection with your status as a Curator. In addition, you may not enter into any form of agreement on behalf of NativelyAI without our written approval."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-4",
+      id: "4-content",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#4-content",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "4. Content"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A. Content Guidelines"
+      }), "\nThe purpose of our Services is to promote a thriving entrepreneurial ecosystem in local communities throughout the world. They are not intended to be utilized as a forum for self-promotion or for commercial gain by its users (e.g. users are not permitted to promote personal business interests or services through using our Services)."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B. Responsibility for Your Content"
+      }), "\nYou alone are responsible for Your Content and assume all risks associated with Your Content. You represent that you own, or have the necessary permissions to use and authorize the use of Your Content as described herein."]
+    }), "\n", _jsx(_components.p, {
+      children: "You may expose yourself to liability if, for example, (i) Your Content contains material that is false, intentionally misleading, or defamatory; (ii) violates any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right; (iii) contains material that is unlawful, including illegal hate speech or pornography; (iv) exploits or otherwise harms minors; or (v) violates or advocates the violation of any law or regulation."
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "C. Our Right to Use Your Content:"
+      }), " We may use Your Content in a number of different ways, including publicly displaying it, reformatting it, incorporating it into other works, creating derivative works from it, promoting it, distributing it, and allowing others to do the same in connection with their own websites and media platforms (“Other Media”). As such, you hereby irrevocably grant us world-wide, perpetual, non-exclusive, royalty-free, assignable, sublicensable, transferable rights to use Your Content for any purpose. Please note that you also irrevocably grant the users of our Services and any Other Media the right to access Your Content in connection with their use of our Services and any Other Media. Finally, you irrevocably waive, and cause to be waived, against NativelyAI, and its Affiliates, and its users any claims and assertions of moral rights or attribution with respect to Your Content. By “use” we mean use, copy, publicly perform and display, reproduce, distribute, modify, translate, remove, analyze, commercialize, and prepare derivative works of Your Content. This list is not intended to be exhaustive, but just used for example."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "D. Ownership:"
+      }), " As between you and NativelyAI, you own Your Content. We own the NativelyAI and Affiliates Content, including but not limited to the visual interfaces, interactive features, graphics, design and all other elements and components of our Services excluding Your Content, User Content, and Third Party Content. We also own the copyrights, trademarks, service marks, trade names, and other intellectual and proprietary rights throughout the world (“IP Rights”) associated with the NativelyAI and all Affiliates Content and our Services, which are protected by copyright, trade dress, patent, trademark laws and all other applicable intellectual and proprietary rights and laws."]
+    }), "\n", _jsx(_components.p, {
+      children: "As such, you may not modify, reproduce, distribute, create derivative works or adaptations of, publicly display or in any way exploit any of the NativelyAI Content in whole or in part except as expressly authorized by us. Except as expressly and unambiguously provided herein, we do not grant you any express or implied rights, and all rights in and to our Services and the NativelyAI Content are retained by us."
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "E. Other:"
+      }), " We reserve the right to remove, screen, edit, delete, take-down, or even reinstate User Content from time to time at our sole discretion for any reason or no reason, and without notice to you. We have no obligation to retain or provide you with copies of Your Content, nor do we guarantee any confidentiality with respect to Your Content."]
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-5",
+      id: "5-restrictions",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#5-restrictions",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "5. Restrictions"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A."
+      }), " You agree not to, and will not assist, encourage, or enable others to use our Services to:"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Violate our Content or Event Guidelines as set forth in these Terms"
+      }), "\n", _jsx(_components.li, {
+        children: "Violate any third party’s rights, including any breach of confidence, copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right"
+      }), "\n", _jsx(_components.li, {
+        children: "Threaten, stalk, harm, or harass others, or promote bigotry or discrimination"
+      }), "\n", _jsx(_components.li, {
+        children: "Send bulk emails, surveys, or other mass messaging, whether commercial in nature or not"
+      }), "\n", _jsx(_components.li, {
+        children: "Violate any applicable law"
+      }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B."
+      }), " You also agree not to, and will not assist, encourage, or enable others to:"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Violate the Terms"
+      }), "\n", _jsx(_components.li, {
+        children: "Modify, adapt, appropriate, reproduce, distribute, translate, create derivative works or adaptations of, publicly display, sell, trade, or in any way exploit our Services or Site Content (other than Your Content), except as expressly authorized by NativelyAI or its Affiliates"
+      }), "\n", _jsx(_components.li, {
+        children: "Reverse engineer any portion of our Services"
+      }), "\n", _jsx(_components.li, {
+        children: "Remove or modify any copyright, trademark or other proprietary rights notice that appears on any portion of our Services or on any materials printed or copied from our Services"
+      }), "\n", _jsx(_components.li, {
+        children: "Record, process, or mine information about other companies and/or users, including but not limited to running scripts, software, routines, or other programs to capture data on other Users"
+      }), "\n", _jsx(_components.li, {
+        children: "Reformat or frame any portion of our Services"
+      }), "\n", _jsx(_components.li, {
+        children: "Attempt to gain unauthorized access to our Services, user accounts, computer systems or networks connected to our Services through hacking, password mining or any other means"
+      }), "\n", _jsx(_components.li, {
+        children: "Use our Services or any Site Content to transmit any computer viruses, worms, defects, Trojan horses or other items of a destructive nature (collectively, “Viruses”)"
+      }), "\n", _jsx(_components.li, {
+        children: "Use any device, software or routine that interferes with the proper working of our Services, or otherwise attempt to interfere with the proper working of our Services"
+      }), "\n", _jsx(_components.li, {
+        children: "Use our Services to violate the security of any computer network, crack passwords or security encryption codes; disrupt or interfere with the security of, or otherwise cause harm to, our Services or Site Content"
+      }), "\n", _jsx(_components.li, {
+        children: "Remove, circumvent, disable, damage or otherwise interfere with any security-related features of our Services, features that prevent or restrict the use or copying of Site Content, or features that enforce limitations on the use of our Services"
+      }), "\n"]
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-6",
+      id: "6-events",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#6-events",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "6. Events"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A. Events and Acceptance of Terms:"
+      }), " As used below, the term “NN Event” or lablab.ai or Slingshot (all of which hereafter be referred to as “NN Event(s)” means an event, gathering, promotion, contest, meet-up or the like that is organized or hosted by NativelyAI or its Affiliates. A “Non-NativelyAI or Affiliate Event” means an event, gathering, promotion, contest, meet-up or the like that is organized or hosted by someone other than NativelyAI, but that may appear or be listed on our Services. In order to participate or attend such an Event you must agree to the terms in this Section 6. If you find that you cannot or will not agree to such terms, please do not RSVP to or attend any such Event. If you RSVP to any such Event or Non-NN Event through our Services, you signal that you have read, understand and agree to these event terms."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B. Assumption of risk/release of liability/indemnity:"
+      }), " Although we try to create a safe environment at NN Events, accidents happen. We ask that you do your part to help limit the possibility that you might get injured at an NN Event. You agree to carefully consider the inherent risks in any activities that you choose to take part in and to take reasonable precautions before you choose to attend or participate at an NN Event. For example, you should ensure that you are in good physical health before engaging in any physical or intellectual activity at an NN Event, and you should always drink responsibly and not do drugs given the risks associated with drunk driving or being generally intoxicated while participating in activities while your judgment is impaired. Second, please note that some of the other NN Event guests may be less responsible than you, and may themselves create additional risks to you despite their best intentions. In summary, you understand that your attendance and participation at NN Events is voluntary, and you agree to assume responsibility for any resulting injuries to the fullest extent permitted under applicable law. By the same token, you agree that NativelyAI is not responsible for any injuries you might sustain at Non-NN Events listed on our Services."]
+    }), "\n", _jsx(_components.p, {
+      children: "You (for yourself, your heirs, personal representatives, or assigns, and anyone else who might make a claim on your behalf) hereby release, waive, discharge and covenant not to sue, NativelyAI and its Affiliates and its respective parent companies, subsidiaries, officers, directors, partners, shareholders, members, agents, employees, vendors, sponsors and volunteers from any and all claims, demands, causes of action, damages, losses or expenses (including court costs and reasonable attorneys’ fees) which may arise out of, result from, or relate in any way to your attendance at any NN Event or Non-NN Event, except for any gross negligence or willful misconduct on our part. You further agree to indemnify and hold NativelyAI and its Affiliates, its parents, subsidiaries, officers, directors, employees, agents and representatives harmless, including costs, liabilities and legal fees, from any claim or demand made by any third party due to, related to, or connected with your attendance or conduct at any NN Event or Non-NN Event."
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "C. Photos:"
+      }), " NativelyAI and its sponsors and vendors sometimes take photos and videos at NN Events, and later use them for promotional purposes. By participating or attending any NN Event, you agree that you may appear in some of these photos and videos, and you authorize their use in this fashion. In addition, if you take any photos or videos of attendees at a NN Event and provide them to us, you authorize us to use them in the same fashion, and represent that the attendees that appear in your photos and videos have consented to such use. We do not control Non-NN Events or the people that organize them. It is possible that organizers or attendees of Non-NN Events will take photos or shoot videos in which you appear and then post them online (including, possibly, on our Services). By RSVP’ing to a Non-NN Event through our Services, you authorize Natively’ use of such media for promotion purposes."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "D. Termination."
+      }), "\nWhile we hope not to, we may prohibit your attendance at any NN Event at any time if you fail to abide by the Terms, including this Section 6, or for any or no reason, without notice or liability of any kind. We reserve the right to cancel any NN Event at any time, for any reason, and without liability or prejudice."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "E. Unofficial Events"
+      }), "\nFrom time to time, members of the NativelyAI community organize their own meet-ups and events. Although NativelyAI representatives may sometimes join in, such events are Non-NN Events and are not sponsored or endorsed by NativelyAI, even when promoted through our Services. All terms and conditions related to Non-NN Events apply equally to such events. If you organize such an event, you agree not to create the impression that it is sponsored or endorsed by NativelyAI. You agree that you will not represent yourself as an employee, representative, or agent of NativelyAI (unless, of course, you are actually employed by NativelyAI, in which case these Terms will govern your participation in any NN Event to the extent such Terms are not inconsistent with Natively’ standard employment agreements or policies)."]
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-7",
+      id: "7-privacy-and-copyrighttrademark-disputes",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#7-privacy-and-copyrighttrademark-disputes",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "7. Privacy and Copyright/Trademark Disputes"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A. Privacy"
+      }), "\nYour use of our Services is subject to Natively’ Privacy Policy available ", _jsx(_components.a, {
+        href: "https://lablab.ai/privacy-policy",
+        className: "break-all",
+        children: "here"
+      }), "."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B. Copyright and Trademark Disputes"
+      }), "\nIf you believe that your copyright or trademark is being infringed through our Services, please send us a written notice with the following information:"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Identification of the copyrighted or trademarked work that you claim has been infringed;"
+      }), "\n", _jsx(_components.li, {
+        children: "Identification of the allegedly infringing content, and information reasonably sufficient to permit NativelyAI to locate it on our Site (e.g., the URL for the web page on which the content appears);"
+      }), "\n", _jsx(_components.li, {
+        children: "A statement by you that you have a good faith belief that the use of the content identified in your notice in the manner complained of is not authorized by the copyright/trademark owner, its agent, or the law;"
+      }), "\n", _jsx(_components.li, {
+        children: "A statement by you that you attest, under penalty of perjury, that the information in your notice is accurate and that you are the copyright/trademark owner or authorized to act on the owner’s behalf; and"
+      }), "\n", _jsx(_components.li, {
+        children: "Your physical or electronic signature, together with your contact information (address, telephone number and, if available, email address)."
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "If you believe that your content should not have been removed for alleged copyright or trademark infringement, you may send us a written counter-notice with the following information:"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Identification of the copyrighted or trademarked work that was removed, and the location within our Services where it would have been found prior to its removal;"
+      }), "\n", _jsx(_components.li, {
+        children: "A statement, under penalty of perjury, that you have a good faith belief that the content was removed as a result of a mistake or misidentification. For trademark disputes only: information reasonably sufficient to explain why you believe you are not infringing the trademarked work;"
+      }), "\n", _jsx(_components.li, {
+        children: "A statement that you consent either to the jurisdiction of (a) the Federal District Court for the judicial district in which your address is located if you live in the United States, or (b) any judicial district in which NativelyAI is located if you live outside the United States. Please also include a statement that you will accept service of process from the person who sent"
+      }), "\n", _jsx(_components.li, {
+        children: "Your physical or electronic signature, together with your contact information (address, telephone number and, if available, email address)."
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "We will respond to all such notices and comply with applicable law. We reserve the right to remove content alleged to be infringing without prior notice and at our sole discretion. We also reserve the right to terminate a user’s account if the user is determined to be a repeat infringer."
+    }), "\n", _jsx(_components.p, {
+      children: "You can send us your copyright or trademark notices to:"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Copyright Agent"
+      }), "\n", _jsx(_components.strong, {
+        children: "NativelyAI"
+      })]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.a, {
+        href: "mailto:invoices@nativelyai.com",
+        className: "break-all",
+        children: "invoices@nativelyai.com"
+      })
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-8",
+      id: "8-suggestions-and-improvements",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#8-suggestions-and-improvements",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "8. Suggestions and Improvements"]
+    }), "\n", _jsx(_components.p, {
+      children: "By sending us any ideas, suggestions, documents or proposals (“Feedback”), you agree that (i) your Feedback does not contain the confidential or proprietary information of third parties, (ii) we are under no obligation of confidentiality, express or implied, with respect to the Feedback, (iii) we may have something similar to the Feedback already under consideration or in development, and (iv) you grant us an irrevocable, non-exclusive, royalty-free, perpetual, worldwide license to use, modify, prepare derivative works, publish, distribute and sublicense the Feedback, and you irrevocably waive, and cause to be waived, against NativelyAI and its users any claims and assertions of any moral rights contained in such Feedback."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-9",
+      id: "9-third-parties",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#9-third-parties",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "9. Third Parties"]
+    }), "\n", _jsx(_components.p, {
+      children: "Our Services may contain links to third party websites. When you click on a link to any other website or location, you will leave our Services and you will be subject to the terms of use and privacy policy applicable to those websites. We have no control over, do not review, and cannot be responsible for, these outside websites or their content, and your use of such websites is at your own risk. The links to third party websites or locations are for your convenience and do not signify our endorsement of such third parties or their products, content or websites. Some of the services made available through our Services may be subject to additional third party or open source licensing terms and disclosures, which are incorporated herein by reference."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-10",
+      id: "10-indemnity",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#10-indemnity",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "10. Indemnity"]
+    }), "\n", _jsx(_components.p, {
+      children: "You understand and agree that you are personally responsible for your behavior on our Services. You agree to indemnify, defend, and hold NativelyAI and its Affiliates, its parents, subsidiaries, any related companies, suppliers, licensors and partners, and the officers, directors, employees, agents and representatives of each of them (collectively, the “Natively Entities“) harmless, including costs, liabilities and legal fees, from any claim or demand made by any third party arising out of or relating to (i) your access to or use of our Services, (ii) your violation of the Terms, or (iii) the infringement by you, or any third party using your account, of any intellectual property or other right of any person or entity. NativelyAI reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us and you agree to cooperate with our defense of these claims. You agree not to settle any such matter without the prior written consent of NativelyAI. NativelyAI will use reasonable efforts to notify you of any such claim, action or proceeding upon becoming aware of it."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-11",
+      id: "11-your-representations-and-warranties",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#11-your-representations-and-warranties",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "11. Your Representations and Warranties"]
+    }), "\n", _jsx(_components.p, {
+      children: "You represent and warrant that you are not organized under the laws of, operating from, or otherwise located or resident in a country or territory that is subject to US economic or trade sanctions (i.e. an embargo, including North Korea, Iran, Cuba, Russia, but not limited to as this list is not exhaustive); identified on a list of prohibited or restricted persons; or otherwise the target of US sanctions."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-12",
+      id: "12-disclaimers-and-limitations-of-liability",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#12-disclaimers-and-limitations-of-liability",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "12. DISCLAIMERS AND LIMITATIONS OF LIABILITY"]
+    }), "\n", _jsx(_components.p, {
+      children: "PLEASE READ THIS SECTION CAREFULLY SINCE IT LIMITS THE LIABILITY OF THE NativelyAI ENTITIES TO YOU. EACH OF THE SUBSECTIONS BELOW ONLY APPLIES UP TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW. NOTHING HEREIN IS INTENDED TO LIMIT ANY RIGHTS YOU MAY HAVE WHICH MAY NOT BE LAWFULLY LIMITED. IF YOU ARE UNSURE ABOUT THIS OR ANY OTHER SECTION OF THESE TERMS, PLEASE CONSULT WITH A LEGAL PROFESSIONAL PRIOR TO ACCESSING OR USING OUR SERVICES. BY ACCESSING OR USING OUR SERVICES, YOU REPRESENT THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO THESE TERMS, INCLUDING THIS SECTION. YOU ARE GIVING UP SUBSTANTIAL LEGAL RIGHTS BY AGREEING TO THESE TERMS."
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A."
+      }), " OUR SERVICES ARE MADE AVAILABLE TO YOU ON AN “AS IS”, “WITH ALL FAULTS” AND “AS AVAILABLE” BASIS, WITH THE EXPRESS UNDERSTANDING THAT THE NativelyAI ENTITIES MAY NOT MONITOR, CONTROL, OR VET USER CONTENT. AS SUCH, YOUR USE OF OUR SERVICES IS AT YOUR OWN DISCRETION AND RISK. THE NativelyAI ENTITIES MAKE NO CLAIMS OR PROMISES ABOUT THE QUALITY, ACCURACY, OR RELIABILITY OF OUR SERVICES, ITS SAFETY OR SECURITY, OR THE SITE CONTENT. ACCORDINGLY, THE NativelyAI ENTITIES ARE NOT LIABLE TO YOU FOR ANY LOSS OR DAMAGE THAT MIGHT ARISE, FOR EXAMPLE, FROM OUR SERVICE’S INOPERABILITY, UNAVAILABILITY OR SECURITY VULNERABILITIES OR FROM YOUR RELIANCE ON THE QUALITY, ACCURACY, OR RELIABILITY OF OUR SERVICES, OR INFORMATION FOUND ON, OR MADE AVAILABLE THROUGH OUR SERVICES."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B."
+      }), " THE NativelyAI ENTITIES MAKE NO CLAIMS OR PROMISES WITH RESPECT TO ANY THIRD PARTY, SUCH AS THE BUSINESSES OR EVENTS HOSTED BY THIRD PARTIES LISTED ON OUR SERVICES OR OUR SERVICE’S USERS. ACCORDINGLY, THE NativelyAI ENTITIES ARE NOT LIABLE TO YOU FOR ANY LOSS OR DAMAGE THAT MIGHT ARISE FROM THEIR ACTIONS OR OMISSIONS. YOUR ATTENDANCE AT EVENTS AND/OR USE OF SERVICES OFFERED BY THIRD PARTIES THROUGH OUR SERVICES IS AT YOUR OWN DISCRETION AND RISK."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "C."
+      }), " THE NativelyAI ENTITIES EXPRESSLY DISCLAIM ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES AS TO THE EVENTS LISTED ON OUR SERVICES, AND IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "D."
+      }), " YOUR SOLE AND EXCLUSIVE RIGHT AND REMEDY IN CASE OF DISSATISFACTION WITH OUR SERVICES OR ANY OTHER GRIEVANCE SHALL BE YOUR TERMINATION AND DISCONTINUATION OF ACCESS TO, OR USE OF OUR SERVICES.\n", _jsx(_components.strong, {
+        children: "E."
+      }), " THE NativelyAI ENTITIES’ MAXIMUM AGGREGATE LIABILITY TO YOU FOR LOSSES OR DAMAGES THAT YOU SUFFER IN CONNECTION WITH OUR SERVICES OR THESE TERMS IS LIMITED TO THE GREATER OF (i) THE AMOUNT PAID, IF ANY, BY YOU TO THE NativelyAI ENTITIES IN CONNECTION WITH OUR SERVICES IN THE 12 MONTHS PRIOR TO THE ACTION GIVING RISE TO LIABILITY, OR (ii) $100."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "F."
+      }), " THE NativelyAI ENTITIES DISCLAIM LIABILITY FOR ANY (i) INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, RELIANCE, OR CONSEQUENTIAL DAMAGES, (ii) LOSS OF PROFITS, (iii) BUSINESS INTERRUPTION, (iv) REPUTATIONAL HARM, OR (v) LOSS OF INFORMATION OR DATA."]
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-13",
+      id: "13-choice-of-law-and-venue",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#13-choice-of-law-and-venue",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "13. Choice of Law and Venue"]
+    }), "\n", _jsx(_components.p, {
+      children: "Delaware law will govern these Terms, as well as any claim, cause of action or dispute that might arise between you and NativelyAI or a NativelyAI Affiliate (a “Claim”), without regard to conflict of law provisions. FOR ANY CLAIM BROUGHT BY EITHER PARTY, YOU AGREE TO SUBMIT AND CONSENT TO THE PERSONAL AND EXCLUSIVE JURISDICTION IN, AND THE EXCLUSIVE VENUE OF, THE STATE AND FEDERAL COURTS LOCATED WITHIN SUSSEX COUNTY, DELAWARE."
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-14",
+      id: "14-termination",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#14-termination",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "14. Termination"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A."
+      }), " You may terminate the Terms at any time by closing your account, discontinuing your use of our Services, and providing NativelyAI with a written notice of termination to ", _jsx(_components.a, {
+        href: "mailto:privacy@nativelyai.com",
+        className: "break-all",
+        children: "privacy@nativelyai.com"
+      }), "."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B."
+      }), " We may terminate, deny you or anyone else services, close any account, suspend your ability to use certain portions of our Services, and/or ban you altogether from our Services for any or no reason, and without notice or liability of any kind, in our sole discretion. Any such action could prevent you from accessing your account, our Services, Your Content, Site Content, or any other related information."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "C."
+      }), " In the event of any termination of these Terms, whether by you or us, Sections 1, and 4 through 14 will continue in full force and effect, including our right to use Your Content as detailed in Section 4."]
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-15",
+      id: "15-general-terms",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#15-general-terms",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "15. General Terms"]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "A."
+      }), " We reserve the right to modify, update, or discontinue our Services at our sole discretion, at any time, for any or no reason, and without notice or liability."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "B."
+      }), " We may provide you with notices, including those regarding changes to the Terms by email, regular mail or communications through our Services."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "C."
+      }), " Except as otherwise stated in Section 10 above, nothing herein is intended, nor will be deemed, to confer rights or remedies upon any third party."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "D."
+      }), " The Terms contain the entire agreement between you and us regarding the use of our Services, and supersede any prior agreement between you and us on such subject matter. The parties acknowledge that no reliance is placed on any representation made but not expressly contained in these Terms."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "E."
+      }), " Any failure on Natively’s part or any of its affiliates, whether it be lablab.ai, Slingshot, or Gaia, to exercise or enforce any right or provision of the Terms does not constitute a waiver of such right or provision. The failure of either party to exercise in any respect any right provided for herein shall not be deemed a waiver of any further rights hereunder."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "F."
+      }), " If any provision of the Terms is found to be unenforceable or invalid, then only that provision shall be modified to reflect the parties’ intention or eliminated to the minimum extent necessary so that the Terms shall otherwise remain in full force and effect and enforceable."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "G."
+      }), " The Terms, and any rights or obligations hereunder, are not assignable, transferable or sublicensable by you except with Natively’ prior written consent, but may be assigned or transferred by us without restriction. Any attempted assignment by you shall violate these Terms and be void."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "H."
+      }), " The section titles in the Terms are for convenience only and have no legal or contractual effect."]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-16",
+      id: "16-participation-terms",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#16-participation-terms",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "16. Participation Terms"]
+    }), "\n", _jsx(_components.p, {
+      children: "Please be aware that participation in lablab.ai hackathons is voluntary and subject to the specific rules and conditions outlined for each event. While we strive to provide a fair and rewarding experience for all participants, we cannot guarantee entry or success in securing prizes. All prizes and opportunities are subject to availability and participants must meet the established criteria to qualify. lablab.ai is not responsible nor held liable for any commitments or offers - including programs, giveaways, or prizes - made by third-party sponsors or partners of the hackathon. The availability and delivery of third-party prizes or benefits are solely at the discretion of the respective sponsors and are not guaranteed by lablab.ai. We reserve the right to make amendments, modifications, or cancellations to any part of the hackathon (including full cancellation of the event itself), including prizes and terms of participation, at our sole discretion. Whenever possible, we will endeavor to notify participants of significant changes within a reasonable timeframe. All submissions by participants must be original work, open source, and compliant with the MIT License unless specified otherwise. By participating, you agree to these terms, the overall event terms, and the lablab.ai general terms and are encouraged to review all event-related information carefully. Prize Distribution: lablab.ai and its partners reserve the right to distribute all prizes within a 90-day period following the announcement of the winners. This period allows for the proper processing and verification needed to award prizes appropriately."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-17",
+      id: "17--prize-money-payout-policy",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#17--prize-money-payout-policy",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "17. 🏆 Prize Money Payout Policy"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["📧 Contact: ", _jsx(_components.a, {
+        href: "mailto:prize@lablab.ai",
+        className: "break-all",
+        children: "prize@lablab.ai"
+      })]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "1. Scope"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["This policy applies to all prize money awarded in connection with official competitions or events. Prizes are awarded ", _jsx(_components.strong, {
+        children: "only to individuals"
+      }), ", not to teams or legal entities."]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "2. Prize Notification & Deadline"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["Winners will be notified by email and receive a link to complete the ", _jsx(_components.strong, {
+        children: "Prize Payout Form"
+      }), "."]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["All required documents must be submitted within ", _jsx(_components.strong, {
+            children: "90 calendar days"
+          }), " of the email notification."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["Failure to submit within this period will result in ", _jsx(_components.strong, {
+            children: "automatic forfeiture"
+          }), " of the prize."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "3. Payment Conditions"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["All payments are made in ", _jsx(_components.strong, {
+            children: "U.S. Dollars (USD)"
+          }), "."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsx(_components.p, {
+          children: "Payouts are processed via:"
+        }), "\n", _jsxs(_components.ul, {
+          children: ["\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: [_jsx(_components.strong, {
+                children: "ACH"
+              }), " for U.S. recipients, or"]
+            }), "\n"]
+          }), "\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: [_jsx(_components.strong, {
+                children: "SWIFT international wire transfer"
+              }), " for non-U.S. recipients."]
+            }), "\n"]
+          }), "\n"]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["U.S. recipients may request payment by **bank transfer **, subject to a ", _jsx(_components.strong, {
+            children: "$15 processing fee"
+          }), ". Note: Checks expire ", _jsx(_components.strong, {
+            children: "after 90 days"
+          }), "."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsx(_components.p, {
+          children: "**We do not charge any service or administrative fees.\n**"
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["However, final payment amounts ", _jsx(_components.strong, {
+            children: "may be reduced"
+          }), " by:"]
+        }), "\n", _jsxs(_components.ul, {
+          children: ["\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: [_jsx(_components.strong, {
+                children: "U.S. federal tax withholding"
+              }), ", based on IRS requirements and the tax form submitted (W-9 or W-8BEN),"]
+            }), "\n"]
+          }), "\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: [_jsx(_components.strong, {
+                children: "Bank fees"
+              }), " for international transfers, depending on the recipient’s country and payment method."]
+            }), "\n"]
+          }), "\n"]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["❗", _jsx(_components.strong, {
+        children: "Note"
+      }), ": We do not hold responsibility for delays or failed payments caused by incorrect or incomplete banking information."]
+    }), "\n", _jsxs(_components.p, {
+      children: ["💡 The prize amount communicated to winners is the ", _jsx(_components.strong, {
+        children: "gross value"
+      }), ". Actual payment may be lower due to taxes and bank processing fees."]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "4. Required Documentation"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "For U.S. individuals:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Completed **Prize Payout Form\n**"
+      }), "\n", _jsx(_components.li, {
+        children: "**IRS Form W-9\n**"
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "For non-U.S. individuals:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Completed **Prize Payout Form\n**"
+      }), "\n", _jsx(_components.li, {
+        children: "**IRS Form W-8BEN\n**"
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "U.S. TIN"
+        }), " (Taxpayer Identification Number), if claiming tax treaty benefits"]
+      }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["⚠️ Incomplete or unsigned forms will ", _jsx(_components.strong, {
+        children: "delay"
+      }), " or ", _jsx(_components.strong, {
+        children: "cancel"
+      }), " the prize payment."]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "5. Tax Withholding & Reporting"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "U.S. Recipients:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: [_jsx(_components.strong, {
+            children: "No tax is withheld"
+          }), " at the time of payment."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["If total prize payments exceed ", _jsx(_components.strong, {
+            children: "$600"
+          }), " in a calendar year, you will receive a ", _jsx(_components.strong, {
+            children: "Form 1099-MISC"
+          }), "."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["Regardless of amount, ", _jsx(_components.strong, {
+            children: "recipients are responsible"
+          }), " for reporting prize income to the IRS."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Non-U.S. Recipients:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["A standard ", _jsx(_components.strong, {
+            children: "30% U.S. federal tax"
+          }), " will be withheld unless:"]
+        }), "\n", _jsxs(_components.ul, {
+          children: ["\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: ["A ", _jsx(_components.strong, {
+                children: "valid tax treaty"
+              }), " applies, and"]
+            }), "\n"]
+          }), "\n", _jsxs(_components.li, {
+            children: ["\n", _jsxs(_components.p, {
+              children: ["A ", _jsx(_components.strong, {
+                children: "U.S. TIN"
+              }), " is provided via **Form W-8BEN\n**"]
+            }), "\n"]
+          }), "\n"]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["Payments will be reported to the IRS via ", _jsx(_components.strong, {
+            children: "Form 1042-S"
+          }), "."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "IRS Reporting Thresholds"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "If total prize money ≤ $600 in a calendar year:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["We are ", _jsx(_components.strong, {
+            children: "not required"
+          }), " to report the payment to the IRS."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: [_jsx(_components.strong, {
+            children: "No 1099-MISC"
+          }), " will be issued."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["However, recipients must still ", _jsx(_components.strong, {
+            children: "report the income"
+          }), " on their annual tax return."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "If total prize money > $600 in a calendar year:"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["A ", _jsx(_components.strong, {
+            children: "Form 1099-MISC"
+          }), " will be issued by ", _jsx(_components.strong, {
+            children: "January 31"
+          }), " of the following tax year."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["We will ", _jsx(_components.strong, {
+            children: "not withhold taxes"
+          }), ", but the ", _jsx(_components.strong, {
+            children: "recipient must report"
+          }), " the full amount as \"Other Income\" on ", _jsx(_components.strong, {
+            children: "Line 8 of Form 1040"
+          }), "."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "6. Contact"
+      })
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsx(_components.p, {
+          children: "An automatic confirmation of receipt will be sent after form submission."
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["We’ll contact you ", _jsx(_components.strong, {
+            children: "only if corrections"
+          }), " or additional details are needed."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["📧 Questions? Email us at ", _jsx(_components.a, {
+        href: "mailto:prize@lablab.ai",
+        className: "break-all",
+        children: "prize@lablab.ai"
+      })]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "7. Final Requirements & Forfeiture Clause"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["Prize payments are subject to ", _jsx(_components.strong, {
+        children: "successful completion and verification"
+      }), " of all required documentation:"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsx(_components.p, {
+          children: "A completed **Prize Payout Form\n**"
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["A valid, signed ", _jsx(_components.strong, {
+            children: "IRS tax form"
+          }), " (W-9 or W-8BEN)"]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsx(_components.p, {
+          children: "A **government-issued photo ID\n**"
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: [_jsx(_components.strong, {
+            children: "Bank account verification"
+          }), " in the winner’s name"]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["If the documentation is not submitted ", _jsx(_components.strong, {
+        children: "within 90 calendar days"
+      }), " of notification:"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: ["The prize will be ", _jsx(_components.strong, {
+            children: "permanently forfeited"
+          }), "."]
+        }), "\n"]
+      }), "\n", _jsxs(_components.li, {
+        children: ["\n", _jsxs(_components.p, {
+          children: [_jsx(_components.strong, {
+            children: "No exceptions"
+          }), ": No late submissions, corrections, appeals, or payment requests will be accepted after the deadline."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {})]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};

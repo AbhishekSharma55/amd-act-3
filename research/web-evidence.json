@@ -1,0 +1,32 @@
+[
+  {
+    "id": "amd-cloud-launch",
+    "url": "https://www.amd.com/en/blogs/2025/introducing-the-amd-developer-cloud.html",
+    "verification": "Inspected using web research search results on 2026-10-13; direct snapshot request timed out.",
+    "finding": "AMD identifies evaluation, open-source contributions, native support, events and hackathons as Developer Cloud use cases. Historical promotional credits are not assumed to be current event terms."
+  },
+  {
+    "id": "amd-rocm-production",
+    "url": "https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html",
+    "verification": "Opened and inspected relevant sections using web research on 2026-10-13; direct snapshot request timed out.",
+    "finding": "AMD emphasizes moving from infrastructure access to useful production workloads, validated environments, inference optimization, visibility and deployment control. No published performance uplift is adopted as our own project result."
+  },
+  {
+    "id": "amd-community-inference",
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/kimi-code-in-mxfp4-on-amd-gpus.html",
+    "verification": "Opened and inspected community contribution section using web research on 2026-10-13; direct snapshot request timed out.",
+    "finding": "AMD describes public collaboration and improvements flowing through open projects into production, with transparent benchmarking."
+  },
+  {
+    "id": "amd-playbooks",
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/launching-amd-ai-playbooks.html",
+    "verification": "Opened and inspected contribution and support sections using web research on 2026-10-13; direct snapshot request timed out.",
+    "finding": "AMD invites bug reports, feature requests, public contributions and community feedback to improve developer experience."
+  },
+  {
+    "id": "amd-gemma-support",
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-gemma-4-on-amd-processors-and-gpus.html",
+    "verification": "Inspected using official AMD search results on 2026-10-13; direct snapshot request timed out.",
+    "finding": "AMD publishes support for Google's Gemma models on AMD platforms. This does not establish ACT III partner prize eligibility."
+  }
+]

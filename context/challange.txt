@@ -1,0 +1,143 @@
+Challenges
+Solve a real Business Problem with AMD technology
+Choose one or more tracks and build a working product on AMD infrastructure. We are looking for projects that solve a real problem for a real user. Your idea can use language models, computer vision, audio, agents, predictive models, or a combination of technologies.
+The important part is simple: the product should work, and AMD technology should power a meaningful part of it. AMD is a required technology to be eligible for prizes.
+
+Choose Your tracks
+
+Track 1 by partner: Vibe Generation
+Intelligent Industry
+Help factories spot problems earlier and operate better.
+
+Hide the brief
+Factories produce data from machines, cameras, sensors, maintenance reports, and technical manuals. The problem is rarely a lack of information. The problem is knowing what matters and what to do next.
+
+Build a product that helps a manufacturer reduce downtime, improve quality, increase safety, or use resources more efficiently.
+
+Ideas
+Predict equipment failures
+Detect defects from images or video
+Explain production anomalies
+Help technicians search manuals and maintenance records
+Recommend maintenance actions
+Monitor safety conditions
+Reduce energy or material waste
+Your demo
+Show your product processing realistic industrial data and producing a useful alert, explanation, recommendation, or action. Make it clear who would use the product and what result it improves.
+
+Good projects will show
+A real manufacturing problem
+A working product, not only a dashboard or presentation
+Results that operators can understand
+A measurable improvement in time, cost, safety, quality, or efficiency
+Track 2 by partner: Vibe Generation
+Health and Wellbeing
+Make a part of the patient journey safer, clearer, or easier.
+
+Hide the brief
+Patients and healthcare workers deal with long documents, scattered information, repetitive administration, language barriers, and limited time.
+
+Build a product that helps patients, caregivers, or healthcare staff handle one part of this journey better.
+
+Ideas
+Patient intake
+Medical record summaries
+Appointment preparation
+Care navigation
+Clearer discharge instructions
+Multilingual patient communication
+Healthcare document processing
+Administrative workflow automation
+Wellbeing and prevention support
+Your demo
+Show a realistic case from the first input to the final result. Your product should make uncertainty visible. It should also know when a person needs to review or take over the case.
+
+Safety rules
+The product must not present autonomous diagnosis or treatment as medical advice. Explain how you handle:
+
+Incorrect or unsupported responses
+Sensitive information
+Uncertain results
+High risk decisions
+Human review
+Good projects will show
+A clearly defined patient or staff need
+Responsible handling of health information
+Useful and understandable results
+A measurable improvement in time, accuracy, accessibility, or workload
+Track 3 by partner: Vibe Generation
+Reinvent Commerce
+Help a business understand its customers and take better action.
+
+Hide the brief
+Retailers have product data, transactions, inventory, reviews, support conversations, and marketing results. These sources are often disconnected, which makes it difficult to turn them into useful decisions.
+
+Build a product that helps a business attract, serve, convert, or retain customers.
+
+Ideas
+Shopping assistants
+Product discovery and recommendations
+Customer support
+Demand and inventory planning
+Product catalogue enrichment
+Review and sentiment analysis
+Promotion planning
+Churn prevention
+Accessible and multilingual shopping
+In store computer vision
+Your demo
+Show how your product turns customer or business data into a useful recommendation or action.
+
+If your product predicts demand, sales, or customer behaviour, explain how the prediction was calculated. Do not use a language model as the only forecasting method.
+
+Good projects will show
+A real customer or merchant problem
+A useful commercial action
+Relevant recommendations or personalization
+A measurable effect on revenue, margin, conversion, retention, inventory, or service quality
+Track 4 by partner: Vibe Generation
+Create a New Kind of Experience
+Build a media, marketing, or entertainment experience that was not practical before generative AI.
+
+Hide the brief
+Do more than generate an image, advertisement, or chatbot. Create something that responds to its audience, changes with context, or produces a different experience for each person.
+
+Ideas
+Personalized video
+Interactive stories
+Audience driven entertainment
+Adaptive campaigns
+Multilingual creative content
+Generative brand experiences
+Responsive sound or visual environments
+New social media formats
+Accessible media experiences
+Creative quality control
+Your demo
+Show the experience changing for at least two different audiences, situations, or inputs.
+Explain:
+
+What the team created
+What the models generated or decided
+How you controlled quality and consistency
+How much each generated experience costs
+Who would pay for it and why
+Good projects will show
+An original concept
+A strong user experience
+A thoughtful combination of human creativity and technology
+A product that could work at a realistic cost
+Technology requirement: build on AMD
+Every project must run a meaningful part of its workload on AMD infrastructure or AMD hardware. Teams may use:
+
+AMD Developer Cloud
+AMD Instinct accelerators
+AMD ROCm
+AMD Ryzen AI
+AMD Radeon hardware
+Other approved AMD powered infrastructure provided during the event
+The AMD component must be part of the working product shown to the judges. Teams may choose their own compatible models, frameworks, and development tools.
+
+FAQ:
+1) The event is hosted on notebooks.amd.com/tokenfactory. There is no billing or credit card info needed.
+2) Developers dont need the $100 credit to participate in the event. Just the api from the tokenfactory.

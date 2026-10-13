@@ -1,0 +1,474 @@
+[
+  {
+    "url": "/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement",
+    "text": "User Agreement"
+  },
+  {
+    "url": "/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy",
+    "text": "Privacy Policy"
+  },
+  {
+    "url": "/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy",
+    "text": "Cookie Policy"
+  },
+  {
+    "url": "#main-content",
+    "text": "Skip to main content"
+  },
+  {
+    "url": "/?trk=public_post_nav-header-logo",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content?trk=public_post_guest_nav_menu_topContent",
+    "text": "Top Content"
+  },
+  {
+    "url": "https://www.linkedin.com/pub/dir/+/+?trk=public_post_guest_nav_menu_people",
+    "text": "People"
+  },
+  {
+    "url": "https://www.linkedin.com/learning/search?trk=public_post_guest_nav_menu_learning",
+    "text": "Learning"
+  },
+  {
+    "url": "https://www.linkedin.com/jobs/search?trk=public_post_guest_nav_menu_jobs",
+    "text": "Jobs"
+  },
+  {
+    "url": "https://www.linkedin.com/games?trk=public_post_guest_nav_menu_games",
+    "text": "Games"
+  },
+  {
+    "url": "https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&fromSignIn=true&trk=public_post_nav-header-signin",
+    "text": "Sign in"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_nav-header-join",
+    "text": "Join now"
+  },
+  {
+    "url": "https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&fromSignIn=true&trk=public_post_nav-header-signin",
+    "text": ""
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai?trk=public_post_feed-actor-image",
+    "text": ""
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai?trk=public_post_feed-actor-name",
+    "text": "lablab.ai"
+  },
+  {
+    "url": "/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=POST&_f=guest-reporting",
+    "text": "Report this post"
+  },
+  {
+    "url": "https://www.linkedin.com/company/amd?trk=public_post-text",
+    "text": "AMD"
+  },
+  {
+    "url": "https://www.linkedin.com/company/akash-systems-inc.?trk=public_post-text",
+    "text": "Akash Systems"
+  },
+  {
+    "url": "https://www.linkedin.com/company/huggingface?trk=public_post-text",
+    "text": "Hugging Face"
+  },
+  {
+    "url": "https://www.linkedin.com/company/qwen?trk=public_post-text",
+    "text": "Qwen"
+  },
+  {
+    "url": "https://www.linkedin.com/company/amd?trk=public_post-text",
+    "text": "AMD"
+  },
+  {
+    "url": "https://www.linkedin.com/company/akash-systems-inc.?trk=public_post-text",
+    "text": "Akash Systems"
+  },
+  {
+    "url": "https://www.linkedin.com/company/huggingface?trk=public_post-text",
+    "text": "Hugging Face"
+  },
+  {
+    "url": "https://www.linkedin.com/company/qwen?trk=public_post-text",
+    "text": "Qwen"
+  },
+  {
+    "url": "https://www.linkedin.com/company/modelscope?trk=public_post-text",
+    "text": "ModelScope"
+  },
+  {
+    "url": "https://www.linkedin.com/company/mindsdb?trk=public_post-text",
+    "text": "MindsDB"
+  },
+  {
+    "url": "https://www.linkedin.com/company/nyse?trk=public_post-text",
+    "text": "NYSE"
+  },
+  {
+    "url": "https://www.linkedin.com/company/siliconangle?trk=public_post-text",
+    "text": "SiliconANGLE & theCUBE"
+  },
+  {
+    "url": "https://www.linkedin.com/company/human-tech-week?trk=public_post-text",
+    "text": "Human+Tech Week"
+  },
+  {
+    "url": "https://www.linkedin.com/company/nativelyai?trk=public_post-text",
+    "text": "NativelyAI"
+  },
+  {
+    "url": "http://lablab.ai?trk=public_post-text",
+    "text": "lablab.ai"
+  },
+  {
+    "url": "https://lnkd.in/gdUituKS?trk=public_post-text",
+    "text": "https://lnkd.in/gdUituKS"
+  },
+  {
+    "url": "https://lnkd.in/ebsmGWeP?trk=public_post-text",
+    "text": "https://lnkd.in/ebsmGWeP"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_social-actions-reactions",
+    "text": "53"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_social-actions-comments",
+    "text": "5 Comments"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_like-cta",
+    "text": "Like"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment-cta",
+    "text": "Comment"
+  },
+  {
+    "url": "https://uz.linkedin.com/in/sardor-razikov-569a5327b?trk=public_post_comment_actor-image",
+    "text": ""
+  },
+  {
+    "url": "https://uz.linkedin.com/in/sardor-razikov-569a5327b?trk=public_post_comment_actor-name",
+    "text": "Sardor Razikov"
+  },
+  {
+    "url": "/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=COMMENT&_f=guest-reporting",
+    "text": "Report this comment"
+  },
+  {
+    "url": "https://www.linkedin.com/company/amd?trk=public_post_comment-text",
+    "text": "AMD"
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai?trk=public_post_comment-text",
+    "text": "lablab.ai"
+  },
+  {
+    "url": "https://www.linkedin.com/company/nativelyai?trk=public_post_comment-text",
+    "text": "NativelyAI"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_like",
+    "text": "Like"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_reply",
+    "text": "Reply"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_reactions",
+    "text": "2\u00a0Reactions"
+  },
+  {
+    "url": "https://ae.linkedin.com/in/youssef-ramadan-58a083205?trk=public_post_comment_actor-image",
+    "text": ""
+  },
+  {
+    "url": "https://ae.linkedin.com/in/youssef-ramadan-58a083205?trk=public_post_comment_actor-name",
+    "text": "Youssef Ramadan"
+  },
+  {
+    "url": "/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=COMMENT&_f=guest-reporting",
+    "text": "Report this comment"
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai?trk=public_post_comment-text",
+    "text": "lablab.ai"
+  },
+  {
+    "url": "https://www.linkedin.com/company/amd?trk=public_post_comment-text",
+    "text": "AMD"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_like",
+    "text": "Like"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_reply",
+    "text": "Reply"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_reactions",
+    "text": "1\u00a0Reaction"
+  },
+  {
+    "url": "https://co.linkedin.com/in/fabian-sabogal-70632b1b0/en?trk=public_post_comment_actor-image",
+    "text": ""
+  },
+  {
+    "url": "https://co.linkedin.com/in/fabian-sabogal-70632b1b0/en?trk=public_post_comment_actor-name",
+    "text": "FABIAN SABOGAL"
+  },
+  {
+    "url": "/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=COMMENT&_f=guest-reporting",
+    "text": "Report this comment"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_like",
+    "text": "Like"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_reply",
+    "text": "Reply"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_comment_reactions",
+    "text": "1\u00a0Reaction"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_see-more-comments",
+    "text": "See more comments"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_feed-cta-banner-cta",
+    "text": "sign in"
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai?trk=public_post_follow-view-profile",
+    "text": "View Profile"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7472361155663978496&trk=public_post_follow",
+    "text": "Follow"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/career/",
+    "text": "Career"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/productivity/",
+    "text": "Productivity"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/finance/",
+    "text": "Finance"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/",
+    "text": "Soft Skills & Emotional Intelligence"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/project-management/",
+    "text": "Project Management"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/education/",
+    "text": "Education"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/technology/",
+    "text": "Technology"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/leadership/",
+    "text": "Leadership"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/ecommerce/",
+    "text": "Ecommerce"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/user-experience/",
+    "text": "User Experience"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/recruitment-hr/",
+    "text": "Recruitment & HR"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/customer-experience/",
+    "text": "Customer Experience"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/real-estate/",
+    "text": "Real Estate"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/marketing/",
+    "text": "Marketing"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/sales/",
+    "text": "Sales"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/retail-merchandising/",
+    "text": "Retail & Merchandising"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/science/",
+    "text": "Science"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/supply-chain-management/",
+    "text": "Supply Chain Management"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/future-of-work/",
+    "text": "Future Of Work"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/consulting/",
+    "text": "Consulting"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/writing/",
+    "text": "Writing"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/economics/",
+    "text": "Economics"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/artificial-intelligence/",
+    "text": "Artificial Intelligence"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/employee-experience/",
+    "text": "Employee Experience"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/workplace-trends/",
+    "text": "Workplace Trends"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/fundraising/",
+    "text": "Fundraising"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/networking/",
+    "text": "Networking"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/corporate-social-responsibility/",
+    "text": "Corporate Social Responsibility"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/negotiation/",
+    "text": "Negotiation"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/communication/",
+    "text": "Communication"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/engineering/",
+    "text": "Engineering"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/hospitality-tourism/",
+    "text": "Hospitality & Tourism"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/business-strategy/",
+    "text": "Business Strategy"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/change-management/",
+    "text": "Change Management"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/organizational-culture/",
+    "text": "Organizational Culture"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/design/",
+    "text": "Design"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/innovation/",
+    "text": "Innovation"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/event-planning/",
+    "text": "Event Planning"
+  },
+  {
+    "url": "https://www.linkedin.com/top-content/training-development/",
+    "text": "Training & Development"
+  },
+  {
+    "url": "https://about.linkedin.com?trk=d_public_post_footer-about",
+    "text": "About"
+  },
+  {
+    "url": "https://www.linkedin.com/accessibility?trk=d_public_post_footer-accessibility",
+    "text": "Accessibility"
+  },
+  {
+    "url": "https://www.linkedin.com/legal/user-agreement?trk=d_public_post_footer-user-agreement",
+    "text": "User Agreement"
+  },
+  {
+    "url": "https://www.linkedin.com/legal/privacy-policy?trk=d_public_post_footer-privacy-policy",
+    "text": "Privacy Policy"
+  },
+  {
+    "url": "https://www.linkedin.com/legal/cookie-policy?trk=d_public_post_footer-cookie-policy",
+    "text": "Cookie Policy"
+  },
+  {
+    "url": "https://www.linkedin.com/legal/copyright-policy?trk=d_public_post_footer-copyright-policy",
+    "text": "Copyright Policy"
+  },
+  {
+    "url": "https://brand.linkedin.com/policies?trk=d_public_post_footer-brand-policy",
+    "text": "Brand Policy"
+  },
+  {
+    "url": "https://www.linkedin.com/psettings/guest-controls?trk=d_public_post_footer-guest-controls",
+    "text": "Guest Controls"
+  },
+  {
+    "url": "https://www.linkedin.com/legal/professional-community-policies?trk=d_public_post_footer-community-guide",
+    "text": "Community Guidelines"
+  },
+  {
+    "url": "https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password",
+    "text": "Forgot password?"
+  },
+  {
+    "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Flablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz&trk=public_post_contextual-sign-in-modal_join-link",
+    "text": "Join now"
+  },
+  {
+    "url": "/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement",
+    "text": "User Agreement"
+  },
+  {
+    "url": "/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy",
+    "text": "Privacy Policy"
+  },
+  {
+    "url": "/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy",
+    "text": "Cookie Policy"
+  },
+  {
+    "url": null,
+    "text": ""
+  }
+]

@@ -1,0 +1,33 @@
+At lablab.ai, we value the innovation and creativity that participants bring to our hackathons. To help you prepare your hackathon project submission, we've outlined all the required fields and forms, as well as provided recommended practices for each. Please keep in mind that all these components are equally important and contribute to your chances of advancing to the finals.
+Project Title:
+Short Description:
+Long Description:
+Technology & Category Tags:
+Cover Image:
+Format:
+Aspect Ratio:
+Video Presentation:
+Slide Presentation:
+⚠️ Public GitHub Repository & IBM Bob Report:
+Please note: If you submit a private repository, judges won’t be able to fully review your work, which may lower your overall score.
+Demo Application Platform:
+Streamlit
+Replit
+Vercel
+Application URL:
+Highlight the Problem & Solution:
+Detail Your Product:
+Showcase User Interaction:
+Discuss Market Scope:
+Revenue Streams:
+Analyze Competitors:
+Talk About Future Prospects:
+Brevity is Key:
+Presentation:
+Business Value:
+Application of Technology:
+Originality:
+lablab.ai
+AI Hackathons: The Complete Guide
+How to Win an AI Hackathon
+AI Hackathon Project Ideas

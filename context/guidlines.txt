@@ -1,0 +1,40 @@
+Before you start building
+Guidelines
+How to participate
+The hackathon takes place online on the lablab.ai platform and the lablab.ai Discord server. Please register for both in order to participate. To join, click the Enroll button at the bottom of the page and read the Hackathon Guidelines, the Getting Started Guide and the lablab.ai Hackathon Rule Book.
+
+To be approved for the hackathon, participants must also sign up for the AMD AI Developer Program.
+
+Everyone is welcome to participate, regardless of previous AI or coding experience.
+
+Before the kickoff, browse the AI Tech and tutorials pages to read up on the available technologies and get a head start on your project.
+
+Teams
+Teams consist of 1-6 people. If you don't have a team, don't worry. You can connect with other participants from all over the world on the dashboard or on the Discord server, where you can also find teammates and bounce around ideas.
+
+What to submit
+📋 Basic information
+Project title
+Short description
+Long description
+Technology & category tags
+📸 Cover image and presentation
+Cover image
+Video presentation
+Slide presentation
+💻 App hosting and repository
+Public GitHub repository
+Demo application platform
+Application URL
+Judging criteria
+Application of Technology
+How effectively the chosen model(s) are integrated into the solution.
+
+Presentation
+The clarity and effectiveness of the project presentation.
+
+Business Value
+The impact and practical value, considering how well it fits into business areas.
+
+Originality
+The uniqueness and creativity of the solution, highlighting approaches and ability to demonstrate behaviors.

@@ -1,0 +1,845 @@
+Developers — Build AI agents with the Evolus API | Evolus
+Cookies and statistics
+We measure visits anonymously, without cookies. With your consent we also use Google Analytics, marketing cookies and visit recordings. Closing with the X rejects everything. You can change your mind at any time from “Cookie preferences” at the bottom of the page.
+Cookie policy
+Reject all
+Accept all
+Customize
+Essential
+Always on: they only remember the choice you make here.
+Statistics
+Google Analytics: measures, in aggregate form, how the site is used.
+Marketing
+Google Ads and Meta Pixel: they measure how well our campaigns on Google, Facebook and Instagram perform and let us show ads to people who have visited the site.
+Experience analysis
+With your permission we record how you use our pages (clicks, scrolling, mouse movements and what appears on screen, including your conversation with Evo) to understand what to improve. The fields you fill in and the chat are never recorded. Recordings stay on our server in Germany for 30 days.
+Save my choices
+Skip to content
+evolus
+Home
+Platform
+Products
+One more colleague, starting today
+AI employees
+Processes that run themselves
+AI automations and workflows
+Never miss a call again
+AI receptionist
+An expert for every task
+Specialised AI agents
+A website that answers for you
+AI website widget
+Your assistant, in your pocket
+Evo Assistant, the app for solo professionals
+AI that works on your computer
+Evolus Studio, the app for Mac, Windows and Linux
+How it works
+Memory, models, security and control
+Solutions
+AI for Customer Care
+Your support team never sleeps. Evolus replies to emails, answers calls, chats with customers — in parallel, always, without burning out.
+AI for Sales Teams
+Every lead answered in seconds. Every follow-up sent at the right time. Every meeting booked without friction. Evolus works for your sales team 24/7, missing no opportunity.
+Document Management & Back-Office Automation
+Turn document management from a bottleneck into a seamless, error-free process. Evolus reads, extracts, processes and archives your documents — automatically.
+HR & Recruiting Automation
+HR teams shouldn't waste time on administrative tasks. Evolus handles emails, interviews, documents and repetitive questions — so your HR team can do the work that truly matters.
+Evolus for Legal
+From contract analysis to deadline tracking: Evolus works as an expert collaborator alongside your lawyers.
+Evolus for Accounting
+From incoming invoice to updated ledger: Evolus eliminates manual data entry and reduces errors to zero.
+All solutions
+Pricing
+Blog
+Contact us
+Language
+:
+EN
+Hackathon
+Start now
+Open menu
+IT
+Italiano
+EN
+English
+ES
+Español
+DE
+Deutsch
+FR
+Français
+evolus
+Close menu
+Home
+Platform
+One more colleague, starting today
+Processes that run themselves
+Never miss a call again
+An expert for every task
+A website that answers for you
+Your assistant, in your pocket
+AI that works on your computer
+How it works
+Solutions
+AI for Customer Care
+AI for Sales Teams
+Document Management & Back-Office Automation
+HR & Recruiting Automation
+Evolus for Legal
+Evolus for Accounting
+Pricing
+Blog
+Contact us
+Hackathon
+Start now
+Language
+Italiano
+English
+Español
+Deutsch
+Français
+AMD Developer Hackathon · ACT III
+Build AI agents that run
+real business processes
+Evolus gives your agents workflows, document extraction, knowledge libraries and AI Tools, reachable through a REST API, an MCP server and an OpenAI-compatible chat endpoint. During the hackathon, event workspaces are free and run on your own model.
+Create your free workspace
+See the hackathon track
+Event workspaces: created from the event link we publish on evolus.ai/en/hackathon at the kickoff on October 12 · free until November 15, 2026, 23:59 Italian time · no card required · teams of up to 6
+Three ways in
+Agent chat
+OpenAI-compatible
+https://api.evolus.ai/v1
+Authorization: Bearer <application API key>
+REST API
+Workflows · extractors · AI Tools · libraries
+https://api.evolus.ai/api/v1
+X-ApiKey + X-Application-Id, or X-User-ApiKey
+MCP server
+Tools for AI clients
+https://api.evolus.ai/mcp
+X-ApiKey + X-Application-Id, or X-User-ApiKey
+platform credits per event workspace
+50,000
+API requests per event workspace
+60 / min
+people in a team workspace
+Up to 6
+Fireworks AI or vLLM on AMD
+Your model
+Get started
+Your model
+Workflows
+Extractors
+AI Tools
+Libraries
+Agent chat
+MCP
+Studio
+Limits
+Quickstart
+Get started in 5 minutes
+From the event link to your first API call.
+1
+Wait for the event link
+At the kickoff on October 12 we publish the event link on the hackathon page. Create your workspace only from that link: a workspace created earlier is not an event workspace.
+Hackathon page
+2
+Create your event workspace
+Open the event link, sign in with GitHub, Google, Apple or Microsoft and create your team's free workspace.
+3
+Connect your model
+Add your OpenAI-compatible endpoint, test the connection and pick it in your agent.
+How to connect it
+4
+Create an API key
+Create an API key on the API keys page of your workspace. The same page shows your space ID, ready to copy: it is the value of the
+X-Application-Id
+header for the REST API and the MCP server.
+5
+Call your agent
+List your agents with
+GET /v1/models
+: each
+id
+is already in the
+applicationId:agentId
+form to put in
+model
+. Then send a message.
+curl
+Copy
+curl
+https://api.evolus.ai/v1/chat/completions \
+-H
+"Authorization: Bearer $EVOLUS_API_KEY"
+\
+-H
+"Content-Type: application/json"
+\
+-d '{
+"model"
+:
+"<applicationId>:<agentId>"
+,
+"messages"
+: [{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello! What can you do for me?"
+}]
+}'
+Models
+Bring your own model
+In event workspaces, agents run on your team's model. Any OpenAI-compatible endpoint works; for the hackathon, both routes below accept AMD cloud credits. Pick a model that supports function calling: agents use tools.
+Fireworks AI
+Managed OpenAI-compatible API: nothing to deploy.
+Base URL
+https://api.fireworks.ai/inference/v1
+Model
+accounts/fireworks/models/<model>
+API key
+Your Fireworks API key
+vLLM on AMD Developer Cloud
+Your own GPU droplet serving an open model with vLLM.
+Base URL
+http://<droplet-ip>:8000/v1
+Model
+Qwen/Qwen2.5-7B-Instruct (the model you serve)
+API key
+The value you pass to
+--api-key
+Then, in Evolus
+1
+Add your model in your workspace: base URL, model name and API key.
+2
+Test the connection.
+3
+Pick it in your agent.
+Tool calling on vLLM
+--tool-call-parser hermes
+fits Qwen models. Other model families need a different parser: check the vLLM documentation for your model.
+Protect your endpoint
+Without
+--api-key
+, the vLLM endpoint is open to anyone who knows its address.
+AMD cloud credits
+Request them from the AMD AI Developer Program. Approval takes 2-3 business days, so apply early.
+No Evolus credits
+Calls to your own model don't use platform credits: your provider bills them.
+Fireworks AI
+vLLM on AMD
+Copy
+# Check your key and model before adding them to Evolus
+curl
+https://api.fireworks.ai/inference/v1/chat/completions \
+-H
+"Authorization: Bearer $FIREWORKS_API_KEY"
+\
+-H
+"Content-Type: application/json"
+\
+-d '{
+"model"
+:
+"accounts/fireworks/models/<model>"
+,
+"messages"
+: [{
+"role"
+:
+"user"
+,
+"content"
+:
+"Say hello"
+}]
+}'
+Featured
+Business automations
+Workflows: a whole process behind one API call
+A workflow chains the steps of a real process (agents, document reading, extractors, AI Tools, conditions, loops and webhooks) and runs them on its own. Start it from your code, from an email inbox or on a schedule; the result is in the run, or on your webhook.
+1
+Call
+POST /api/v1/workflows/{workflowId}/execute
+with text and files, as
+multipart/form-data
+.
+2
+Queued
+Evolus answers
+202 Accepted
+with the
+executionId
+, also in the
+X-Workflow-Execution-Id
+header.
+3
+Result
+Read
+GET …/executions/{executionId}
+until
+status
+is
+Completed
+or
+Failed
+, or receive the result on your webhook.
+Form fields
+input
+Text input of the run.
+file parts
+One or more files. With several files, the workflow runs once per file or once for all of them, as set in the workflow.
+parameters
+Flat JSON object with the parameters the workflow declares, e.g.
+{"target_language":"German"}
+. Checked before the run starts.
+callbackUrl
+Sends this run's result to your URL instead of the webhook set in the workflow (the workflow needs a Webhook step). Optional:
+callbackMethod
+(
+POST
+,
+PUT
+or
+PATCH
+),
+callbackApiKey
+,
+callbackApiKeyName
+.
+Turn the workflow on before calling it: a workflow that is off answers
+409 Conflict
+.
+Webhook deliveries carry the
+X-Workflow-Execution-Id
+and
+X-Workflow-Audit-Id
+headers, so you can match them to the run.
+Never send secrets as parameters: they are stored with the run.
+curl
+Python
+TypeScript
+Copy
+# Start a run: text input plus one file (202 Accepted, the run is queued)
+curl
+-X POST
+"https://api.evolus.ai/api/v1/workflows/$WORKFLOW_ID/execute"
+\
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-F
+"input=New purchase order from ACME, please process it"
+\
+-F
+"file=@order.pdf"
+# Read the run: status is Pending, Running, Completed or Failed
+curl
+"https://api.evolus.ai/api/v1/workflows/$WORKFLOW_ID/executions/$EXECUTION_ID"
+\
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+Response
+Copy
+HTTP/
+1.1
+202
+Accepted
+Content-Type
+: application/json; charset=utf-
+8
+X-Workflow-Execution-Id
+: <executionId>
+{
+"jobId"
+:
+"<jobId>"
+,
+"executionId"
+:
+"<executionId>"
+,
+"enqueuedAt"
+:
+"<UTC date and time>"
+,
+"traceId"
+:
+"<traceId>"
+}
+Document extractors
+From any document to the exact data you need
+An extractor reads PDFs, scans and images (with OCR) and returns data in the shape you define: JSON, CSV or plain text. Define the schema in your workspace, then call it from your code.
+Use
+csv
+or
+text
+instead of
+json
+in the path for extractors with CSV or plain-text output.
+Several documents in one call:
+…/ask-files
+, with one file part per document.
+Extra form fields are passed to the extractor as context.
+If the extractor has a webhook, the call is queued and the data goes to the webhook: add
+?useWebhook=false
+to get it in the response.
+The
+X-AskFile-Execution-Id
+and
+X-AskFile-Audit-Id
+response headers identify the run. Document reading uses platform credits.
+curl
+Python
+TypeScript
+Copy
+# Synchronous: the response body is the extracted data, shaped by your schema
+curl
+-X POST
+"https://api.evolus.ai/api/v1/agents/$AGENT_ID/json/$EXTRACTOR_ID/ask-file"
+\
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-F
+"file=@invoice.pdf"
+AI Tools
+11 ready-made AI Tools, one endpoint each
+Everyday AI utilities for documents, text and recordings. No prompt to write: pick a tool, send text or a file, get the result. Files are processed in memory and never stored.
+doc-structure
+Document to structured data
+Turns a document into JSON, CSV or XML ready for your code, or into just its skeleton.
+text
+document
+format: json | csv | xml · content: data | structure
+tables
+Table extraction
+Pulls tables out of documents or text and converts them without losing rows.
+text
+document
+to: csv | json | markdown | html
+translate
+file out
+Translation
+Translates text, documents and recordings. PDF and Word files come back translated, with their layout.
+text
+document
+audio / video
+target (required) · style: natural | literal | formal
+anonymize
+file out
+Redaction of personal data
+Replaces personal data with placeholders. In PDFs the data is really removed from the file.
+text
+document
+summarize
+Summaries
+Short, medium or long summaries of text, documents and recordings.
+text
+document
+audio / video
+length: short | medium | long · style: prose | bullets
+minutes
+Meeting minutes
+Minutes from a recording or from notes: topics, decisions and action items.
+text
+document
+audio / video
+email
+Email writing and replies
+Writes an email from your notes, or the reply to the email you pass in
+secondaryText
+.
+text
+mode: write | reply · tone: formal | friendly | commercial | assertive
+rewrite
+Rewriting
+Fixes mistakes, or rewrites text to be clearer, more formal or friendlier.
+text
+document
+style: fix | clear | formal | friendly
+simplify
+Plain-language explanation
+Explains legal, technical or bureaucratic text in simple words.
+text
+document
+sentiment
+Sentiment
+A report on reviews, feedback or survey answers: overall mood, strengths, issues and suggestions.
+text
+document
+compare
+Compare two texts
+What really changes between two versions: send them in
+text
+and
+secondaryText
+(or
+file
+and
+secondaryFile
+).
+text
+document
+Endpoints
+POST
+/api/v1/ai-tools/{tool}/run
+JSON body
+{ text, secondaryText, options }
+. Returns
+{ tool, output, creditsConsumed, truncated }
+.
+POST
+/api/v1/ai-tools/{tool}/run-media
+A document or an audio/video file in the multipart field
+file
+. Same JSON back; for recordings, the transcript is in
+sourceText
+.
+POST
+/api/v1/ai-tools/{tool}/run-file
+translate
+and
+anonymize
+only: a PDF, Word (.docx), TXT, MD or CSV file in, the same format out. The credits used are in the
+X-Credits-Consumed
+header.
+GET
+/api/v1/ai-tools
+The catalog: inputs and allowed options of every tool.
+Options of
+run-media
+and
+run-file
+travel in the
+options
+query parameter, as JSON.
+Limits: documents up to 20 MB, audio and video up to 100 MB, 120,000 characters of text.
+PDF translation keeps the look of the page for Latin, Cyrillic and Greek scripts; PDFs over 60 pages are refused.
+AI Tools run on Evolus models and use platform credits.
+curl
+Python
+TypeScript
+Copy
+# Text in, text out
+curl
+-X POST https://api.evolus.ai/api/v1/ai-tools/translate/run \
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-H
+"Content-Type: application/json"
+\
+-d
+'{ "text": "Il pagamento è dovuto entro 30 giorni.", "options": { "target": "English" } }'
+# Audio or video in, text out: meeting minutes from a recording
+curl
+-X POST https://api.evolus.ai/api/v1/ai-tools/minutes/run-media \
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-F
+"file=@meeting.mp3"
+# File in, file out: real redaction of personal data in a PDF
+curl
+-X POST https://api.evolus.ai/api/v1/ai-tools/anonymize/run-file \
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-F
+"file=@contract.pdf"
+\
+-o contract-redacted.pdf
+Knowledge libraries
+Give your agents your knowledge
+Upload documents or import web pages into a library: Evolus indexes them, and the agents you attach the library to search it when they answer.
+Indexing runs in the background: the document comes back with
+201 Created
+and becomes searchable once indexed.
+Set
+language
+to the language of the document (the default is
+it
+, Italian).
+Supported formats and size limit:
+GET /api/v1/memories/document-formats
+.
+import-url
+reads only that page, with no crawling; pages built by JavaScript may have no text to index.
+Indexing uses platform credits.
+curl
+Python
+TypeScript
+Copy
+# Upload a document: it is indexed in the background (language=en for English text)
+curl
+-X POST
+"https://api.evolus.ai/api/v1/memories/$LIBRARY_ID/documents?language=en"
+\
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-F
+"file=@handbook.pdf"
+# Import a web page (only that page, no crawling)
+curl
+-X POST
+"https://api.evolus.ai/api/v1/memories/$LIBRARY_ID/documents/import-url"
+\
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+\
+-H
+"Content-Type: application/json"
+\
+-d
+'{ "title": "Return policy", "url": "https://example.com/returns" }'
+# List the documents of the library and their indexing status
+curl
+"https://api.evolus.ai/api/v1/memories/$LIBRARY_ID/documents"
+\
+-H
+"X-ApiKey: $EVOLUS_API_KEY"
+\
+-H
+"X-Application-Id: $EVOLUS_APP_ID"
+Agent chat
+Agent chat, OpenAI-compatible
+Point any OpenAI SDK at
+https://api.evolus.ai/v1
+and talk to your Evolus agents. The agent brings its own model, instructions, tools and libraries.
+Only agent chat is OpenAI-compatible. Workflows, extractors, AI Tools and libraries use the Evolus REST API at
+https://api.evolus.ai/api/v1
+.
+Authentication and model
+Authorization: Bearer <application API key>
+. The model is
+<applicationId>:<agentId>
+:
+GET /v1/models
+lists them.
+Streaming
+stream: true
+returns Server-Sent Events that end with
+data: [DONE]
+.
+Conversations
+Every response has an
+X-Conversation-Id
+header. Send it back to continue: Evolus loads the history and processes only your last user message. Without it, the messages you send are used as context for a new conversation.
+Messages and settings
+Message content is text (a string). Model settings come from the agent: request parameters such as
+temperature
+are not applied.
+curl
+Python
+TypeScript
+Copy
+# The agents you can chat with: each "id" is a model, "<applicationId>:<agentId>"
+curl
+https://api.evolus.ai/v1/models \
+-H
+"Authorization: Bearer $EVOLUS_API_KEY"
+# Stream the answer (Server-Sent Events, ends with "data: [DONE]").
+# -D - prints the response headers too: keep X-Conversation-Id
+curl
+-N -D - https://api.evolus.ai/v1/chat/completions \
+-H
+"Authorization: Bearer $EVOLUS_API_KEY"
+\
+-H
+"Content-Type: application/json"
+\
+-d '{
+"model"
+:
+"<applicationId>:<agentId>"
+,
+"stream"
+: true,
+"messages"
+: [{
+"role"
+:
+"user"
+,
+"content"
+:
+"Draft a reply to the latest customer email"
+}]
+}'
+# Next turn: send the id back and Evolus loads the history
+curl
+https://api.evolus.ai/v1/chat/completions \
+-H
+"Authorization: Bearer $EVOLUS_API_KEY"
+\
+-H
+"Content-Type: application/json"
+\
+-H
+"X-Conversation-Id: <conversation id>"
+\
+-d '{
+"model"
+:
+"<applicationId>:<agentId>"
+,
+"messages"
+: [{
+"role"
+:
+"user"
+,
+"content"
+:
+"Make it shorter"
+}]
+}'
+MCP server
+Evolus as tools for any MCP client
+The Evolus MCP server at
+https://api.evolus.ai/mcp
+lets AI assistants and coding agents work with your workspace through tools: agents, workflows, extractors, libraries and more.
+Use an application key (
+X-ApiKey
++
+X-Application-Id
+) or your user key (
+X-User-ApiKey
+, with
+X-Application-Id
+to choose the workspace).
+The key needs MCP access: keys with granular permissions work on both REST and MCP.
+The name and format of the configuration file depend on your MCP client: this is the common shape for remote HTTP servers with headers.
+Application key
+User key
+Copy
+{
+"mcpServers"
+: {
+"evolus"
+: {
+"type"
+:
+"http"
+,
+"url"
+:
+"https://api.evolus.ai/mcp"
+,
+"headers"
+: {
+"X-ApiKey"
+:
+"<application API key>"
+,
+"X-Application-Id"
+:
+"<applicationId>"
+}
+}
+}
+}
+Evolus Studio
+An AI coding agent, already connected to Evolus
+Evolus Studio is the Evolus desktop app for macOS (Apple Silicon), Windows and Linux. An AI agent works inside your project with the Evolus tools already connected. In event workspaces it runs on your team's model, the one you connect under “Your models” in the workspace.
+Download for macOS
+Apple Silicon · .dmg
+Download for Windows
+64-bit · .exe
+Download for Linux
+x86_64 · AppImage
+Linux: .deb package
+·
+SHA-256 checksums
+Learn more about Evolus Studio
+Limits and credits
+Limits and credits of event workspaces
+What each event workspace gets during the hackathon.
+requests per minute
+60
+per event workspace.
+platform credits
+50,000
+per event workspace, valid until November 15, 2026, 23:59 Italian time.
+what uses them
+Credits
+Document reading, AI Tools and library indexing.
+your own model
+Free
+Calls to your model don't use platform credits.
+When the credits run out, the calls that need them answer
+402 Payment Required
+.
+Event workspaces are covered by the
+Hackathon conditions
+.
+API reference
+The complete interactive API reference, with every endpoint, schema and error code, is inside every workspace.
+Open your workspace
+Ready to build?
+Create your free workspace from the event link and start building.
+Create your free workspace
+See the hackathon track
+evolus
+AI orchestration platform for businesses. We integrate the best AI models with an advanced memory system. For complex needs, we work together with our clients.
+Products
+AI employees
+AI automations and workflows
+AI receptionist
+Specialised AI agents
+AI website widget
+Evo Assistant
+Evolus Studio
+Useful Links
+Home
+Start now
+How it works
+Pricing
+Blog
+Contact us
+Comparisons
+Contact us
++39 0184 716 626
+sales@evolus.ai
+Evolus Platform
+Terms of Use
+Data processing agreement
+Security measures
+Subprocessors
+Privacy Policy
+AI transparency
+© Codedesign SRL - 2026 | P.Iva IT01739830089 | All Rights Reserved
+Website privacy
+Cookie policy
+Cookie preferences
+AI orchestration for business

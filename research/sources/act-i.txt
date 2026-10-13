@@ -1,0 +1,755 @@
+[Recap] AMD Developer Hackathon | lablab.ai
+Results
+Next
+Hackathon
+AMD AI League
+Starts
+Sep 1, 2026
+Join this hackathon →
+This Event Has Finished
+Hybrid
+AMD Developer Hackathon
+Build AI agents and high-performance AI apps on AMD GPUs in the cloud.
+Grab your ideas, spin up compute, and start building what’s next!
+Start with
+$100 in AMD Developer Cloud credits
+and begin
+building right away.
+Get access to hands-on tutorials, workshops, and curated learning resources to help you build faster and go further.
+To unlock credits and join the hackathon, sign up for
+the
+AMD AI Developer Program
+.
+🤝 Go solo or team up, ship something real.
+💰 $21,500+ total prize pool & 1 × AMD Radeon™ AI PRO R9700 GPU up for grabs.
+📍
+On-site Venue (May 9-10):
+MindsDB SF AI Collective
+3154 17th St, San Francisco, California, USA
+📍On-site participation is by invitation only.
+Travel and accommodation expenses will not be covered.
+Developers, builders, and innovators - bring your boldest ideas
+and let’s turn them into real AI systems on AMD.
+Claim FREE $100
+credits
+About
+Challenge
+Technology & Access
+Technology Partners & Workshops
+Prizes
+Community & Social Channels
+What to Submit?
+Judging Criteria
+Hackathon Details
+Speakers
+Event Schedule
+Teams
+About
+The
+AMD Developer Hackathon
+is a hands-on event for developers, founders, engineers, and builders who want to push what’s possible with AI on real infrastructure.
+At the center of it:
+AI Agents
+- a space to explore intelligent workflows, automation, and real AI applications. Whether you’re just starting out or already building, you can jump in and start creating.
+You’ll be working with
+AMD AI Developer Cloud
+,
+ROCm
+, and model APIs — all fully in the cloud, so you can focus on building instead of setup.
+What participants get
+:
+•
+$100
+in
+AMD Developer Cloud credits
+for
+AMD AI Developer Program members
+•
+Access to
+AMD Instinct MI300X GPUs
+•
+Curated
+AI courses
+and
+tutorials
+•
+1-month complimentary
+DeepLearning.AI
+Pro membership
+•
+Everything runs
+fully in the cloud
+-
+no hardware required
+Media & Community partners
+Challenge
+Come build the next generation of AI agents and high-performance applications - powered by AMD
+.
+This hackathon is your space to explore, experiment, and create with
+AMD Developer Cloud
+and
+ROCm
+. No hardware, no complex setup - just access to powerful compute and the freedom to build what you actually care about.
+Whether you want to prototype an idea, push a system to its limits, or try something completely new, this is the place to do it.
+Build an application, agent, or developer tool that feels real, works end-to-end, and shows what
+AMD’s compute stack
+can unlock.
+🤖
+Track 1: AI Agents & Agentic Workflows (Best Track for Beginners)
+• Objective:
+Move beyond simple RAG to build sophisticated AI agentic systems and workloads.
+•
+What to Build
+:
+Build intelligent AI systems that automate workflows, coordinate agents, or assist users in complex tasks.
+•
+Tech Stack
+:
+Utilize frameworks like
+LangChain
+,
+CrewAI
+, or
+AutoGen
+connecting to open-source models (Llama, DeepSeek, Mistral, Qwen).
+•
+Compute Resource
+:
+$100 in AMD Developer Cloud credits.
+⚡
+Track 2: Fine-Tuning on AMD GPUs (Advanced / GPU-Intensive)
+•
+Objective
+:
+Leverage direct GPU access to fine-tune open-source models for high-impact domain specialization.
+•
+What to Build
+:
+Domain-specific LLMs (Healthcare, Finance, Legal, or Code) fine-tuned for accuracy and efficiency on ROCm.
+•
+Tech Stack
+:
+ROCm
+,
+PyTorch
+,
+Hugging Face Optimum-AMD
+, and
+vLLM
+for serving.
+•
+Compute Resource
+:
+Access to
+AMD Instinct MI300X
+instances via AMD Developer Cloud.
+🎨
+Track 3: Vision & Multimodal AI
+•
+Objective
+:
+Build applications that process and understand multiple data types (Images, Video, Audio) using the massive memory bandwidth of AMD GPUs.
+•
+What to Build
+:
+High-throughput industrial inspection, medical imaging analysis, or multimodal conversational assistants.
+•
+Tech Stack
+:
+Multimodal models (like Llama 3.2 Vision, Qwen-VL) optimized for ROCm™.
+•
+Compute Resource
+:
+Access to
+AMD Instinct MI300X
+instances via AMD Developer Cloud.
+🚢
+Extra Challenge: Ship It + Build in Public
+•
+Objective
+:
+Document your building journey, share insights, and provide feedback on the AMD developer experience.
+•
+Requirements
+:
+1.
+Share at least 2 technical updates on social media (tag
+@lablab
+on X or
+lablab.ai
+on LinkedIn, and tag
+@AIatAMD
+on X or
+AMD Developer
+on LinkedIn)
+2. Provide meaningful feedback about building with
+ROCm
+,
+AMD Developer Cloud
+,
+or APIs
+.
+3. Open-source your project
+or publish a technical walkthrough
+of how you built it.
+Reward
+:
+A dedicated prize pool for the best Build in Public stories and the most valuable product feedback.
+This challenge can  be     completed alongside any hackathon track
+.
+Your mission
+is to
+build and launch an AI-native product using X402 Payments
+- a programmable payments infrastructure designed for the next generation of agentic and automated economies.
+In this edition of
+Launch & Fund Your Startup
+, you’ll have
+6 days
+to validate an idea, build a working prototype, and present a credible path toward real users and on-chain revenue.
+This challenge is open to
+everyone
+- from early-stage founders to existing startups looking to expand or pivot their products.
+Your submission should clearly show how your solution integrates or reimagines
+X402 Payments
+in the context of real-world financial interaction
+Tracks
+Choose one - or mix and match. Each track explores a core use case of programmable payments in the age of agentic systems:
+🤖 Agent-to-Agent Payments
+Challenge
+:
+Build a system where two or more agents autonomously trigger and settle payments—e.g., for usage-based services, access control, or dynamic pricing. Your product should demonstrate a working agentic payment loop with minimal human input.
+🧑‍💼Consumer AI Payments
+Challenge
+:
+Develop an AI assistant that can make payments on a user’s behalf—with built-in rules like spending limits, approval checkpoints, or identity verification (KYC/AML). Showcase how your product handles decision-making, compliance, and safeguards.
+🏢
+B2B FinOps & Compliance
+Challenge
+:
+Build a tool for businesses to manage real-time payments and financial operations—like tracking cash flow, enforcing policies, or generating audit-ready records. Highlight automation, accuracy, and visibility into payment activity.
+🛒
+On-chain Commerce Primitives
+Challenge
+:
+Launch a digital product or service with a built-in revenue model using X402. Think: token-gated access, real-time rev-splits, or instant payouts to contributors. Your prototype should demonstrate seamless, trustless commerce flows.
+Technology & Access
+Technology
+This hackathon gives developers the opportunity to
+explore and build AI workloads using AMD’s cloud-based AI stack
+.
+All development happens using
+cloud-accessible AMD GPUs
+, so there is
+no need to own or manage hardware
+. The focus is on experimenting, benchmarking, and running real workloads in a flexible environment.
+During the hackathon, teams can choose to work with the following technologies.
+AMD Developer Cloud
+The AMD Developer Cloud offers
+on-demand access to AMD Instinct GPUs
+through the cloud. It allows developers to spin up powerful
+GPU environments
+in minutes and focus on building and testing AI workloads without infrastructure overhead.
+What developers typically use it for
+•
+Training and fine-tuning machine learning models
+•
+Benchmarking AI workloads on AMD GPUs
+•
+Prototyping AI systems before moving to on-prem infrastructure
+Access
+•
+$100 in AMD Developer Cloud credits for
+AMD AI Developer Program
+members
+•
+Pay-as-you-go pricing available
+Documentation
+•
+Getting started guide
+•
+AMD Developer Cloud overview
+ROCm (Radeon Open Compute)
+ROCm is AMD’s
+open-source software platform for GPU computing
+, the AMD equivalent of NVIDIA's CUDA. It lets you run AI/ML workloads and HPC applications on AMD GPUs.
+What developers commonly use it for
+• Running PyTorch and TensorFlow on AMD GPUs
+• Porting CUDA-based workloads to AMD hardware
+• Executing high-performance AI and ML workloads
+Documentation
+•
+ROCm documentation
+•
+ROCm installation guide
+•
+ROCm GitHub repository
+What developers often use it for
+•
+Learning how to build and run AI workloads on AMD hardware
+•
+Exploring fine-tuning and reinforcement learning workflows
+Access
+•
+Free access to all courses
+•
+Includes hands-on labs with real GPU access
+•
+Developed in partnership with
+DeepLearning.AI
+for advanced content
+Documentation
+•
+Full training catalog
+•
+From Zero to AI Builder with AMD
+Access Phasing
+•
+Online Phase
+:
+Credits-based access for all participants.
+•
+On-Site Phase
+:
+Dedicated GPU access for the selected finalists.
+Technology
+Partners
+Technology Partners
+& Workshops
+Hugging Face
+is the home of open-source AI, hosting over 2 million models, datasets, and Spaces that developers can access, fine-tune, and deploy.
+For this hackathon,
+Hugging Face serves as the model hub and deployment layer for your project
+. Pull a model from the
+Hugging Face Hub
+, fine-tune or build on it using
+AMD Developer Cloud GPUs
+, then publish your final project back to Hugging Face as a
+Space
+.
+How it works:
+1. Find a model on Hugging Face Hub to work with
+2. Build or fine-tune it using your AMD Developer Cloud credits
+3. Publish your completed project as a Hugging Face Space within the event organization
+4. Submit your Space link on lablab when you submit your project
+🏆Hugging Face Category Prize
+:
+•
+The
+Space
+with the
+most likes
+at the end of the hackathon
+wins
+.
+•
+Once your Space is live, share it,  the community votes with likes.
+👉 Full prize details are listed in the Prizes section.
+To participate, join the event's Hugging Face organization using the link below. Joining is open to all registered participants.
+👉
+Join the AMD Developer Hackathon HF Organization
+Once you join, you'll be able to create a Space under the organization and publish your project there.
+📘
+Resources:
+•
+Hugging Face Hub
+Qwen
+is a family of advanced AI models developed by
+Alibaba Cloud
+, designed for strong reasoning, coding, and multilingual capabilities.
+It includes a range of models across text, code, and multimodal use cases, enabling developers to build real-world, production-ready applications.
+Challenge
+Incorporate Qwen models into your project across any of the hackathon tracks.
+Focus on building a complete, end-to-end application where Qwen contributes meaningfully to the system’s functionality, performance, or intelligence.
+This can include:
+• Building AI agents or copilots
+• Adding natural language interfaces to your application
+• Automating workflows or decision-making
+• Creating multilingual or user-facing AI features
+🚀
+How to Get Started
+1. Explore Qwen models and capabilities
+2. Choose a model that fits your use case
+3. Integrate it into your project using your preferred tools
+4. Highlight how Qwen is used in your final submission
+📘
+Resources:
+•
+Documentation
+•
+Models (Hugging Face)
+•
+ModelScope
+🎓 Workshops
+Get inspired and boost your skills with exclusive sessions from our partners and experts. Watch them anytime!
+lablab.ai
+Speaker:
+Joanna Slupczewska
+Head of Marketing
+Topic:
+AMD Developer Hackathon Kick-Off Stream
+lablab.ai
+Speaker:
+Steve Kimoi
+Developer Relations
+Topic:
+Build and Deploy an AI App on AMD MI300X as a Hugging Face Space
+AMD
+Speaker:
+Maharshi Trivedi
+Product Applications Engineer
+Topic:
+Getting Started on AMD Developer Cloud
+AMD
+Speaker:
+Mahdi Ghodsi
+Product Applications Engineer
+Topic:
+AI Agents 101: Building AI Agents with MCP & Open-Source Inference
+PRIZES
+🏆 Total Prize Pool: $22,500+
+$20,000 cash prizes
+sponsored by
+&
+plus AMD hardware, Hugging Face, and Qwen special rewards.
+Grand Prize
+🏆 $5,000
+Awarded to the overall top project.
+Exclusive Hardware Reward
+AMD Radeon™ AI PRO R9700 GPU
+One GPU awarded for outstanding social engagement or project promotion.
+🤖 AI Agents &
+Agentic Workflows
+🥇 1st Place
+$2,500
+🥈 2nd Place
+$2,500
+🥉 3rd Place
+$1,000
+⚡ Fine-Tuning on
+AMD GPUs
+🥇 1st Place
+$2,500
+🥈 2nd Place
+$1,500
+🥉 3rd Place
+$1,000
+🎨 Vision &
+Multimodal AI
+🥇 1st Place
+$2,500
+🥈 2nd Place
+$1,500
+🥉 3rd Place
+$1,000
+🤗 Hugging Face Special Prize
+Awarded to the Hugging Face Space in the event organization with the most likes.
+🥇 1st Place
+1
+Reachy Mini Wireless
++ 6 months
+Hugging Face PRO
++ $500 Hugging Face Credits
+🥈 2nd Place
+3 months
+Hugging Face PRO
++ $300 Hugging Face Credits
+🥉 3rd Place
+2 months
+Hugging Face PRO
++ $200 Hugging Face Credits
+Qwen Special Reward
+Best use of Qwen in each track
+Awarded separately to the best Qwen-powered project within each track. Each selected team receives
+10M Qwen tokens per team member
+.
+🤖 AI Agents & Agentic Workflows
+10M Qwen tokens per team member
+⚡ Fine-Tuning on AMD GPUs
+10M Qwen tokens per team member
+🎨 Vision & Multimodal AI
+10M Qwen tokens per team member
+Please note: Participation in lablab.ai hackathons is voluntary. Prizes and opportunities depend on eligibility, availability, and third-party sponsors, for whom lablab.ai is not responsible. Hackathon rules, prizes, and terms may change or be canceled at our discretion. Submissions must be original and MIT-compliant. Prize distribution may take up to 90 days.
+Full details:
+Voluntary Participation & Prize Terms
+Community & Social Channels
+Stay connected with the teams behind the hackathon and follow along for updates, highlights, and future opportunities.
+lablab.ai
+X
+-
+LinkedIn
+-
+Facebook
+-
+Instagram
+-
+YouTube
+-
+Twitch
+-
+Website
+AMD
+X
+-
+LinkedIn
+NativelyAI
+X
+-
+LinkedIn
+-
+Website
+What to submit?
+📋 Basic Information
+• Project Title
+• Short Description
+• Long Description
+• Technology & Category Tags
+🚨 Submission Deadline
+• Check the Event Schedule tab - the deadline is always up to date and shown in your local timezone.
+📸 Cover Image and Presentation
+• Cover Image
+• Video Presentation
+• Slide Presentation
+💻 App Hosting & Code Repository
+• Public GitHub Repository
+• Demo Application Platform
+• Application URL
+For further details and guidance, please visit
+Submission Guidelines
+lablab.ai
+Topic:
+Hackathon Submissions Process
+▶️ Watch Video
+Judging Criteria
+Application of Technology
+How effectively the chosen model(s) are integrated into the solution.
+Presentation
+The clarity and effectiveness of the project presentation.
+Business Value
+The impact and practical value, considering how well it fits into business areas.
+Originality
+The uniqueness & creativity of the solution, highlighting approaches and ability to demonstrate  behaviors.
+Hackathon Details
+Join lablab.ai hackathon and innovate using the latest models in the market. Discover all the relevant details below.
+🛠️
+How to participate
+To access credits and be approved for the hackathon, participants must sign up for the
+AMD Developer Program
+.
+The hackathon will take place online on lablab.ai platform,
+lablab.ai Discord Server
+,
+and in person in San Francisco, CA
+🦸🏼‍♂️
+Who can join?
+Everyone with a passion for AI or an interest in exploring its applications in their field is welcome to participate.
+To participate click the "Enroll" button at the bottom of the page and read our
+Hackathon Guidelines
+and
+Getting Started Guide
+.
+🧠 Get prepared / Use Lablab.ai to Learn About AI
+To get ready for the hackathon, visit our
+AI Tech
+pages and read up on all the available technologies. You can also check out our
+tutorials
+page for more information on how to use them. Get a head start on your project by using the resources on lablab.ai!
+😅
+What about teams?
+If you don't have a team, don't worry! Connect with other builders, find teammates and get support on
+our Discord
+- this is where most of the hackathon happens.You can join the server
+here
+.
+Join the conversation, ask questions, and start building with others from day one.
+Speakers, Mentors & Judges
+Pawel Czech
+CEO
+Joseph Spence
+Founder & Chairman
+Andrea Marazzi
+Founder & CCO
+Nichol Bradford
+Founder
+Paul Williams
+Chief Procurement Officer
+James Lloyd
+AI Strategic Advisor
+Hari Kanagala
+Group Product Manager AI/ML
+Mallika Rao
+Engineering Lead-Netflix, Walmart, Twitter
+Vasu Raj Jain
+Senior Software Engineer
+Anton Kiselev
+Lead backend developer
+Sriharsha Makineni
+Business Engineer
+Shaktesh Pandey
+AI Engineer | GenAI Systems | RAG Architect | LLMOps
+Syed Affan
+Full-Stack AI Developer
+Suneeth Maraboina
+Technology Leader
+Japjit Singh
+Applied AI Product Lead
+Mahati Kumar
+Software Engineer
+Dharmendra Singh
+Senior Software Engineering Manager
+Ramine Rosen
+Corporate VP, AI
+Neha Manjunath
+Senior Research Scientist
+Sasha Aptlin
+Founding AI Engineer @ ReachRx.ai
+Ken Huang
+Adjunct Professor
+Aanjanaye Kajaria
+Founder & CEO
+Ramakanta Samal
+Senior Software Engineer
+Maharshi Trivedi
+Product Applications Engineer
+Mahdi Ghodsi
+AI Solution Architect
+Pavan Gondhi
+Sr Vice President
+Sanem Avcil
+AI & Blockchain Advisor
+Rahul Gupta
+Head of AI Foundry
+Vishal Paul
+Senior Software Engineer, Core Platforms Team
+Jeff Boudier
+VP of Product
+Pawel Czech
+CEO
+Andrea Marazzi
+Founder & CCO
+Pawel Czech
+CEO
+Joseph Spence
+Founder & Chairman
+James Lloyd
+AI Strategic Advisor
+Hari Kanagala
+Group Product Manager AI/ML
+Mallika Rao
+Engineering Lead-Netflix, Walmart, Twitter
+Vasu Raj Jain
+Senior Software Engineer
+Anton Kiselev
+Lead backend developer
+Sriharsha Makineni
+Business Engineer
+Nikhil Mehra
+Senior Product Manager
+Raunak Bidasaria
+Business Operations & Strategy
+Andrea Marazzi
+Founder & CCO
+Nichol Bradford
+Founder
+Shaktesh Pandey
+AI Engineer | GenAI Systems | RAG Architect | LLMOps
+Syed Affan
+Full-Stack AI Developer
+Suneeth Maraboina
+Technology Leader
+Japjit Singh
+Applied AI Product Lead
+Mahati Kumar
+Software Engineer
+Dharmendra Singh
+Senior Software Engineering Manager
+Kajal Singh
+Product Manager
+Ramine Rosen
+Corporate VP, AI
+Paul Williams
+Chief Procurement Officer
+Neha Manjunath
+Senior Research Scientist
+Sasha Aptlin
+Founding AI Engineer @ ReachRx.ai
+Ken Huang
+Adjunct Professor
+Aanjanaye Kajaria
+Founder & CEO
+Ramakanta Samal
+Senior Software Engineer
+Dean Fanggohans
+Software Engineer
+Bhanu Pratap Singh
+Lead Technical Architect
+Maharshi Trivedi
+Product Applications Engineer
+Mahdi Ghodsi
+AI Solution Architect
+Pavan Gondhi
+Sr Vice President
+Sanem Avcil
+AI & Blockchain Advisor
+Rahul Gupta
+Head of AI Foundry
+Vishal Paul
+Senior Software Engineer, Core Platforms Team
+Jeff Boudier
+VP of Product
+Nirmal Kumar Jingar
+Sr. Engineering Manager
+Sohil Vinod Shah
+Staff Software Engineer
+Pawel Czech
+CEO
+Andrea Marazzi
+Founder & CCO
+Event Schedule
+To be announced
+Next
+Hackathon
+AMD AI League
+Starts
+Sep 1, 2026
+Join this hackathon →
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI about this hackathon.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help

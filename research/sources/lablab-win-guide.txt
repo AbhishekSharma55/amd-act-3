@@ -1,0 +1,168 @@
+How to Win an AI Hackathon | lablab.ai
+Home
+Guide
+How to Win an AI Hackathon
+Upcoming AI Hackathons
+For Innovators & Creators
+How to Win an AI Hackathon
+Share
+Share
+Copy
+TL;DR:
+Winning AI hackathons comes down to four things: picking a focused problem, building a working demo fast, understanding the judging rubric, and delivering a crisp pitch. Teams that nail all four consistently outperform technically stronger teams that lose focus or run out of time.
+Build the Right Team First
+The winning team formula at lablab.ai hackathons is almost always the same:
+Role
+Responsibility
+AI engineer (1–2)
+API integration, prompt engineering, backend logic
+Frontend / full-stack
+Demo UI that judges can actually click
+Domain expert
+Validates that the problem is real and the solution fits
+Pitch lead
+Owns the slide deck and video; presents to judges
+Solo participants can compete, but teams of 3–4 regularly outperform solos in the finals. Find teammates through the
+Discord server
+before
+the Kick-Off if possible — wasting the first hours on team formation is a common mistake.
+Choose a Problem You Can Demo in 72 Hours
+The single biggest reason teams fail: they pick a problem that sounds impressive but requires data, training time, or infrastructure that can't be assembled in a weekend.
+Rules for choosing the right problem:
+It must be solvable with existing AI APIs
+— you're building on top of Claude, GPT-4, Gemini, or Granite, not training your own model
+A working prototype must be achievable in the first 24 hours
+— if you can't have something clickable by hour 24, the scope is too large
+There must be a real user
+— "a doctor who wants to reduce note-taking time" beats "the healthcare industry"
+The demo must be understandable in 30 seconds
+— if a judge can't grasp the value proposition from the opening screen, you've already lost points
+Understand the Judging Rubric
+Judges at lablab.ai score across four dimensions. Understanding exactly what each means is how you reverse-engineer a winning submission.
+1. Presentation (video + slides)
+Judges reward clarity over production value. A 4-minute video that explains the problem, shows the solution working, and articulates the business case beats a polished 5-minute video that buries the demo.
+Structure your video as:
+0:00–0:30
+— Problem statement and why it matters now
+0:30–2:30
+— Live demo of the working prototype
+2:30–4:00
+— Business case, market size, revenue model
+4:00–5:00
+— Team intro and future roadmap
+2. Business Value
+Judges want to see a real market, not just a cool demo. Include:
+A specific target user (not "everyone")
+A rough Total Addressable Market (TAM) figure
+At least one viable revenue model (SaaS, API pricing, marketplace fee)
+Why this couldn't be built without AI
+3. Application of Technology
+This is scored on: does the demo work, is the GitHub repo real, and is the AI meaningfully integrated (not just a chatbot wrapper). Strong signals:
+Deployed and accessible demo URL
+GitHub repo with real commits spread across the event window
+AI doing something genuinely novel — personalization, reasoning, content generation — not just parsing a form
+4. Originality
+Judges look for a fresh angle, not just an existing product with a chatbot bolted on. Ask yourself: does this solve the problem in a way that only became possible with this generation of AI models?
+The 72-Hour Build Strategy
+Hours 0–6: Lock the idea
+Do not start coding until the team agrees on one idea. Run a 30-minute idea sprint, pick the strongest demo-able concept, and write a one-sentence problem statement. Pin it somewhere visible.
+Hours 6–24: Build the core loop
+Get the single most important user interaction working end-to-end. If your app summarizes documents: get a real document going in, a real summary coming out. Do not build settings pages, auth flows, or onboarding until the core loop works.
+Hours 24–48: Polish the demo path
+Build the "golden path" judges will follow. This is not the full product — it is the specific sequence of screens and interactions you will show in the demo video. Fix every bug on that path. Do not fix bugs off the path yet.
+Hours 48–60: Record the video and finalize slides
+Record the demo video early. You will need time to re-record if something breaks. Slides should be no more than 8–10 pages covering: problem, solution, demo screenshot, market, revenue, team, next steps.
+Hours 60–72: Submit and prepare for Q&A
+Submit with time to spare. Use the last hours to prepare for judge questions, not to add features.
+What Winning Projects Look Like
+These are real lablab.ai winners ranked by community likes — study the problem framing, demo scope, and how each team described their business case.
+Winner
+·
+Autonomous Agents Hackathon
+evo-ninja I
+The AI that evolves in real-time
+1. Learns new scripts on-the-fly
+2. Can write its own scripts
+3. Local-first script execution
+62
+likes
+Winner
+·
+Stable Diffusion 2.0 AI Hackathon
+AI Home Design
+An AI-enabled interior design assistant using Stable Diffusion and YOLO, to let users generate new design ideas, reimagine spaces, share them in a community platform, and detect objects to buy for their new homes
+36
+likes
+Top 3
+·
+OpenAI Stack Hack
+Miraa
+Our app provides a fully digitalized package for our clients. We offer a range of services, including the creation of a logo, ads that can be used on social media platforms such as Facebook and Instagram, a website, and marketing videos
+25
+likes
+Common Mistakes to Avoid
+Pivoting after hour 12
+— picking a new problem halfway through is almost always fatal to your submission quality
+Skipping the GitHub commits
+— judges check your repo; an empty repo with one final push raises red flags
+Building without deploying
+— a working local demo that can't be accessed by judges scores as if it doesn't work
+Over-engineering the AI layer
+— chaining 5 LLM calls when 1 would do adds latency and failure points; keep the AI integration simple and reliable
+Tools and Resources
+AI APIs to use
+:
+Best AI APIs for Hackathons
+Project inspiration
+:
+AI Hackathon Project Ideas
+Full submission checklist
+:
+Submission Guidelines
+Platform walkthrough
+:
+Getting Started with lablab.ai
+Ready to apply this? Browse
+upcoming AI hackathons
+and register for the next event.
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI anything.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help

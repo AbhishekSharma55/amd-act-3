@@ -1,0 +1,264 @@
+Live Dashboard
+Back to event
+Overview
+Rankings
+Activity
+Live · Submissions open
+AMD Developer Hackathon: ACT III
+🌎 Hybrid Hackathon | 💻 Online Build: 12-17 October 2026 | On-site phase: 17-18 October 2026
+
+To participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account.
+
+The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure.
+
+
+📍 If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.
+Sign up with
+Share
+Ends in
+00
+days
+:
+00
+hrs
+:
+00
+min
+:
+00
+sec
+Participants
+5,832
+▲ +111 today
+Teams
+1,198
+▲ +56 today
+Submissions
+9
+▲ +5 today
+Drafts in Progress
+11
+▲ +7 today
+Technologies
+Being used this round
+20
+tools
+🔥
+AMD Developer Cloud
+16
+AMD ROCm
+12
+HuggingFace Hub
+5
+Antigravity
+4
+AI/ML API
+4
+Claude Code
+4
+Codex
+3
+ChatGPT
+3
+AgentOps
+3
+Anthropic Claude
+3
+Streamlit
+3
+AI21 Labs
+2
+Gemini AI
+2
+Gemini 3 pro
+2
+AI Studio
+2
+Falcon 2 11B VLM
+2
+Gemma
+2
+AIML
+2
+Assemblyai Guardrails API
+2
+Cloudflare Workers AI
+2
+Top submissions
+By community vote
+01
+DocuSwarm: Parallel Due-Diligence on AMD GPUs
+Yanero Rockstar
+4
+02
+Vyson FiscalRAG: cited tax answers on AMD Instinct
+Vyson FiscalRAG
+1
+03
+Compressor Maintenance Copilot
+gheware
+1
+04
+Super Secure SYST v2.3 - 6-Gas AI Guardian
+aisupersecuresystv2-3chaliveret
+0
+05
+Industrial Fault Copilot
+Industrial Fault Copilot
+0
+06
+PatientKeeper Retorno
+FIGUEIRA AI
+0
+07
+ForgeSight AI
+AMDers
+0
+08
+Why They Return
+KHLab
+0
+09
+SortSmart Business Advisor
+ArcOmega
+0
+Leaderboard
+Top builders by points
+Referrals
+Top referrers
+Lablab Social Wall
+Live
+Discussion
+Sign in to post
+Live · Submissions open
+AMD Developer Hackathon: ACT III
+🌎 Hybrid Hackathon | 💻 Online Build: 12-17 October 2026 | On-site phase: 17-18 October 2026
+
+To participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account.
+
+The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure.
+
+
+📍 If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.
+Sign up with
+Share
+Ends in
+00
+days
+:
+00
+hrs
+:
+00
+min
+:
+00
+sec
+Participants
+5,832
+▲ +111 today
+Teams
+1,198
+▲ +56 today
+Submissions
+9
+▲ +5 today
+Drafts in Progress
+11
+▲ +7 today
+Technologies
+Being used this round
+20
+tools
+🔥
+AMD Developer Cloud
+16
+AMD ROCm
+12
+HuggingFace Hub
+5
+Antigravity
+4
+AI/ML API
+4
+Claude Code
+4
+Codex
+3
+ChatGPT
+3
+AgentOps
+3
+Anthropic Claude
+3
+Streamlit
+3
+AI21 Labs
+2
+Gemini AI
+2
+Gemini 3 pro
+2
+AI Studio
+2
+Falcon 2 11B VLM
+2
+Gemma
+2
+AIML
+2
+Assemblyai Guardrails API
+2
+Cloudflare Workers AI
+2
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI about this hackathon.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help
+Join
+Challenge + Get $100 credits
+AI Hackathons
+AI Apps
+AI Tech
+AI Tutorials
+AI Articles
+NativelyAI
+Sponsor
+Toggle main menu

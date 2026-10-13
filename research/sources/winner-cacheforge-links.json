@@ -1,0 +1,246 @@
+[
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai/",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://x.com/lablabai",
+    "text": "Twitter/X"
+  },
+  {
+    "url": "https://www.instagram.com/lablab.ai/",
+    "text": "Instagram"
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Discord"
+  },
+  {
+    "url": "https://www.youtube.com/@lablabai",
+    "text": "YouTube"
+  },
+  {
+    "url": "https://www.twitch.tv/lablabai",
+    "text": "Twitch"
+  },
+  {
+    "url": "https://nativelyai.com",
+    "text": ""
+  },
+  {
+    "url": "/tech",
+    "text": "AI Tech"
+  },
+  {
+    "url": "/ai-hackathons",
+    "text": "AI Hackathons"
+  },
+  {
+    "url": "/ai-tutorials",
+    "text": "AI Tutorials"
+  },
+  {
+    "url": "/apps",
+    "text": "AI Applications"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": "NativelyAI"
+  },
+  {
+    "url": "/ai-articles",
+    "text": "AI Articles"
+  },
+  {
+    "url": "/leaderboard",
+    "text": "Leaderboard"
+  },
+  {
+    "url": "/writers",
+    "text": "Writers"
+  },
+  {
+    "url": "/about",
+    "text": "About"
+  },
+  {
+    "url": "/brand",
+    "text": "Brand"
+  },
+  {
+    "url": "/guide",
+    "text": "Hackathon Guidelines"
+  },
+  {
+    "url": "/terms-of-use",
+    "text": "Terms of Use"
+  },
+  {
+    "url": "/code-of-conduct",
+    "text": "Code of Conduct"
+  },
+  {
+    "url": "/privacy-policy",
+    "text": "Privacy Policy"
+  },
+  {
+    "url": "/security-policy",
+    "text": "Security"
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Discord"
+  },
+  {
+    "url": "/sponsor",
+    "text": "Sponsor"
+  },
+  {
+    "url": "/cooperation",
+    "text": "Cooperation"
+  },
+  {
+    "url": "https://wkf.ms/3PQMLlq",
+    "text": "Contribute"
+  },
+  {
+    "url": "/cdn-cgi/l/email-protection#2b484446465e45425f526b474a49474a49054a42",
+    "text": "Send email"
+  },
+  {
+    "url": "/help-center",
+    "text": "Help Center Browse FAQs and guides."
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Discord Community Chat with mentors and the team."
+  },
+  {
+    "url": "/",
+    "text": ""
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge",
+    "text": "Join Challenge + Get $100 credits"
+  },
+  {
+    "url": "/ai-hackathons",
+    "text": "AI Hackathons"
+  },
+  {
+    "url": "/apps",
+    "text": "AI Apps"
+  },
+  {
+    "url": "/tech",
+    "text": "AI Tech"
+  },
+  {
+    "url": "/ai-tutorials",
+    "text": "AI Tutorials"
+  },
+  {
+    "url": "/ai-articles",
+    "text": "AI Articles"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": "NativelyAI"
+  },
+  {
+    "url": "/sponsor",
+    "text": "Sponsor"
+  },
+  {
+    "url": "https://lablab.ai",
+    "text": "Home"
+  },
+  {
+    "url": "/apps",
+    "text": "App Discovery"
+  },
+  {
+    "url": "https://lablab.ai/submissions/kzqncbk3dhshfkfetd6a10z3",
+    "text": "CacheForge topology aware kv"
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-ii/roc-m-roll",
+    "text": "roc-m-roll"
+  },
+  {
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/roc-m-roll/cacheforge-topology-aware-kv",
+    "text": ""
+  },
+  {
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/roc-m-roll/cacheforge-topology-aware-kv",
+    "text": ""
+  },
+  {
+    "url": "/tech/amd/amd-developer-cloud",
+    "text": "AMD Developer Cloud"
+  },
+  {
+    "url": "/tech/anthropic/claude-code",
+    "text": "Claude Code"
+  },
+  {
+    "url": "/apps/topic/optimizing-resource-allocation",
+    "text": "Optimizing Resource Allocation"
+  },
+  {
+    "url": "https://github.com/lucheeseng827/amd-hackathon",
+    "text": "Github"
+  },
+  {
+    "url": "https://storage.googleapis.com/lablab-static-eu/presentations/submissions/kzqncbk3dhshfkfetd6a10z3/kzqncbk3dhshfkfetd6a10z3-1783785661394_ht10zutcdv11zl6489pskyqy.pdf",
+    "text": "Presentation"
+  },
+  {
+    "url": "https://NA",
+    "text": "Demo"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge/arcomega/webretriever-deterministic-web-retrieval-agent",
+    "text": "WebRetriever \u2014 Deterministic Web Retrieval Agent WebRetriever is an autonomous web information retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. Ask in plain English and get back the specific information you asked for, with the exact source URLs behind it \u2014 or an honest refusal when no verifiable answer exists.\n\nHow it works \u2014 five-stage pipeline with a deterministic core:\n\nUnderstand \u2014 parses the request into intent (price, contact, hours, spec, definition, how-to, date, fact), entities, and 2\u20134 search query variants. No ML model required.\n\nSearch \u2014 provider chain with automatic fallback: TinyFish Search for the best quality (JS-aware), and DuckDuckGo HTML as the keyless fallback with no signup needed.\n\nFetch + navigate \u2014 fetches top hits, then follows promising in-page links within a fixed budget (8 pages, 2 hops) when the answer looks like it is one click deeper.\n\nExtract \u2014 structure-aware parsing: JSON-LD (Product, Organization, FAQPage), HTML tables such as spec sheets, intent-specific patterns for prices, phone numbers, emails, hours and dates, plus ranked text spans.\n\nVerify \u2014 every candidate is checked against its own source text; independent multi-source agreement boosts confidence. If nothing is supported by evidence, the agent refuses instead of guessing.\n\nThe core pipeline uses no LLM, so results are reproducible and cheap. Citations are mandatory, and the agent runs on the free tier with no paid APIs. MIT licensed and Docker-ready, with 12 unit tests. ArcOmega rest api"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge/amd-ai-innovators/webscout-rocm",
+    "text": "WebScout ROCm WebScout is an advanced, high-efficiency autonomous web information retrieval engine built specifically to harness the massive parallel processing power of AMD ROCm hardware. Designed for modern AI agents and knowledge workers, WebScout delivers lightning-fast web scraping, DOM parsing, and vector embedding generation. By leveraging AMD ROCm and ROCm-accelerated local LLMs, WebScout processes millions of web tokens with minimal latency, ensuring robust data extraction, semantic search, and structured knowledge synthesis. Key features include intelligent adaptive rate limiting, automated anti-bot avoidance strategies, robust proxy rotation, DOM distillation to remove boilerplate clutter, and real-time vector embedding indexing directly on AMD Radeon and Instinct GPUs using PyTorch and ROCm hipBLAS. WebScout empowers autonomous agents to query live web data securely, efficiently, and at scale without relying on expensive commercial APIs. AMD AI Innovators AMD ROCm"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge/kaminari-research/kaminari-web-retrieval-agent",
+    "text": "Kaminari Web Retrieval Agent An autonomous web retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. The agent accepts natural-language requests (for example: \"find the current lead time for part X on the supplier site\") and returns the exact information together with its source URL. Pipeline: (1) query understanding and target-site selection, (2) deterministic navigation with retries and fallbacks, (3) structure-aware content extraction, (4) evidence-grounded answer synthesis with citations, and (5) refusal when a fact cannot be verified against a primary source. A resident local model on AMD ROCm handles extraction and reranking so per-request latency stays within the evaluation budget. The verifier cross-checks every extracted value against the page it came from, and every answer carries the exact source link. Built solo by Eran Rosadi (Kaminari Research). Kaminari Research AMD ROCm AMD Developer Cloud HuggingFace Hub"
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-iii/khlab/why-they-return",
+    "text": "Why They Return An open Google model on an AMD GPU reads every review of a product, finds why it comes back (runs small, runs large, length, fabric, colour) and writes the size note and listing fix. Measured against renters' own labels. KHLab AMD ROCm AMD Developer Cloud Gemma HuggingFace Hub"
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-iii/gheware/compressor-maintenance-copilot",
+    "text": "Streamlit Compressor Maintenance Copilot Catches compressor faults hours to days before they stop the line, explains them in plain language with cited manual pages and past repairs, and drafts the work order. An Evolus agent on an open model running on AMD GPUs. gheware AMD Developer Cloud Streamlit"
+  },
+  {
+    "url": "/u/@lucheeseng",
+    "text": "chee seng lu founder"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge/arcomega/webretriever-deterministic-web-retrieval-agent",
+    "text": "WebRetriever \u2014 Deterministic Web Retrieval Agent WebRetriever is an autonomous web information retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. Ask in plain English and get back the specific information you asked for, with the exact source URLs behind it \u2014 or an honest refusal when no verifiable answer exists.\n\nHow it works \u2014 five-stage pipeline with a deterministic core:\n\nUnderstand \u2014 parses the request into intent (price, contact, hours, spec, definition, how-to, date, fact), entities, and 2\u20134 search query variants. No ML model required.\n\nSearch \u2014 provider chain with automatic fallback: TinyFish Search for the best quality (JS-aware), and DuckDuckGo HTML as the keyless fallback with no signup needed.\n\nFetch + navigate \u2014 fetches top hits, then follows promising in-page links within a fixed budget (8 pages, 2 hops) when the answer looks like it is one click deeper.\n\nExtract \u2014 structure-aware parsing: JSON-LD (Product, Organization, FAQPage), HTML tables such as spec sheets, intent-specific patterns for prices, phone numbers, emails, hours and dates, plus ranked text spans.\n\nVerify \u2014 every candidate is checked against its own source text; independent multi-source agreement boosts confidence. If nothing is supported by evidence, the agent refuses instead of guessing.\n\nThe core pipeline uses no LLM, so results are reproducible and cheap. Citations are mandatory, and the agent runs on the free tier with no paid APIs. MIT licensed and Docker-ready, with 12 unit tests. ArcOmega rest api"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge/amd-ai-innovators/webscout-rocm",
+    "text": "WebScout ROCm WebScout is an advanced, high-efficiency autonomous web information retrieval engine built specifically to harness the massive parallel processing power of AMD ROCm hardware. Designed for modern AI agents and knowledge workers, WebScout delivers lightning-fast web scraping, DOM parsing, and vector embedding generation. By leveraging AMD ROCm and ROCm-accelerated local LLMs, WebScout processes millions of web tokens with minimal latency, ensuring robust data extraction, semantic search, and structured knowledge synthesis. Key features include intelligent adaptive rate limiting, automated anti-bot avoidance strategies, robust proxy rotation, DOM distillation to remove boilerplate clutter, and real-time vector embedding indexing directly on AMD Radeon and Instinct GPUs using PyTorch and ROCm hipBLAS. WebScout empowers autonomous agents to query live web data securely, efficiently, and at scale without relying on expensive commercial APIs. AMD AI Innovators AMD ROCm"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge/kaminari-research/kaminari-web-retrieval-agent",
+    "text": "Kaminari Web Retrieval Agent An autonomous web retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. The agent accepts natural-language requests (for example: \"find the current lead time for part X on the supplier site\") and returns the exact information together with its source URL. Pipeline: (1) query understanding and target-site selection, (2) deterministic navigation with retries and fallbacks, (3) structure-aware content extraction, (4) evidence-grounded answer synthesis with citations, and (5) refusal when a fact cannot be verified against a primary source. A resident local model on AMD ROCm handles extraction and reranking so per-request latency stays within the evaluation budget. The verifier cross-checks every extracted value against the page it came from, and every answer carries the exact source link. Built solo by Eran Rosadi (Kaminari Research). Kaminari Research AMD ROCm AMD Developer Cloud HuggingFace Hub"
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-iii/khlab/why-they-return",
+    "text": "Why They Return An open Google model on an AMD GPU reads every review of a product, finds why it comes back (runs small, runs large, length, fabric, colour) and writes the size note and listing fix. Measured against renters' own labels. KHLab AMD ROCm AMD Developer Cloud Gemma HuggingFace Hub"
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-iii/gheware/compressor-maintenance-copilot",
+    "text": "Streamlit Compressor Maintenance Copilot Catches compressor faults hours to days before they stop the line, explains them in plain language with cited manual pages and past repairs, and drafts the work order. An Evolus agent on an open model running on AMD GPUs. gheware AMD Developer Cloud Streamlit"
+  }
+]

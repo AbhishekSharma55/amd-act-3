@@ -1,0 +1,482 @@
+.props.pageProps.source.compiledSource
+"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    h2: "h2",
+    h3: "h3",
+    hr: "hr",
+    li: "li",
+    p: "p",
+    span: "span",
+    strong: "strong",
+    table: "table",
+    tbody: "tbody",
+    td: "td",
+    th: "th",
+    thead: "thead",
+    tr: "tr",
+    ul: "ul",
+    ..._provideComponents(),
+    ...props.components
+  };
+  return _jsxs(_Fragment, {
+    children: [_jsxs(_components.h2, {
+className: "h2-1",
+      id: "introduction",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#introduction",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Introduction"]
+    }), "\n", _jsx(_components.p, {
+      children: "Welcome to the lablab.ai Hackathon. Please read these rules carefully. Non-compliance may result in lower scores or disqualification."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-2",
+      id: "submission-guidelines",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#submission-guidelines",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Submission Guidelines"]
+    }), "\n", _jsxs(_components.h3, {
+className: "h3-1",
+      id: "adherence-to-guidelines",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#adherence-to-guidelines",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Adherence to Guidelines"]
+    }), "\n", _jsx(_components.p, {
+      children: "Failure to adhere to submission guidelines may result in a lower score or exclusion from the hackathon."
+    }), "\n", _jsxs(_components.h3, {
+className: "h3-2",
+      id: "basic-information",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#basic-information",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Basic Information"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Project Title"
+        }), ": Must be clear and descriptive."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Short and Long Descriptions"
+        }), ": Follow the character and word limits; these are critical for evaluation."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Technology and Category Tags"
+        }), ": Proper categorization is essential."]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h3, {
+className: "h3-3",
+      id: "cover-image-and-presentation",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#cover-image-and-presentation",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Cover Image and Presentation"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Cover Image"
+        }), ": Use PNG or JPG format with 16:9 aspect ratio."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Video and Slide Presentation"
+        }), ": MP4 and PDF formats are mandatory."]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h3, {
+className: "h3-4",
+      id: "application-components",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#application-components",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Application Components"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Public GitHub Repository"
+        }), ": Mandatory for storing your code."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Demo Application Platform"
+        }), ": Use Streamlit, Replit, or Vercel."]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.strong, {
+          children: "Application URL"
+        }), ": Required for interactive evaluation."]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-3",
+      id: "3-judging-criteria",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#3-judging-criteria",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "3. Judging Criteria"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Specific criteria are outlined in a separate section."
+      }), "\n"]
+    }), "\n", _jsx(_components.p, {
+      children: "by Walaa Nasr"
+    }), "\n", _jsxs("details", {
+      children: [_jsxs("summary", {
+        children: ["1. ", _jsx(_components.strong, {
+          children: "Presentation"
+        })]
+      }), _jsxs(_components.table, {
+        children: [_jsx(_components.thead, {
+          children: _jsxs(_components.tr, {
+            children: [_jsx(_components.th, {
+              children: "Judging criteria Score: Presentation (pdf and video)"
+            }), _jsx(_components.th, {})]
+          })
+        }), _jsxs(_components.tbody, {
+          children: [_jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "1 - Poor"
+            }), _jsx(_components.td, {
+              children: "No description of problem or gaps to fill."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "2 - Limited"
+            }), _jsx(_components.td, {
+              children: "The problem & solution are not effectively communicated and difficult to understand. Presentation video is less than 3 min."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "3 - Adequate"
+            }), _jsx(_components.td, {
+              children: "Effectively communicates the problem, solution, and value proposition in less than 5 min. Absent market analysis and or marketing revenue. No future goals or plans."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "4 - Strong"
+            }), _jsx(_components.td, {
+              children: "Effectively communicates the problem, solution, and value proposition in less than 5 min. Explain market analysis and marketing revenue. Explain future goals & plans."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "5 - Excellent"
+            }), _jsx(_components.td, {
+              children: "Exceptional in every aspect. Well-crafted and flawlessly communicates problem, solution, and value proposition. Effectively shows project's strengths and uniqueness through competitive analysis."
+            })]
+          })]
+        })]
+      })]
+    }), "\n", _jsxs("details", {
+      children: [_jsxs("summary", {
+        children: ["2. ", _jsx(_components.strong, {
+          children: "Business value"
+        })]
+      }), _jsxs(_components.table, {
+        children: [_jsx(_components.thead, {
+          children: _jsxs(_components.tr, {
+            children: [_jsx(_components.th, {
+              children: "Judging criteria Score: Business value"
+            }), _jsx(_components.th, {})]
+          })
+        }), _jsxs(_components.tbody, {
+          children: [_jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "1 - Limited Business Value"
+            }), _jsx(_components.td, {
+              children: "Little or no potential for practical or commercial viability. Not addressing a significant problem or market need."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "2 - Some Business Value"
+            }), _jsx(_components.td, {
+              children: "Some potential for business value. Uncertain market feasibility, scalability, or revenue generation. Address a niche market with limited demand."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "3 - Moderate Business Value"
+            }), _jsx(_components.td, {
+              children: "Shows reasonable business value. Addresses market need with potential to generate revenue. Require further development or validation."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "4 - High Business Value"
+            }), _jsx(_components.td, {
+              children: "High business value, with clear market potential. Potential to attract a large customer base and generate significant revenue. Strong market feasibility and scalability."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "5 - Exceptional Business Value"
+            }), _jsx(_components.td, {
+              children: "Stands out as having exceptional business value. Potential to disrupt the industry or create a new market. Presents a clear sustainable revenue generation and long-term business success."
+            })]
+          })]
+        })]
+      })]
+    }), "\n", _jsxs("details", {
+      children: [_jsxs("summary", {
+        children: ["3. ", _jsx(_components.strong, {
+          children: "Application of technology"
+        })]
+      }), _jsxs(_components.table, {
+        children: [_jsx(_components.thead, {
+          children: _jsxs(_components.tr, {
+            children: [_jsx(_components.th, {
+              children: "Judging criteria Score: Application of technology"
+            }), _jsx(_components.th, {})]
+          })
+        }), _jsxs(_components.tbody, {
+          children: [_jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "1 - Poor Application"
+            }), _jsx(_components.td, {
+              children: "Demo video is not available in video presentation. Demo link is not available. Github is not available."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "2 - Limited Application"
+            }), _jsx(_components.td, {
+              children: "Demo video may be shown in presentation but not with full features of the idea. Framework is not clearly shown. Demo link is not available or working. Github code is not available or shown."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "3 - Adequate Application"
+            }), _jsx(_components.td, {
+              children: "Demo video is shown with all features tried. Demo link is available and working as expected, but there may be minor areas for improvement or optimization. Github code is not available or partly available."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "4 - Strong Application"
+            }), _jsx(_components.td, {
+              children: "Demo video is shown with all features tried. Demo link is working & is well-executed, with features and functionalities working smoothly. Github code is available & well thought off."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "5 - Excellent Application"
+            }), _jsx(_components.td, {
+              children: "Demonstrates exceptional application of AI technology through demo link, video & GitHub code. The technical implementation is flawless, and the project utilizes technology in a way that surpasses expectations."
+            })]
+          })]
+        })]
+      })]
+    }), "\n", _jsxs("details", {
+      children: [_jsxs("summary", {
+        children: ["4. ", _jsx(_components.strong, {
+          children: "Originality"
+        })]
+      }), _jsxs(_components.table, {
+        children: [_jsx(_components.thead, {
+          children: _jsxs(_components.tr, {
+            children: [_jsx(_components.th, {
+              children: "Judging criteria Score: Originality"
+            }), _jsx(_components.th, {})]
+          })
+        }), _jsxs(_components.tbody, {
+          children: [_jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "1 - Not Original"
+            }), _jsx(_components.td, {
+              children: "App is an exact copy of existing solutions without any novel approaches."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "2 - Limited Originality"
+            }), _jsx(_components.td, {
+              children: "Idea is common or lacks differentiation from existing solutions in the field."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "3 - Moderately Original"
+            }), _jsx(_components.td, {
+              children: "Exhibits some unique idea or approach that distinguishes it from existing non-AI solutions like decreasing cost or time."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "4 - Highly Original"
+            }), _jsx(_components.td, {
+              children: "Unique perspective or innovative idea employing unconventional methods to solve the problem. Novel elements, creative combinations, or unexpected applications."
+            })]
+          }), _jsxs(_components.tr, {
+            children: [_jsx(_components.td, {
+              children: "5 - Exceptionally Original"
+            }), _jsx(_components.td, {
+              children: "Stands out as exceptionally original, offering transformative idea or approach. Completely new perspective. Has potential to disrupt the industry or solve the problem in a completely unprecedented way."
+            })]
+          })]
+        })]
+      })]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-4",
+      id: "technical-issues-and-manual-submission",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#technical-issues-and-manual-submission",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Technical Issues and Manual Submission"]
+    }), "\n", _jsx(_components.p, {
+      children: "Manual submission is available for 6 hours post-hackathon for those with valid reasons and prior approval from organizers or mentors."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-5",
+      id: "ethical-conduct",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#ethical-conduct",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Ethical Conduct"]
+    }), "\n", _jsx(_components.p, {
+      children: "Unethical behavior, such as plagiarism or gaming the voting system, will lead to immediate disqualification.\nIf lablab.ai or its event partners determine that a participant has acted in a way that undermines the fairness\nor proper functioning of a hackathon—such as cheating, tampering with systems, using unauthorized automation,\nengaging in fraudulent behaviour, or in any other manner we consider grounds for\ndisqualification—the participant may be removed from the event."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-6",
+      id: "mentor-and-organizer-participation",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#mentor-and-organizer-participation",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Mentor and Organizer Participation"]
+    }), "\n", _jsx(_components.p, {
+      children: "Organizers are welcome to participate but are not eligible for prizes.\nIf mentors or organizers participate, they cannot serve as judges."
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-7",
+      id: "judges-code-of-conduct",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#judges-code-of-conduct",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Judge’s Code of Conduct"]
+    }), "\n", _jsx(_components.p, {
+      children: "Judges must adhere to the following principles:"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Confidentiality of all submissions."
+      }), "\n", _jsx(_components.li, {
+        children: "Abstaining from judging in case of a conflict of interest."
+      }), "\n", _jsx(_components.li, {
+        children: "Declaring any affiliations that might compromise impartiality."
+      }), "\n", _jsx(_components.li, {
+        children: "Not copying, retaining, or sharing any entry materials."
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {}), "\n", _jsxs(_components.h2, {
+className: "h2-8",
+      id: "mini-hackathon-specific-rules",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#mini-hackathon-specific-rules",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Mini Hackathon Specific Rules"]
+    }), "\n", _jsx(_components.p, {
+      children: "All general rules apply.\nLimited mentor support is available as this is considered an expert challenge."
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: "Good luck! We are excited to see your innovation and creativity in action."
+      })
+    }), "\n", _jsxs(_components.h2, {
+className: "h2-9",
+      id: "related-guides",
+      children: [_jsx(_components.a, {
+        "aria-hidden": "true",
+        tabIndex: "-1",
+        href: "#related-guides",
+        className: "break-all",
+        children: _jsx(_components.span, {
+          className: "icon icon-link"
+        })
+      }), "Related Guides"]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.a, {
+          href: "/guide/ai-hackathons",
+          className: "break-all",
+          children: "AI Hackathons: The Complete Guide"
+        }), " — what to expect at every stage of an AI hackathon"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.a, {
+          href: "/guide/how-to-win-an-ai-hackathon",
+          className: "break-all",
+          children: "How to Win an AI Hackathon"
+        }), " — deep dive on judging criteria and demo strategy"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.a, {
+          href: "/delivering-your-hackathon-solution",
+          className: "break-all",
+          children: "Submission Guidelines"
+        }), " — full checklist of what a complete submission requires"]
+      }), "\n"]
+    }), "\n", _jsx(_components.hr, {})]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+
+
+.props.pageProps.source.scope.description
+Lablab.ai Hackathon Rule Book: Your guide to participation guidelines, submission standards, judging criteria, and ethical expectations for our hackathon event.
+
+.props.pageProps.frontMatter.description
+Lablab.ai Hackathon Rule Book: Your guide to participation guidelines, submission standards, judging criteria, and ethical expectations for our hackathon event.

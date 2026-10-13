@@ -1,0 +1,265 @@
+🏆 10,770 builders walked in. These teams walked out as champions.
+The AMD Developer Hackathon is officially a wrap!
+
+10K+ participants. 2,621 teams. Nearly 500 submissions. 
+What an incredible… | lablab.ai
+Agree & Join LinkedIn
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Skip to main content
+LinkedIn
+Top Content
+People
+Learning
+Jobs
+Games
+Sign in
+Join now
+lablab.ai’s Post
+lablab.ai
+18,544 followers
+3mo
+Report this post
+🏆 10,770 builders walked in. These teams walked out as champions.
+The
+AMD
+Developer Hackathon is officially a wrap!
+
+10K+ participants. 2,621 teams. Nearly 500 submissions. 
+What an incredible  turnout. We hope you experienced the power and ease of use of AMD’s MI300X GPUs and the ROCm software stack - with day-0 support for your favorite models.
+
+Your creativity and hard work truly shined. Our judges quickly realized that they had a tough job ahead, each submission required deep evaluation:  demo videos, presentations, GitHub repos, Hugging Face deployments, and even additional research. The competition was extremely close! 
+
+We fully expect several of these projects to become successful startups. 
+The global builder community is inspiring - you show up, innovate, and deliver. From advancing drug discovery and building digital medical assistants, to enabling emotional companionship, language learning, fraud detection, historical text preservation, AI-assisted evaluation, and open-source coding tools, you are shaping what’s next. 
+
+🏆Here are your winners 
+🤖 AI Agents Track 
+(two first prizes, one third prize)
+🥇 REPOMIND - Open-Source Repo-Scale Coding Agent 
+🥇CatalystMD - AI-Powered Drug Discovery 
+🥉Boardroom - Summarization with Structured Debate and Verification 
+
+⚡ Fine-Tuning Track  
+🥇BrainConnect-ASD - Early Autism Diagnosis 
+🥈AgentReady - OWASP Agent Security
+🥉 Eidolon- LoRA Adapter Weights On Demand
+
+🎨 Vision & Multi-Modal Track 
+🥇 Xiao-field-copilot - Multimodal Assistant for XIAO Edge Hardware 
+🥈 Strike Lab - Biomechanical Football Analytics 
+🥉 Automato - AI Vision-Assisted RPA 
+
+
+AMD +
+Akash Systems
+Grand Prize
+🏆Chaos Economy: Multi-Agent RL Market Simulator
+Hugging Face
+Community Prize 
+🥇 Lumi Voice Companion · 🥈 StudioMI300 · 🥉 AtlasOps
+Qwen
+Special Prize 
+⭐ StudioMI300 · ⭐ Automato
+🎮 Outstanding Social Engagement  
+REPOMIND: Open-Source Repo-Scale Coding Agent    
+
+To every builder who participated - you shipped something real on world-class hardware. That matters. And remember the margins were razor-thin. Thank you for bringing your best.
+
+A huge thank you to our sponsors and partners who made this possible:
+AMD
+,
+Akash Systems
+,
+Hugging Face
+,
+Qwen
+,
+ModelScope
+,
+MindsDB
+,
+NYSE
+Wired,
+SiliconANGLE & theCUBE
+, University of California,
+Human+Tech Week
+Tech Week,
+NativelyAI
+, and the entire
+lablab.ai
+team.
+
+See all 481 amazing submissions 👉
+https://lnkd.in/gdUituKS
+🔥 The energy was so strong - we had to do it again.
+AMD Developer Hackathon: Act II is now live! 
+ 👉
+https://lnkd.in/ebsmGWeP
+53
+5 Comments
+Like
+Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+Sardor Razikov
+3mo
+Report this comment
+Honored - REPOMIND taking first place in AI Agents + the Social Engagement award from 10,770 builders and 481 submissions means more than I can put into words.
+
+Built solo in 6 days on AMD MI300X for $4.12 in compute. The hardware made the impossible feel routine.
+Already enrolled in AMD Act II. Let's go again.
+
+Thank you
+AMD
+,
+lablab.ai
+, and
+NativelyAI
+- and every builder who shipped something real this week.
+Like
+Reply
+2 Reactions
+3 Reactions
+Youssef Ramadan
+3mo
+Report this comment
+Honored to see CatalystMD recognized as a 1st place winner in the AI Agents track 🥇
+lablab.ai
+Huge thank you to you guys,
+AMD
+, all the partners, and the judges for creating the space, hardware, and support to build ambitious projects like this.
+Like
+Reply
+1 Reaction
+2 Reactions
+FABIAN SABOGAL
+3mo
+Report this comment
+Damn. I thought my Oncotriage software would at least make a podium, but to no avail...  🙃🫠  I thought I had a good chance at winning, but not even close :(. Thanks for the opportunity, this placement already puts into perspective my results for hackathons such as the google enterprise one and Brightdata :/
+Like
+Reply
+1 Reaction
+2 Reactions
+See more comments
+To view or add a comment,
+sign in
+18,544 followers
+View Profile
+Follow
+Explore content categories
+Career
+Productivity
+Finance
+Soft Skills & Emotional Intelligence
+Project Management
+Education
+Technology
+Leadership
+Ecommerce
+User Experience
+Recruitment & HR
+Customer Experience
+Real Estate
+Marketing
+Sales
+Retail & Merchandising
+Science
+Supply Chain Management
+Future Of Work
+Consulting
+Writing
+Economics
+Artificial Intelligence
+Employee Experience
+Workplace Trends
+Fundraising
+Networking
+Corporate Social Responsibility
+Negotiation
+Communication
+Engineering
+Hospitality & Tourism
+Business Strategy
+Change Management
+Organizational Culture
+Design
+Innovation
+Event Planning
+Training & Development
+Show more
+Show less
+LinkedIn
+© 2026
+About
+Accessibility
+User Agreement
+Privacy Policy
+Cookie Policy
+Copyright Policy
+Brand Policy
+Guest Controls
+Community Guidelines
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+Language
+Sign in to view more content
+Create your free account or sign in to continue your search
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.

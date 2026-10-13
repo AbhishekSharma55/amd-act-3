@@ -1,0 +1,29 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local dependency/build directories
+node_modules/
+dist/
+build/
+.next/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/

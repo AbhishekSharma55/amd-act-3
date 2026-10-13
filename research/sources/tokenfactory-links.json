@@ -1,0 +1,34 @@
+[
+  {
+    "url": "/",
+    "text": "AMD AI Notebooks"
+  },
+  {
+    "url": "https://developer.amd.com",
+    "text": "AMD AI\n          Developer Program Portal"
+  },
+  {
+    "url": "/auth/saml/login?next=/tokenfactory",
+    "text": "Sign in with AMD AI Developer Program"
+  },
+  {
+    "url": "https://www.amd.com/en/corporate/privacy",
+    "text": "Privacy Notice"
+  },
+  {
+    "url": "https://www.amd.com/en/legal/cookies.html",
+    "text": "Cookie Policy"
+  },
+  {
+    "url": "#",
+    "text": "Cookie Settings"
+  },
+  {
+    "url": "https://www.amd.com/en/legal/copyright.html",
+    "text": "Terms of Use"
+  },
+  {
+    "url": "https://www.amd.com/en/corporate/trademarks",
+    "text": "Trademarks"
+  }
+]

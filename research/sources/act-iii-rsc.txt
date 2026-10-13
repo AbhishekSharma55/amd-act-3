@@ -1,0 +1,2018 @@
+1:"$Sreact.fragment"
+3:I[56855,[],""]
+4:I[17419,[],""]
+6:I[19582,[],"OutletBoundary"]
+8:I[79955,[],"AsyncMetadataOutlet"]
+a:I[19582,[],"ViewportBoundary"]
+c:I[19582,[],"MetadataBoundary"]
+d:"$Sreact.suspense"
+f:I[27396,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","39884","static/chunks/39884-e777a889d35b2e07.js","49891","static/chunks/49891-46498b74d73ebf67.js","34219","static/chunks/app/global-error-d7057cea7d108a40.js"],"default"]
+:HL["/_next/static/media/bb3ef058b751a6ad-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/3d9e3df902bfe876.css","style"]
+:HL["/_next/static/css/d5cf937dbc4113ca.css","style"]
+:HL["/_next/static/css/97118d93e8262ff0.css","style"]
+:HL["/_next/static/css/7b736202f0b1dbfd.css","style"]
+0:{"P":null,"b":"9NKGykXOYZlI6suYfn990","p":"","c":["","ai-hackathons","amd-developer-hackathon-act-iii"],"i":false,"f":[[["",{"children":["ai-hackathons",{"children":[["event","amd-developer-hackathon-act-iii","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3d9e3df902bfe876.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d5cf937dbc4113ca.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":["ai-hackathons",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["event","amd-developer-hackathon-act-iii","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/97118d93e8262ff0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/7b736202f0b1dbfd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":["$L7",["$","$L8",null,{"promise":"$@9"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$La",null,{"children":"$Lb"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$Lc",null,{"children":["$","div",null,{"hidden":true,"children":["$","$d",null,{"fallback":null,"children":"$Le"}]}]}]]}],false]],"m":"$undefined","G":["$f",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3d9e3df902bfe876.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"s":false,"S":true}
+2:["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"minimum-scale=1, initial-scale=1, width=device-width"}],["$","meta",null,{"property":"og:locale","content":"en_US"}],["$","meta",null,{"name":"facebook-domain-verification","content":"qeuxj9l2uvc6ghyj3qw5uxkrb7me6u"}],["$","link",null,{"rel":"icon","href":"/favicon.ico"}]]}],["$","body",null,{"className":"__variable_d8ebd1 __className_d8ebd1 __variable_4dc837 flex min-h-screen flex-col justify-between","children":"$L10"}]]}]
+11:I[74065,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","74852","static/chunks/be08c3aa-7fac8fdb4ac7677b.js","97082","static/chunks/ce147d14-bcaa22db5ae4ef83.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","70733","static/chunks/70733-01b8a5733dc3078e.js","8721","static/chunks/8721-6c055dda57e267f9.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","91108","static/chunks/91108-c6f7b946b25ac533.js","26574","static/chunks/26574-647da124f6e17b99.js","95091","static/chunks/95091-90a9e531268a5898.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","50679","static/chunks/50679-86569cabcd82c80a.js","9811","static/chunks/9811-0a6f929e9f5c4431.js","66744","static/chunks/66744-f99af1e1a163afee.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","88281","static/chunks/88281-e7e5f32c96d41214.js","63619","static/chunks/63619-93dddb8ca58e10ed.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","36532","static/chunks/36532-516536efd37e8490.js","50871","static/chunks/50871-0bbc781b0b8b7a47.js","28069","static/chunks/28069-4c2ef028c25134a4.js","72936","static/chunks/72936-0fbc35fa4ee071f5.js","51714","static/chunks/51714-2f940a142218b60f.js","19844","static/chunks/19844-297254a540670d36.js","50721","static/chunks/50721-4ee97af3ee92bc4a.js","33203","static/chunks/app/ai-hackathons/%5Bevent%5D/page-41078afe1c7c136c.js"],"default"]
+10:["$","$L11",null,{"formats":"$undefined","locale":"en","messages":{"auth":{"meta":{"signInTitle":"Sign in","signInDescription":"Sign in to your account","registerTitle":"Create account","registerDescription":"Create your lablab.ai account","signUpTitle":"Sign up","signUpDescription":"Sign up to Lablab"},"signIn":{"heading":"Sign in"},"register":{"heading":"Create your account"},"email":{"placeholder":"E-mail address","inviteLocked":"Signing in with the email this invite was sent to."},"submit":{"pending":"{intent, select, signUp {Signing up...} other {Signing in...}}"},"provider":{"continue":"{intent, select, signUp {Sign up} other {Sign in}} with {provider}","previewUnavailable":"{provider} sign-in isn't available on preview environments — use the email code above."},"turnstile":{"degraded":"We couldn't finish the automated security check, but you can still continue."},"divider":{"or":"OR"},"legal":{"agreement":"By signing in, you agree to our <terms>terms of use</terms><lineBreak></lineBreak>and our <privacy>privacy policy</privacy>"},"switch":{"newAccount":"New to lablab? <create>Create account</create>","existingAccount":"Already have an account? <signIn>Sign in</signIn>"},"code":{"heading":"Enter verification code","sentTo":"Code sent to:","expiresIn":"Code expires in <when>{time}</when>","expired":"Your code has expired.","sendNew":"Send a new code","label":"Enter the code emailed to you","submit":"Submit","changeMethod":"← Change email or login method","sending":"Sending...","resendCooldown":"Resend ({seconds}s)","resend":"Resend code","trouble":"If you have trouble logging in please <contact>contact us</contact>"},"sso":{"redirecting":"Redirecting to SSO login..."},"profile":{"heading":"Let's get you started!","firstName":"First Name","lastName":"Last Name","username":"Username","submitting":"Creating...","submittingLabel":"Creating profile...","continue":"Continue","dashboard":"Enter Dashboard","leaveConfirm":"Your username is your unique key to the Lablab universe. If you click OK, we'll craft a random one for you!"},"validation":{"required":"This field is required","requiredMark":"Required","emailInvalid":"Please enter a valid email!","emailTooShort":"Email must be at least 5 characters long","emailTooLong":"Email must be no more than 255 characters long","nameTooShort":"Name must be at least 2 characters long","nameTooLong":"Name must be no more than 30 characters long","nameCharset":"Name can only contain LETTERS, spaces and dashes","usernameTooShort":"Username must be at least 4 characters long","usernameTooLong":"Username must be no more than 30 characters long","usernameCharset":"Username can only contain English characters, numbers, underscores and dashes"}},"errorPage":{"title":"Even AI hits a wall sometimes","body":"Something unexpected broke this page. Our team has been notified — try again in a moment, or head back to the homepage.","tryAgain":"Try again","goHome":"Go home","whileYouWait":"While you wait, explore:","reloading":"Reloading…","imageAlt":"error","globalTitle":"Application error","globalBody":"A client-side exception has occurred while loading this page.","reload":"Reload","digest":"Digest: {digest}"},"errors":{"generic":{"internal":"Something went wrong. Please try again."},"auth":{"turnstileFailed":"Security verification failed. Please try again.","sendCodeFailed":"Failed to send verification code. Please try again.","invalidEmail":"The email address you entered is not valid. Please enter a valid email.","sendFailed":"We couldn't send your code right now. Please wait a few minutes and try again, or contact support if the problem persists.","tooManyVerificationAttempts":"Too many verification attempts. Please wait some time and try again later.","tooManySignIns":"Too many sign-in attempts. Please wait a few minutes and try again.","tooManySignInsMinutes":"Too many sign-in attempts. Please wait {count, plural, one {about # minute} other {about # minutes}} and try again.","tooManySignInsHours":"Too many sign-in attempts. Please wait {count, plural, one {about # hour} other {about # hours}} and try again.","tooManySignInsDays":"Too many sign-in attempts. Please wait {count, plural, one {about # day} other {about # days}} and try again.","codeInvalidInput":"Invalid input. Please check your email and code.","invalidOrExpiredCode":"Invalid or expired code.","providerFailed":"Sign-in didn't go through. Please try again.","unauthorized":"Unauthorized","accountCreateLimited":"Too many accounts created from your network. Please try again later.","usernameTaken":"Username already taken. Please choose a different username.","emailAlreadyLinked":"This email is already linked to another lablab account. Sign in with the method you used the first time, or contact support."},"session":{"expired":"Your session has expired. Please sign in again."},"rateLimit":{"tooManyRequests":"Too many requests","retryAfter":"Too many {label}. Please try again in {retryAfter} seconds."},"faq":{"historyInvalid":"Conversation history is invalid","questionLength":"Question must be between 5 and 500 characters","dailyLimit":"Daily limit reached. Try again tomorrow."},"venue":{"notInEvent":"Venue does not belong to this event","unavailable":"This venue is no longer available","atCapacity":"This site is full — please choose another site or join online"},"event":{"notAcceptingRegistrations":"This event is not currently accepting registrations","enrollmentClosed":"Enrollment is not open for this event","ended":"This event has already ended","onsitePreferenceClosed":"This event does not accept an onsite preference right now"},"participant":{"alreadyEnrolled":"User already enrolled to this event","notEnrolled":"Not enrolled in this event","notEnrolledForbidden":"You are not enrolled in this event","enrollmentPending":"Your enrollment is pending approval","notApprovedCannotJoin":"Participant not approved. Cannot join team.","inviteeNotApproved":"Only approved participants can be invited","inviteeAlreadyOnTeam":"This participant is already on a team for this event"},"discord":{"connectRequired":"Connect Discord before {action, select, create {creating} other {joining}} a team","communityJoinRequired":"Join the lablab.ai Discord server before {action, select, create {creating} other {joining}} a team","authCodeMissing":"Could not get authorization code from Discord","channelSetupFailed":"We couldn't set up your team's Discord channel right now. Please try again in a little while — if the problem continues, contact support and we'll get it sorted.","channelSetupInProgress":"Your team's Discord channel is already being set up. Refresh the page in a moment.","alreadyLinked":"It seems your Discord account is already connected to different account. Either change the Discord account, or switch to the lablab account where you made connection initially.","transferBlocked":"This Discord account is connected to another lablab account that's on a hackathon team. Leave that team first, then move your Discord here.","proofInvalid":"We couldn't verify that Discord account. Please start the connection again."},"team":{"nameRequired":"Team name is required","descriptionRequired":"Team description is required","alreadyHaveTeam":"You already have a team for this hackathon.","nameTaken":"A team with this name already exists for this hackathon. Please choose a different name.","nameTakenForEvent":"Team with this name already exists for this event.","notAcceptingJoins":"This team isn't accepting join requests","atCapacity":"Team is at capacity","fullNoSpots":"Team is full — no more spots for new members","alreadyOnTeam":"You are already on a team for this event","notAMember":"You are not a member of this team","chatUnavailable":"Team chat isn't available right now.","leaderMustTransferBeforeLeave":"Team leader must transfer leadership before leaving","notAuthorizedUpdate":"You are not authorized to update this team","notAuthorizedDelete":"You are not authorized to delete this team","onlyAdminAction":"Only the team admin can perform this action","onlyAdminGrantSubmit":"Only the team admin can grant submission permission","participantNotOnTeam":"Participant does not belong to this team","submitterLimit":"Maximum of 3 members can have submission permission","alreadyJoined":"Participant already joined a team"},"teamJoin":{"pendingInviteElsewhere":"You have a pending team invite — respond to it before requesting to join another team","requestExists":"You already have a pending join request for this team","pendingLimit":"You can have at most {max} pending join requests at a time — withdraw one before requesting to join another team","noPendingRequest":"No pending join request found for this team","isInviteNotRequest":"This is a pending invite, not a request you sent","noLongerPending":"Join request is no longer pending","requestNotFound":"Join request not found","alreadyHandled":"Join request already handled","inviteYourself":"You cannot invite yourself","invitesExhausted":"You've used all your team invites for this event","inviteePendingExists":"This participant already has a pending join request or invite","inviteGone":"Invite not found or already handled"},"discussion":{"mustBeParticipant":"Must be a registered participant to post in this discussion","threadDeleted":"Thread has been deleted","threadHidden":"Thread is hidden by a moderator","replyDeleted":"Reply has been deleted","replyHidden":"Reply is hidden by a moderator","notAuthorizedEditThread":"Not authorized to edit this thread","notAuthorizedDeleteThread":"Not authorized to delete this thread","notAuthorizedEditReply":"Not authorized to edit this reply","notAuthorizedDeleteReply":"Not authorized to delete this reply","cannotReplyRemovedThread":"Cannot reply to a removed thread","threadLocked":"This thread is locked. Its posts can no longer be replied to or edited.","cannotLockRemovedThread":"Cannot lock a removed thread","cannotLockHiddenThread":"Cannot lock a hidden thread. Unhide it first.","cannotPinRemovedThread":"Cannot pin a removed thread","cannotPinHiddenThread":"Cannot pin a hidden thread. Unhide it first.","tooManyPinnedThreads":"Only {max} threads can be pinned at once. Unpin one first.","cannotFollowRemovedThread":"Cannot follow a removed thread","cannotBookmarkRemovedThread":"Cannot save a removed thread","cannotBookmarkHiddenThread":"Cannot save a hidden thread. Unhide it first.","cannotReplyRemovedReply":"Cannot reply to a removed reply","parentReplyWrongThread":"Parent reply does not belong to this thread","nestingTooDeep":"Replies cannot be nested more than one level deep","cannotReportOwnThread":"You cannot report your own thread","cannotReportOwnReply":"You cannot report your own reply","reportPendingThread":"You already have a pending report on this thread","reportPendingReply":"You already have a pending report on this reply","titleRequired":"Title is required","titleTooLong":"Title must be 255 characters or fewer","fieldRequired":"{fieldName} is required","fieldTooLong":"{fieldName} must be {maxLength} characters or fewer","tooManyImages":"A post can have at most {max} images","tooManyVideos":"A post can have at most {max} videos","foreignImage":"Only images and videos you uploaded can be added to a post","hiddenMedia":"This file was in a post a moderator hid, so it can't be posted again","contentViolatesGuidelines":"Content violates community guidelines","reportNoteViolatesGuidelines":"Report note violates community guidelines","reportNoteTooLong":"Report note must be {max} characters or fewer","tooManyTags":"A thread can have at most {max} tags","unknownTag":"One of the selected tags no longer exists","pollForumOnly":"Polls are only available on forum threads","pollOptionCount":"A poll needs between {min} and {max} options","pollOptionDuplicate":"Each poll option must be different","pollNotFound":"This thread has no poll","pollClosed":"This poll is closed","pollUnknownOption":"That option is not part of this poll","notAuthorizedClosePoll":"Only the thread's author can close this poll","cannotVoteRemovedThread":"Cannot vote in a poll on a removed thread","cannotClosePollRemovedThread":"Cannot close a poll on a removed thread"},"studio":{"publishNotReady":"This content is not ready to publish","slugTaken":"Another {entity} already uses this slug","slugStillRedirects":"This slug still redirects to another {entity}","slugTakenByProvider":"A technology provider page already uses this slug","roleNotPermitted":"Your role is not permitted to {action} content","notImported":"This document has not been imported into Studio yet.","exportFailed":"This document could not be exported","reviewNoteRequired":"A review note is required to request changes","scheduleDateRequired":"A future publish date is required to schedule content","returnToDraftNoteRequired":"A note is required to return scheduled content to draft","guidelinesRequired":"Accept the contributor guidelines before authoring content","changedSinceOpen":"This content was changed somewhere else since you opened it","suggestionStale":"This content was changed somewhere else since this suggestion was written","notImportedYet":"This document has not been imported into Studio yet","fieldEmpty":"{label} cannot be empty","fieldTooLong":"{label} must be {max} characters or fewer","fieldViolatesGuidelines":"{label} violates community guidelines","suggestionNoteEmpty":"Suggestion note cannot be empty","suggestionAlreadyResolved":"This suggestion has already been resolved","suggestionNoDocument":"This suggestion carries no document","titleOrSlugExists":"Content with this title or slug already exists","cannotTransition":"Cannot {action} content that is {status}","visibilityChanged":"This content's visibility changed somewhere else — please retry"},"eventPage":{"publishNotReady":"This page is not ready to publish","changedSinceOpen":"This {entity} was changed somewhere else since you opened it","statusChanged":"This page's status changed somewhere else — reload and try again","rendererChanged":"This page's renderer changed somewhere else — reload and try again","applyWouldReplace":"This page has been edited since the page was generated. Applying the generation would replace those edits.","sectionMoved":"That section has moved or been renamed since it was refined. Refine it again.","blockStale":"This page changed while that block was being rewritten. Try the refinement again."},"review":{"unknownCriterion":"Unknown criterion: {criterionId}","unknownKey":"Unknown criterion key: {key}","ambiguousKey":"Ambiguous criterion key \"{key}\" — it is configured on more than one of this team's tracks; send criterionId to disambiguate","duplicateScore":"Duplicate score for criterion: {key}","scoreOutOfRange":"Score for \"{key}\" must be between {min} and {max}","commentsDisabled":"Comments are disabled for criterion \"{key}\"","notAllowedReview":"Not allowed to review this event","notAllowedUpdate":"Not allowed to update this review","notAllowedDelete":"Not allowed to delete this review","notAllowedApprove":"You are not allowed to approve this review","notAllowedView":"Not allowed to view reviews for this event","notTeamMember":"Not a team member of this submission"},"contentReport":{"cannotReportOwn":"You cannot report your own content","pendingExists":"You already have a pending report on this content","noteTooLong":"Report note must be {max} characters or fewer","noteViolatesGuidelines":"Report note violates community guidelines"},"forum":{"mustBeSignedIn":"You must be signed in to take this action","accountDeleted":"This account has been deleted","mustBeApprovedParticipant":"You need to be an approved participant of at least one hackathon to take this action"},"media":{"unsupportedType":"Unsupported image type. Use JPEG, PNG, or WebP.","emptyFile":"That file is empty","tooLarge":"Image exceeds the {maxMb}MB limit","unsupportedFolder":"Unsupported media folder","invalidImage":"That file is not a valid JPEG, PNG, or WebP image"},"surge":{"notEligible":"Event is not eligible for Surge registration","notAMember":"User is not a member of this team","onlyAdmin":"Only the team admin can register on Surge","needsSubmission":"Team must have a submitted project","alreadyRegistered":"This project is already registered on Surge"},"comment":{"empty":"Comment cannot be empty","tooLong":"Comment must be {max} characters or fewer","violatesGuidelines":"Comment violates community guidelines","quoteRequired":"A comment must quote some text"},"likes":{"notAuthorizedDelete":"Not authorized to delete this like"},"referral":{"inviteResolveFailed":"Could not resolve existing invite; please retry"},"onsiteConfirmation":{"invalidAnswers":"Please answer every required question"}},"footer":{"navigationLabel":"Footer navigation","logoAlt":"Community innovating and building with artificial intelligence","tagline":"Unlocking state-of-the-art artificial intelligence and building with the world's talent","copyright":"© {year} NativelyAI Inc. All rights reserved.","otherBrands":"Other group brands:","columns":{"links":"Links","lablab":"lablab","contact":"Get in touch"},"links":{"aiTech":"AI Tech","hackathons":"AI Hackathons","tutorials":"AI Tutorials","applications":"AI Applications","natively":"NativelyAI","articles":"AI Articles","leaderboard":"Leaderboard","writers":"Writers","about":"About","brand":"Brand","guidelines":"Hackathon Guidelines","terms":"Terms of Use","conduct":"Code of Conduct","privacy":"Privacy Policy","security":"Security","discord":"Discord","sponsor":"Sponsor","cooperation":"Cooperation","contribute":"Contribute","communityEmail":"Send email","linkedIn":"LinkedIn","twitter":"Twitter/X","instagram":"Instagram","youTube":"YouTube","twitch":"Twitch"}},"myTeams":{"title":"My Teams","description":"View all your hackathon teams in one place, including ongoing and past events.","subtitle":"All of your hackathon teams in one place","ongoing":"Ongoing Hackathons","ongoingEmpty":"You don't have any teams right now 😔. Go and join one on any ongoing hackathon that you like!","past":"Past Hackathons","pastEmpty":"Here you will see your old teams, after hackathon finished"},"nav":{"hackathons":"AI Hackathons","tutorials":"Tutorials","articles":"AI Articles","submissions":"Submissions","apps":"AI Apps","tech":"AI Tech","forum":"Forum","aiTutorials":"AI Tutorials","natively":"NativelyAI","sponsor":"Sponsor","mainNavigation":"Main navigation","goHome":"Go to homepage","desktopNavigation":"Desktop navigation","searchPlaceholder":"Search lablab.ai","openSearch":"Open search dialog","mobileNavigation":"Mobile navigation menu","openSearchShort":"Open search","search":"Search","explore":"Explore","learn":"Learn","account":"Account","profile":"Profile","myTeams":"My Teams","judging":"Judging","dashboard":"Dashboard","signOut":"Sign out","signIn":"Sign in","signInMobile":"Sign In","toggleMenu":"Toggle main menu","userImageAlt":"User profile image","verified":"Verified","loadingSearch":"Loading search...","devIndicator":"Development environment indicator","devBadge":"DEV","localeSwitcher":"Development locale","switchToEnglish":"English","switchToPseudo":"Pseudo","notifications":"Notifications","notificationsWithCount":"{count} new notifications"},"notFound":{"title":"Even AI can't find this page","body":"Looks like we took a wrong turn somewhere! We tried asking ChatGPT for directions, but even AI can't seem to find this page.","goHome":"Go home","suggestionsLabel":"Maybe you were looking for:"},"profile":{"loading":"Loading...","save":"Save","saving":"Saving","cancel":"Cancel","requiredMark":"Required","fieldRequired":"This field is required","work":{"heading":"Work","profession":"Profession","professionHint":"CEO, Data Scientist, Code Magician, etc.","organization":"Organization","organizationHint":"The place where you work"},"username":{"confirmTitle":"Change your username from @{current} to @{next}?","confirmBody":"You won't be able to change it again for {cooldownDays, plural, one {# day} other {# days}}, though you can change back to @{current} within {revertDays, plural, one {# day} other {# days}}. Links to lablab.ai/u/@{current} keep redirecting for 6 months, and that name stays reserved for you.","section":"General Information","preview":"Preview","label":"Username","help":"You can change your username once every {days, plural, one {# day} other {# days}}. Old links keep redirecting for 6 months.","helpCooldown":"You can change your username again in {count, plural, one {# day} other {# days}}. Old links keep redirecting for 6 months.","changeBack":"Change back to @{username}","changingBack":"Changing back…","revertAvailable":"Available for {count, plural, one {# day} other {# days}} more. You won't be able to change it again for {cooldownDays, plural, one {# day} other {# days}} afterwards."},"identity":{"firstName":"First name","lastName":"Last name","country":"Country","email":"Email","biography":"Biography","biographyPlaceholder":"Tell us about yourself..."},"cover":{"heading":"Cover photo","empty":"No cover photo yet","alt":"cover photo","edit":"Edit cover","noImage":"No image selected","changeImage":"Change image","uploadImage":"Upload image","saving":"Saving...","save":"Save"},"progress":{"completeness":"Your profile is <bold>{progress}%</bold> complete","edit":"Edit profile","email":"Provide your e-mail address","discord":"Connect your account with Discord","personal":"Fill out personal information","picture":"Set a cool profile picture","cover":"Set an even cooler cover photo","about":"Write a few words about yourself","work":"Tell us about your work","social":"Share your social media links"},"social":{"website":"Personal website","twitterPlaceholder":"https://twitter.com/username or https://x.com/username"},"skills":{"heading":"🔥 What kind of builder are you?","technical":"Technical","business":"Business","creative":"Creative","leader":"Leader","beginner":"Beginner","pro":"Pro","duration":"How long have you been building?","durationHint":"This will help other members see how much experience you have working at companies and launching your own projects.","years":{"one":"1 year","two":"2 years","three":"3 years","four":"4 years","five":"5 years","six":"6 years","seven":"7 years","eight":"8 years","nine":"9 years","tenPlus":"10+ years","twentyPlus":"20+ years","thirtyPlus":"30+ years","storedPlus":"{count, plural, other {#+ years}}"}},"privacy":{"heading":"🔒 Privacy settings","publicLabel":"Make my profile public","publicHint":"If you have this on, your profile will be visible to companies who are partnered with LabLab & everyone on the Web, including search engines.","volunteerLabel":"Available to volunteer","volunteerHint":"I would be interested in helping out with events","hireLabel":"Available to hire (<alpha>ALPHA</alpha>)","hireHint":"Interested in getting consulting / job offers?","subscribedLabel":"You are currently subscribed to receive mails","subscribedHint":"If you click we remove you from our current mailing list. You can always subscribe again later.","unsubscribedLabel":"You are currently unsubscribed from receiving any mail","unsubscribedHint":"If you click we add you to our current mailing list. You can always unsubscribe again later.","deleteHeading":"Delete account","deleteBody":"Deleting your account is a permanent action that cannot be undone. Please make sure that you are absolutely certain before proceeding with the deletion process.","deleteAction":"Delete your account"},"projects":{"heading":"🔥 Projects & Hacking","hint":"This will help other members see how much experience you have working at companies and launching your own projects","upload":"Upload your project","update":"Update your project"},"aiProjects":{"heading":"🧑‍💻AI Projects","hint":"Upload a project without an Event to showcase on the <link>lablab.ai/apps</link> discovery page","imageAlt":"app image"},"accounts":{"heading":"Connected accounts","github":"Sign in with your GitHub account","email":"Sign in with a one-time code sent to your email","amd":"Signed in with AMD","connected":"Connected","connect":"Connect","disconnect":"Disconnect","disconnecting":"Disconnecting…","emailHint":"Sign out and sign in with email to connect","disconnectTitle":"Disconnect provider","disconnectBody":"Are you sure you want to disconnect <bold>{provider}</bold>? You will no longer be able to sign in with this method."},"notifications":{"heading":"Notification settings","intro":"These control push notifications on your phone. Everything still appears in your notification bell here on the site, whatever you choose below.","announcements":"Announcements","announcementsHint":"News, new hackathons and other updates from lablab.ai.","teamChat":"Team chat","teamChatHint":"Messages and mentions in your team chats. This covers every team you're in - it isn't a per-conversation mute.","alwaysSent":"Notifications about your account - team invites, certificates and application approvals - are always sent."},"legal":{"heading":"Your legal acceptances","loadError":"Couldn't load your acceptances. Please try again later.","empty":"No legal acceptances recorded yet.","terms":"Terms of Use","privacy":"Privacy Policy","mediaRelease":"Media Release","contributorGuidelines":"Contributor Guidelines"},"referrals":{"heading":"Referral activity","intro":"Earn <bold>{pointsPerReferral} points</bold> when someone you invite submits a project. You also get <bold>{pointsPerReceived} points</bold> when you submit a project after being invited.","linksGenerated":"Links generated","enrolled":"Enrolled","submittedProjects":"Submitted projects","pointsAsInviter":"Points earned (as inviter)","pointsAsReferred":"Points earned (as referred)","listHeading":"Your referrals","submittedIn":"Submitted in {event}","enrolledIn":"Enrolled in {event}","pointsBadge":"+{points} pts"},"discord":{"communityHeading":"Join our Discord community","linkedBody":"Your Discord account is linked. Now join the community server — being a member is required to create or join a team, and it's where announcements, mentor support, and your teammates live.","unlinkedBody":"Discord is where hackathon announcements, mentor support, and your teammates live. Connect your account and join the community server — both are required to create or join a team.","connect":"Connect Discord","openServer":"Open Discord Server","changeAccount":"Change account","connected":"Connected","unlinkedHint":"Join the community for announcements, mentors & teammates","change":"Change","disconnect":"Disconnect","disconnecting":"Disconnecting…"}},"submission":{"backToTeam":"Save and return to the team page","bannerAlt":"rocket","closed":{"title":"Submissions are closed","detail":"Submissions closed on {when}. Please contact the organizers if you need an extension."},"stale":{"body":"This page is out of date — reload to keep editing.","reload":"Reload"},"header":{"step":"Step {current} of {total}","unsaved":"Unsaved changes","saving":"Saving...","savingDraft":"Saving draft...","lastSaved":"Last saved {when}","justNow":"just now","saveError":"Couldn't save — reload the page"},"nav":{"back":"Back","next":"Next","previous":"Previous","retry":"Retry","preparing":"Preparing...","submitting":"Submitting...","update":"Update Submission","submit":"Submit","validateAll":"Validate All"},"preview":{"badge":"Form Preview","page":"Page {current} of {total}","empty":"No pages configured."},"team":{"minSize":"Your team needs at least {minimum, plural, one {# member} other {# members}} to submit."},"success":{"updatedTitle":"Submission Updated!","congratsTitle":"Congratulations!","updatedBody":"Your submission for {eventName} has been updated successfully.","submittedBody":"You have successfully submitted your project for the {eventName} event!","thanks":"Your hard work and dedication to creating a unique and innovative solution has paid off. We hope that this experience has been both challenging and rewarding for you, and that you have had the opportunity to meet new people and learn new skills. Thank you for participating in this exciting event and we wish you the best of luck as the judges review your submission.","backToTeam":"Back to the team page","viewSubmission":"View your submission"},"editors":{"alsoEditing":"Also editing: {names}","fieldEditing":"{names} {count, plural, one {is} other {are}} editing"},"history":{"viewChanges":"View Changes","title":"Change History","close":"Close","loading":"Loading...","empty":"No changes recorded yet.","submitted":"Submitted","savedDraft":"Saved draft","entry":"{action} — {fields}"},"field":{"noneYet":"None yet","yes":"Yes","no":"No","notSet":"Not set","openForm":"Open the form","urlPlaceholder":"https://...","optionsPending":"Options will be loaded from event data","selectPlaceholder":"Select...","charCount":"{current} / {max} characters","charCountMin":"{current} / {max} characters (min {min})","charCountEllipsisMin":"{current} / ... characters (min {min})","uploadCover":"Upload a cover image for your project (16:9 ratio recommended).","uploadPresentation":"Upload your slide presentation (PDF)","previewAlt":"Preview","imageAlt":"profile image"},"file":{"tooLarge":"File is too large. Maximum size is {maxSizeMB}MB.","invalidType":"Invalid file type. Accepted: {accept}","replace":"Replace","clickToUpload":"Click to upload","maxSize":"Max: {maxSizeMB}MB","sizeBytes":"{size} B","sizeKb":"{size} KB","sizeMb":"{size} MB","uploadFile":"Upload file","changeFile":"Change file","uploadingVideo":"Uploading video...","noVideo":"No video provided","fieldRequired":"This field is required","tooLong":"This is too long","invalidValue":"Invalid value"},"validation":{"required":"Required","minChars":"Minimum {min} characters","maxChars":"Maximum {max} characters","invalidFormat":"Invalid format","minNumber":"Minimum {min}","maxNumber":"Maximum {max}","selectOne":"Select at least one option","mustBeChecked":"Must be checked","subRequired":"{label} is required","subInvalidUrl":"{label} must be a valid URL","titleLength":"Title must be 5–50 characters","shortDescriptionLength":"Must be 50–255 characters","descriptionLength":"Must be 600–2000 characters","githubUrl":"Must be a valid GitHub URL"},"tracks":{"waitingWithForm":"Fill out the track selection form and wait for your assignment.","waiting":"Waiting for your track assignment.","formLink":"Track selection form"},"labels":{"slug":"Title (slug)","customFields":"Custom Fields"}},"toasts":{"generic":{"failed":"Fail...","success":"Success!","error":"Error","errorEmphatic":"ERROR!","unknownFailure":"Something went wrong","retry":"Please try again","fail":"Fail","successPlain":"Success","noChanges":"No changes","nothingModified":"Nothing was modified","errorWord":"error","dismay":"Oh no!","retryLater":"Please try again later","retrySentence":"Please try again.","unknownFailureEmphatic":"Something went wrong!","almostThere":"Almost there","checkConsole":"Check console for details","checkConnection":"Check your connection and try again.","errorOccurred":"Error Occurred","failedShort":"Failed","network":"Network error. Please try again.","checkInputs":"Please check your inputs and try again.","refresh":"Please refresh the page and try again.","retryLaterSentence":"Please try again later.","retryOrContact":"Please try again or contact with administration.","retryOrContactEmphatic":"Something went wrong. Try again or contact with administration!","successWord":"success","unexpected":"Unexpected error occurred","updateFailed":"Update failed","validationError":"Validation Error","validationFailed":"Validation failed"},"upload":{"videoFailedEmphatic":"Video upload failed!","failed":"Upload failed","saveFormReminder":"Don't forget to save your form","videoTooLarge300":"File size must be less than 300MB","presentationSucceeded":"Presentation upload successful!","videoFailed":"Video upload failed","videoSucceeded":"Video upload successful!","videoTypeMp4OrMov":"File must be an MP4 or MOV video","fileUnder300":"File must be under 300MB","videoTypeMp4":"File type must be mp4","imageFailed":"Image upload failed!","imageSucceeded":"Image upload successful!","useMp4":"Please use MP4 format","presentationFailed":"Presentation upload failed!"},"team":{"withdrawRequestFailed":"Could not withdraw request","acceptRequestFailed":"Could not accept request","declineRequestFailed":"Could not decline request","joinRequestFailed":"Could not send join request","requestWithdrawn":"Join request withdrawn","joinRequestSent":"Your request to join has been sent!","acceptInviteFailed":"Could not accept invite","cancelInviteFailed":"Could not cancel invite","transferLeadFailed":"Could not change team lead position","discordCreateFailed":"Could not create discord team","createFailed":"Could not create team","inviteLinkFailed":"Could not generate invite link. Please try again.","joinChannelFailed":"Could not join channel","kickFailed":"Could not kick out member from the team","leaveFailed":"Could not leave team","removeFailed":"Could not remove team","removeMemberFailed":"Could not remove user from team. Try again or contact with administration.","inviteFailed":"Could not send invite","leadershipTransferFailed":"Could not transfer leadership","deleteFailed":"Couldn't delete team","emptyDeleted":"Empty team has been deleted","discordRemoveFailed":"Fail in removing team from Discord.","permissionUpdateFailed":"Failed to update permission","inviteSent":"Invite sent","leftAfterTransfer":"Leadership transferred and you have left the team","memberAdded":"Member added","memberKicked":"Member has been kicked out from the team","requestAlreadySent":"Request already sent","requestDeclined":"Request declined","requestWithdrawnShort":"Request withdrawn","discordKickCleanupFailed":"Something went wrong during removing from Discord. Contact with administration to remove kicked member's access.","discordRemoved":"Successfully removed team from Discord.","deleted":"Team has been deleted","leadTransferred":"Team lead position has been passed over","settingsUpdated":"Team setting!","settingsSaved":"Team settings updated!","updateFailed":"Team update failed","updated":"Team Updated","requestWasDeclined":"The join request was declined.","requestWasAccepted":"The request was accepted.","userAlreadyOnTeam":"User is already in a team!","readdFailedEnrollment":"We tried to add you back to your team, but something went wrong (code: E). Try again or contact with administration","readdFailedTeam":"We tried to add you back to your team, but something went wrong (code: T). Try again or contact with administration","pendingRequestExists":"You already have a pending request for this team.","inviteSelfForbidden":"You can't invite yourself!","left":"You have left the team!","joined":"You joined the team!","joinedEmphatic":"You've joined the team!","inviteNotified":"{name}'ll get a notification to accept.","inviteNotifiedAnonymous":"They'll get a notification to accept.","savedWithFailedInvites":"Your data was saved, but {count, plural, one {# invite} other {# invites}} couldn't be sent.","soloCreated":"Solo team created!","created":"Team Created!","permissionGranted":"Submission permission granted","permissionRevoked":"Submission permission revoked","inviteUrlCopied":"Invite URL copied","discordRetry":"Something went wrong. Please try again later, or contact lablab.ai team"},"organiser":{"noParticipants":"No participants to download","trackConfigInvalid":"Invalid track configuration","remindersCaughtUp":"All caught up","remindersScheduledTitle":"AMD reminders scheduled","backfillFailed":"Backfill failed","sponsorsLoadFailed":"Failed getting sponsors","roleCreateFailed":"Failed to create role for event. CONTACT WITH ADMINISTRATION!","sponsorDeleteFailed":"Failed to delete Sponsor","submissionsLoadFailed":"Failed to load submissions","sponsorUploadFailed":"Failed to upload Sponsor","hackathonUpdated":"Hackathon updated","checklistInvalid":"Invalid checklist configuration","formUrlInvalid":"Invalid form URL","mentorAdded":"Mentor Added Successfully","noParticipantsToRemind":"No participants left to remind.","participantUpdated":"Participant Updated","timelineDeleted":"Timeline Event Deleted","timelineUpdated":"Timeline Updated","certificatesCreated":"Created {participantCount} participant + {judgeCount} judge certificates","remindersScheduled":"Scheduled {scheduled} of {eligible} reminders.","remindersScheduledWithErrors":"Scheduled {scheduled} of {eligible} reminders ({errorCount} errors).","eventUpdated":"Hackathon Updated Successfully","eventCreated":"Hackathon Created Successfully","unknownError":"Unknown error"},"review":{"positionUpdateFailed":"Error updating submission position","deleted":"Review deleted","positionDeleteFailed":"Error deleting submission position","deleteFailed":"Failed to delete review","updated":"Review updated","submitted":"Review submitted","loadFailed":"Could not load your review","saveFailed":"Could not save review"},"technology":{"invalid":"Invalid Technology","selectFromList":"Please select a technology from the list","loadFailed":"Failed to load technologies","providerCreated":"Provider created","providerUpdated":"Provider updated","standaloneCreated":"Standalone technology created","created":"Technology created","resynced":"Technology resynced from GitHub","updated":"Technology updated","visible":"Technology is now visible","hidden":"Technology hidden","providerVisible":"Provider is now visible","providerHidden":"Provider hidden","visibilityFailed":"Failed to update visibility"},"submission":{"submitFailed":"Submit failed","couldNotSave":"Could not save your submission.","configSaved":"Configuration saved successfully","prepareFailed":"Couldn't prepare your submission","categoryInvalid":"Invalid Submission Category","titleInvalid":"Invalid Title","versionStale":"Please refresh the page to get the latest version before submitting.","selectCategory":"Please select a submission category from the list","failedTitle":"Submission Failed","succeededTitle":"Submission Successful","titleRules":"Title must be at least 2 and max 32 characters long and contain only letters and space.","tracksUpdated":"Track selection updated","reportForbidden":"You are not allowed to report this submission","accepted":"Your submission has been accepted!","updated":"Your submission has been updated!","tracksRemoved":"{names} {count, plural, one {was} other {were}} removed — it no longer matches your assigned track or participation mode.","fieldConflicts":"\"{fieldLabel}\" conflicts with the built-in \"{builtinLabel}\" field","customFieldExists":"A custom field named \"{fieldLabel}\" already exists","configSaveFailed":"Failed to save config"},"form":{"persisted":"Your data has been shipped to DB","saved":"Your data was saved.","submitError":"An error occurred while submitting the form.","submitted":"Form was submitted successfully"},"clipboard":{"copied":"Copied!","failed":"Copy failed","unavailable":"Clipboard not available in this browser.","copyFailed":"Could not copy to clipboard.","copiedToClipboard":"Copied to clipboard"},"gdpr":{"exportFailed":"Couldn't export your data","deleteFailed":"Couldn't delete user","userDeleted":"User has been deleted :("},"discord":{"connectionFailed":"Discord connection failed","accountConnected":"Account successfully connected.","disconnectFailed":"Could not disconnect Discord. Please try again.","disconnected":"Discord account disconnected.","transferred":"Discord account moved to this account.","channelPermissions":"Discord is connected, but we couldn't add you to your team's channel yet. An organizer may need to check the bot's permissions — try again shortly.","channelPending":"Discord is connected, but we couldn't add you to your team's channel yet. Try again shortly or contact an organizer.","authStateInvalid":"Invalid authentication state. Please try again.","removalFailed":"Something went wrong while removing your account from Discord. Please try contacting administrator.","addedToChannel":"You have been added to the team channel!","transferFailed":"Transfer failed","statusCode":"Status code - {status}"},"auth":{"resendFailed":"Failed to resend","codeSent":"Code sent!","codeSentTo":"A new code was sent to {email}","invalidCode":"The code you have entered is invalid"},"content":{"resyncFailedSentence":"Resync Failed.","resyncSkipped":"Resync skipped","studioResyncDisabled":"This content is edited in Studio — GitHub resync is disabled.","resyncNoChanges":"Nothing new on GitHub","resyncNoChangesOnMain":"This file is the same on GitHub main as it is here. If you just merged a fix, check the PR was merged into main.","filenameMustBeMdx":"Filename must end with .mdx","repoMustBePublic":"GitHub repository must exist and be public","mdxSlugMissing":"No .mdx file with this slug.","localMdxMissing":"No local MDX file found with this slug. Please check the slug matches the .mdx filename or provide a GitHub filename instead.","modeFieldsRequired":"Please provide required fields for selected mode","resyncError":"Resync error","resyncFailed":"Resync failed","resyncFailedTitle":"Resync Failed","syncEnabled":"GitHub sync enabled: {filename}","syncMarkedFailed":"Sync completed but marked as failed","resyncArticleFailed":"Failed to resync article"},"article":{"created":"Article created","createdFromGithub":"Article created from GitHub","resynced":"Article resynced from GitHub","updated":"Article updated","createFailed":"Failed to create article","fetchFailed":"Failed to fetch articles","syncEnableFailed":"Failed to enable sync"},"email":{"checkInbox":"Check your inbox","testSent":"Test email sent to {email}"},"tutorial":{"resyncFailed":"Could not resync tutorial from GitHub","created":"Tutorial created","createdFromGithub":"Tutorial created from GitHub filename","resynced":"Tutorial resynced from GitHub","updated":"Tutorial updated"},"profile":{"createFailed":"Couldn't create your profile","notificationsSaveFailed":"Couldn't save your notification settings. Please try again.","usernameMissing":"No profile with this username.","usernameRestored":"Username changed back","loadFailed":"We tried to get your profile, but something went wrong. Try again or contact with administration.","persisted":"Your data have been shipped to DB","updated":"Profile settings updated!","updatedVerifyEmail":"Profile settings updated! Please check your email to verify your new email address.","usernameRestoredBody":"You are @{username} again.","disconnectFailed":"Failed to disconnect"},"project":{"deleteFailed":"Delete failed","deleted":"Project deleted","accepted":"Your project has been accepted!","updated":"Your project has been updated!","deletedFromDatabase":"Your data has been deleted from DB"},"app":{"collaboratorAdded":"Collaborator added"},"event":{"enrollmentFailed":"Enrollment failed!","participantCreated":"New participant","missing":"No event","alreadyEnrolled":"You already enrolled to this event!","registered":"You are registered for the event!","enrolled":"You have enrolled to an event!"},"eventPage":{"conflict":"Someone else saved changes","saveFailed":"Something went wrong saving this page","stale":"This page is out of date. Please reload and try submitting again.","kindSaved":"{kind, select, challenge {Challenge saved} hackathon {Hackathon saved} other {Saved}}","draftSaved":"Your changes are saved as a draft.","challengeCreated":"Challenge created","draftPendingReview":"Saved as a draft - pending review.","challengeUpdated":"Challenge updated","resubmitted":"Resubmitted for review.","challengeSubmitted":"Challenge submitted","submittedForReview":"Submitted for review.","checkoutFailed":"Failed to start checkout","wizardSaveFailed":"Failed to save"},"referral":{"linkCopied":"Your referral link has been copied."},"dismiss":"Close","brandAlt":"Lablab Logo"}},"now":"$undefined","timeZone":"UTC","children":["$L12","$L13"]}]
+14:I[4705,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"FacebookTrackingInit"]
+15:I[8246,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"PosthogProvider"]
+16:I[44244,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"AdvertisementModalProvider"]
+17:I[43032,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"Analytics"]
+18:I[94428,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"LayoutClientWrapper"]
+19:I[72657,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","91245","static/chunks/91245-296e3e0a7141f82e.js","12166","static/chunks/12166-940e63cd1d324695.js","88404","static/chunks/88404-6c0d1acf2068b762.js","57151","static/chunks/57151-17667e2ecc080b49.js","18039","static/chunks/app/error-642d05a08143cde9.js"],"default"]
+1b:I[45446,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"default"]
+1c:I[4007,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"FloatingHelpButton"]
+1d:I[68207,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","26574","static/chunks/26574-647da124f6e17b99.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","15166","static/chunks/15166-4608b3ca0b0bda32.js","45774","static/chunks/45774-d812f8b39478352a.js","96146","static/chunks/96146-7685c164fdf1fc62.js","43318","static/chunks/43318-53e6a2d5ca51d146.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","1175","static/chunks/1175-07cd4ecf6488c2c5.js","88404","static/chunks/88404-6c0d1acf2068b762.js","7177","static/chunks/app/layout-e2f5d6a92149aa9d.js"],"PostHogPageView"]
+12:["$","$L14",null,{}]
+13:["$","$L15",null,{"children":[["$","$L16",null,{"children":[["$","$d",null,{"fallback":null,"children":["$","$L17",null,{}]}],["$","div",null,{"children":["$","$L18",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$19","errorStyles":[],"errorScripts":[],"template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$L1a",[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}],["$","$L1b",null,{"version":"3.78.1"}],["$","$L1c",null,{}]]}],["$","$d",null,{"fallback":null,"children":["$","$L1d",null,{}]}]]}]
+1e:I[12602,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","74852","static/chunks/be08c3aa-7fac8fdb4ac7677b.js","97082","static/chunks/ce147d14-bcaa22db5ae4ef83.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","70733","static/chunks/70733-01b8a5733dc3078e.js","8721","static/chunks/8721-6c055dda57e267f9.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","91108","static/chunks/91108-c6f7b946b25ac533.js","26574","static/chunks/26574-647da124f6e17b99.js","95091","static/chunks/95091-90a9e531268a5898.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","50679","static/chunks/50679-86569cabcd82c80a.js","9811","static/chunks/9811-0a6f929e9f5c4431.js","66744","static/chunks/66744-f99af1e1a163afee.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","88281","static/chunks/88281-e7e5f32c96d41214.js","63619","static/chunks/63619-93dddb8ca58e10ed.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","36532","static/chunks/36532-516536efd37e8490.js","50871","static/chunks/50871-0bbc781b0b8b7a47.js","28069","static/chunks/28069-4c2ef028c25134a4.js","72936","static/chunks/72936-0fbc35fa4ee071f5.js","51714","static/chunks/51714-2f940a142218b60f.js","19844","static/chunks/19844-297254a540670d36.js","50721","static/chunks/50721-4ee97af3ee92bc4a.js","33203","static/chunks/app/ai-hackathons/%5Bevent%5D/page-41078afe1c7c136c.js"],"Button"]
+1f:I[58174,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","74852","static/chunks/be08c3aa-7fac8fdb4ac7677b.js","97082","static/chunks/ce147d14-bcaa22db5ae4ef83.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","70733","static/chunks/70733-01b8a5733dc3078e.js","8721","static/chunks/8721-6c055dda57e267f9.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","91108","static/chunks/91108-c6f7b946b25ac533.js","26574","static/chunks/26574-647da124f6e17b99.js","95091","static/chunks/95091-90a9e531268a5898.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","50679","static/chunks/50679-86569cabcd82c80a.js","9811","static/chunks/9811-0a6f929e9f5c4431.js","66744","static/chunks/66744-f99af1e1a163afee.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","88281","static/chunks/88281-e7e5f32c96d41214.js","63619","static/chunks/63619-93dddb8ca58e10ed.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","36532","static/chunks/36532-516536efd37e8490.js","50871","static/chunks/50871-0bbc781b0b8b7a47.js","28069","static/chunks/28069-4c2ef028c25134a4.js","72936","static/chunks/72936-0fbc35fa4ee071f5.js","51714","static/chunks/51714-2f940a142218b60f.js","19844","static/chunks/19844-297254a540670d36.js","50721","static/chunks/50721-4ee97af3ee92bc4a.js","33203","static/chunks/app/ai-hackathons/%5Bevent%5D/page-41078afe1c7c136c.js"],""]
+20:I[42051,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","74852","static/chunks/be08c3aa-7fac8fdb4ac7677b.js","97082","static/chunks/ce147d14-bcaa22db5ae4ef83.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","70733","static/chunks/70733-01b8a5733dc3078e.js","8721","static/chunks/8721-6c055dda57e267f9.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","91108","static/chunks/91108-c6f7b946b25ac533.js","26574","static/chunks/26574-647da124f6e17b99.js","95091","static/chunks/95091-90a9e531268a5898.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","50679","static/chunks/50679-86569cabcd82c80a.js","9811","static/chunks/9811-0a6f929e9f5c4431.js","66744","static/chunks/66744-f99af1e1a163afee.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","88281","static/chunks/88281-e7e5f32c96d41214.js","63619","static/chunks/63619-93dddb8ca58e10ed.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","36532","static/chunks/36532-516536efd37e8490.js","50871","static/chunks/50871-0bbc781b0b8b7a47.js","28069","static/chunks/28069-4c2ef028c25134a4.js","72936","static/chunks/72936-0fbc35fa4ee071f5.js","51714","static/chunks/51714-2f940a142218b60f.js","19844","static/chunks/19844-297254a540670d36.js","50721","static/chunks/50721-4ee97af3ee92bc4a.js","33203","static/chunks/app/ai-hackathons/%5Bevent%5D/page-41078afe1c7c136c.js"],"Image"]
+1a:["$","div",null,{"className":"flex size-full flex-1 justify-center bg-[#F2F3F0]","children":["$","div",null,{"className":"m-8 flex flex-row justify-center","children":[["$","div",null,{"id":"left-side","className":"my-8 md:w-1/2","children":[["$","h1",null,{"className":"mb-3 text-5xl font-bold leading-tight","children":"Even AI can't find this page"}],["$","p",null,{"className":"mb-5 text-lg","children":"Looks like we took a wrong turn somewhere! We tried asking ChatGPT for directions, but even AI can't seem to find this page."}],["$","$L1e",null,{"color":"blue","href":"/","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-slot":"icon","ref":"$undefined","aria-labelledby":"$undefined","className":"mr-2 size-6","children":[null,["$","path",null,{"fillRule":"evenodd","d":"M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z","clipRule":"evenodd"}]]}]," ","Go home"]}],["$","p",null,{"className":"mb-2 mt-16 text-lg","children":"Maybe you were looking for:"}],["$","ul",null,{"children":[["$","li",null,{"children":["$","$L1f",null,{"href":"/ai-hackathons","className":"flex flex-row items-center font-medium text-indigo-500","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-slot":"icon","ref":"$undefined","aria-labelledby":"$undefined","className":"mr-2 h-4 w-6","children":[null,["$","path",null,{"fillRule":"evenodd","d":"M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z","clipRule":"evenodd"}]]}],"AI Hackathons"]}]}],["$","li",null,{"children":["$","$L1f",null,{"href":"/ai-tutorials","className":"flex flex-row items-center font-medium text-indigo-500","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-slot":"icon","ref":"$undefined","aria-labelledby":"$undefined","className":"mr-2 h-4 w-6","children":[null,["$","path",null,{"fillRule":"evenodd","d":"M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z","clipRule":"evenodd"}]]}],"Tutorials"]}]}],["$","li",null,{"children":["$","$L1f",null,{"href":"/ai-articles","className":"flex flex-row items-center font-medium text-indigo-500","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-slot":"icon","ref":"$undefined","aria-labelledby":"$undefined","className":"mr-2 h-4 w-6","children":[null,["$","path",null,{"fillRule":"evenodd","d":"M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z","clipRule":"evenodd"}]]}],"AI Articles"]}]}],["$","li",null,{"children":["$","$L1f",null,{"href":"/apps","className":"flex flex-row items-center font-medium text-indigo-500","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","fill":"currentColor","aria-hidden":"true","data-slot":"icon","ref":"$undefined","aria-labelledby":"$undefined","className":"mr-2 h-4 w-6","children":[null,["$","path",null,{"fillRule":"evenodd","d":"M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z","clipRule":"evenodd"}]]}],"Submissions"]}]}]]}]]}],["$","div",null,{"className":"relative hidden md:block","children":["$","$L20",null,{"src":"https://imagedelivery.net/K11gkZF3xaVyYzFESMdWIQ/3d926eda-63ac-4519-440d-7dded37a5400/public","alt":"404","height":574,"width":566}]}]]}]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+9:{"metadata":[["$","title","0",{"children":"AMD Developer Hackathon: ACT III AI Hackathon | lablab.ai"}],["$","meta","1",{"name":"description","content":"Join AMD Developer Hackathon: ACT III, a free AI hackathon. Ends Oct 18, 2026. Build real AI apps and connect with innovators on lablab.ai."}],["$","link","2",{"rel":"canonical","href":"https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii"}],["$","meta","3",{"property":"og:title","content":"AMD Developer Hackathon: ACT III AI Hackathon | lablab.ai"}],["$","meta","4",{"property":"og:description","content":"Join AMD Developer Hackathon: ACT III, a free AI hackathon. Ends Oct 18, 2026. Build real AI apps and connect with innovators on lablab.ai."}],["$","meta","5",{"property":"og:image","content":"https://storage.googleapis.com/lablab-static-eu/events/Main_Banner_AMD_ACT3--02--9-_bqxx7da0ypjo9o33ev9vy473.jpg"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"AMD Developer Hackathon: ACT III AI Hackathon | lablab.ai"}],["$","meta","8",{"name":"twitter:description","content":"Join AMD Developer Hackathon: ACT III, a free AI hackathon. Ends Oct 18, 2026. Build real AI apps and connect with innovators on lablab.ai."}],["$","meta","9",{"name":"twitter:image","content":"https://storage.googleapis.com/lablab-static-eu/events/Main_Banner_AMD_ACT3--02--9-_bqxx7da0ypjo9o33ev9vy473.jpg"}]],"error":null,"digest":"$undefined"}
+e:"$9:metadata"
+22:I[11523,["20475","static/chunks/5fb0e1a2-fba601f9b50981ce.js","74852","static/chunks/be08c3aa-7fac8fdb4ac7677b.js","97082","static/chunks/ce147d14-bcaa22db5ae4ef83.js","44811","static/chunks/d105754d-ad86f4ee3c92968e.js","39884","static/chunks/39884-e777a889d35b2e07.js","58174","static/chunks/58174-1562f105f49fe083.js","42051","static/chunks/42051-36793afbfe832404.js","15392","static/chunks/15392-3eb6ca2e0aa6a117.js","66893","static/chunks/66893-063df8ab4482525d.js","2484","static/chunks/2484-93df0a2a7a5e1179.js","70733","static/chunks/70733-01b8a5733dc3078e.js","8721","static/chunks/8721-6c055dda57e267f9.js","46633","static/chunks/46633-8a77c66dbbeba7ba.js","91108","static/chunks/91108-c6f7b946b25ac533.js","26574","static/chunks/26574-647da124f6e17b99.js","95091","static/chunks/95091-90a9e531268a5898.js","2850","static/chunks/2850-9a0280de7cd0e5f7.js","41440","static/chunks/41440-eb76754cb8ac518a.js","50679","static/chunks/50679-86569cabcd82c80a.js","9811","static/chunks/9811-0a6f929e9f5c4431.js","66744","static/chunks/66744-f99af1e1a163afee.js","92495","static/chunks/92495-429acad9ca4c393d.js","22586","static/chunks/22586-411a6bb2c5d646de.js","88281","static/chunks/88281-e7e5f32c96d41214.js","63619","static/chunks/63619-93dddb8ca58e10ed.js","49891","static/chunks/49891-46498b74d73ebf67.js","12166","static/chunks/12166-940e63cd1d324695.js","36532","static/chunks/36532-516536efd37e8490.js","50871","static/chunks/50871-0bbc781b0b8b7a47.js","28069","static/chunks/28069-4c2ef028c25134a4.js","72936","static/chunks/72936-0fbc35fa4ee071f5.js","51714","static/chunks/51714-2f940a142218b60f.js","19844","static/chunks/19844-297254a540670d36.js","50721","static/chunks/50721-4ee97af3ee92bc4a.js","33203","static/chunks/app/ai-hackathons/%5Bevent%5D/page-41078afe1c7c136c.js"],"EventClient"]
+21:T674,{"@context":"https://schema.org","@type":"Event","name":"AMD Developer Hackathon: ACT III","description":"🌎 Hybrid Hackathon | 💻 Online Build: 12-17 October 2026 | On-site phase: 17-18 October 2026 To participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account. The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure. 📍 If approved for the on-site experience, you'll also have the opp","startDate":"2026-10-12T15:00:00.000Z","endDate":"2026-10-18T15:00:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/MixedEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii"},"image":"https://storage.googleapis.com/lablab-static-eu/events/Main_Banner_AMD_ACT3--02--9-_bqxx7da0ypjo9o33ev9vy473.jpg","url":"https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii","mainEntityOfPage":"https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii","organizer":[{"@type":"Organization","name":"lablab.ai","url":"https://lablab.ai/"}],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii","validFrom":"2026-10-12T15:00:00.000Z"},"performer":[{"@type":"Person","name":"Andrea Marazzi"},{"@type":"Person","name":"Maharshi Trivedi"},{"@type":"Person","name":"Emmanuel Iriarte"}]}23:T273b,<style>
+  .amd3-top{
+    --r:#ED1C24;
+    box-sizing:border-box;
+    font-family:Inter,system-ui,sans-serif;
+    background:
+      radial-gradient(
+        circle at 88% 8%,
+        rgba(237,28,36,.22) 0%,
+        rgba(237,28,36,0) 48%
+      ),
+      linear-gradient(135deg,#000 0%,#141414 100%);
+    border-radius:26px;
+    padding:52px 48px 46px;
+    margin-bottom:40px;
+    color:#fff;
+  }
+
+  .amd3-top *{
+    box-sizing:border-box;
+  }
+
+  .amd3-top-kicker{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-family:ui-monospace,Menlo,monospace;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--r);
+    margin-bottom:18px;
+  }
+
+  .amd3-top-kicker::before{
+    content:"";
+    width:7px;
+    height:7px;
+    border-radius:99px;
+    background:var(--r);
+  }
+
+  .amd3-top h1{
+    font-size:52px;
+    font-weight:900;
+    line-height:1.04;
+    letter-spacing:-.03em;
+    text-transform:uppercase;
+    margin:0 0 14px;
+
+  }
+
+  .amd3-top-sub{
+    font-size:18px;
+    font-weight:600;
+    color:var(--r);
+    margin:0 0 24px;
+
+  }
+
+  .amd3-top-meta{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:16px;
+    overflow:hidden;
+    background:rgba(255,255,255,.03);
+    margin-bottom:30px;
+  }
+
+  .amd3-top-cell{
+    padding:18px 22px;
+    border-right:1px solid rgba(255,255,255,.10);
+  }
+
+  .amd3-top-cell:last-child{
+    border-right:none;
+  }
+
+  .amd3-top-lbl{
+    font-family:ui-monospace,Menlo,monospace;
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:rgba(255,255,255,.45);
+    margin-bottom:6px;
+  }
+
+  .amd3-top-val{
+    font-size:17px;
+    font-weight:800;
+    letter-spacing:-.01em;
+  }
+
+  .amd3-top-body{
+
+  }
+
+  .amd3-top-body p{
+    font-size:16px;
+    line-height:1.75;
+    color:rgba(255,255,255,.72);
+    margin:0 0 14px;
+  }
+
+  .amd3-top-body p.amd3-top-first{
+    font-size:18px;
+    color:#fff;
+    font-weight:600;
+    line-height:1.6;
+    margin-bottom:20px;
+  }
+
+  .amd3-top-body p.amd3-top-italy{
+    font-size:18px;
+    color:#fff;
+    font-weight:700;
+    line-height:1.6;
+    margin-top:26px;
+    margin-bottom:12px;
+  }
+
+  .amd3-top-body strong{
+    color:#fff;
+    font-weight:700;
+  }
+
+
+  /* VENUE TABLE */
+
+  .amd3-locations{
+    width:100%;
+    border-collapse:collapse;
+    margin:24px 0 18px;
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:14px;
+    overflow:hidden;
+    background:rgba(255,255,255,.03);
+  }
+
+  .amd3-locations th{
+    font-family:ui-monospace,Menlo,monospace;
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:rgba(255,255,255,.45);
+    text-align:left;
+    padding:13px 16px;
+    border-bottom:1px solid rgba(255,255,255,.10);
+  }
+
+  .amd3-locations td{
+    font-size:14px;
+    line-height:1.5;
+    color:rgba(255,255,255,.72);
+    padding:14px 16px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+
+  .amd3-locations tr:last-child td{
+    border-bottom:none;
+  }
+
+  .amd3-locations td:first-child{
+    color:#fff;
+    font-weight:800;
+  }
+
+  .amd3-locations td:nth-child(2){
+    color:#fff;
+    font-weight:600;
+  }
+
+  .amd3-location-link{
+    color:#fff !important;
+    font-weight:600;
+    text-decoration:none;
+    border-bottom:1px solid rgba(255,255,255,.30);
+    transition:border-color .15s ease,color .15s ease;
+  }
+
+  .amd3-location-link:hover{
+    color:var(--r) !important;
+    border-bottom-color:var(--r);
+  }
+
+  .amd3-location-link:visited{
+    color:#fff;
+  }
+
+
+  /* VENUE LOGOS */
+
+  .amd3-venues{
+    margin-top:28px;
+    padding-top:24px;
+    border-top:1px solid rgba(255,255,255,.10);
+  }
+
+  .amd3-venues-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:12px;
+  }
+
+  .amd3-venue-logo-link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:94px;
+    padding:18px;
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:14px;
+    background:rgba(255,255,255,.04);
+    text-decoration:none;
+    transition:
+      border-color .15s ease,
+      background .15s ease,
+      transform .15s ease;
+  }
+
+  .amd3-venue-logo-link:hover{
+    border-color:rgba(237,28,36,.65);
+    background:rgba(237,28,36,.07);
+    transform:translateY(-1px);
+  }
+
+  .amd3-venue-logo-link img{
+    display:block;
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:58px;
+    object-fit:contain;
+  }
+
+
+  @media(max-width:980px){
+    .amd3-top{
+      padding:40px 30px;
+    }
+
+    .amd3-top h1{
+      font-size:38px;
+    }
+
+    .amd3-top-meta{
+      grid-template-columns:1fr;
+    }
+
+    .amd3-top-cell{
+      border-right:none;
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+
+    .amd3-top-cell:last-child{
+      border-bottom:none;
+    }
+  }
+
+  @media(max-width:700px){
+    .amd3-venues-grid{
+      grid-template-columns:1fr;
+    }
+  }
+
+  @media(max-width:560px){
+    .amd3-top{
+      padding:30px 20px;
+      border-radius:20px;
+      margin-bottom:32px;
+    }
+
+    .amd3-top h1{
+      font-size:30px;
+      max-width:none;
+    }
+
+    .amd3-top-body p.amd3-top-first{
+      font-size:17px;
+    }
+
+    .amd3-locations{
+      display:block;
+      overflow-x:auto;
+      white-space:nowrap;
+    }
+  }
+</style>
+
+<section class="amd3-top">
+  <span class="amd3-top-kicker"> AMD × lablab.ai </span>
+
+  <h1>AMD Developer Hackathon: ACT III</h1>
+
+  <p class="amd3-top-sub">Build AI agents and high-performance AI apps on AMD GPUs in the cloud.</p>
+
+  <div class="amd3-top-meta">
+    <div class="amd3-top-cell">
+      <div class="amd3-top-lbl">Online phase</div>
+      <div class="amd3-top-val">12–18 October 2026</div>
+    </div>
+
+    <div class="amd3-top-cell">
+      <div class="amd3-top-lbl">On-site · Italy</div>
+      <div class="amd3-top-val">17–18 October 2026</div>
+    </div>
+
+    <div class="amd3-top-cell">
+      <div class="amd3-top-lbl">Prize pool</div>
+      <div class="amd3-top-val">$17,000+</div>
+    </div>
+  </div>
+
+  <div class="amd3-top-body">
+    <p class="amd3-top-first">Build AI agents and high-performance AI applications on AMD GPUs — entirely in the cloud.</p>
+
+    <p>The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure. Whether you are just starting out or already shipping, you can jump in and start creating.</p>
+
+    <p>You’ll be working with <strong>AMD GPUs in the Cloud with the ROCm software stack, AMD's open-source GPU computing platform.</strong> Everything runs fully in the cloud, so there is no local hardware to set up and you can focus on building instead of configuration.</p>
+
+    <p class="amd3-top-italy">One hackathon. Three cities. One special weekend in Italy.</p>
+
+    <p>This edition of the AMD Developer Hackathon comes with a special on-site experience across <strong>three locations in Italy: Rome, Milan, and Imperia</strong>.</p>
+
+    <p>
+      The hackathon remains open online throughout the event, while selected participants can also join us in person for the on-site phase. If approved, you’ll choose <strong>one of the three locations</strong>
+      to build alongside other developers, get hands-on support, and showcase your project live.
+    </p>
+
+    <table class="amd3-locations">
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>Venue</th>
+          <th>Address</th>
+          <th>Opening/closing</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Rome</td>
+          <td>
+            <a class="amd3-location-link" href="https://unilink.it/" target="_blank" rel="noopener noreferrer"> Link Campus University </a>
+          </td>
+          <td>Via del Casale di San Pio V, 44, 00165 Roma</td>
+          <td>10:00 AM - 6:00 PM (Oct 17)<br>10:00 AM - 5:00 PM (Oct 18)</td>
+        </tr>
+
+        <tr>
+          <td>Milan</td>
+          <td>
+            <a class="amd3-location-link" href="https://www.smartcitylabmilano.it/" target="_blank" rel="noopener noreferrer"> SmartCityLab Milano </a>
+          </td>
+          <td>Via Giuseppe Ripamonti, 88, 20141 Milano MI</td>
+          <td>9:00 AM - 6:00 PM (Oct 17)<br>9:00 AM - 5:00 PM (Oct 18)</td>
+        </tr>
+
+        <tr>
+          <td>Imperia</td>
+          <td>
+            <a class="amd3-location-link" href="https://imperiaware.it/" target="_blank" rel="noopener noreferrer"> IMPERIAWARE </a>
+          </td>
+          <td>Via Antonio Delbecchi, 22, 18100 Imperia (IM)</td>
+          <td>9:00 AM - 6:00 PM (Oct 17)<br>9:00 AM - 5:00 PM (Oct 18)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- VENUE LOGOS -->
+
+    <div class="amd3-venues">
+      <div class="amd3-venues-grid">
+        <!-- LINK CAMPUS UNIVERSITY -->
+        <a class="amd3-venue-logo-link" href="https://unilink.it/" target="_blank" rel="noopener noreferrer" aria-label="Visit Link Campus University website">
+          <img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fe603c2ae34f647409d2559f920903497?format=webp&#x26;width=2000" alt="Link Campus University">
+        </a>
+
+        <!-- SMARTCITYLAB MILANO -->
+        <a class="amd3-venue-logo-link" href="https://www.smartcitylabmilano.it/" target="_blank" rel="noopener noreferrer" aria-label="Visit SmartCityLab Milano website">
+          <img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fa4b194da8e434eefb5d4807ce7d3735c?format=webp&#x26;width=2000" alt="SmartCityLab Milano">
+        </a>
+
+        <!-- IMPERIAWARE -->
+        <a class="amd3-venue-logo-link" href="https://imperiaware.it/" target="_blank" rel="noopener noreferrer" aria-label="Visit IMPERIAWARE website">
+          <img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fd27eac0e77cd4930a0ff6a4cace97b14?format=webp&#x26;width=2000" alt="IMPERIAWARE">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+24:T7605,<!-- AMD DEVELOPER HACKATHON: ACT III â€” 03 CHALLENGE -->
+<!-- Brief adapted from the ACT I Challenge section + the ACT III banner subtitle.
+     Evolus track: section 3 of "Evolus-partner-kit-AMD-ACT-III.pdf" (Sept 27, 2026) â€”  (kit questions 2 and 3). The whole track
+     block (.amd3-chl-ev) can be removed in one cut.
+     Other tracks: not confirmed for ACT III â†’ public-facing TBA block. Do NOT copy ACT I/ACT II tracks here. -->
+<style>
+  .amd3-chl{--r:#ED1C24;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;background:#fff;
+    border:1px solid #ECE9E1;border-radius:26px;padding:48px 48px 44px;margin-bottom:40px}
+  .amd3-chl *{box-sizing:border-box}
+  .amd3-chl-kicker{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;color:#B01218;margin-bottom:14px}
+  .amd3-chl h2{font-size:36px;font-weight:900;color:#0D0D0D;letter-spacing:-.03em;line-height:1.14;margin:0 0 18px;max-width:20ch}
+  .amd3-chl p{font-size:16px;line-height:1.75;color:#3F3F3F;margin:0 0 14px}
+  .amd3-chl-tbd{margin-top:14px;border:1px dashed #D8D3C6;border-radius:18px;padding:24px 26px;background:#FBFAF7;border-left:3px solid var(--r)}
+  .amd3-chl-tbd h3{font-size:16px;font-weight:900;color:#0D0D0D;margin:0 0 8px}
+  .amd3-chl-tbd p{font-size:14px;line-height:1.65;color:#4A4A4A;margin:0}
+
+  /* ---- Tracks ---- */
+  .amd3-chl-sub{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:#9A9A9A;margin:34px 0 14px!important}
+  .amd3-chl-ev{border:1px solid #ECE9E1;border-radius:20px;overflow:hidden;background:#fff}
+  .amd3-chl-ev-top{background:#0D0D0D;color:#fff;padding:30px 32px;border-left:3px solid var(--r)}
+  .amd3-chl-ev-top h3{font-size:26px;font-weight:900;letter-spacing:-.02em;line-height:1.2;margin:0 0 12px;color:#fff}
+  .amd3-chl-ev-top p{color:rgba(255,255,255,.78);font-size:15px;margin:0 0 12px}
+  .amd3-chl-ev-top p:last-child{margin-bottom:0}
+  .amd3-chl-ev-lede{font-size:17px!important;font-weight:700;color:#fff!important}
+  .amd3-chl-ev-meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+  .amd3-chl-ev-meta span{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.1em;
+    text-transform:uppercase;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 12px;color:#fff}
+  .amd3-chl-ev-meta span:first-child{border-color:var(--r);color:#FF8A8F}
+  .amd3-chl-ev-body{padding:4px 32px 32px}
+  .amd3-chl-ev h4{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:#B01218;margin:30px 0 12px}
+  .amd3-chl-ev-body p{font-size:15px}
+  .amd3-chl-ev-req{list-style:none;margin:0;padding:0;counter-reset:req;display:grid;gap:8px}
+  .amd3-chl-ev-req li{counter-increment:req;position:relative;background:#FBFAF7;border:1px solid #ECE9E1;border-radius:14px;
+    padding:14px 18px 14px 56px;font-size:14px;line-height:1.65;color:#4A4A4A}
+  .amd3-chl-ev-req li::before{content:counter(req,decimal-leading-zero);position:absolute;left:18px;top:14px;
+    font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:700;color:var(--r)}
+  .amd3-chl-ev-req strong{color:#0D0D0D}
+  .amd3-chl-ev a{color:#0D0D0D;text-decoration:underline;text-decoration-color:var(--r);text-underline-offset:3px}
+  .amd3-chl-ev-tbl{overflow-x:auto;border:1px solid #ECE9E1;border-radius:14px}
+  .amd3-chl-ev-tbl table{width:100%;border-collapse:collapse;min-width:600px}
+  .amd3-chl-ev-tbl th{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:#9A9A9A;text-align:left;padding:12px 16px;background:#FBFAF7;border-bottom:1px solid #ECE9E1}
+  .amd3-chl-ev-tbl td{font-size:14px;line-height:1.6;color:#4A4A4A;padding:12px 16px;border-bottom:1px solid #ECE9E1;vertical-align:top}
+  .amd3-chl-ev-tbl tr:last-child td{border-bottom:0}
+  .amd3-chl-ev-tbl td:first-child{font-weight:700;color:#0D0D0D;white-space:nowrap}
+  .amd3-chl-ev-crit{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .amd3-chl-ev-crit div{background:#FBFAF7;border:1px solid #ECE9E1;border-top:3px solid var(--r);border-radius:14px;padding:16px 18px}
+  .amd3-chl-ev-crit h5{font-size:15px;font-weight:900;color:#0D0D0D;margin:0 0 6px}
+  .amd3-chl-ev-crit p{font-size:14px;line-height:1.6;color:#4A4A4A;margin:0}
+  .amd3-chl-ev-fine{font-size:13px!important;line-height:1.65!important;color:#6A6A6A!important;margin:12px 0 0!important;
+    padding-left:14px;border-left:2px solid var(--r);max-width:none!important}
+  .amd3-chl-ev-prz{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  .amd3-chl-ev-prz div{border:1px solid #ECE9E1;border-radius:16px;padding:20px;background:#FBFAF7}
+  .amd3-chl-ev-prz div:first-child{background:#0D0D0D;border-color:#0D0D0D}
+  .amd3-chl-ev-place{display:block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--r);margin-bottom:6px}
+  .amd3-chl-ev-val{display:block;font-size:26px;font-weight:900;letter-spacing:-.02em;color:#0D0D0D;margin-bottom:8px}
+  .amd3-chl-ev-prz p{font-size:14px;line-height:1.6;color:#4A4A4A;margin:0}
+  .amd3-chl-ev-prz div:first-child .amd3-chl-ev-val{color:#fff}
+  .amd3-chl-ev-prz div:first-child p{color:rgba(255,255,255,.78)}
+  .amd3-chl-ev-total{font-size:15px!important;font-weight:700;color:#0D0D0D!important;margin:12px 0 0!important}
+
+  @media(max-width:980px){.amd3-chl{padding:38px 30px}.amd3-chl h2{font-size:29px}
+    .amd3-chl-ev-top{padding:26px 24px}.amd3-chl-ev-body{padding:4px 24px 26px}
+    .amd3-chl-ev-crit,.amd3-chl-ev-prz{grid-template-columns:1fr}}
+  @media(max-width:560px){.amd3-chl{padding:30px 20px;border-radius:20px;margin-bottom:32px}
+    .amd3-chl h2{font-size:25px;max-width:none}.amd3-chl-ev-top h3{font-size:22px}
+    .amd3-chl-ev-top{padding:22px 18px}.amd3-chl-ev-body{padding:2px 18px 22px}}
+</style>
+
+<section class="amd3-chl">
+  <span class="amd3-chl-kicker">Challenges</span>
+  <h2 style="max-width: 100%;">Solve a real Business Problem with AMD technology</h2>
+  <p>
+    Choose <span style="font-weight:bold">one or more tracks</span> and build a working product on AMD infrastructure. We are looking for projects that solve a real problem for a real user. Your idea can use language models, computer vision, audio, agents, predictive models, or a combination of technologies.<br>
+    The important part is simple: the product should work, and <span style="font-weight:bold"> AMD technology should power a meaningful part of it. AMD is a required technology to be eligible for prizes</span>.
+  </p>
+  <!-- <h2>Build the next generation of AI agents and high-performance apps &mdash; powered by AMD</h2>
+
+  <p>This hackathon is your space to explore, experiment and create with AMD GPUs in the cloud and the ROCm software stack. No hardware, no complex setup &mdash; just access to powerful compute and the freedom to build what you actually care about.</p>
+
+  <p>Whether you want to prototype an idea, push a system to its limits or try something completely new, this is the place to do it. Build an application, agent or developer tool that feels real, works end to end, and shows what AMD&rsquo;s compute stack can unlock.</p>
+-->
+
+  <!-- AMD HACKATHON â€” 03 CHALLENGE (tracks added) -->
+  <!-- Challenges 1â€“4, Build on AMD, Partner Awards: verbatim from the brief supplied by the user, lightly tightened. -->
+  <!-- Track cards reuse the existing .amd3-chl-ev classes, so they get the same background as the Evolus card. -->
+  <!-- New classes (.amd3-chl-tr-*) only handle spacing, the toggle and the lists. Toggle = <details>, no JS. -->
+  <!-- Existing HTML below the new blocks is unchanged. -->
+  <style>
+    .amd3-chl-tr{margin-bottom:20px}
+    .amd3-chl-tr-more{margin:0}
+    .amd3-chl-tr-more>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;
+      margin:4px 0 0;padding:9px 16px;border:1px solid currentColor;border-radius:999px;
+      font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+      color:inherit;opacity:.85;transition:opacity .15s}
+    .amd3-chl-tr-more>summary::-webkit-details-marker{display:none}
+    .amd3-chl-tr-more>summary::marker{content:""}
+    .amd3-chl-tr-more>summary:hover{opacity:1}
+    .amd3-chl-tr-more>summary::after{content:"+";font-size:15px;line-height:1}
+    .amd3-chl-tr-more[open]>summary::after{content:"\2212"}
+    .amd3-chl-tr-more .amd3-chl-tr-less{display:none}
+    .amd3-chl-tr-more[open] .amd3-chl-tr-less{display:inline}
+    .amd3-chl-tr-more[open] .amd3-chl-tr-open{display:none}
+    .amd3-chl-tr-more[open]>summary{margin-bottom:8px}
+    .amd3-chl-tr-list{margin:0 0 18px;padding-left:20px;columns:2;column-gap:32px}
+    .amd3-chl-tr-list li{margin:0 0 6px;break-inside:avoid}
+    .amd3-chl-tr-list--one{columns:1}
+    .amd3-chl-req{margin:0 0 20px;border:1px solid rgba(127,127,127,.28);border-radius:18px;padding:26px 28px}
+    .amd3-chl-req h3{margin:0 0 10px}
+    .amd3-chl-req p{margin:0 0 12px}
+    .amd3-chl-req .amd3-chl-tr-list{margin-bottom:12px}
+    @media(max-width:560px){.amd3-chl-tr-list{columns:1}.amd3-chl-req{padding:22px 20px}}
+  </style>
+
+  <p class="amd3-chl-sub">Choose Your tracks</p>
+
+  <!-- ===== NEW: CHALLENGE 1 ===== -->
+  <div class="amd3-chl-ev amd3-chl-tr">
+    <div class="amd3-chl-ev-top">
+      <div class="amd3-chl-ev-meta"><span>Track 1 by partner: Vibe Generation</span></div>
+      <h3>Intelligent Industry</h3>
+      <p class="amd3-chl-ev-lede" style="font-weight:normal">Help factories spot problems earlier and operate better.</p>
+      <details class="amd3-chl-tr-more">
+        <summary><span class="amd3-chl-tr-open">Read the full brief</span><span class="amd3-chl-tr-less">Hide the brief</span></summary>
+        <div class="amd3-chl-ev-body" style="color:white;">
+          <p style="color:white;">Factories produce data from machines, cameras, sensors, maintenance reports, and technical manuals. The problem is rarely a lack of information. The problem is knowing what matters and what to do next.</p>
+          <p style="color:white;">Build a product that helps a manufacturer reduce downtime, improve quality, increase safety, or use resources more efficiently.</p>
+          <h4>Ideas</h4>
+          <ul class="amd3-chl-tr-list" style="color:white;">
+            <li>Predict equipment failures</li>
+            <li>Detect defects from images or video</li>
+            <li>Explain production anomalies</li>
+            <li>Help technicians search manuals and maintenance records</li>
+            <li>Recommend maintenance actions</li>
+            <li>Monitor safety conditions</li>
+            <li>Reduce energy or material waste</li>
+          </ul>
+          <h4>Your demo</h4>
+          <p style="color:white;">Show your product processing realistic industrial data and producing a useful alert, explanation, recommendation, or action. Make it clear who would use the product and what result it improves.</p>
+          <h4>Good projects will show</h4>
+          <ul class="amd3-chl-tr-list amd3-chl-tr-list--one" style="color:white;">
+            <li>A real manufacturing problem</li>
+            <li>A working product, not only a dashboard or presentation</li>
+            <li>Results that operators can understand</li>
+            <li>A measurable improvement in time, cost, safety, quality, or efficiency</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===== NEW: CHALLENGE 2 ===== -->
+  <div class="amd3-chl-ev amd3-chl-tr">
+    <div class="amd3-chl-ev-top">
+      <div class="amd3-chl-ev-meta"><span>Track 2 by partner: Vibe Generation</span></div>
+      <h3>Health and Wellbeing</h3>
+      <p class="amd3-chl-ev-lede" style="font-weight:normal">Make a part of the patient journey safer, clearer, or easier.</p>
+      <details class="amd3-chl-tr-more">
+        <summary><span class="amd3-chl-tr-open">Read the full brief</span><span class="amd3-chl-tr-less">Hide the brief</span></summary>
+        <div class="amd3-chl-ev-body">
+          <p style="color:white;">Patients and healthcare workers deal with long documents, scattered information, repetitive administration, language barriers, and limited time.</p>
+          <p style="color:white;">Build a product that helps patients, caregivers, or healthcare staff handle one part of this journey better.</p>
+          <h4>Ideas</h4>
+          <ul class="amd3-chl-tr-list">
+            <li>Patient intake</li>
+            <li>Medical record summaries</li>
+            <li>Appointment preparation</li>
+            <li>Care navigation</li>
+            <li>Clearer discharge instructions</li>
+            <li>Multilingual patient communication</li>
+            <li>Healthcare document processing</li>
+            <li>Administrative workflow automation</li>
+            <li>Wellbeing and prevention support</li>
+          </ul>
+          <h4>Your demo</h4>
+          <p style="color:white;">Show a realistic case from the first input to the final result. Your product should make uncertainty visible. It should also know when a person needs to review or take over the case.</p>
+          <h4>Safety rules</h4>
+          <p style="color:white;">The product must not present autonomous diagnosis or treatment as medical advice. Explain how you handle:</p>
+          <ul class="amd3-chl-tr-list">
+            <li>Incorrect or unsupported responses</li>
+            <li>Sensitive information</li>
+            <li>Uncertain results</li>
+            <li>High risk decisions</li>
+            <li>Human review</li>
+          </ul>
+          <h4>Good projects will show</h4>
+          <ul class="amd3-chl-tr-list amd3-chl-tr-list--one">
+            <li>A clearly defined patient or staff need</li>
+            <li>Responsible handling of health information</li>
+            <li>Useful and understandable results</li>
+            <li>A measurable improvement in time, accuracy, accessibility, or workload</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===== NEW: CHALLENGE 3 ===== -->
+  <div class="amd3-chl-ev amd3-chl-tr">
+    <div class="amd3-chl-ev-top">
+      <div class="amd3-chl-ev-meta"><span>Track 3 by partner: Vibe Generation</span></div>
+      <h3>Reinvent Commerce</h3>
+      <p class="amd3-chl-ev-lede" style="font-weight:normal">Help a business understand its customers and take better action.</p>
+      <details class="amd3-chl-tr-more">
+        <summary><span class="amd3-chl-tr-open">Read the full brief</span><span class="amd3-chl-tr-less">Hide the brief</span></summary>
+        <div class="amd3-chl-ev-body">
+          <p style="color:white;">Retailers have product data, transactions, inventory, reviews, support conversations, and marketing results. These sources are often disconnected, which makes it difficult to turn them into useful decisions.</p>
+          <p style="color:white;">Build a product that helps a business attract, serve, convert, or retain customers.</p>
+          <h4>Ideas</h4>
+          <ul class="amd3-chl-tr-list">
+            <li>Shopping assistants</li>
+            <li>Product discovery and recommendations</li>
+            <li>Customer support</li>
+            <li>Demand and inventory planning</li>
+            <li>Product catalogue enrichment</li>
+            <li>Review and sentiment analysis</li>
+            <li>Promotion planning</li>
+            <li>Churn prevention</li>
+            <li>Accessible and multilingual shopping</li>
+            <li>In store computer vision</li>
+          </ul>
+          <h4>Your demo</h4>
+          <p style="color:white;">Show how your product turns customer or business data into a useful recommendation or action.</p>
+          <p style="color:white;">If your product predicts demand, sales, or customer behaviour, explain how the prediction was calculated. Do not use a language model as the only forecasting method.</p>
+          <h4>Good projects will show</h4>
+          <ul class="amd3-chl-tr-list amd3-chl-tr-list--one">
+            <li>A real customer or merchant problem</li>
+            <li>A useful commercial action</li>
+            <li>Relevant recommendations or personalization</li>
+            <li>A measurable effect on revenue, margin, conversion, retention, inventory, or service quality</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===== NEW: CHALLENGE 4 ===== -->
+  <div class="amd3-chl-ev amd3-chl-tr">
+    <div class="amd3-chl-ev-top">
+      <div class="amd3-chl-ev-meta"><span>Track 4 by partner: Vibe Generation</span></div>
+      <h3>Create a New Kind of Experience</h3>
+      <p class="amd3-chl-ev-lede" style="font-weight:normal">Build a media, marketing, or entertainment experience that was not practical before generative AI.</p>
+      <details class="amd3-chl-tr-more">
+        <summary><span class="amd3-chl-tr-open">Read the full brief</span><span class="amd3-chl-tr-less">Hide the brief</span></summary>
+        <div class="amd3-chl-ev-body">
+          <p style="color:white;">Do more than generate an image, advertisement, or chatbot. Create something that responds to its audience, changes with context, or produces a different experience for each person.</p>
+          <h4>Ideas</h4>
+          <ul class="amd3-chl-tr-list">
+            <li>Personalized video</li>
+            <li>Interactive stories</li>
+            <li>Audience driven entertainment</li>
+            <li>Adaptive campaigns</li>
+            <li>Multilingual creative content</li>
+            <li>Generative brand experiences</li>
+            <li>Responsive sound or visual environments</li>
+            <li>New social media formats</li>
+            <li>Accessible media experiences</li>
+            <li>Creative quality control</li>
+          </ul>
+          <h4>Your demo</h4>
+          <p style="color:white;">Show the experience changing for at least two different audiences, situations, or inputs. <br>Explain:</p>
+          <ul class="amd3-chl-tr-list amd3-chl-tr-list--one">
+            <li>What the team created</li>
+            <li>What the models generated or decided</li>
+            <li>How you controlled quality and consistency</li>
+            <li>How much each generated experience costs</li>
+            <li>Who would pay for it and why</li>
+          </ul>
+          <h4>Good projects will show</h4>
+          <ul class="amd3-chl-tr-list amd3-chl-tr-list--one">
+            <li>An original concept</li>
+            <li>A strong user experience</li>
+            <li>A thoughtful combination of human creativity and technology</li>
+            <li>A product that could work at a realistic cost</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- ===== NEW: BUILD ON AMD (applies to every track) ===== -->
+  <div class="amd3-chl-req">
+    <h3>Technology requirement: build on AMD</h3>
+    <p>Every project must run a meaningful part of its workload on AMD infrastructure or AMD hardware. Teams may use:</p>
+    <ul class="amd3-chl-tr-list">
+      <li>AMD Developer Cloud</li>
+      <li>AMD Instinct accelerators</li>
+      <li>AMD ROCm</li>
+      <li>AMD Ryzen AI</li>
+      <li>AMD Radeon hardware</li>
+      <li>Other approved AMD powered infrastructure provided during the event</li>
+    </ul>
+    <p><strong>The AMD component must be part of the working product shown to the judges.</strong> Teams may choose their own compatible models, frameworks, and development tools.</p>
+      <p><strong>FAQ:<br> </strong> 1) The event is hosted on <strong><a href="https://notebooks.amd.com/tokenfactory" target="_blank">notebooks.amd.com/tokenfactory</a></strong>. There is <strong>no billing or credit card info needed</strong>.<br>
+ 
+2) Developers <strong>dont need the $100 credit to participate </strong> in the event. Just the api from the tokenfactory.</p>
+
+  </div>
+
+  <!-- ===== NEW: PARTNER AWARDS (leads into the Evolus track below) ===== -->
+  <div class="amd3-chl-req">
+    <h3>Partner awards</h3>
+
+    <p>Google and Evolus technologies are optional. Teams that use an eligible partner technology can also compete for that partner’s prize. A single project may qualify for the main challenge prize, one partner prize, or both partner prizes.</p>
+<!-- [EVENT NAME] — 08 WHAT TO SUBMIT (Project + Presentation) -->
+<!-- Copy = user-supplied text, verbatim. Code column dropped on request.
+     Palette = template default — swap --y for brand colour once available. -->
+<style>
+  .gev-sub{--y:#FFD426;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;
+    background:linear-gradient(180deg,#FBFAF7 0%,#fff 100%);border:1px solid #ECE9E1;border-radius:26px;
+    padding:48px 48px 44px;margin-bottom:40px}
+  .gev-sub *{box-sizing:border-box}
+  .gev-sub h2{font-size:36px;font-weight:900;color:#0D0D0D;letter-spacing:-.03em;line-height:1.14;margin:0 0 28px}
+  .gev-sub-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .gev-sub-col{background:#fff;border:1px solid #ECE9E1;border-radius:16px;padding:22px}
+  .gev-sub-col h4{font-size:15px;font-weight:900;color:#0D0D0D;margin:0 0 12px}
+  .gev-sub-col ul{list-style:none;margin:0;padding:0}
+  .gev-sub-col li{position:relative;padding-left:18px;font-size:15px;line-height:1.75;color:#4A4A4A}
+  .gev-sub-col li::before{content:"";position:absolute;left:2px;top:11px;width:7px;height:7px;border-radius:2px;background:var(--y)}
+  @media(max-width:980px){.gev-sub{padding:38px 30px}.gev-sub h2{font-size:29px}
+    .gev-sub-cols{grid-template-columns:1fr}}
+  @media(max-width:560px){.gev-sub{padding:30px 20px;border-radius:20px;margin-bottom:32px}.gev-sub h2{font-size:25px}}
+</style>
+
+<section class="gev-sub">
+  <h2>What to Submit</h2>
+  <div class="gev-sub-cols">
+    <div class="gev-sub-col">
+      <h4>📋 Project</h4>
+      <ul>
+        <li>Project title</li>
+        <li>Short and long descriptions</li>
+        <li>Selected challenge</li>
+        <li>Technology tags</li>
+        <li>Working prototype</li>
+      </ul>
+    </div>
+    <div class="gev-sub-col">
+      <h4>📸 Presentation</h4>
+      <ul>
+        <li>Cover image</li>
+        <li>Demo video</li>
+        <li>Pitch presentation</li>
+        <li>Clear explanation of the problem and intended user</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+        </div>
+      
+    
+  
+
+  <!-- ===== EXISTING HTML BELOW â€” UNCHANGED ===== -->
+
+  <!-- EVOLUS TRACK Ã¢â‚¬â€ kit Ã‚Â§3. Remove this whole div to cut it. -->
+  <div class="amd3-chl-ev">
+    <div class="amd3-chl-ev-top">
+      <div class="amd3-chl-ev-meta">
+        <span>Track by partner: Evolus</span>
+      </div>
+      <h3>Evolus Business Agents on AMD</h3>
+      <p class="amd3-chl-ev-lede" style="font-weight:normal">Build an AI agent that runs a real business process end to end, on Evolus, powered by an open model served on AMD.</p>
+      <p class="amd3-chl-ev-lede" style="font-weight:normal">Pick a process that a real company runs every day and let an agent run it. The agent takes the input (an email, a PDF, a recording, a web form, a chat), reasons over it with an open model running on AMD, and acts: it runs an Evolus workflow, turns documents into data, uses AI Tools, updates another system, or hands the case to a person when it should.</p>
+    </div>
+
+    <div class="amd3-chl-ev-body">
+      <h4>Requirements</h4>
+      <ol class="amd3-chl-ev-req">
+        <li><strong>Build in a free Evolus event workspace</strong>, created at <a href="https://app.evolus.ai" target="_blank" rel="noopener noreferrer">app.evolus.ai</a> with the event code shared at kickoff.</li>
+        <li><strong>Bring your own model:</strong> the main agent must use an open model served on AMD infrastructure through your own vLLM endpoint on AMD Developer Cloud.</li>
+        <li><strong>Use at least two Evolus building blocks:</strong> workflows, document extractors, AI Tools, knowledge libraries, MCP connectors, sub-agents, chat widget.</li>
+        <li><strong>Drive Evolus from your app through its APIs:</strong> the Evolus REST API for workflows, extractors, AI Tools and libraries; agent chat through the REST API or the OpenAI-compatible endpoint.</li>
+        <li><strong>Follow the hackathon submission rules:</strong> containerized app, public GitHub repository, a README that runs. Never commit API keys: use environment variables.</li>
+      </ol>
+
+      <h4>Sample use cases</h4>
+      <div class="amd3-chl-ev-tbl">
+        <table>
+          <thead>
+            <tr>
+              <th>Use case</th>
+              <th>Input</th>
+              <th>What the solution does</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Invoice and order intake</td>
+              <td>Emails with PDF attachments</td>
+              <td>A workflow started by incoming email reads the PDF, extracts the fields into JSON, matches them to the order and flags mismatches to a person</td>
+            </tr>
+            <tr>
+              <td>Support desk on company knowledge</td>
+              <td>Chat, email or website widget</td>
+              <td>An agent answers from the company’s documents with sources and passes the case to a person when unsure</td>
+            </tr>
+            <tr>
+              <td>Lead qualification</td>
+              <td>Chat widget on a website</td>
+              <td>Qualifies the visitor, books a call and pushes the lead to a CRM through MCP</td>
+            </tr>
+            <tr>
+              <td>Contract review</td>
+              <td>Uploaded contracts</td>
+              <td>Extracts key clauses, compares them with the company’s standard terms and redacts personal data before sharing</td>
+            </tr>
+            <tr>
+              <td>Multilingual documents</td>
+              <td>PDF and Word files</td>
+              <td>Translates manuals and offers keeping their layout, then files them through a workflow</td>
+            </tr>
+            <tr>
+              <td>Meeting follow-up</td>
+              <td>Recordings of calls and meetings</td>
+              <td>Turns the recording into minutes and action items and sends them to the attendees</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>Judging</h4>
+      <p>The hackathon’s four criteria, read on this track:</p>
+      <div class="amd3-chl-ev-crit">
+        <div>
+          <h5>Application of Technology</h5>
+          <p>How deeply the solution uses Evolus building blocks, and how well the AMD-hosted model is integrated.</p>
+        </div>
+        <div>
+          <h5>Business Value</h5>
+          <p>A real process, a clear user, a measurable gain.</p>
+        </div>
+        <div>
+          <h5>Originality</h5>
+          <p>A new approach, or a process nobody automated this way.</p>
+        </div>
+        <div>
+          <h5>Presentation</h5>
+          <p>A clear demo and pitch.</p>
+        </div>
+      </div>
+      <p class="amd3-chl-ev-fine">To verify the requirements, the Evolus team reviews the configuration and usage statistics of each event workspace: the connected model endpoint, the building blocks used and the API calls.</p>
+    </div>
+
+    <!-- <div class="amd3-chl-tbd">
+    <h3>More tracks &mdash; to be announced</h3>
+    <p>Further tracks, task details and sample use cases will be published here before the kickoff.</p>
+  </div> -->
+
+    <!-- PARKED â€” "What to Submit" from the same brief. Belongs in 08-guidelines (replaces/extends the standard
+     lablab field list there), not in Challenge. Kept here so it is not lost:
+     Project: Project title Â· Short and long descriptions Â· Selected challenge Â· Technology tags Â· Working prototype
+     Presentation: Cover image Â· Demo video Â· Pitch presentation Â· Clear explanation of the problem and intended user
+     Code: Public repository Â· Setup and run instructions Â· Application or demo link when available Â· Simple architecture diagram
+     AMD evidence: AMD hardware or infrastructure used Â· Model and serving stack Â· At least one relevant benchmark Â· A clear explanation of what ran on AMD
+     Evaluation: One business result Â· One known limitation Â· One failure case Â· The safeguard or human review process
+     Note: Do not include credentials, API keys, confidential information, or personal data in a public repository. -->
+  </div>
+
+  <!-- <div class="amd3-chl-tbd">
+    <h3>More tracks &mdash; to be announced</h3>
+    <p>Further tracks, task details and sample use cases will be published here before the kickoff.</p>
+  </div> -->
+</section>
+
+<!-- AMD DEVELOPER HACKATHON: ACT III — 03 CHALLENGE -->
+<!-- Brief adapted from the ACT I Challenge section + the ACT III banner subtitle.
+     Tracks: not confirmed for ACT III → public-facing TBA block. Do NOT copy ACT I/ACT II tracks here. -->
+<style>
+  .amd3-chl{--r:#ED1C24;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;background:#fff;
+    border:1px solid #ECE9E1;border-radius:26px;padding:48px 48px 44px;margin-bottom:40px}
+  .amd3-chl *{box-sizing:border-box}
+  .amd3-chl-kicker{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;color:#B01218;margin-bottom:14px}
+  .amd3-chl h2{font-size:36px;font-weight:900;color:#0D0D0D;letter-spacing:-.03em;line-height:1.14;margin:0 0 18px}
+  .amd3-chl p{font-size:16px;line-height:1.75;color:#3F3F3F;margin:0 0 14px}
+  .amd3-chl-tbd{margin-top:14px;border:1px dashed #D8D3C6;border-radius:18px;padding:24px 26px;background:#FBFAF7;border-left:3px solid var(--r)}
+  .amd3-chl-tbd h3{font-size:16px;font-weight:900;color:#0D0D0D;margin:0 0 8px}
+  .amd3-chl-tbd p{font-size:14px;line-height:1.65;color:#4A4A4A;margin:0}
+  @media(max-width:980px){.amd3-chl{padding:38px 30px}.amd3-chl h2{font-size:29px}}
+  @media(max-width:560px){.amd3-chl{padding:30px 20px;border-radius:20px;margin-bottom:32px}
+    .amd3-chl h2{font-size:25px}}
+</style>
+25:T65e9,<!-- AMD DEVELOPER HACKATHON: ACT III â€” 04 PARTNERS (lead partner + AMD stack + technology partner Evolus) -->
+
+<!-- AMD tech cards sourced from the ACT I/ACT II "Technology & Access" sections and AMD's own
+
+     developer pages. Deliberately EXCLUDED per brief: all credit amounts, model/API partners
+
+     (Fireworks, Gemma, Hugging Face, Qwen, Native.Builder), DeepLearning.AI perk.
+
+     Evolus block: sections 1 (About), 2 (Technology and access) and 4 (Technical resources) of
+
+     "Evolus-partner-kit-AMD-ACT-III.pdf" (Sept 27, 2026). Section 3 (track + prizes) NOT used â€”
+
+     tracks are still TBD on the page. Evolus's listing is itself pending confirmation (kit, question 3).
+
+     Placeholders to replace before publishing: AMD logo URL (internal), [EVOLUS LOGO URL]. -->
+
+<style>
+
+  .amd3-prt{--r:#ED1C24;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;background:#fff;
+
+    border:1px solid #ECE9E1;border-radius:26px;padding:48px 48px 44px;margin-bottom:40px}
+
+  .amd3-prt *{box-sizing:border-box}
+
+  .amd3-prt-kicker{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;
+
+    letter-spacing:.14em;text-transform:uppercase;color:#B01218;margin-bottom:14px}
+
+  .amd3-prt h2{font-size:36px;font-weight:900;color:#0D0D0D;letter-spacing:-.03em;line-height:1.14;margin:0 0 28px}
+
+  .amd3-prt-sub{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.14em;
+
+    text-transform:uppercase;color:#9A9A9A;margin:0 0 14px}
+
+  .amd3-prt-lead{background:#0D0D0D;border-radius:20px;padding:30px 32px;color:#fff;margin-bottom:14px;border-left:3px solid var(--r)}
+
+  .amd3-prt-head{display:flex;gap:22px;align-items:center;margin-bottom:18px}
+
+  .amd3-prt-logo{flex:0 0 140px;height:52px;background:rgba(255,255,255,.06);border-radius:10px;
+
+    display:flex;align-items:center;justify-content:center;overflow:hidden}
+
+  .amd3-prt-logo img{max-width:100%;max-height:100%;display:block}
+
+  .amd3-prt-lead h3{font-size:22px;font-weight:900;letter-spacing:-.02em;margin:0}
+
+  .amd3-prt-lead p{font-size:15px;line-height:1.75;color:rgba(255,255,255,.75);margin:0 0 12px;}
+
+  .amd3-prt-lead p:last-child{margin-bottom:0}
+
+  .amd3-prt-stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:16px}
+
+  .amd3-prt-card{background:#FBFAF7;border:1px solid #ECE9E1;border-radius:18px;padding:22px;border-top:3px solid var(--r)}
+
+  .amd3-prt-card h4{font-size:16px;font-weight:900;color:#0D0D0D;letter-spacing:-.01em;margin:0 0 9px}
+
+  .amd3-prt-card p{font-size:14px;line-height:1.7;color:#4A4A4A;margin:0 0 10px}
+
+  .amd3-prt-card ul{list-style:none;margin:0;padding:0}
+
+  .amd3-prt-card li{position:relative;padding-left:16px;font-size:14px;line-height:1.7;color:#4A4A4A}
+
+  .amd3-prt-card li::before{content:"";position:absolute;left:2px;top:10px;width:6px;height:6px;border-radius:2px;background:var(--r)}
+
+  .amd3-prt-links{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}
+
+  .amd3-prt-pill{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#0D0D0D;text-decoration:none;
+
+    border:1px solid #DDD8CC;border-radius:999px;padding:9px 16px;background:#fff}
+
+  .amd3-prt-pill:hover{border-color:#0D0D0D;background:rgba(237,28,36,.10)}
+
+  .amd3-prt-tba{border:1px dashed #D8D3C6;border-radius:20px;padding:28px 26px;text-align:center;background:#FBFAF7}
+
+  .amd3-prt-tba h3{font-size:17px;font-weight:900;color:#0D0D0D;margin:0 0 8px}
+
+  .amd3-prt-tba p{font-size:14px;line-height:1.65;color:#4A4A4A;margin:0}
+
+
+
+  /* ---- Technology partner: Evolus ---- */
+
+  .amd3-prt-ev{border:1px solid #ECE9E1;border-left:3px solid #0D0D0D;border-radius:20px;padding:30px 32px;
+
+    background:#fff;margin-bottom:14px}
+
+  .amd3-prt-ev .amd3-prt-logo{background:#FBFAF7;border:1px solid #ECE9E1}
+
+  .amd3-prt-ev h3{font-size:22px;font-weight:900;color:#0D0D0D;letter-spacing:-.02em;margin:0}
+
+  .amd3-prt-ev-tag{font-size:17px;font-weight:700;line-height:1.55;color:#0D0D0D;margin:0 0 14px;}
+
+  .amd3-prt-ev p{font-size:15px;line-height:1.75;color:#4A4A4A;margin:0 0 12px;max-width:700px}
+
+  .amd3-prt-ev h4{font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;letter-spacing:.14em;
+
+    text-transform:uppercase;color:#B01218;margin:30px 0 12px}
+
+  .amd3-prt-ev code{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:#0D0D0D;background:#F3F1EB;
+
+    border-radius:5px;padding:1px 5px;word-break:break-word}
+
+  .amd3-prt-ev-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+
+  .amd3-prt-ev-blk{background:#FBFAF7;border:1px solid #ECE9E1;border-radius:14px;padding:18px 18px 16px}
+
+  .amd3-prt-ev-blk h5{font-size:15px;font-weight:900;color:#0D0D0D;letter-spacing:-.01em;margin:0 0 6px}
+
+  .amd3-prt-ev-blk p{font-size:14px;line-height:1.65;margin:0 0 10px}
+
+  .amd3-prt-ev-call{font-size:12.5px;line-height:1.6;color:#6A6A6A;border-top:1px solid #ECE9E1;padding-top:9px;margin:0}
+
+  .amd3-prt-ev-note{background:#0D0D0D;border-radius:14px;padding:18px 20px;margin-top:10px;border-left:3px solid var(--r)}
+
+  .amd3-prt-ev-note p{color:rgba(255,255,255,.78);font-size:14px;line-height:1.7;margin:0;max-width:none}
+
+  .amd3-prt-ev-note strong{color:#fff}
+
+  .amd3-prt-ev-note code{background:rgba(255,255,255,.1);color:#fff}
+
+  .amd3-prt-ev-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;counter-reset:ev}
+
+  .amd3-prt-ev-steps li{counter-increment:ev;background:#FBFAF7;border:1px solid #ECE9E1;border-radius:14px;padding:18px;
+
+    font-size:14px;line-height:1.65;color:#4A4A4A}
+
+  .amd3-prt-ev-steps li::before{content:counter(ev,decimal-leading-zero);display:block;font-family:ui-monospace,Menlo,monospace;
+
+    font-size:13px;font-weight:700;color:var(--r);margin-bottom:8px}
+
+  .amd3-prt-ev-steps a{color:#0D0D0D;text-decoration:underline;text-decoration-color:var(--r);text-underline-offset:3px}
+
+  .amd3-prt-ev-tbl{overflow-x:auto;border:1px solid #ECE9E1;border-radius:14px}
+
+  .amd3-prt-ev-tbl table{width:100%;border-collapse:collapse;min-width:560px}
+
+  .amd3-prt-ev-tbl th{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.12em;
+
+    text-transform:uppercase;color:#9A9A9A;text-align:left;padding:12px 16px;background:#FBFAF7;border-bottom:1px solid #ECE9E1}
+
+  .amd3-prt-ev-tbl td{font-size:14px;line-height:1.6;color:#4A4A4A;padding:12px 16px;border-bottom:1px solid #ECE9E1;vertical-align:top}
+
+  .amd3-prt-ev-tbl tr:last-child td{border-bottom:0}
+
+  .amd3-prt-ev-tbl td:first-child{font-weight:700;color:#0D0D0D}
+
+  .amd3-prt-ev-tbl td:last-child{white-space:nowrap;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+
+  .amd3-prt-ev-now{color:#0A7A3E}
+
+  .amd3-prt-ev .amd3-prt-links{margin:22px 0 0}
+
+  .amd3-prt-ev-fine{font-size:12.5px!important;color:#8A8A8A!important;margin:18px 0 0!important}
+
+
+
+  @media(max-width:980px){.amd3-prt{padding:38px 30px}.amd3-prt h2{font-size:29px}
+
+    .amd3-prt-head{flex-direction:column;align-items:flex-start;gap:14px}
+
+    .amd3-prt-lead,.amd3-prt-ev{padding:26px 24px}.amd3-prt-stack,.amd3-prt-ev-grid{grid-template-columns:1fr}
+
+    .amd3-prt-ev-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+  @media(max-width:560px){.amd3-prt{padding:30px 20px;border-radius:20px;margin-bottom:32px}.amd3-prt h2{font-size:25px}
+
+    .amd3-prt-ev{padding:22px 18px}.amd3-prt-ev-steps{grid-template-columns:1fr}}
+
+
+  .amd3-prt-ev-coupon{margin:22px 0;background:#FBFAF7;border:1px solid #ECE9E1;border-left:3px solid var(--r);border-radius:14px;padding:20px}
+  .amd3-prt-ev-coupon p{margin:0 0 14px;max-width:none}
+  .amd3-prt-ev-coupon-btn{display:inline-flex;align-items:center;justify-content:center;background:#0D0D0D;color:#fff!important;border-radius:999px;padding:12px 20px;font-size:14px;font-weight:700;text-decoration:none;max-width:100%;text-align:center}
+  .amd3-prt-ev-coupon-btn:hover{background:#262626}
+  .amd3-prt-ev-coupon-btn:focus-visible{outline:2px solid var(--r);outline-offset:3px}
+</style>
+
+
+
+<section class="amd3-prt">
+
+  <span class="amd3-prt-kicker">Partners</span>
+
+  <h2>Build on AMD GPUs in the cloud</h2>
+
+
+
+  <p class="amd3-prt-sub" style="font-size: 25px;">Lead partner<br>[note: This partner technology is mandatory for all the challenges]</p>
+
+  <div class="amd3-prt-lead">
+
+    <div class="amd3-prt-head">
+
+      <div class="amd3-prt-logo"><img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F9f2c190669ce4a64b624f4abe59f315e?format=webp&#x26;width=2000" alt="AMD"></div>
+
+      <h3></h3>
+
+    </div>
+
+    <p>This hackathon gives developers the opportunity to explore and build AI workloads using AMD’s cloud-based AI stack. All development happens on cloud-accessible AMD GPUs, so there is no need to own or manage hardware.</p>
+
+    <p>The focus is on experimenting, benchmarking and running real workloads in a flexible environment. During the hackathon, teams can choose to work with the technologies below.</p>
+
+  </div>
+
+
+
+  <div class="amd3-prt-stack">
+
+    <div class="amd3-prt-card">
+
+      <h4>AMD Developer Cloud</h4>
+
+      <p>On-demand access to AMD GPUs through the cloud. Spin up a GPU environment in minutes and build and test AI workloads without infrastructure overhead.</p>
+
+      <ul>
+
+        <li>Training and fine-tuning models</li>
+
+        <li>Benchmarking AI workloads on AMD GPUs</li>
+
+        <li>Prototyping before moving to on-prem infrastructure</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="amd3-prt-card">
+
+      <h4>ROCm</h4>
+
+      <p>ROCm is AMD’s open-source software platform for GPU computing — the AMD equivalent of CUDA. It runs AI/ML and HPC workloads on AMD GPUs.</p>
+
+      <ul>
+
+        <li>Running PyTorch and TensorFlow on AMD GPUs</li>
+
+        <li>Porting CUDA-based workloads to AMD hardware</li>
+
+        <li>High-performance AI and ML workloads</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="amd3-prt-card">
+
+      <h4>AMD AI Developer Program</h4>
+
+      <p>Membership in the AMD AI Developer Program (ADP) unlocks the AMD developer ecosystem around the hackathon.</p>
+
+      <ul>
+
+        <li>AI tutorials, training and technical resources</li>
+
+        <li>Access to AMD engineers and technical experts</li>
+
+        <li>Private community channels and developer updates</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="amd3-prt-card">
+
+      <h4>Training &#x26; learning resources</h4>
+
+      <p>Curated AI learning material, tutorials and hands-on labs to help you build faster during the event.</p>
+
+      <ul>
+
+        <li>AMD AI Academy courses and documentation</li>
+
+        <li>Hands-on labs with real GPU access</li>
+
+        <li>Fully cloud-based — no local setup required</li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="amd3-prt-links">
+
+    <a class="amd3-prt-pill" href="https://developer.amd.com/ai-developer-program/" target="_blank" rel="noopener noreferrer">AMD AI Developer Program</a>
+
+    <a class="amd3-prt-pill" href="https://www.amd.com/en/developer/resources/rocm-hub/ai-cloud-development.html" target="_blank" rel="noopener noreferrer">AMD cloud development</a>
+
+    <a class="amd3-prt-pill" href="https://www.amd.com/en/developer/resources/rocm-hub/dev-ai.html" target="_blank" rel="noopener noreferrer">ROCm AI Developer Hub</a>
+
+    <a class="amd3-prt-pill" href="https://rocm.docs.amd.com/en/latest/index.html" target="_blank" rel="noopener noreferrer">ROCm documentation</a>
+
+    <a class="amd3-prt-pill" href="https://rocm.docs.amd.com/en/latest/install/rocm.html" target="_blank" rel="noopener noreferrer">ROCm installation guide</a>
+
+    <a class="amd3-prt-pill" href="https://github.com/ROCm/ROCm" target="_blank" rel="noopener noreferrer">github.com/ROCm/ROCm</a>
+
+  </div>
+
+
+
+  <p class="amd3-prt-sub" style="font-size: 15px;">Technology partners</p>
+
+
+
+  <!-- VIBE GENERATION — description supplied by the user (translated from Italian), no links/logo provided -->
+
+  <div class="amd3-prt-tba">
+
+    <div class="amd3-prt-head">
+
+      <div class="amd3-prt-logo"><img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F6922adc6860c45459a154c6d00ceeb66?format=webp&#x26;width=2000" alt="Vibe"></div>
+
+      <h3>Vibe Generation</h3>
+
+    </div>
+
+
+
+    <p style="text-align: left;">Vibe Generation is the project founded by Paolo Bonetti to integrate specialized professionals and artificial intelligence tools into the real-world processes of businesses.<br>The model was created to support companies, brands and organizations in moving from the occasional use of AI tools to building hybrid teams and processes, in which technology and human skills work together.<br>The project focuses in particular on the relationship between artificial intelligence, talent, judgment and organizational transformation.</p>
+
+  </div>
+
+  <br>
+
+
+
+  <style>
+
+    .amd3-prt-ev-more{margin-top:22px}
+
+    .amd3-prt-ev-more > summary{list-style:none;display:inline-flex;align-items:center;gap:10px;cursor:pointer;
+
+      font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+
+      color:#fff;background:#0D0D0D;border-radius:999px;padding:11px 18px;border-left:3px solid var(--r);user-select:none}
+
+    .amd3-prt-ev-more > summary::-webkit-details-marker{display:none}
+
+    .amd3-prt-ev-more > summary::after{content:"+";font-size:15px;line-height:1;color:var(--r)}
+
+    .amd3-prt-ev-more[open] > summary::after{content:"\2212"}
+
+    .amd3-prt-ev-more > summary:hover{background:#262626}
+
+    .amd3-prt-ev-more > summary:focus-visible{outline:2px solid var(--r);outline-offset:3px}
+
+  </style>
+
+
+
+  <!-- EVOLUS â€” kit Â§1 About -->
+
+  <div class="amd3-prt-ev">
+
+    <div class="amd3-prt-head">
+
+      <div class="amd3-prt-logo"><img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F5513fcddc75d48478114e880a750f2da?format=webp&#x26;width=2000" alt="Evolus AI"></div>
+
+      <h3>Evolus AI</h3>
+
+    </div>
+
+    <p class="amd3-prt-ev-tag" style="max-width: 100%;">The platform to build AI agents that run real business processes. Bring your own AMD-hosted model and ship an agent that does real work.</p>
+
+    <p style="max-width: 100%;">Evolus gives companies AI agents that read documents, answer from company knowledge, run automations and act on the systems they already use through APIs and MCP. Businesses also use Evolus for digital employees that work in email and Microsoft Teams, and for an AI Switchboard that answers the phone.</p>
+
+    <p style="max-width: 100%;">For developers, everything is driven by the Evolus REST API, agents can also be reached through an OpenAI-compatible endpoint, and an MCP server lets coding agents build on Evolus directly. During the hackathon every team brings its own model.</p>
+
+
+
+    <div class="amd3-prt-ev-coupon">
+      <p><strong>500 Evolus AI coupons available.</strong><br>Coupons are available on a <strong>first-come, first-served basis</strong>, while supplies last.</p>
+      <a class="amd3-prt-ev-coupon-btn" href="https://lablab.ai/redeem-coupon/evolus-ai-coupon-amd-developer-hackathon-act-ii" target="_blank" rel="noopener noreferrer">Claim your Evolus AI coupon →</a>
+    </div>
+
+    <!-- Everything below is collapsed behind the "Technology" button (native <details>, no JS) -->
+
+    <details class="amd3-prt-ev-more">
+
+      <summary>Technology</summary>
+
+
+
+      <!-- EVOLUS â€” kit Â§2 Technology and access -->
+
+      <h4>Technology &#x26; access</h4>
+
+      <p style="max-width: 100%;">Teams connect their own model and build around it: agents, business automations, document extractors, knowledge libraries and ready-made AI Tools, all driven by API.</p>
+
+      <div class="amd3-prt-ev-grid">
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Agents and sub-agents</h5>
+
+          <p>Agents with tools and memory, running on the team’s own model.</p>
+
+          <p class="amd3-prt-ev-call">Evolus REST API (<code>ask</code>, streaming <code>ask-stream</code>); for chat also the OpenAI-compatible <code>/v1/chat/completions</code></p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Workflows (business automations)</h5>
+
+          <p>Multi-step pipelines of agents, document reading, extractors and webhooks, with branches, loops and parallel steps. They start from an API call, an incoming email or a schedule: files in, result out to a callback URL.</p>
+
+          <p class="amd3-prt-ev-call">Evolus REST API: <code>POST /api/v1/workflows/{id}/execute</code> with text and files, then the execution status</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Document extractors</h5>
+
+          <p>Turn PDFs, scans and images into structured JSON, following a schema you define.</p>
+
+          <p class="amd3-prt-ev-call">Evolus REST API, or as a workflow step</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>AI Tools</h5>
+
+          <p>Eleven ready-made tools: document to structured data (JSON, CSV, XML), table extraction, translation of PDF and Word files keeping the original layout, real redaction of personal data in PDFs, summaries, meeting minutes from audio or video, email writing and replies, rewriting, plain-language simplification, sentiment, comparison of two texts.</p>
+
+          <p class="amd3-prt-ev-call">Evolus REST API: <code>/api/v1/ai-tools/{tool}/run</code>, <code>run-media</code> for audio and video, <code>run-file</code> for file in, file out</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Knowledge libraries (RAG)</h5>
+
+          <p>Upload documents or import web pages; agents answer from them, with sources.</p>
+
+          <p class="amd3-prt-ev-call">Evolus REST API, attached to agents</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Webhooks</h5>
+
+          <p>Notify your own systems when something happens.</p>
+
+          <p class="amd3-prt-ev-call">Evolus REST API</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>MCP connectors</h5>
+
+          <p>Connect agents to external systems through MCP servers, including your own.</p>
+
+          <p class="amd3-prt-ev-call">Configured in the workspace</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Chat widget</h5>
+
+          <p>Put an agent on any website.</p>
+
+          <p class="amd3-prt-ev-call">One script tag</p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Evolus MCP server</h5>
+
+          <p>Build and manage agents, workflows and libraries from Claude Code, Cursor or any MCP client.</p>
+
+          <p class="amd3-prt-ev-call"><code>https://api.evolus.ai/mcp</code></p>
+
+        </div>
+
+        <div class="amd3-prt-ev-blk">
+
+          <h5>Evolus Studio</h5>
+
+          <p>A coding agent for terminal and desktop, built on the open-source OpenCode, with the Evolus MCP tools built in.</p>
+
+          <p class="amd3-prt-ev-call">Desktop app and CLI</p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="amd3-prt-ev-note">
+
+        <p><strong>Bring your own model.</strong> Event workspaces run their agents on the model each team connects: an open model through a vLLM endpoint on AMD Developer Cloud, or any OpenAI-compatible provider.</p>
+
+      </div>
+
+      <div class="amd3-prt-ev-note">
+
+        <p><strong>Which API for what.</strong> Workflows, extractors, AI Tools and knowledge libraries use the Evolus REST API; only agent chat is also available through the OpenAI-compatible endpoint. Document reading, AI Tools and knowledge indexing run on Evolus and use the workspace credits.</p>
+
+      </div>
+
+
+
+      <h4>Access, free for every participant</h4>
+
+      <ol class="amd3-prt-ev-steps">
+
+        <li>Go to <a href="https://app.evolus.ai" target="_blank" rel="noopener noreferrer">app.evolus.ai</a> and sign in with GitHub, Google, Apple or Microsoft.</li>
+
+        <li>Enter the event code, shared at kickoff: a free workspace until October 31, 2026, for up to 6 team members, with 50,000 platform credits and no credit card.</li>
+
+        <li>Connect your model, create an API key and start building.</li>
+
+        <li>Evolus Studio: download link shared before the kickoff; sign in with your Evolus account.</li>
+
+      </ol>
+
+
+
+      <!-- EVOLUS â€” kit Â§4 Technical resources (tutorial + workshop rows parked, see bottom) -->
+
+      <h4>Technical resources</h4>
+
+      <div class="amd3-prt-ev-tbl">
+
+        <table>
+
+          <thead>
+
+            <tr>
+
+              <th>Resource</th>
+
+              <th>Where</th>
+
+              <th>Available</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr>
+
+              <td>Developer quickstart and examples</td>
+
+              <td>evolus.ai/developers</td>
+
+              <td>Before the kickoff</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Interactive API reference</td>
+
+              <td>Inside every Evolus workspace</td>
+
+              <td class="amd3-prt-ev-now">Now</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Evolus REST API: workflows, extractors, AI Tools, libraries, agents</td>
+
+              <td><code>https://api.evolus.ai/api/v1</code> with the <code>X-ApiKey</code> and <code>X-Application-Id</code> headers</td>
+
+              <td class="amd3-prt-ev-now">Now</td>
+
+            </tr>
+
+            <tr>
+
+              <td>OpenAI-compatible agent chat</td>
+
+              <td>Base URL <code>https://api.evolus.ai/v1</code>, model <code>&#x3C;applicationId>:&#x3C;agentId></code>, Bearer API key</td>
+
+              <td class="amd3-prt-ev-now">Now</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Evolus MCP server</td>
+
+              <td><code>https://api.evolus.ai/mcp</code>, same headers as the REST API</td>
+
+              <td class="amd3-prt-ev-now">Now</td>
+
+            </tr>
+
+            <tr>
+
+              <td>Evolus Studio</td>
+
+              <td>Download link on evolus.ai/developers</td>
+
+              <td>Before the kickoff</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+
+
+      <div class="amd3-prt-links">
+
+        <a class="amd3-prt-pill" href="https://evolus.ai" target="_blank" rel="noopener noreferrer">evolus.ai</a>
+
+        <a class="amd3-prt-pill" href="https://app.evolus.ai" target="_blank" rel="noopener noreferrer">app.evolus.ai</a>
+
+      </div>
+
+      <p class="amd3-prt-ev-fine">Evolus is a trademark of Codedesign SRL, a software company based in Taggia, in the province of Imperia, Italy.</p>
+
+    </details>
+
+  </div>
+
+
+
+  <!-- EVOLUS â€” kit Â§1 About -->
+
+
+
+  <br>
+
+  <div class="amd3-prt-tba">
+
+    <div class="amd3-prt-head">
+
+      <div class="amd3-prt-logo"><img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F3da85d896c9149b5ac4c515627519173?format=webp&#x26;width=2000" alt="Imment"></div>
+
+      <h3>PwC Italy</h3>
+
+    </div>
+
+
+
+    <p style="text-align: left;">PwC Italy PwC’s purpose is to build trust in society and solve important problems by providing innovative responses to complex challenges. PwC operates through 23 offices in Italy with more than 9,000 professionals committed to delivering high‑quality tax, legal, audit, and consulting services across organizational and strategic areas. PwC offers an extensive range of integrated and multidisciplinary services. <br>PwC’s true strength lies in its ability to combine in‑depth knowledge of local markets with a globally integrated network. With over 364,000 people in 136 countries, it is one of the world’s largest networks of professional services firms.</p>
+
+  </div>
+
+  <br>
+
+  <div class="amd3-prt-tba">
+
+    <div class="amd3-prt-head">
+
+      <div class="amd3-prt-logo"><img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F22e00c05106d4313994b265f51da98b3?format=webp&#x26;width=2000" alt="Imment"></div>
+
+      <h3>IMMENT</h3>
+
+    </div>
+
+
+
+    <p style="text-align: left;">Building the Future of Startups. We help you create, fund, and manage your startup using innovative tools and specialized expertise in Administration, Finance, and Control.</p>
+
+  </div>
+
+</section>
+
+
+
+<!-- PARKED â€” cut deliberately, per brief ("nie o partnerach, creditsach"):
+
+     â€¢ all credit amounts and credit-allocation rules from ACT II
+
+     â€¢ model/API partners: Fireworks AI, Gemma, Hugging Face, Qwen, Native.Builder
+
+     â€¢ DeepLearning.AI Pro membership perk
+
+     â€¢ the partner-prize eligibility line from boilerplate.md â€” it only makes sense once
+
+       technology partners and tracks are confirmed. Re-add it here when they are.
+
+     â€¢ ACT I "Access Phasing" (online = credits-based, on-site = dedicated GPUs for finalists) â€”
+
+       credits-adjacent and unconfirmed for ACT III. -->
+
+
+
+<!-- PARKED â€” from the Evolus partner kit, not placed yet:
+
+     â€¢ Â§2 "The Evolus track requires an AMD-hosted model." â€” refers to a track that is not
+
+       confirmed (kit question 2). Re-add to the "Bring your own model" note once tracks are set.
+
+     â€¢ Â§4 "Tutorial: connect your AMD model to Evolus â€” lablab.ai tutorials, before the kickoff" â€”
+
+       depends on lablab accepting the PR on lablab-ai/community-content (kit question 6).
+
+     â€¢ Â§4 "Workshop recording â€” lablab.ai event page, before the kickoff" â€” workshop slot not
+
+       confirmed (kit question 4). Belongs in 06-workshops once scheduled.
+
+     â€¢ Â§4 AMD side: Fireworks AI OpenAI compatibility docs (docs.fireworks.ai) and the lablab.ai
+
+       tutorial "AMD Developer Cloud: host your first LLM on AMD GPU" â€” no URLs in the kit;
+
+       Fireworks also excluded per brief.
+
+     â€¢ Main URL with tracking, to swap in for evolus.ai once the developer page is live:
+
+       https://evolus.ai/developers?utm_source=lablab&utm_medium=hackathon&utm_campaign=amd-act-iii -->
+26:T2bd3,<!-- AMD HACKATHON â€” 07 PRIZES -->
+<!-- Pool: $5,000+ = AMD $5,000 (distribution criteria TBA) + Evolus track â‚¬1,011.50. Disclaimer = lablab boilerplate. -->
+<style>
+  .amd3-prz{--r:#ED1C24;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;
+    background:radial-gradient(circle at 85% 10%,rgba(237,28,36,.22) 0%,rgba(237,28,36,0) 48%),linear-gradient(135deg,#000 0%,#171717 100%);
+    border-radius:26px;padding:68px 64px 64px;margin-bottom:40px;color:#fff}
+  .amd3-prz *{box-sizing:border-box}
+  .amd3-prz-kicker{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--r);margin-bottom:14px}
+  .amd3-prz h2{font-size:36px;font-weight:900;letter-spacing:-.03em;line-height:1.14;margin:0 0 34px}
+  .amd3-prz h2 span{color:var(--r)}
+  .amd3-prz-sub{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:rgba(255,255,255,.45);margin:0 0 14px}
+  .amd3-prz-tba{border:1px dashed rgba(255,255,255,.22);border-radius:20px;padding:52px 26px;text-align:center;
+    background:rgba(255,255,255,.03)}
+  .amd3-prz-tba h3{font-size:18px;font-weight:900;color:#fff;margin:0 0 8px}
+  .amd3-prz-tba p{font-size:14px;line-height:1.7;color:rgba(255,255,255,.6);margin:0 auto;max-width:56ch}
+  .amd3-prz-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .amd3-prz-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:18px;padding:24px 22px}
+  .amd3-prz-card--first{background:var(--r);border-color:var(--r);color:#fff}
+  .amd3-prz-place{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:12px}
+  .amd3-prz-card--first .amd3-prz-place{color:rgba(255,255,255,.75)}
+  .amd3-prz-amount{font-size:34px;font-weight:900;letter-spacing:-.03em;line-height:1;margin:0}
+  .amd3-prz-fine{font-size:12px;line-height:1.7;color:rgba(255,255,255,.45);margin:22px 0 0}
+  .amd3-prz-fine a{color:rgba(237,28,36,.95);text-decoration:none}
+  .amd3-prz-fine a:hover{text-decoration:underline}
+
+  /* AMD prize block */
+  .amd3-prz-trk{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-left:4px solid var(--r);
+    border-radius:18px;padding:30px;margin:0 0 20px}
+  .amd3-prz-amd{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
+  .amd3-prz-amd h3{font-size:20px;font-weight:900;letter-spacing:-.02em;color:#fff;margin:0 0 8px}
+  .amd3-prz-amd p{font-size:15px;line-height:1.7;color:rgba(255,255,255,.65);margin:0;max-width:52ch}
+  .amd3-prz-amd .amd3-prz-amount{font-size:44px;color:var(--r);white-space:nowrap}
+
+  /* Evolus track + TBD block (scoped to this dark section) */
+  .amd3-prz h4{font-family:ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:rgba(255,255,255,.45);margin:0 0 14px}
+  .amd3-prz .amd3-chl-ev-prz{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .amd3-prz .amd3-chl-ev-prz > div{background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:22px 20px}
+  .amd3-prz .amd3-chl-ev-place{display:block;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:12px}
+  .amd3-prz .amd3-chl-ev-val{display:block;font-size:30px;font-weight:900;letter-spacing:-.03em;line-height:1;color:#fff;margin-bottom:12px}
+  .amd3-prz .amd3-chl-ev-prz p{font-size:13px;line-height:1.65;color:rgba(255,255,255,.6);margin:0}
+  .amd3-prz .amd3-chl-ev-total{font-size:15px;font-weight:900;color:#fff;margin:16px 0 4px}
+  .amd3-prz .amd3-chl-ev-fine{font-size:12px;line-height:1.7;color:rgba(255,255,255,.45);margin:0}
+  .amd3-prz .amd3-chl-tbd{margin-top:8px;border:1px dashed rgba(255,255,255,.22);border-radius:18px;padding:24px 26px;background:rgba(255,255,255,.03)}
+  .amd3-prz .amd3-chl-tbd h3{font-size:16px;font-weight:900;color:#fff;margin:0 0 8px}
+  .amd3-prz .amd3-chl-tbd p{font-size:14px;line-height:1.65;color:rgba(255,255,255,.6);margin:0}
+
+  @media(max-width:980px){.amd3-prz{padding:38px 30px}.amd3-prz h2{font-size:29px}.amd3-prz-grid,.amd3-prz .amd3-chl-ev-prz{grid-template-columns:1fr}}
+  @media(max-width:560px){.amd3-prz{padding:30px 20px;border-radius:20px;margin-bottom:32px}.amd3-prz h2{font-size:24px}
+    .amd3-prz-trk{padding:24px 20px}.amd3-prz-amd .amd3-prz-amount{font-size:36px}}
+</style>
+
+<!-- Vibe Generation special prize: only the <style> block below and the block marked VIBE GENERATION are new.
+     The new classes do not touch the existing ones; colours inherit from .amd3-prz-trk.
+     Image = [AIRPODS 5 IMAGE URL] placeholder. -->
+<style>
+  .amd3-prz-vg{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:24px;align-items:center;margin-bottom:22px}
+  .amd3-prz-vg p{font-size:15px;line-height:1.75;margin:0}
+  .amd3-prz-vg-img{border-radius:14px;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;
+    overflow:hidden;padding:14px;background:rgba(128,128,128,.08)}
+  .amd3-prz-vg-img img{max-width:100%;max-height:100%;display:block;object-fit:contain}
+  .amd3-prz-vg-lead{font-size:15px;font-weight:700;line-height:1.6;margin:0 0 12px}
+  .amd3-prz-vg-crit{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .amd3-prz-vg-crit > div{border:1px solid rgba(128,128,128,.25);border-radius:14px;padding:18px}
+  .amd3-prz-vg-crit h5{font-size:15px;font-weight:900;letter-spacing:-.01em;margin:0 0 6px}
+  .amd3-prz-vg-crit p{font-size:14px;line-height:1.65;margin:0;opacity:.8}
+  @media(max-width:980px){.amd3-prz-vg{grid-template-columns:1fr}.amd3-prz-vg-img{max-width:180px}
+    .amd3-prz-vg-crit{grid-template-columns:1fr}}
+</style>
+
+<section class="amd3-prz">
+  <span class="amd3-prz-kicker">Prizes</span>
+  <h2>🏆 Total prize pool: <span>$17,000+</span></h2>
+
+  <div class="amd3-prz-trk amd3-prz-amd">
+    <div>
+      <p class="amd3-prz-sub">AMD Prizes</p>
+      <h3>$5,000 in prizes from AMD</h3>
+    </div>
+    <p class="amd3-prz-amount">$5,000</p>
+  </div>
+  <div class="amd3-prz-trk amd3-prz-amd">
+    <div>
+      <p class="amd3-prz-sub">Google Prizes</p>
+      <h3>$5,000 in prizes from Google</h3>
+    </div>
+    <p class="amd3-prz-amount">$5,000</p>
+  </div>
+
+  <div class="amd3-prz-trk">
+    <h4>Evolus Track: Business Agents Prizes</h4>
+    <div class="amd3-chl-ev-prz">
+      <div>
+        <span class="amd3-chl-ev-place">1st place</span>
+        <span class="amd3-chl-ev-val">€578</span>
+        <p>12 months of the Evolus Developer plan for the team + 1,000,000 bonus credits + a showcase on evolus.ai</p>
+      </div>
+      <div>
+        <span class="amd3-chl-ev-place">2nd place</span>
+        <span class="amd3-chl-ev-val">€289</span>
+        <p>6 months of the Evolus Developer plan for the team + 500,000 bonus credits</p>
+      </div>
+      <div>
+        <span class="amd3-chl-ev-place">3rd place</span>
+        <span class="amd3-chl-ev-val">€144.50</span>
+        <p>3 months of the Evolus Developer plan for the team + 250,000 bonus credits</p>
+      </div>
+    </div>
+    <p class="amd3-chl-ev-total">Total: €1,011.50</p>
+    <p class="amd3-chl-ev-fine">Values at list price, VAT excluded: the Evolus Developer plan costs €29 per month and bonus credits are valued at €0.23 per 1,000.</p>
+  </div>
+
+  <!-- <div class="amd3-chl-tbd">
+    <h3>More tracks &mdash; to be announced</h3>
+    <p>Further tracks, task details and sample use cases will be published here before the kickoff.</p>
+  </div> -->
+
+  <!-- Uncomment and fill once the AMD split is confirmed, then put the grid inside the AMD .amd3-prz-trk card in place of the amount.
+  <p class="amd3-prz-sub">AMD Prizes</p>
+  <div class="amd3-prz-grid">
+    <div class="amd3-prz-card amd3-prz-card--first">
+      <div class="amd3-prz-place">&#129351; 1st place</div>
+      <p class="amd3-prz-amount">[1ST]</p>
+    </div>
+    <div class="amd3-prz-card">
+      <div class="amd3-prz-place">&#129352; 2nd place</div>
+      <p class="amd3-prz-amount">[2ND]</p>
+    </div>
+    <div class="amd3-prz-card">
+      <div class="amd3-prz-place">&#129353; 3rd place</div>
+      <p class="amd3-prz-amount">[3RD]</p>
+    </div>
+  </div>
+  -->
+
+  <!-- VIBE GENERATION SPECIAL PRIZE â€” user-supplied copy, verbatim. Criteria apply to this prize only. -->
+  <div class="amd3-prz-trk">
+    <h4>Vibe Generation special prize</h4>
+    <div class="amd3-prz-vg">
+      <p>The best solution will be awarded with AirPods 5 for all members of the team.</p>
+      <div class="amd3-prz-vg-img">
+        <img src="https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Ffcead09693cb4100be30e95d25d78ba9?format=webp&#x26;width=2000" alt="AirPods 5">
+      </div>
+    </div>
+    <p class="amd3-prz-vg-lead">The solution will be judged based on those 3 criteria:</p>
+    <div class="amd3-prz-vg-crit">
+      <div>
+        <h5>Hybrid</h5>
+        <p>Strategic thinking, ability to quantify value, commercial attitude.</p>
+      </div>
+      <div>
+        <h5>Becreatives</h5>
+        <p>Quality of technical execution, orchestration of AI tools, ability to ship.</p>
+      </div>
+      <div>
+        <h5>Vibe Generation</h5>
+        <p>Taste, originality of the concept, design of the human plus AI creative workflow.</p>
+      </div>
+    </div>
+  </div>
+  <!-- IMMENT PRIZE — for the 3 best Italian teams. €1,599 per winner. -->
+  <div class="amd3-prz-trk">
+    <h4>Imment: Best Italian Teams Startup Incubation Opportunity</h4>
+    <p class="amd3-prz-vg-lead"><span style="font-weight: normal;"> The three most promising startup ideas will be selected to receive dedicated incubation support, helping teams transform innovative concepts into viable ventures.</span></p>
+    <div class="amd3-chl-ev-prz">
+      <div>
+        <span class="amd3-chl-ev-place">Team 1</span>
+        <span class="amd3-chl-ev-val" style="font-weight: normal;">Startup award program</span>
+          <span class="amd3-chl-ev-val">€1,599</span>
+      </div>
+      <div>
+        <span class="amd3-chl-ev-place">Team 2</span>
+         <span class="amd3-chl-ev-val" style="font-weight: normal;">Startup award program</span>
+          <span class="amd3-chl-ev-val">€1,599</span>
+      </div>
+      <div>
+        <span class="amd3-chl-ev-place">Team 3</span>
+        <span class="amd3-chl-ev-val" style="font-weight: normal;">Startup award program</span>
+          <span class="amd3-chl-ev-val">€1,599</span>
+      </div>
+    </div>
+    <div class="amd3-prz-imm"></div>
+  </div>
+
+  <p class="amd3-prz-fine">Please note: participation in lablab.ai hackathons is voluntary. Prizes and opportunities depend on eligibility, availability and third-party sponsors. Hackathon rules, prizes and terms may change or be canceled at our discretion. Submissions must be original and MIT-compliant. Prize distribution may take up to 90 days. <a href="https://lablab.ai/terms-of-use#16-participation-terms" target="_blank" rel="noopener noreferrer">Full details</a>.</p>
+</section>
+27:T1a86,<!-- AMD DEVELOPER HACKATHON: ACT III — 08 GUIDELINES -->
+<!-- Almost entirely lablab boilerplate (references/boilerplate.md), verbatim.
+     Two event-specific items to CONFIRM before publishing:
+       1. the AMD AI Developer Program sign-up requirement — carried over from ACT I/ACT II, not yet
+          confirmed for ACT III;
+       2. team size 1-6 — the platform default; ACT II tied team registration to GPU access.
+     Do NOT add submission fields — the three columns below are the platform's full list. -->
+<style>
+  .amd3-gdl{--r:#ED1C24;--link:#1A56DB;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;
+    background:linear-gradient(180deg,#FBFAF7 0%,#fff 100%);border:1px solid #ECE9E1;border-radius:26px;
+    padding:48px 48px 44px;margin-bottom:40px}
+  .amd3-gdl *{box-sizing:border-box}
+  .amd3-gdl-kicker{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;color:#B01218;margin-bottom:14px}
+  .amd3-gdl h2{font-size:36px;font-weight:900;color:#0D0D0D;letter-spacing:-.03em;line-height:1.14;margin:0 0 30px}
+  .amd3-gdl-block{margin-bottom:30px}
+  .amd3-gdl-block:last-child{margin-bottom:0}
+  .amd3-gdl-h{font-size:13px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#0D0D0D;
+    margin:0 0 14px;padding-bottom:9px;border-bottom:2px solid var(--r);display:inline-block}
+  .amd3-gdl-block p{font-size:15px;line-height:1.75;color:#4A4A4A;margin:0 0 12px;max-width:700px}
+  .amd3-gdl-block p:last-child{margin-bottom:0}
+  .amd3-gdl-block a{color:var(--link);font-weight:700;text-decoration:underline;text-underline-offset:2px}
+  .amd3-gdl-block a:hover{color:#123EA8}
+  .amd3-gdl-block a:visited{color:#5B3FBF}
+  .amd3-gdl-block a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+  .amd3-gdl-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .amd3-gdl-col{background:#fff;border:1px solid #ECE9E1;border-radius:16px;padding:20px}
+  .amd3-gdl-col h4{font-size:14px;font-weight:900;color:#0D0D0D;margin:0 0 10px}
+  .amd3-gdl-col ul{list-style:none;margin:0;padding:0}
+  .amd3-gdl-col li{position:relative;padding-left:18px;font-size:14px;line-height:1.7;color:#4A4A4A}
+  .amd3-gdl-col li::before{content:"";position:absolute;left:2px;top:10px;width:7px;height:7px;border-radius:2px;background:var(--r)}
+  .amd3-gdl-crit{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .amd3-gdl-crit-card{background:#0D0D0D;border-radius:16px;padding:20px;color:#fff;border-left:3px solid var(--r)}
+  .amd3-gdl-crit-card h4{font-size:15px;font-weight:900;margin:0 0 8px;letter-spacing:-.01em}
+  .amd3-gdl-crit-card p{font-size:14px;line-height:1.65;color:rgba(255,255,255,.75);margin:0;max-width:none}
+  @media(max-width:980px){.amd3-gdl{padding:38px 30px}.amd3-gdl h2{font-size:29px}
+    .amd3-gdl-cols,.amd3-gdl-crit{grid-template-columns:1fr}}
+  @media(max-width:560px){.amd3-gdl{padding:30px 20px;border-radius:20px;margin-bottom:32px}.amd3-gdl h2{font-size:25px}}
+</style>
+
+<section class="amd3-gdl">
+  <span class="amd3-gdl-kicker">Before you start building</span>
+  <h2>Guidelines</h2>
+
+  <div class="amd3-gdl-block">
+    <p class="amd3-gdl-h">How to participate</p>
+    <p>
+      The hackathon takes place online on the lablab.ai platform and the
+      <a href="https://discord.gg/lablabai" target="_blank" rel="noopener noreferrer">lablab.ai Discord server</a>. Please register for both in order to participate. To join, click the Enroll button at the bottom of the page and read the <a href="https://lablab.ai/ai-articles/hackathon-guidelines" target="_blank" rel="noopener noreferrer">Hackathon Guidelines</a>, the
+      <a href="https://lablab.ai/getting-started-guide" target="_blank" rel="noopener noreferrer">Getting Started Guide</a>
+      and the <a href="https://lablab.ai/hackathon-rules" target="_blank" rel="noopener noreferrer">lablab.ai Hackathon Rule Book</a>.
+    </p>
+    <p>
+      To be approved for the hackathon, participants must also sign up for the
+      <a href="https://developer.amd.com/ai-developer-program/" target="_blank" rel="noopener noreferrer">AMD AI Developer Program</a>.
+    </p>
+    <p>Everyone is welcome to participate, regardless of previous AI or coding experience.</p>
+    <p>Before the kickoff, browse the <a href="https://lablab.ai/tech" target="_blank" rel="noopener noreferrer">AI Tech</a> and <a href="https://lablab.ai/t" target="_blank" rel="noopener noreferrer">tutorials</a> pages to read up on the available technologies and get a head start on your project.</p>
+  </div>
+
+  <div class="amd3-gdl-block">
+    <p class="amd3-gdl-h">Teams</p>
+    <p>
+      Teams consist of 1-6 people. If you don't have a team, don't worry. You can connect with other participants from all over the world on the dashboard or on the
+      <a href="https://discord.gg/lablabai" target="_blank" rel="noopener noreferrer">Discord server</a>, where you can also find teammates and bounce around ideas.
+    </p>
+  </div>
+
+  <div class="amd3-gdl-block">
+    <p class="amd3-gdl-h">What to submit</p>
+    <div class="amd3-gdl-cols">
+      <div class="amd3-gdl-col">
+        <h4>📋 Basic information</h4>
+        <ul>
+          <li>Project title</li>
+          <li>Short description</li>
+          <li>Long description</li>
+          <li>Technology &#x26; category tags</li>
+        </ul>
+      </div>
+      <div class="amd3-gdl-col">
+        <h4>📸 Cover image and presentation</h4>
+        <ul>
+          <li>Cover image</li>
+          <li>Video presentation</li>
+          <li>Slide presentation</li>
+        </ul>
+      </div>
+      <div class="amd3-gdl-col">
+        <h4>💻 App hosting and repository</h4>
+        <ul>
+          <li>Public GitHub repository</li>
+          <li>Demo application platform</li>
+          <li>Application URL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="amd3-gdl-block">
+    <p class="amd3-gdl-h">Judging criteria</p>
+    <div class="amd3-gdl-crit">
+      <div class="amd3-gdl-crit-card">
+        <h4>Application of Technology</h4>
+        <p>How effectively the chosen model(s) are integrated into the solution.</p>
+      </div>
+      <div class="amd3-gdl-crit-card">
+        <h4>Presentation</h4>
+        <p>The clarity and effectiveness of the project presentation.</p>
+      </div>
+      <div class="amd3-gdl-crit-card">
+        <h4>Business Value</h4>
+        <p>The impact and practical value, considering how well it fits into business areas.</p>
+      </div>
+      <div class="amd3-gdl-crit-card">
+        <h4>Originality</h4>
+        <p>The uniqueness and creativity of the solution, highlighting approaches and ability to demonstrate behaviors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+28:Tffe,<!-- AMD DEVELOPER HACKATHON: ACT III — 10 COMMUNITY & SOCIAL CHANNELS -->
+<!-- lablab.ai + NativelyAI links from references/boilerplate.md (both appeared on ACT I and ACT II).
+     AMD's X and LinkedIn URLs were NOT captured from the previous pages → internal placeholders.
+     Paste them from the ACT II page before publishing; the two AMD links below that are filled in
+     are verified AMD developer pages. -->
+<style>
+  .amd3-cmt{--r:#ED1C24;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;
+    background:radial-gradient(circle at 12% 15%,rgba(237,28,36,.18) 0%,rgba(237,28,36,0) 44%),linear-gradient(135deg,#000 0%,#171717 100%);
+    border-radius:26px;padding:48px 48px 44px;margin-bottom:40px;color:#fff}
+  .amd3-cmt *{box-sizing:border-box}
+  .amd3-cmt-kicker{display:inline-block;font-family:ui-monospace,Menlo,monospace;font-size:12px;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--r);margin-bottom:14px}
+  .amd3-cmt h2{font-size:34px;font-weight:900;letter-spacing:-.03em;line-height:1.16;margin:0 0 14px}
+  .amd3-cmt-lead{font-size:16px;line-height:1.75;color:rgba(255,255,255,.72);margin:0 0 26px;max-width:620px}
+  .amd3-cmt-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .amd3-cmt-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:18px;padding:22px}
+  .amd3-cmt-card h3{font-size:16px;font-weight:900;margin:0 0 12px;letter-spacing:-.01em}
+  .amd3-cmt-card p{font-size:14px;line-height:2;color:rgba(255,255,255,.5);margin:0}
+  .amd3-cmt-card a{color:var(--r);text-decoration:none;font-weight:600}
+  .amd3-cmt-card a:hover{text-decoration:underline}
+  .amd3-cmt-card a:focus-visible{outline:2px solid var(--r);outline-offset:3px}
+  @media(max-width:980px){.amd3-cmt{padding:38px 30px}.amd3-cmt h2{font-size:28px}.amd3-cmt-grid{grid-template-columns:1fr}}
+  @media(max-width:560px){.amd3-cmt{padding:30px 20px;border-radius:20px;margin-bottom:32px}.amd3-cmt h2{font-size:24px}}
+</style>
+
+<section class="amd3-cmt">
+  <span class="amd3-cmt-kicker">Follow along</span>
+  <h2>Community &#x26; social channels</h2>
+  <p class="amd3-cmt-lead">Stay connected with the teams behind the hackathon and follow along for updates, highlights and future opportunities.</p>
+
+  <div class="amd3-cmt-grid">
+    <div class="amd3-cmt-card">
+      <h3>AMD</h3>
+      <p>
+        <a href="https://x.com/AMD?lang=en" target="_blank" rel="noopener noreferrer">X</a> · <a href="https://www.linkedin.com/company/amd" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://developer.amd.com/ai-developer-program/" target="_blank" rel="noopener noreferrer">AI Developer Program</a> ·
+        <a href="https://www.amd.com/en/developer/resources/rocm-hub/dev-ai.html" target="_blank" rel="noopener noreferrer">ROCm Developer Hub</a>
+      </p>
+    </div>
+
+    <div class="amd3-cmt-card">
+      <h3>lablab.ai</h3>
+      <p>
+        <a href="https://x.com/lablabai" target="_blank" rel="noopener noreferrer">X</a> · <a href="https://www.linkedin.com/company/lablab-ai/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://www.instagram.com/lablab.ai/" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="https://www.youtube.com/@lablabai" target="_blank" rel="noopener noreferrer">YouTube</a> · <a href="https://www.twitch.tv/lablabai" target="_blank" rel="noopener noreferrer">Twitch</a> · <a href="https://discord.gg/lablabai" target="_blank" rel="noopener noreferrer">Discord</a> ·
+        <a href="https://lablab.ai/" target="_blank" rel="noopener noreferrer">Website</a>
+      </p>
+    </div>
+
+    <div class="amd3-cmt-card">
+      <h3>NativelyAI</h3>
+      <p>
+        <a href="https://nativelyai.com/" target="_blank" rel="noopener noreferrer">Website</a> · <a href="https://www.linkedin.com/company/nativelyai/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+        <a href="https://discord.gg/uP2TQVtkRj" target="_blank" rel="noopener noreferrer">Discord</a>
+      </p>
+    </div>
+  </div>
+</section>
+5:["$","div",null,{"className":"animate-page-enter","style":"$undefined","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$21"}}],["$","$L22",null,{"event":{"id":"c67zv8igdssavcljwmij0wwh","name":"AMD Developer Hackathon: ACT III","slug":"amd-developer-hackathon-act-iii","description":"🌎 Hybrid Hackathon | 💻 Online Build: 12-17 October 2026 | On-site phase: 17-18 October 2026\n\nTo participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account.\n\nThe AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure.\n\n\n📍 If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.","startAt":"2026-10-12T15:00:00.000Z","endAt":"2026-10-18T15:00:00.000Z","tech":null,"videoLink":null,"toBeAnnounced":false,"shouldAutoApproveParticipants":false,"teamMembersLimit":6,"showBuiltInHero":true,"eventType":"HYBRID","formUrl":null,"externalRolePersons":[],"form":null,"techs":[],"imageLink":"https://storage.googleapis.com/lablab-static-eu/events/Main_Banner_AMD_ACT3--02--9-_bqxx7da0ypjo9o33ev9vy473.jpg","accentColor":null,"headingStyle":"PLAIN","subtitle":null,"active":true,"signupActive":true,"showWinners":false,"showSponsorButton":false,"sponsors":[],"eventPrizes":[],"eventVenues":[{"id":"cmu11mowq0001s601ashe1kby","name":"Rome - Link Campus University","city":"Rome","country":"Italy"},{"id":"cmu11moxs0003s601kijp1b1v","name":"Milan - SmartCityLab Milano","city":"Milan","country":"Italy"},{"id":"cmu11moxu0005s601liao8htp","name":"Imperia - IMPERIAWARE","city":"Imperia","country":"Italy"}],"eventRoles":[{"profile":{"firstName":"Sandeep","lastName":"Vattikuti","role":"","picture":"https://avatars.githubusercontent.com/u/216076858?v=4","linkedinUrl":"","twitterUrl":"","personalwebsiteUrl":"","userName":"sandeep9z27","user":{"name":"sandeep9z"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1MNiy_NMXB6EfIqhANUg5n29Y72g5X0_U_jltzghukoqx4js4aekf0hd6e.jpg","fullName":"Sandeep Vattikuti"},{"profile":{"firstName":"Andrea","lastName":"Marazzi","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(15).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"uffaaaa","user":{"name":"uffaaaa"}},"eventRole":"SPEAKER","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1tTBOxURQf0Ji3zJatNA2jU2khHR64o7Z_ozy88tghmjqvqb674ebrxzmo.jpg","fullName":"Andrea Marazzi"},{"profile":{"firstName":"Maharshi","lastName":"Trivedi","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(4).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"maharshitrivedi47313","user":{"name":null}},"eventRole":"SPEAKER","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1zLE7nhQHn6UsK1pCb3m2Z5g9G5BjLkAn_lqpoif2uzixu4qnyc0vxbral.jpg","fullName":"Maharshi Trivedi"},{"profile":{"firstName":null,"lastName":null,"role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(43).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"anshikasisodia82085","user":{"name":null}},"eventRole":"JUDGE","imageUrl":null,"fullName":null},{"profile":{"firstName":"Omer","lastName":"Shmarak","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(3).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"omers","user":{"name":"omers"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1D6KVQLA9hzokoX4tFqb1rkuyu-4C3PI-_myidshaop237ng2mnyce9d2c.jpg","fullName":"Omer Shmarak"},{"profile":{"firstName":null,"lastName":null,"role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(73).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"aryamanyaduvanshi33149","user":{"name":null}},"eventRole":"JUDGE","imageUrl":null,"fullName":null},{"profile":{"firstName":"Anil","lastName":"Mandloi","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(10).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"amandloi1979","user":{"name":"amandloi1979"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1F9KMnHhrstVQOsixygwCO3wAF-eegxOp_lrzvcq3c1tmkulbxxlb2dchm.jpg","fullName":"Anil Mandloi"},{"profile":{"firstName":"Goutham Manian","lastName":"Subramanian","role":"Engineering Manager","picture":"https://storage.googleapis.com/lablab-static-eu/images/users/true/cmq7ms8j202zhs6015qv7i2iv_picture_nuxpk7b2vwd757rez5cn6ig7.jpg","linkedinUrl":"https://www.linkedin.com/in/goutham-subramanian-b8780a65/","twitterUrl":"","personalwebsiteUrl":"","userName":"Gotham","user":{"name":"Gotham"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1KgofpPY46FMrAf1gTAkCTANAkZCTq27A_oib3ekeeol5dnhpe3hqxts2c.png","fullName":"Goutham Manian Subramanian"},{"profile":{"firstName":"Adarsh","lastName":"Naidu","role":"Director","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(62).png","linkedinUrl":"https://www.linkedin.com/in/adarsh-n-56ab6310/","twitterUrl":"","personalwebsiteUrl":"","userName":"adnaidu2910","user":{"name":"adnaidu2910"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-18ET-rlQIB8vKzUyyTJBYWwjXPBu-5C08_mzms55p5boo5udvibp36b2ov.jpg","fullName":"Adarsh Naidu"},{"profile":{"firstName":"Arjun","lastName":"Gopichander Ravichander","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/users/cmtouo8be1ae0s601dlxws2z3/profile/picture_ub5pm0g9prtutv0okz8o6wmr.jpg","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"ArjunGR","user":{"name":"ArjunGR"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1JpTRTrJybHXuNq1r4ZIsU76Ob-tFhnqw_gm1u3nm5px7pkzq3m0b4gb3w.jpg","fullName":"Arjun Gopichander Ravichander"},{"profile":{"firstName":"Kishore","lastName":"Dara","role":"","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(86).png","linkedinUrl":"","twitterUrl":"","personalwebsiteUrl":"","userName":"darak6111","user":{"name":"darak6111"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1WUH7yAiOEybCXUdaYAFB1y4-BpRxL7i4_w1dynrwvkgh8thakqa0dfeee.jpg","fullName":"Kishore Dara"},{"profile":{"firstName":"Piyush","lastName":"Diwan","role":"Director Software Engineering","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmsr56ylr00mqs601qdfmmr39/profile/picture_bo09tnei7t3s5qn2pifwzogf.jpg","linkedinUrl":"","twitterUrl":"","personalwebsiteUrl":"","userName":"piyushdiwan","user":{"name":"piyushdiwan"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-15Cn2BxQlI1tZvsVydzDZp6OjAz_UcGAe_pas0a0ltezk9ag4xznukf2uu.jpg","fullName":"Piyush Dhar Diwan"},{"profile":{"firstName":"Ramachandra","lastName":"Nalam","role":"Senior Data Engineer","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmrh7qace01nss601pvdkjeu3/profile/picture_a0bz3gyb7jy9hcl5gk92pw55.jpg","linkedinUrl":"","twitterUrl":"https://x.com/therealnalam","personalwebsiteUrl":"","userName":"ramachandranalam","user":{"name":"ramachandranalam"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1nT2tQ7yIGjgnsdS4OpEnEBxis8nS2krT_u35orc9lq5cbbmv2fwbfnykd.jpg","fullName":"Ramachandra Nalam"},{"profile":{"firstName":"Rishabh","lastName":"Mehan","role":"Senior Staff Software Engineer","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmt7k8uvr01mqs601x6ark5wx/profile/picture_zulpl0w075fgonr8naiua0z6.jpg","linkedinUrl":"https://www.linkedin.com/in/rmehan/","twitterUrl":"","personalwebsiteUrl":"https://rmehan.dev","userName":"rmehan91","user":{"name":"rmehan91"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1TtnL9X03hqEdt7GajLPzMvpvg_LXkVCP_shzvlt1wkgavq408qx746omp.png","fullName":"Rishabh Mehan"},{"profile":{"firstName":"Shalabh","lastName":"Gupta","role":"","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(64).png","linkedinUrl":"","twitterUrl":"","personalwebsiteUrl":"","userName":"shalabh","user":{"name":"shalabh"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-17F5tiSFbs0lr8sgkeJcPbAY7CmcIQYK-_qwd91wnwqommjga7bjnsfhgr.png","fullName":"Shalabh Gupta"},{"profile":{"firstName":"Vasu Raj","lastName":"Jain","role":"Senior Software Engineer","picture":"https://storage.googleapis.com/lablab-static-eu/images/users/true/cmmf3r8k700006e0tbhphypfr_picture_mnn1q0yl94ddoqcxyllrt6g9.jpg","linkedinUrl":"https://www.linkedin.com/in/vasujain00/","twitterUrl":"","personalwebsiteUrl":"","userName":"vasujain00","user":{"name":"vasujain00"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-16rN48KGW7rDbpAhbaymJTkzCV0z_lMHR_wkp17ykv05b5fwbo8ip6o6xk.jpg","fullName":"Vasu Raj Jain"},{"profile":{"firstName":"Viresh","lastName":"Jivane","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(34).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"vireshjivane","user":{"name":"vireshjivane"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1Xd8E3y7H09UUkwrCHWWo6tBlI1sTfQQ7_iiwyuiiz9eicef9u3dbyvxz0.png","fullName":"Viresh Jivane"},{"profile":{"firstName":"Niranjan","lastName":"Yadla","role":"","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmt864usa03lvs601y0j9vqfy/profile/picture_eiuev9cldx4k68ws65ol6kgp.jpg","linkedinUrl":"","twitterUrl":"","personalwebsiteUrl":"","userName":"yadlaniranjan","user":{"name":"yadlaniranjan"}},"eventRole":"JUDGE","imageUrl":null,"fullName":"Yadla Niranjan"},{"profile":{"firstName":"Emmanuel","lastName":"Iriarte","role":"RnD AI Lead","picture":"https://storage.googleapis.com/lablab-static-eu/images/users/undefined_picture_6313n202d8.jpg","linkedinUrl":"https://www.linkedin.com/in/iriarteemmanuel/","twitterUrl":"","personalwebsiteUrl":"","userName":"emmanueliriarte","user":{"name":"emmanueliriarte"}},"eventRole":"SPEAKER","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1TXmU6VoiculKEtZtslwb-80NLrfygLVi_g5a40t0vrzuve0nfuxhwgyny.png","fullName":"Emmanuel Iriarte"},{"profile":{"firstName":null,"lastName":null,"role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(5).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"rbenedetti93911","user":{"name":null}},"eventRole":"MENTOR","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-19VIKQVu3R9NKIVk2IeelM5DcK5DHpOUZ_xzh4bczydfu0qwclsuks8yn0.jpg","fullName":"Riccardo Benedetti"},{"profile":{"firstName":"Subhasis","lastName":"Kundu","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(116).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"bld4p3y","user":{"name":"bld4p3y"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1RY06CQd5wvhbH01PaoRROqFISDnP3cXL_mvspa34kang67fcmnvakuvom.jpg","fullName":"Subhasis Kundu"},{"profile":{"firstName":"suneeth","lastName":"maraboina","role":"lead audiio engineer","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(10).png","linkedinUrl":"https://www.linkedin.com/in/suneethmaraboina","twitterUrl":"","personalwebsiteUrl":"","userName":"Audioai","user":{"name":"Audioai"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/suneeth-maraboina_kywj7addcc7l6gp66gjf59ds.jpg","fullName":"Suneeth Maraboina"},{"profile":{"firstName":"Suresh Kumar","lastName":"Gunasekaran","role":"Senior Software Engineer","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmrmnwpzl004js601q3fgj1lr/profile/picture_gdd1u4l12buahzalsyd3ksk2.jpg","linkedinUrl":"https://www.linkedin.com/in/suresh89/","twitterUrl":"","personalwebsiteUrl":"","userName":"Suresh89","user":{"name":"Suresh89"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1Uz0ZevsLpIkRnusmRy5qRtZtCHWKccT6_wb4kq19yv6ljxpeny1mzrnc4.jpg","fullName":"Suresh Kumar Gunasekaran"},{"profile":{"firstName":"Mahati","lastName":"Kumar","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(122).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"mahati","user":{"name":"mahati"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1ST2KJfRvkPv4YagZnnrU6XvEHYIgHrag_mq0ogk2b37u3riynhbreg1n2.png","fullName":"Mahati Kumar"},{"profile":{"firstName":"Manasa","lastName":"Kumar","role":null,"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(84).png","linkedinUrl":null,"twitterUrl":null,"personalwebsiteUrl":null,"userName":"manasa13","user":{"name":"manasa13"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1ZuN85BxwD5aAUwXkMBXV9qOVNupYhDZd_isjn70uyvvtn2h1qbhazhsah.png","fullName":"Manasa Kumar"},{"profile":{"firstName":"Nalini","lastName":"Garg","role":"Associate Vice President","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmsezfwr8008ws601jybh1lv2/profile/picture_o37ea7xp1zpbrmhibfjh4hoq.jpg","linkedinUrl":"https://www.linkedin.com/in/nalini-garg-427278136/","twitterUrl":"","personalwebsiteUrl":"","userName":"NaliniGarg","user":{"name":"NaliniGarg"}},"eventRole":"JUDGE","imageUrl":"https://storage.googleapis.com/lablab-static-eu/external-persons/drive-1i57VtOEUDo9hph2tZisLhZ-uMBWr7slv_cbottnmqvzakaozjx824knud.jpg","fullName":"Nalini Garg"},{"profile":{"firstName":"Neeharika","lastName":"Kompala","role":"Sr SDE","picture":"https://storage.googleapis.com/lablab-static-eu/users/cmtue1ap80041s601qpxl5x3s/profile/picture_egybgaj47c88cgln41qhjhg7.jpg","linkedinUrl":"https://www.linkedin.com/in/neeharika-kompala/","twitterUrl":"https://x.com/NeehaKompala","personalwebsiteUrl":"","userName":"NeehaKompala","user":{"name":"NeehaKompala"}},"eventRole":"JUDGE","imageUrl":null,"fullName":"Neeharika Kompala"}],"participantsLimit":null,"timelineEvents":[{"id":"cmsg0dkym0000s601ai7etti4","eventId":"c67zv8igdssavcljwmij0wwh","name":"Start","description":null,"timestamp":"2026-10-12T17:00:00.000Z","showTime":true,"autoCheck":true,"adminChecked":false,"streamId":null},{"id":"cmsg0dkym0001s601z7tpprr3","eventId":"c67zv8igdssavcljwmij0wwh","name":"End","description":null,"timestamp":"2026-10-17T17:00:00.000Z","showTime":true,"autoCheck":true,"adminChecked":false,"streamId":null}],"teams":[{"name":"theitaliancomputer","description":"still work in progress","joinMode":"CLOSED","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/team/team%20(22).png","slug":"theitaliancomputer","participants":[{"id":"cmuogb0qz0pess601y9efmkn9","user":{"id":"cmuogazl70pegs601bwv25k2o","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(106).png"}}}]},{"name":"Zenith Agents","description":"We're exploring AI-powered solutions to make healthcare safer, more accessible, and easier for patients and healthcare providers. Our goal is to identify a real-world problem and build a practical, impactful solution using AI.","joinMode":"OPEN","picture":"https://storage.googleapis.com/lablab-static-eu/teams/a1mrhfyz39yeyiz1fkbkbgj6/picture_ixcp4gl931fvpfedizyh8bw8.jpg","slug":"zenith-agents","participants":[{"id":"cmuzn6n8b00irs601u6h4eng0","user":{"id":"cmuzn6lc11kops60128lwhsjf","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(65).png"}}},{"id":"cmuzp5yws00its601tsojgmns","user":{"id":"cmuznhrm6003ms601po7g1xob","name":"cheng","image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(23).png"}}},{"id":"cmv0k0awg16s2s601l8gs5kob","user":{"id":"cmv0k08oy16rss601asck04r5","name":"sugaringring","image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(93).png"}}},{"id":"cmv0kc0ta16vqs601hbzkkqfb","user":{"id":"cmv0kbyw216vas601b7flyity","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(83).png"}}},{"id":"cmv66zfv90xoms601igoyne8o","user":{"id":"cmv66z17u0xnus601k87tfw49","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(106).png"}}}]},{"name":"The Big Six","description":"We are building the future in the hands of uni students.","joinMode":"OPEN","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/team/team%20(18).png","slug":"the-big-six","participants":[{"id":"cmuut3sey08d3s601ren1zc4f","user":{"id":"cmuut3qjd08cts601ggh0vknt","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(97).png"}}},{"id":"cmuwbge0a3cqes6019skdexrv","user":{"id":"cmuwb8l0u3be8s601uqae53ao","name":"Imaginater","image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(34).png"}}},{"id":"cmuwd19mn023xs6017mxyur4g","user":{"id":"cmuutztoq01qbs601ctbk3t21","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(71).png"}}},{"id":"cmuwlvwta0294s601m763yhbs","user":{"id":"cmuwl51480115s601rhvnu8uj","name":"Dinandin29","image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(7).png"}}},{"id":"cmuwqb7nj07mls601jfaahzhk","user":{"id":"cmuwph05l0003s601mv9t30r9","name":"XCL_TRPO","image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(118).png"}}},{"id":"cmuz8u93r0ucfs6011owq03r5","user":{"id":"cmuwha8kc0a1hs601wu18u50l","name":"Test1","image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(7).png"}}}]},{"name":"TEAM GENOVA","description":"Building an AI-powered solution and looking for teammates skilled in AI/ML, backend, frontend. And also who knows cloud.","joinMode":"INVITE_ONLY","picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/team/team%20(23).png","slug":"team-genova","participants":[{"id":"cmtzkftby0nk7s601ivwgq6wg","user":{"id":"cmtzkfhxo0njos601jfwv3j4l","name":null,"image":null,"profile":{"picture":"https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(37).png"}}}]}]},"active":true,"eventState":"live","nextEvent":null,"initialParticipants":5828,"technologyList":[],"pageUrl":"https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii","content":{"id":"838c2ccfaa044e59970e9d019ac5d7fe","data":{"url":"/ai-hackathons/amd-developer-hackathon-act-iii","slug":"amd-developer-hackathon-act-iii","state":{"location":{"path":"","query":{}},"deviceSize":"large"},"title":"AMD Developer Hackathon: ACT III","blocks":[{"id":"builder-75a75d9055884574af4d7d88d9401614","meta":{"previousId":"builder-964b3d36ee0b4474872e19bcbb4ff547"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-1a94a7eeaf37476eb0aa51a08d263cfa","meta":{"previousId":"builder-0e6292c3d81a4c02aa3e381b1ed13f7e"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Custom Code","isRSC":null,"options":{"code":"$23","scriptsClientOnly":false}},"responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","flexShrink":"0","flexDirection":"column"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"1","card":false,"beams":"0","screenWide":false}},"layerName":"About","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"24px","flexShrink":"0","marginBottom":"24px","flexDirection":"column"}}},{"id":"builder-8818f93ce4dd4b0b95127fd4f52784f8","meta":{"previousId":"builder-b552bf781d794970bc51f1db89740c01"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-62f113df0f534ddab153522152f6096d","meta":{"previousId":"builder-74ad69f0a1ee46639a9e3ce3c5d0dc6e"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Custom Code","isRSC":null,"options":{"code":"$24","scriptsClientOnly":false}},"responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","flexShrink":"0","flexDirection":"column"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"2","card":false,"beams":"0","screenWide":false}},"layerName":"Hackathon Challenge","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"0px","flexShrink":"0","marginBottom":"0px","flexDirection":"column"}}},{"id":"builder-43a481ed3d274e8eb9654cbcaf8a2ee6","meta":{"previousId":"builder-cf0d49f9a47646d2878bf2c06bb275b7"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-db5175ac438143fe99c94b850b77b8da","meta":{"previousId":"builder-6661aa9a862b49f3b7d82ea9b5bfe442"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Custom Code","isRSC":null,"options":{"code":"$25","scriptsClientOnly":false}},"responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","flexShrink":"0","flexDirection":"column"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"3","card":false,"beams":"0","screenWide":false}},"layerName":"Partners","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"0px","flexShrink":"0","marginBottom":"0px","flexDirection":"column"}}},{"id":"builder-32403e7323664595b67e61424ec02197","meta":{"previousId":"builder-6a3d2fcc77c0449d97cc6bd39e793565"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-e99d833b4e384b5c9d589a888f51c5a5","meta":{"previousId":"builder-6c3a7eaf6752468caf14870e11d72f82"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Custom Code","isRSC":null,"options":{"code":"$26","scriptsClientOnly":false}},"responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","flexShrink":"0","flexDirection":"column"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"4"}},"layerName":"Prizes","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"24px","flexShrink":"0","marginBottom":"24px","flexDirection":"column"},"medium":{"marginTop":"24px","marginBottom":"24px"}}},{"id":"builder-e41d72877d6846bb8b8c465204d2c24b","meta":{"previousId":"builder-632b221e2e4649bab5d5ccb1f76cf2fa"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-7263fad2d1d946b1b2796b9519312132","meta":{"previousId":"builder-58400441c33b45ce8e1538f4cbb397e5"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Custom Code","isRSC":null,"options":{"code":"$27","scriptsClientOnly":false}},"responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","flexShrink":"0","flexDirection":"column"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"5","card":false,"beams":"0","screenWide":false}},"layerName":"Judging Criteria","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"24px","flexShrink":"0","marginBottom":"24px","flexDirection":"column"}}},{"id":"builder-42a6a17c91d84d3d84a10bd27ce0261c","meta":{"previousId":"builder-960cae904c544cc2ba008c1410abe680"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-ad098a65d1db493fb09729fe7f43fbc4","meta":{"previousId":"builder-dd610c7793c94b3fa1d6b06276aa313d"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Timeline","isRSC":null,"options":{"title":"Event Schedule / Onsite Schedule","timelineEvents":[{"id":"","name":"Hackathon Kick-off ","showTime":true,"timestamp":"Mon Oct 12 2026 17:00:00 GMT+0200 (czas środkowoeuropejski letni)"},{"id":"","name":"Discord Q&A session","showTime":true,"timestamp":"Mon Oct 12 2026 18:00:00 GMT+0200 (czas środkowoeuropejski letni)"},{"id":"","name":"Doors Open - (1 hour later for Rome)","showTime":true,"timestamp":"Sat Oct 17 2026 09:00:00 GMT+0200 (czas środkowoeuropejski letni)","description":"Onsite 9:00 AM Milan & Imperia - 10:00 AM Rome"},{"id":"","name":"Breakfast & Coffee (in Rome available in Cafeteria)","showTime":true,"timestamp":"Sat Oct 17 2026 09:00:00 GMT+0200 (Ora legale dell’Europa centrale)","description":"Onsite 9:00 AM Milan & Imperia - 10:00 AM Rome"},{"id":"","name":"Opening Words + Process Explanation","showTime":true,"timestamp":"Sat Oct 17 2026 10:30:00 GMT+0200 (Ora legale dell’Europa centrale)"},{"id":"","name":"Lunch Available (Milan&Imperia, in Rome available in Cafeteria)","showTime":true,"timestamp":"Sat Oct 17 2026 12:30:00 GMT+0200 (Ora legale dell’Europa centrale)"},{"id":"","name":"Door close","showTime":true,"timestamp":"Sat Oct 17 2026 18:00:00 GMT+0200 (Ora legale dell’Europa centrale)","description":"On site"},{"id":"","name":"Doors Open - (1 hour later for Rome)","showTime":true,"timestamp":"Sun Oct 18 2026 09:00:00 GMT+0200 (czas środkowoeuropejski letni)","description":"Onsite 9:00 AM Milan & Imperia - 10:00 AM Rome"},{"id":"","name":"Breakfast & Coffee (in Rome available in Cafeteria)","showTime":true,"timestamp":"Sun Oct 18 2026 09:00:00 GMT+0200 (Ora legale dell’Europa centrale)","description":"On site"},{"id":"","name":"Submission Deadline","showTime":true,"timestamp":"Sun Oct 18 2026 12:00:00 GMT+0200 (Ora legale dell’Europa centrale)"},{"id":"","name":"Lunch Available (Milan&Imperia, in Rome available in Cafeteria)","showTime":true,"timestamp":"Sun Oct 18 2026 12:30:00 GMT+0200 (Ora legale dell’Europa centrale)","description":"On site"},{"id":"","name":"Demo Showcasing / Live Pitches","showTime":true,"timestamp":"Sun Oct 18 2026 14:00:00 GMT+0200 (Ora legale dell’Europa centrale)"},{"id":"","name":"Pitching ends","showTime":true,"timestamp":"Sun Oct 18 2026 16:00:00 GMT+0200 (Ora legale dell’Europa centrale)"},{"id":"","name":"Door close","showTime":true,"timestamp":"Sun Oct 18 2026 17:00:00 GMT+0200 (Ora legale dell’Europa centrale)","description":"On site"}]}},"layerName":"Timeline","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"7px","flexShrink":"0","flexDirection":"column"},"small":{"marginTop":"0px"},"medium":{"marginTop":"0"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"6","card":false,"beams":"0","screenWide":false}},"layerName":"Timeline Container","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"0px","flexShrink":"0","marginBottom":"0px","flexDirection":"column"},"small":{"marginTop":"0px"},"medium":{"marginTop":"2000px"}}},{"id":"builder-3df9ddf73b1c47dd87d95f721a7d047f","meta":{"previousId":"builder-2e7a90f67a9a470487ce29d8d65e02a7"},"@type":"@builder.io/sdk:Element","@version":2,"children":[{"id":"builder-17e9cfbf4b844437b89155644507348f","meta":{"previousId":"builder-12e911adcbf24f7b885efcdff3e06881"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Custom Code","isRSC":null,"options":{"code":"$28","scriptsClientOnly":false}},"responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","flexShrink":"0","flexDirection":"column"}}}],"component":{"name":"Container","isRSC":null,"options":{"id":"7"}},"layerName":"Community & Social Channels","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"24px","flexShrink":"0","marginBottom":"24px","flexDirection":"column"},"medium":{"marginTop":"24px","marginBottom":"24px"}}},{"id":"builder-bd424d667a124f71bbb26781f234124a","meta":{"previousId":"builder-a11e67ae76f74d58be3f51267440ed42"},"@type":"@builder.io/sdk:Element","@version":2,"component":{"name":"Container","isRSC":null,"options":{"id":"8","card":false,"beams":"","screenWide":false}},"layerName":"Speakers","responsiveStyles":{"large":{"display":"flex","position":"relative","boxSizing":"border-box","marginTop":"24px","flexShrink":"0","marginBottom":"24px","flexDirection":"column"}}},{"id":"builder-pixel-sx6rnxdms2f","@type":"@builder.io/sdk:Element","tagName":"img","properties":{"alt":"","src":"https://cdn.builder.io/api/v1/pixel?apiKey=972274c44a2d4c658b0fa440848d24a1","width":"0","height":"0","aria-hidden":"true"},"responsiveStyles":{"large":{"width":"0","height":"0","display":"block","opacity":"0","overflow":"hidden","pointerEvents":"none"}}}],"bgClass":"bg-white","excerpt":"<p class=\"\">🌎Hybrid Hackathon | 💻 Online Build: 12-18 October 2026 | On-site phase: 17-18 October 2026 in Rome, Milan, and Imperia</p><p class=\"\"><br class=\"\"></p><p class=\"\">To participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account.</p><p class=\"\"><br class=\"\"></p><p class=\"\">The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure.</p><p class=\"\"><br class=\"\"></p><p class=\"\">📍 <strong class=\"\">If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.</strong></p><p class=\"\"><br class=\"\"></p><p class=\"\"><strong class=\"\">Free $100 AMD credits for new members!</strong></p>","themeId":false,"sections":[{"id":"1","title":"About"},{"id":"2","title":"Challenges"},{"id":"3","title":"Partners"},{"id":"4","title":"Prizes"},{"id":"5","title":"Judging Criteria"},{"id":"6","title":"Event Schedule"},{"id":"7","title":"Community & Social Channels"},{"id":"8","title":"Speakers"}],"subtitle":"Build AI agents and high-performance AI applications on AMD GPUs in the cloud I Prize Pool $17,000+","customFonts":[{"family":"inter lablab Bold (700)","fileUrl":"https://cdn.builder.io/o/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fdc57df3f0ed34f46b1183afa1e21ca8a?alt=media&token=136553ee-0be8-41db-85b7-3ec593f3bfe0&apiKey=972274c44a2d4c658b0fa440848d24a1","category":"sans-serif","isUserFont":true},{"kind":"webfonts#webfont","menu":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZlhjQ.ttf","files":{"100":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZhrib2Bg-4.ttf","200":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZhrib2Bg-4.ttf","300":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZhrib2Bg-4.ttf","500":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZhrib2Bg-4.ttf","600":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZhrib2Bg-4.ttf","700":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf","800":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZhrib2Bg-4.ttf","900":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZhrib2Bg-4.ttf","regular":"https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf"},"family":"Inter","subsets":["cyrillic","cyrillic-ext","greek","greek-ext","latin","latin-ext","vietnamese"],"version":"v13","category":"sans-serif","variants":["100","200","300","regular","500","600","700","800","900"],"lastModified":"2023-09-14"},{"family":"inter lablab SemiBold (600)","fileUrl":"https://cdn.builder.io/o/assets%2F972274c44a2d4c658b0fa440848d24a1%2Ffc208bdff9064d57b9b2196c0b6ce584?alt=media&token=73b84bed-aee8-461b-9436-be27ae027a22&apiKey=972274c44a2d4c658b0fa440848d24a1","category":"sans-serif","isUserFont":true},{"family":"inter lablab Regular (400)","fileUrl":"https://cdn.builder.io/o/assets%2F972274c44a2d4c658b0fa440848d24a1%2F364a9b2eeda647d89aa6aa54011869f1?alt=media&token=37f19b0d-7b88-444e-a9c2-d78b596c3d01&apiKey=972274c44a2d4c658b0fa440848d24a1","category":"sans-serif","isUserFont":true}],"mentorsList":[]},"meta":{"kind":"page","hasLinks":false,"winningTest":null,"originalContentId":"e62709e4d1a744049998c46c451f2b70"},"name":"AMD Developer Hackathon: Act III","modelId":"ed9f158176d84b06b94b6487e4a66417","published":"published","testRatio":1,"variations":{}},"frontMatter":null,"offlineParticipants":0,"offlineFollowers":0,"tutorials":null,"contentData":"$undefined","accentIsCustom":false,"children":"$L29"}]]}]
+29:"$undefined"

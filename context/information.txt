@@ -1,0 +1,32 @@
+AMD × lablab.ai
+AMD Developer Hackathon: ACT III
+Build AI agents and high-performance AI apps on AMD GPUs in the cloud.
+
+Online phase
+12–18 October 2026
+On-site · Italy
+17–18 October 2026
+Prize pool
+$17,000+
+Build AI agents and high-performance AI applications on AMD GPUs — entirely in the cloud.
+
+The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure. Whether you are just starting out or already shipping, you can jump in and start creating.
+
+You’ll be working with AMD GPUs in the Cloud with the ROCm software stack, AMD's open-source GPU computing platform. Everything runs fully in the cloud, so there is no local hardware to set up and you can focus on building instead of configuration.
+
+One hackathon. Three cities. One special weekend in Italy.
+
+This edition of the AMD Developer Hackathon comes with a special on-site experience across three locations in Italy: Rome, Milan, and Imperia.
+
+The hackathon remains open online throughout the event, while selected participants can also join us in person for the on-site phase. If approved, you’ll choose one of the three locations to build alongside other developers, get hands-on support, and showcase your project live.
+
+City	Venue	Address	Opening/closing
+Rome	Link Campus University	Via del Casale di San Pio V, 44, 00165 Roma	10:00 AM - 6:00 PM (Oct 17)
+10:00 AM - 5:00 PM (Oct 18)
+Milan	SmartCityLab Milano	Via Giuseppe Ripamonti, 88, 20141 Milano MI	9:00 AM - 6:00 PM (Oct 17)
+9:00 AM - 5:00 PM (Oct 18)
+Imperia	IMPERIAWARE	Via Antonio Delbecchi, 22, 18100 Imperia (IM)	9:00 AM - 6:00 PM (Oct 17)
+9:00 AM - 5:00 PM (Oct 18)
+Link Campus University
+SmartCityLab Milano
+IMPERIAWARE

@@ -1,0 +1,264 @@
+Hackathon conditions — AMD Developer Hackathon: ACT III | Evolus
+Cookies and statistics
+We measure visits anonymously, without cookies. With your consent we also use Google Analytics, marketing cookies and visit recordings. Closing with the X rejects everything. You can change your mind at any time from “Cookie preferences” at the bottom of the page.
+Cookie policy
+Reject all
+Accept all
+Customize
+Essential
+Always on: they only remember the choice you make here.
+Statistics
+Google Analytics: measures, in aggregate form, how the site is used.
+Marketing
+Google Ads and Meta Pixel: they measure how well our campaigns on Google, Facebook and Instagram perform and let us show ads to people who have visited the site.
+Experience analysis
+With your permission we record how you use our pages (clicks, scrolling, mouse movements and what appears on screen, including your conversation with Evo) to understand what to improve. The fields you fill in and the chat are never recorded. Recordings stay on our server in Germany for 30 days.
+Save my choices
+Skip to content
+evolus
+Home
+Platform
+Products
+One more colleague, starting today
+AI employees
+Processes that run themselves
+AI automations and workflows
+Never miss a call again
+AI receptionist
+An expert for every task
+Specialised AI agents
+A website that answers for you
+AI website widget
+Your assistant, in your pocket
+Evo Assistant, the app for solo professionals
+AI that works on your computer
+Evolus Studio, the app for Mac, Windows and Linux
+How it works
+Memory, models, security and control
+Solutions
+AI for Customer Care
+Your support team never sleeps. Evolus replies to emails, answers calls, chats with customers — in parallel, always, without burning out.
+AI for Sales Teams
+Every lead answered in seconds. Every follow-up sent at the right time. Every meeting booked without friction. Evolus works for your sales team 24/7, missing no opportunity.
+Document Management & Back-Office Automation
+Turn document management from a bottleneck into a seamless, error-free process. Evolus reads, extracts, processes and archives your documents — automatically.
+HR & Recruiting Automation
+HR teams shouldn't waste time on administrative tasks. Evolus handles emails, interviews, documents and repetitive questions — so your HR team can do the work that truly matters.
+Evolus for Legal
+From contract analysis to deadline tracking: Evolus works as an expert collaborator alongside your lawyers.
+Evolus for Accounting
+From incoming invoice to updated ledger: Evolus eliminates manual data entry and reduces errors to zero.
+All solutions
+Pricing
+Blog
+Contact us
+Language
+:
+EN
+Hackathon
+Start now
+Open menu
+IT
+Italiano
+EN
+English
+ES
+Español
+DE
+Deutsch
+FR
+Français
+evolus
+Close menu
+Home
+Platform
+One more colleague, starting today
+Processes that run themselves
+Never miss a call again
+An expert for every task
+A website that answers for you
+Your assistant, in your pocket
+AI that works on your computer
+How it works
+Solutions
+AI for Customer Care
+AI for Sales Teams
+Document Management & Back-Office Automation
+HR & Recruiting Automation
+Evolus for Legal
+Evolus for Accounting
+Pricing
+Blog
+Contact us
+Hackathon
+Start now
+Language
+Italiano
+English
+Español
+Deutsch
+Français
+AMD Developer Hackathon · ACT III
+Evolus Hackathon Conditions
+Free Evolus workspaces for hackathon participants
+Version 1.0, published on 8 October 2026, effective from 8 October 2026.
+SHA-256 fingerprint
+:
+b2677834b5f80e0f4e3d5fe2e59bf1412aa46404c4fc58a5c3dc26fda8af2a77
+Download the canonical text (.md)
+These conditions explain, in plain language, how you can use the free Evolus workspaces created for the AMD Developer Hackathon: ACT III. If you redeem the event code, you accept them by ticking the box when you redeem it; if you are invited to an event workspace, you accept them by ticking the box the first time you enter it. Nobody can use an event workspace without accepting them.
+Contents
+1
+.
+Who we are and what these conditions cover
+2
+.
+Who can use an event workspace
+3
+.
+How long the event workspace lasts
+4
+.
+Platform credits
+5
+.
+Your own model provider
+6
+.
+Acceptable use
+7
+.
+How we review event workspaces
+8
+.
+Your project and our platform
+9
+.
+Prizes
+10
+.
+Service provided as it is
+11
+.
+Liability
+12
+.
+Suspension
+13
+.
+Privacy
+14
+.
+Applicable law and contacts
+1
+.
+Who we are and what these conditions cover
+The Evolus platform (
+https://app.evolus.ai
+) is developed and operated by CodeDesign S.r.l., registered office at Via Nino Pesce 38, 18018 Taggia (IM), Italy, VAT No. IT01739830089 ("we", "us").
+These conditions apply to the Evolus workspaces created with the event code of the AMD Developer Hackathon: ACT III, organised on lablab.ai (
+https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii
+): we call them "event workspaces". Event workspaces are free and no payment card is needed. These conditions and the Privacy Notice in section 13 are the complete set of rules for your event workspace. Your participation in the hackathon itself is governed by the rules of lablab.ai.
+2
+.
+Who can use an event workspace
+To create or join an event workspace you must be at least 18 years old and registered as a participant in the AMD Developer Hackathon: ACT III on lablab.ai.
+Each person can redeem the event code only once, so each person can create one event workspace. A team of up to 6 people can work in the same event workspace: one member creates it and invites the others.
+Whoever redeems the event code accepts these conditions by ticking the box when redeeming it. Each person invited to an event workspace accepts them by ticking the box the first time they enter the workspace. Nobody can use an event workspace without having accepted these conditions.
+We may ask you to confirm that you meet these requirements, and we may close event workspaces used by people who do not.
+3
+.
+How long the event workspace lasts
+Your event workspace stays active until 15 November 2026 at 23:59 Italian time. After that, it moves to the Evolus Free plan: its activities stop (for example agents, automations and API calls), but your data stays. 7 days later the workspace is frozen: what goes beyond the Free plan is suspended, not deleted.
+At any time you can choose to move the workspace to the paid Developer plan, where it is available to you. That plan is governed by the Evolus General Conditions of Use published at
+https://evolus.ai/en/terms-of-use
+and by the price list, which you accept separately at that moment; from then on these conditions no longer apply to that workspace.
+4
+.
+Platform credits
+Each event workspace receives 50,000 platform credits. They are used by the services that run on the platform's own models, such as document reading, AI Tools and the indexing of knowledge libraries. Calls to the model you connect yourself (section 5) do not use credits.
+Credits have no monetary value: they cannot be converted into money, refunded, sold or transferred, and they can be used only in the event workspace that received them, until 15 November 2026 at 23:59 Italian time (section 3). When they run out, the services that need them stop. We may add credits at our discretion, but we are not required to.
+5
+.
+Your own model provider
+In event workspaces, agents use a model that you connect yourself, with your own account and key at a provider you choose (for example Fireworks AI, or a server you run on AMD Developer Cloud). You are responsible for your keys, for the costs charged by your provider and for complying with its terms. On your instruction, Evolus sends to the endpoint you configured the content needed to run your agents, such as messages, documents and tool results. Your provider is a third party chosen by you: we are not responsible for its service, availability, costs or handling of data. Protect your endpoint with an API key: without one, anyone who knows its address can use it.
+6
+.
+Acceptable use
+Use the event workspace to build and test your hackathon project. In particular:
+use only your own data or test data: do not upload personal data of other people, and never special categories of personal data (for example health data) or data about criminal convictions;
+do not attack, probe or overload the platform or other users, and do not try to get around security measures, usage limits or credit counters;
+do not resell the workspace or give access to it to people outside your team;
+do not create accounts or workspaces automatically or in bulk;
+do not use the workspace for unlawful content or activities, or to infringe the rights of others.
+Event workspaces have technical limits that keep the platform fair for everyone, including 60 requests per minute per workspace. Requests above a limit are refused.
+7
+.
+How we review event workspaces
+To check that projects meet the requirements of the Evolus track and to prevent abuse, the Evolus team reviews the configuration and the usage statistics of event workspaces: for example which model is connected, which tools are used and how many API calls are made.
+8
+.
+Your project and our platform
+Your project remains yours: the code, prompts, configurations and content you create or upload belong to you, or to whoever holds the rights to them. We use them only to provide the event workspace and for the review in section 7. The Evolus platform, its software and its brand remain ours: you get a personal, non-exclusive and non-transferable right to use the event workspace during the event.
+If your team wins a prize in the Evolus track, we would like to present your project on evolus.ai. We will do so only with your consent, asked for separately, which you can withdraw at any time.
+9
+.
+Prizes
+The prizes of the Evolus track are described on the event page on lablab.ai and are awarded under the rules of lablab.ai. They are provided as Evolus plans and credits, with no cash alternative, and cannot be exchanged for money. The use of a prize plan is governed by the Evolus General Conditions of Use.
+10
+.
+Service provided as it is
+Event workspaces are free and provided for the event only, as they are and as available. There is no service level agreement: we do not guarantee that the service will be uninterrupted, error-free or fit for your specific needs, and we may change features during the event. Keep your own copy of your code and of any data that matters to you.
+11
+.
+Liability
+We are liable for damage caused by our intent or gross negligence, and wherever the law does not allow liability to be limited. Otherwise, because the service is free and provided only for the event, we are not liable, to the extent permitted by the applicable law, for indirect damage, loss of data, loss of profit or loss of opportunities. Nothing in these conditions limits the rights that consumer protection law gives you and that cannot be waived.
+12
+.
+Suspension
+If you break these conditions, or if the use of an event workspace puts the platform, other users or third parties at risk, we may suspend or close that workspace. When we can, we will tell you first and explain why; in urgent cases, such as an attack in progress, we may act immediately and tell you afterwards. You can stop using your event workspace at any time.
+13
+.
+Privacy
+We process personal data as described in the Evolus Privacy Notice published at
+https://evolus.ai/en/privacy-policy
+, which also explains how long data is kept and how to exercise your rights. lablab.ai processes the data you give it for the hackathon under its own privacy policy.
+14
+.
+Applicable law and contacts
+These conditions are governed by Italian law. If you are a consumer, you keep the protection of the mandatory rules of the country where you normally live, and you can bring a claim before the courts that the law makes competent for consumers.
+For questions about these conditions or about your event workspace, write to care@evolus.ai; for privacy questions, write to privacy@codedesign.it.
+CodeDesign S.r.l., Evolus platform. Registered office: Via Nino Pesce 38, 18018 Taggia (IM), Italy, VAT No. IT01739830089.
+evolus
+AI orchestration platform for businesses. We integrate the best AI models with an advanced memory system. For complex needs, we work together with our clients.
+Products
+AI employees
+AI automations and workflows
+AI receptionist
+Specialised AI agents
+AI website widget
+Evo Assistant
+Evolus Studio
+Useful Links
+Home
+Start now
+How it works
+Pricing
+Blog
+Contact us
+Comparisons
+Contact us
++39 0184 716 626
+sales@evolus.ai
+Evolus Platform
+Terms of Use
+Data processing agreement
+Security measures
+Subprocessors
+Privacy Policy
+AI transparency
+© Codedesign SRL - 2026 | P.Iva IT01739830089 | All Rights Reserved
+Website privacy
+Cookie policy
+Cookie preferences
+AI orchestration for business

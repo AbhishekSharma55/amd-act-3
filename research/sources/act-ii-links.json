@@ -1,0 +1,994 @@
+[
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-ii/live",
+    "text": "Results"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge",
+    "text": "Join this hackathon \u2192"
+  },
+  {
+    "url": "/sso",
+    "text": "Claim FREE $100 credits"
+  },
+  {
+    "url": "http://notebooks.amd.com/hackathon",
+    "text": "notebooks.amd.com/hackathon"
+  },
+  {
+    "url": "https://youtu.be/masSW53JkTY?si=hDTG0YKHOpCAlv4F",
+    "text": "New member credits"
+  },
+  {
+    "url": "https://www.deeplearning.ai/?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "DeepLearning.AI Pro"
+  },
+  {
+    "url": "https://thehype.news/",
+    "text": ""
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-ii/dash",
+    "text": "Go to Event Dashboard"
+  },
+  {
+    "url": "/ai-hackathons/amd-developer-hackathon-act-ii/live",
+    "text": "View Live Leaderboard"
+  },
+  {
+    "url": "#track-1",
+    "text": "Track 1 Hybrid Token-Efficient Routing Agent \u2b50 Beginner \u00b7 AI Agent Track"
+  },
+  {
+    "url": "#track-2",
+    "text": "Track 2 Video Captioning \ud83c\udfac Beginner \u00b7 Prompt and have fun"
+  },
+  {
+    "url": "#track-3",
+    "text": "Track 3 Unicorn Track \ud83e\udd84 All levels \u00b7 Build your startup"
+  },
+  {
+    "url": "https://drive.google.com/file/d/1UGpOZiGGGBqQhGQxX7g19QAA-Dq9hPKk/view?usp=sharing",
+    "text": "\ud83d\udccb Participant Guide \u2014 Full Task Details"
+  },
+  {
+    "url": "http://notebooks.amd.com/hackathon",
+    "text": "notebooks.amd.com/hackathon"
+  },
+  {
+    "url": "https://developer.amd.com/ai-developer-program/",
+    "text": "AMD AI Developer Program"
+  },
+  {
+    "url": "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "AMD Developer Cloud Overview"
+  },
+  {
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2025/how-to-get-started-on-the-amd-developer-cloud-.html?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "Getting Started Guide"
+  },
+  {
+    "url": "https://rocm.docs.amd.com/en/latest/?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "ROCm Documentation"
+  },
+  {
+    "url": "https://rocm.docs.amd.com/projects/install-on-linux/en/latest/?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "ROCm Installation Guide"
+  },
+  {
+    "url": "https://github.com/ROCm/ROCm?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "ROCm GitHub Repository"
+  },
+  {
+    "url": "https://fireworks.ai/",
+    "text": "Fireworks AI Platform"
+  },
+  {
+    "url": "https://docs.fireworks.ai/",
+    "text": "Fireworks AI Documentation"
+  },
+  {
+    "url": "https://www.amd.com/en/developer/browse-by-resource-type/training.html?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "Full Training Catalog"
+  },
+  {
+    "url": "https://lablab.ai/ai-articles/from-zero-to-ai-builder-amd-developer-program",
+    "text": "From Zero to AI Builder with AMD"
+  },
+  {
+    "url": "https://www.deeplearning.ai/?utm_source=generic&utm_medium=referral&utm_campaign=lablab-ai&utm_content=generic",
+    "text": "DeepLearning.AI"
+  },
+  {
+    "url": "https://deepmind.google/models/gemma/",
+    "text": "Gemma"
+  },
+  {
+    "url": "https://ai.google.dev/gemma/docs",
+    "text": "Gemma Documentation"
+  },
+  {
+    "url": "https://deepmind.google/models/gemma/",
+    "text": "Gemma Website"
+  },
+  {
+    "url": "https://fireworks.ai/",
+    "text": "Fireworks AI"
+  },
+  {
+    "url": "https://beta.nativelyai.com/?utm_source=partner_site&utm_medium=partner&utm_campaign=amd_builder_hackathon_2026_07&utm_content=lablab_amd_hackathon",
+    "text": "Start Building \u2192"
+  },
+  {
+    "url": "https://beta.nativelyai.com/?utm_source=partner_site&utm_medium=partner&utm_campaign=amd_builder_hackathon_2026_07&utm_content=lablab_amd_hackathon",
+    "text": "Native.Builder"
+  },
+  {
+    "url": "https://beta.nativelyai.com/?utm_source=partner_site&utm_medium=partner&utm_campaign=amd_builder_hackathon_2026_07&utm_content=lablab_amd_hackathon",
+    "text": "Native.Builder Website"
+  },
+  {
+    "url": "https://docs-builder.nativelyai.com/",
+    "text": "Documentation"
+  },
+  {
+    "url": "https://docs-builder.nativelyai.com/introduction/getting-started",
+    "text": "Getting Started Guide"
+  },
+  {
+    "url": "https://lablab.ai/terms-of-use?_gl=1*1rog2*_up*MQ..*_ga*MTIwOTgzODI0Mi4xNzcxNTg4MDk2*_ga_0DKXC1L0Y7*czE3NzE1ODgwOTUkbzEkZzAkdDE3NzE1ODgwOTUkajYwJGwwJGgxNDA5ODEwMDgx#16-participation-terms",
+    "text": "Voluntary Participation & Prize Terms"
+  },
+  {
+    "url": "https://lablab.ai/terms-of-use?_gl=1*1rog2*_up*MQ..*_ga*MTIwOTgzODI0Mi4xNzcxNTg4MDk2*_ga_0DKXC1L0Y7*czE3NzE1ODgwOTUkbzEkZzAkdDE3NzE1ODgwOTUkajYwJGwwJGgxNDA5ODEwMDgx#16-participation-terms",
+    "text": ""
+  },
+  {
+    "url": "https://x.com/AMD?lang=en",
+    "text": "X"
+  },
+  {
+    "url": "https://www.linkedin.com/company/amd",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://x.com/nativelyapp",
+    "text": "X"
+  },
+  {
+    "url": "https://www.linkedin.com/company/nativelyai/",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://www.nativelyai.com/",
+    "text": "Website"
+  },
+  {
+    "url": "https://x.com/googlegemma",
+    "text": "X"
+  },
+  {
+    "url": "https://deepmind.google/models/gemma/",
+    "text": "Website"
+  },
+  {
+    "url": "https://x.com/GoogleDeepMind",
+    "text": "X"
+  },
+  {
+    "url": "https://www.linkedin.com/company/googledeepmind",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://x.com/lablabai",
+    "text": "X"
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai/",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://www.facebook.com/lablabai",
+    "text": "Facebook"
+  },
+  {
+    "url": "https://www.instagram.com/lablab.ai/",
+    "text": "Instagram"
+  },
+  {
+    "url": "https://www.youtube.com/@lablab10",
+    "text": "YouTube"
+  },
+  {
+    "url": "https://www.twitch.tv/lablabai",
+    "text": "Twitch"
+  },
+  {
+    "url": "https://lablab.ai/",
+    "text": "Website"
+  },
+  {
+    "url": "https://lablab.ai/ai-articles/hackathon-guidelines",
+    "text": "Submission Guidelines"
+  },
+  {
+    "url": "#track-1",
+    "text": "See track details"
+  },
+  {
+    "url": "https://developer.amd.com/ai-developer-program/",
+    "text": "AMD AI Developer Program"
+  },
+  {
+    "url": "https://lablab.ai/guide",
+    "text": "Hackathon Guidelines"
+  },
+  {
+    "url": "https://lablab.ai/getting-started-guide",
+    "text": "Getting Started Guide"
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Join lablab.ai Discord"
+  },
+  {
+    "url": "https://discord.gg/mVUBbE5KjN",
+    "text": "Join AMD Discord"
+  },
+  {
+    "url": "https://lablab.ai/tech",
+    "text": "AI Tech"
+  },
+  {
+    "url": "https://lablab.ai/t",
+    "text": "tutorials"
+  },
+  {
+    "url": "http://notebooks.amd.com/hackathon",
+    "text": "notebooks.amd.com/hackathon"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://surge.xyz/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://www.nativelyai.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://www.nativelyai.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://surge.xyz/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://www.nativelyai.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://zealotlabs.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://zealotlabs.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://zealotlabs.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": null,
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "https://www.nativelyai.com/",
+    "text": ".img-3cc22d08 {\n  opacity: 1;\n  transition: opacity 0.2s ease-in-out;\n}.div-3cc22d08 {\n  width: 100%;\n  pointer-events: none;\n  font-size: 0;\n}.div-3cc22d08-2 {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}"
+  },
+  {
+    "url": "/ai-hackathons/amd-lablab-ai-academy-challenge",
+    "text": "Join this hackathon \u2192"
+  },
+  {
+    "url": "https://www.linkedin.com/company/lablab-ai/",
+    "text": "LinkedIn"
+  },
+  {
+    "url": "https://x.com/lablabai",
+    "text": "Twitter/X"
+  },
+  {
+    "url": "https://www.instagram.com/lablab.ai/",
+    "text": "Instagram"
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Discord"
+  },
+  {
+    "url": "https://www.youtube.com/@lablabai",
+    "text": "YouTube"
+  },
+  {
+    "url": "https://www.twitch.tv/lablabai",
+    "text": "Twitch"
+  },
+  {
+    "url": "https://nativelyai.com",
+    "text": ""
+  },
+  {
+    "url": "/tech",
+    "text": "AI Tech"
+  },
+  {
+    "url": "/ai-hackathons",
+    "text": "AI Hackathons"
+  },
+  {
+    "url": "/ai-tutorials",
+    "text": "AI Tutorials"
+  },
+  {
+    "url": "/apps",
+    "text": "AI Applications"
+  },
+  {
+    "url": "https://nativelyai.com/#products",
+    "text": "NativelyAI"
+  },
+  {
+    "url": "/ai-articles",
+    "text": "AI Articles"
+  },
+  {
+    "url": "/leaderboard",
+    "text": "Leaderboard"
+  },
+  {
+    "url": "/writers",
+    "text": "Writers"
+  },
+  {
+    "url": "/about",
+    "text": "About"
+  },
+  {
+    "url": "/brand",
+    "text": "Brand"
+  },
+  {
+    "url": "/guide",
+    "text": "Hackathon Guidelines"
+  },
+  {
+    "url": "/terms-of-use",
+    "text": "Terms of Use"
+  },
+  {
+    "url": "/code-of-conduct",
+    "text": "Code of Conduct"
+  },
+  {
+    "url": "/privacy-policy",
+    "text": "Privacy Policy"
+  },
+  {
+    "url": "/security-policy",
+    "text": "Security"
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Discord"
+  },
+  {
+    "url": "/sponsor",
+    "text": "Sponsor"
+  },
+  {
+    "url": "/cooperation",
+    "text": "Cooperation"
+  },
+  {
+    "url": "https://wkf.ms/3PQMLlq",
+    "text": "Contribute"
+  },
+  {
+    "url": "/cdn-cgi/l/email-protection#52313d3f3f273c3b262b123e33303e33307c333b",
+    "text": "Send email"
+  },
+  {
+    "url": "/help-center",
+    "text": "Help Center Browse FAQs and guides."
+  },
+  {
+    "url": "https://discord.gg/lablabai",
+    "text": "Discord Community Chat with mentors and the team."
+  }
+]

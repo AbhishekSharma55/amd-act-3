@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - AMD AI Notebooks</title>
+  <!-- AMD Analytics Package (includes OneTrust, Google Analytics, GTM) -->
+  <script type="text/javascript" src="https://download.amd.com/js/analytics/analyticsinit.js"></script>
+  <link rel="icon" type="image/png" href="https://notebooks.amd.com/static/image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://notebooks.amd.com/static/css/styles.css?v=1791823641">
+</head>
+
+<body>
+  <div class="page-container">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="/" class="navbar-brand">
+        <img src="https://notebooks.amd.com/static/image.png" alt="AMD" class="navbar-logo">
+        <span class="navbar-title">AMD AI Notebooks</span>
+      </a>
+      <div class="navbar-actions">
+        <a href="https://developer.amd.com" target="_blank" class="btn btn-secondary" style="margin-right: 1rem;">AMD AI
+          Developer Program Portal</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="card fade-in">
+        <div class="card-header">
+          <img src="https://notebooks.amd.com/static/image.png" alt="AMD" class="card-logo">
+          <h1 class="card-title">AMD AI Notebooks</h1>
+          <p class="card-subtitle">Sign in to access GPU-powered Jupyter notebooks</p>
+        </div>
+
+        
+
+        <!-- Features List -->
+        <div class="pod-info mb-3">
+          <div class="pod-info-row">
+            <span class="pod-info-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                style="display: inline; vertical-align: middle; margin-right: 8px;">
+                <rect x="4" y="4" width="16" height="16" rx="2" ry="2" />
+                <rect x="9" y="9" width="6" height="6" />
+                <line x1="9" y1="1" x2="9" y2="4" />
+                <line x1="15" y1="1" x2="15" y2="4" />
+                <line x1="9" y1="20" x2="9" y2="23" />
+                <line x1="15" y1="20" x2="15" y2="23" />
+                <line x1="20" y1="9" x2="23" y2="9" />
+                <line x1="20" y1="14" x2="23" y2="14" />
+                <line x1="1" y1="9" x2="4" y2="9" />
+                <line x1="1" y1="14" x2="4" y2="14" />
+              </svg>
+              GPU Accelerated
+            </span>
+            <span class="pod-info-value" style="color: var(--success-color);">AMD ROCm</span>
+          </div>
+          <div class="pod-info-row">
+            <span class="pod-info-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                style="display: inline; vertical-align: middle; margin-right: 8px;">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+              Environment
+            </span>
+            <span class="pod-info-value">JupyterLab</span>
+          </div>
+          <div class="pod-info-row">
+            <span class="pod-info-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                style="display: inline; vertical-align: middle; margin-right: 8px;">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Instant Access
+            </span>
+            <span class="pod-info-value">On-demand</span>
+          </div>
+        </div>
+
+        <!-- SSO Login Button -->
+        <a href="/auth/saml/login?next=/tokenfactory" class="btn btn-github">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+          </svg>
+          Sign in with AMD AI Developer Program
+        </a>
+
+        
+
+        <!-- Footer Text -->
+        <p class="text-center mt-3" style="font-size: 0.85rem; color: var(--text-muted);">
+          By signing in, you agree to our terms of service
+        </p>
+      </div>
+    </main>
+
+    <!-- AMD Standard Footer -->
+    <footer
+      style="background: var(--card-bg); border-top: 1px solid var(--border-color); padding: 1.5rem 2rem; margin-top: auto;">
+      <div style="max-width: 1200px; margin: 0 auto;">
+        <div
+          style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; font-size: 0.85rem; color: var(--text-muted);">
+          <a href="https://www.amd.com/en/corporate/privacy" target="_blank"
+            style="color: var(--text-muted); text-decoration: none;">Privacy Notice</a>
+          <a href="https://www.amd.com/en/legal/cookies.html" target="_blank"
+            style="color: var(--text-muted); text-decoration: none;">Cookie Policy</a>
+          <a href="#" onclick="OneTrust.ToggleInfoDisplay(); return false;"
+            style="color: var(--text-muted); text-decoration: none; cursor: pointer;">Cookie Settings</a>
+          <a href="https://www.amd.com/en/legal/copyright.html" target="_blank"
+            style="color: var(--text-muted); text-decoration: none;">Terms of Use</a>
+          <a href="https://www.amd.com/en/corporate/trademarks" target="_blank"
+            style="color: var(--text-muted); text-decoration: none;">Trademarks</a>
+        </div>
+        <div style="text-align: center; margin-top: 1rem; font-size: 0.75rem; color: var(--text-muted);">
+          © 2026 Advanced Micro Devices, Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://notebooks.amd.com/static/js/main.js?v=1791823641"></script>
+  <script>
+    // Preserve #notebookId= fragment across SAML login redirect
+    (function () {
+      var hash = window.location.hash;
+      if (hash && hash.indexOf('notebookId=') !== -1) {
+        sessionStorage.setItem('pendingNotebookHash', hash);
+      }
+    })();
+  </script>
+</body>
+
+</html>

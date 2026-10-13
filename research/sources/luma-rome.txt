@@ -1,0 +1,158 @@
+AMD Developer Hackathon: ACT III — Rome · Luma
+Discover Events
+Sign In
+Presented by
+lablab.ai Events
+Follow
+lablab.ai
+is a global platform supporting AI innovation through hackathons, workshops, and community-driven events. Stay updated on all our upcoming events and join our AI community!
+Hosted By
+lablab
+Josh Shulman
+WeAreDevelopers
+24 Going
+Visual Innovation Awards, Emanuele Musumeci and 22 others
+Contact the Host
+Report Event
+AI
+AMD Developer Hackathon: ACT III — Rome
+lablab.ai Events
+Via del Casale di S. Pio V, 44
+Roma, Italy
+Registration
+Welcome! To join the event, please register below.
+Register
+About Event
+​
+Build AI agents and high-performance AI applications on AMD GPUs in the cloud and bring your project to Rome
+​
+The
+AMD Developer Hackathon: ACT III
+is an event for developers, founders, engineers, students, and AI builders ready to turn ambitious ideas into working products.
+​
+On
+October 17–18
+, participants will meet at
+Link Campus University in Rome
+to collaborate, receive hands-on support, and showcase their projects live.
+​
+What you’ll build
+​
+Create an end-to-end
+AI application, agent, or developer tool powered by AMD technology
+.
+​
+You’ll work with
+AMD GPUs in the cloud
+and the
+ROCm open-source software stack
+. Everything runs in the cloud, so there is no local hardware to configure — you can focus on experimenting, building, and testing your idea.
+​
+Possible directions include:
+​
+AI agents and autonomous workflows
+​
+High-performance AI and machine learning applications
+​
+Model training and fine-tuning
+​
+AI workload benchmarking
+​
+Developer tools built around AMD’s compute stack
+​
+Porting and optimizing existing AI workloads for AMD GPUs
+​
+Tracks and detailed challenges will be announced before the kickoff.
+​
+Why join us in Rome?
+​
+The Rome edition will take place at
+Link Campus University
+, located in the historic Casale di San Pio V campus.
+​
+During the two-day on-site experience, you’ll be able to:
+​
+Build alongside other developers and founders
+​
+Get technical guidance and hands-on support
+​
+Meet members of the local and international AI community
+​
+Refine your project before the submission deadline
+​
+Present your work live during the final pitching session
+​
+Compete for a share of the
+$5,000 prize pool
+​
+Who should attend?
+​
+This event is for:
+​
+AI and machine learning developers
+​
+Software engineers and technical founders
+​
+Students and early-career builders
+​
+Teams exploring AI products and infrastructure
+​
+Anyone interested in building with AMD GPUs and ROCm
+​
+All experience levels are welcome. You can participate individually or in a team of up to six people.
+​
+Schedule
+​
+Saturday, October 17
+​
+9:00 AM — Doors open
+​
+10:00 AM — Welcome and opening remarks
+​
+Build day, mentoring, and collaboration
+​
+7:00 PM — Doors close
+​
+Sunday, October 18
+​
+9:00 AM — Doors open
+​
+Final build sessions
+​
+4:00 PM — Submission deadline
+​
+5:00 PM — Live pitching and networking
+​
+7:00 PM — Doors close
+​
+Location
+​
+Link Campus University
+Via del Casale di San Pio V, 44
+00165 Roma, Italy
+​
+Organized by
+​
+lablab.ai
+A global platform connecting 300,000+ developers through AI hackathons, workshops, and community-driven events, with 100+ hackathons delivered worldwide.
+Location
+Via del Casale di S. Pio V, 44
+00165 Roma RM, Italy
+Presented by
+lablab.ai Events
+Follow
+lablab.ai
+is a global platform supporting AI innovation through hackathons, workshops, and community-driven events. Stay updated on all our upcoming events and join our AI community!
+Hosted By
+lablab
+Josh Shulman
+WeAreDevelopers
+24 Going
+Visual Innovation Awards, Emanuele Musumeci and 22 others
+Contact the Host
+Report Event
+AI
+Discover
+Pricing
+Help
+Get the App

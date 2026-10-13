@@ -1,0 +1,1870 @@
+Live Dashboard
+Back to event
+Ended · Results final
+closed
+Jul 13, 2026, 12:30 UTC
+AMD Developer Hackathon: ACT II
+Wrapped up with
+1,148
+projects shipped and
+20,728
+participants
+across
+4,884
+teams.
+View all submissions
+Event recap
+Next hackathon
+Winners
+2
+Runner-up
+OyeHoye Zero Tokens
+oyehoye
+3
+Winner
+1
+Champion
+Intelligence for Existing CCTV Systems
+ROC-Dragon
+30
+3
+Third place
+CacheForge topology aware kv
+roc-m-roll
+2
+AMD judging
+Automated Scoring Leaderboard
+scored by AMD
+T
+1
+·
+General-Purpose AI Agent
+138
+T
+2
+·
+Video Captioning
+116
+T
+3
+·
+Unicorn (Open Innovation)
+481
+Ranked by accuracy weighted against token usage · fewer tokens at the same accuracy scores higher
+01
+LeAgent
+leMinou
+0 tokens
+89.5%
+accuracy
+02
+TokenRouter - prove or escalate agent
+Sprint Sprint Win
+2,221 tokens
+89.5%
+accuracy
+03
+optimus-router
+Solvent Labs
+0 tokens
+63.2%
+accuracy
+04
+ProofRoute: Token-Efficient AI Agent
+Nash Cascade
+3,051 tokens
+94.7%
+accuracy
+05
+Kestrel
+SoloPlayer
+2,706 tokens
+89.5%
+accuracy
+06
+LocalFirst-4
+jae
+3,753 tokens
+100.0%
+accuracy
+07
+Routing-Agent-That-Works-I-Guess? V1.3
+Tokenizer
+3,405 tokens
+94.7%
+accuracy
+08
+THRIFT
+Vyala_dev01
+933 tokens
+68.4%
+accuracy
+09
+TokenMiser
+minimalist
+3,408 tokens
+94.7%
+accuracy
+10
+ROUTEZERO
+RLSym
+3,440 tokens
+94.7%
+accuracy
+11
+Hyper Efficient 0 token Router v2
+Absolut Void Development
+0 tokens
+57.9%
+accuracy
+12
+TokenCascade
+USJ-R PH
+0 tokens
+57.9%
+accuracy
+13
+HybridRoute
+LLM Learner
+3,082 tokens
+89.5%
+accuracy
+14
+ARouter
+TheWho
+3,618 tokens
+94.7%
+accuracy
+15
+riyadomf final submission
+AdversaryAI
+3,166 tokens
+89.5%
+accuracy
+16
+Adaptive Routing Agent
+T_ying_yai
+2,161 tokens
+78.9%
+accuracy
+17
+AIchemist-agent
+AIchemists
+2,872 tokens
+84.2%
+accuracy
+18
+Bastion: Accuracy-First Token Router V23
+Night Lab
+3,018 tokens
+84.2%
+accuracy
+19
+SEVK: Saving Expenditure Via Knowledge
+Berking
+3,635 tokens
+89.5%
+accuracy
+20
+LLM-Routing-Agent
+Dolpinotik
+2,033 tokens
+73.7%
+accuracy
+21
+Git it done v43
+GitCommit_and_Pray
+3,704 tokens
+89.5%
+accuracy
+22
+BudgetBrain Track 1 Champion Agent
+Silver linings
+3,813 tokens
+89.5%
+accuracy
+23
+👑 TOKENMAN 👑
+SapphireVIP
+0 tokens
+52.6%
+accuracy
+24
+ZeroProof —Zero-Token Proof-Carrying Routing Agent
+Team O(1)
+0 tokens
+52.6%
+accuracy
+25
+EcoFeast: Smart Grocery & Waste Tracker
+Patreon
+0 tokens
+52.6%
+accuracy
+26
+Cascade Router: Local-First AI Agent
+OneNode
+2,765 tokens
+78.9%
+accuracy
+27
+Tokomera: Adaptive Query Router
+Konglomera
+2,865 tokens
+78.9%
+accuracy
+28
+TokenForge Router
+OG_Mode
+5,251 tokens
+100.0%
+accuracy
+29
+NovaAI : General Purpose AI Assistant
+Khdamin btkhbya
+5,285 tokens
+100.0%
+accuracy
+30
+SXR Routing Agent
+SXR
+4,150 tokens
+89.5%
+accuracy
+31
+Token router
+Parinita
+3,622 tokens
+84.2%
+accuracy
+32
+ZaynDev — Token-Efficient General-Purpose Agent
+ZaynDev
+4,785 tokens
+94.7%
+accuracy
+33
+Token-Miser Router Agent v9
+ritwika
+3,086 tokens
+78.9%
+accuracy
+34
+Routing Agent - I
+Vibe Tribe
+4,320 tokens
+89.5%
+accuracy
+35
+Frugal Token
+Frugal Token
+5,663 tokens
+100.0%
+accuracy
+36
+Verification-Driven Token-Efficient Routing Agent
+Momentum
+5,735 tokens
+100.0%
+accuracy
+37
+FrugalRouter
+TechMavericks
+3,392 tokens
+78.9%
+accuracy
+38
+Dynamic_Model_Router
+NA
+4,009 tokens
+84.2%
+accuracy
+39
+ZMLC+ Local-First Token Router v29-final
+RTHack
+2,867 tokens
+73.7%
+accuracy
+40
+TranscendiantRouter5
+Transcendiant
+4,071 tokens
+84.2%
+accuracy
+41
+minimum viable effort
+minimum viable effort
+4,216 tokens
+84.2%
+accuracy
+42
+Gulliver's Router
+Che
+4,828 tokens
+89.5%
+accuracy
+43
+Trippy Troppy
+BlackChop
+4,237 tokens
+84.2%
+accuracy
+44
+OmniCore — Zero-Token-First Hybrid Routing Agent
+OMINICORE
+4,939 tokens
+89.5%
+accuracy
+45
+ProsoponRouter
+CascadeSolo
+4,963 tokens
+89.5%
+accuracy
+46
+singleThreaded-agent
+SingleThreaded
+4,996 tokens
+89.5%
+accuracy
+47
+Dispatch
+Dispatch
+5,820 tokens
+94.7%
+accuracy
+48
+Dual Pitcher AI Agent
+NPA
+5,893 tokens
+94.7%
+accuracy
+49
+Apollo
+Trafalgar
+4,660 tokens
+84.2%
+accuracy
+50
+AMD-Track1-Agent
+yohanesfc
+5,318 tokens
+89.5%
+accuracy
+51
+smart token efficient agent
+team name
+5,333 tokens
+89.5%
+accuracy
+52
+OptiRoute
+Slicon Spark
+6,055 tokens
+94.7%
+accuracy
+53
+TokenForge Final
+Neural Stack
+4,826 tokens
+84.2%
+accuracy
+54
+Track 1 - Smart Router v23 latest submission
+Robot ROCm
+6,283 tokens
+94.7%
+accuracy
+55
+track1 Agent
+CollabX
+1,740 tokens
+57.9%
+accuracy
+56
+TokenPilot: Adaptive Fireworks Model Router
+tokenpilot-router
+5,097 tokens
+84.2%
+accuracy
+57
+ABNU KA?
+JamesLabs
+5,770 tokens
+89.5%
+accuracy
+58
+Overfitters_General_Purpose_AI_Agent
+The Overfitters
+5,835 tokens
+89.5%
+accuracy
+59
+Token Broker
+Indie G
+3,877 tokens
+73.7%
+accuracy
+60
+Token Frontier Model
+Paripakv
+4,584 tokens
+78.9%
+accuracy
+61
+AI-EfficiencyMaxxing
+Hoshi Ebi
+6,015 tokens
+89.5%
+accuracy
+62
+BenchSieve
+MYSELF
+6,045 tokens
+89.5%
+accuracy
+63
+TokenOptimizer — Hybrid Routing System11
+Yashasvi Thakur
+5,386 tokens
+84.2%
+accuracy
+64
+Hola Precision Agent
+Hola
+5,457 tokens
+84.2%
+accuracy
+65
+TokenSentinel - Final - V1.0
+One-Man Monolith
+6,184 tokens
+89.5%
+accuracy
+66
+vinci-monsoon-J01
+the_vinci_coder
+6,193 tokens
+89.5%
+accuracy
+67
+TokenRouter: Cost-Efficient Multi-Model AI Agent
+Saving Money
+6,315 tokens
+89.5%
+accuracy
+68
+Zeyno: Adaptive Query Router
+TEAM DARI
+5,178 tokens
+78.9%
+accuracy
+69
+The binding of Llama
+Lorem Ipsum
+1,644 tokens
+52.6%
+accuracy
+70
+ROUgentX
+Code da Clouds
+6,923 tokens
+89.5%
+accuracy
+71
+Quadravox
+Bhalu & Gang
+3,462 tokens
+63.2%
+accuracy
+72
+AMD-Smart-Router
+Verso
+8,874 tokens
+100.0%
+accuracy
+73
+O(1) Agent
+o(1)
+4,386 tokens
+68.4%
+accuracy
+74
+Team_Sankalpa
+SANKALPA
+5,218 tokens
+73.7%
+accuracy
+75
+TEA12
+TEA
+8,488 tokens
+94.7%
+accuracy
+76
+TERA: Hybrid Token-Efficient Routing Agent
+Kshipra
+7,748 tokens
+89.5%
+accuracy
+77
+AstraRoute AI Agent #10
+choatic_team
+7,779 tokens
+89.5%
+accuracy
+78
+Ascended v.56
+Ascended
+5,455 tokens
+73.7%
+accuracy
+79
+Fairwind
+Heisenberg
+7,059 tokens
+84.2%
+accuracy
+80
+Hybrid Token-Efficient Routing Agent
+Odeon
+6,415 tokens
+78.9%
+accuracy
+81
+Clean Food Good Router
+Clean Food Good Silicon
+9,598 tokens
+100.0%
+accuracy
+82
+GemmaGate
+Area Larpers
+2,468 tokens
+52.6%
+accuracy
+83
+Hybrid Router
+BKKBurnout
+9,694 tokens
+100.0%
+accuracy
+84
+Local-First Cascade Router — Track 1 v3f
+Ocellus
+8,147 tokens
+89.5%
+accuracy
+85
+Smart Token-Efficient AI Router
+vayu_putra
+9,806 tokens
+100.0%
+accuracy
+86
+Base42: The Cost-Aware AI Operating System
+TheNextBigThing
+4,299 tokens
+63.2%
+accuracy
+87
+TokenTriage Agent
+Lyceum
+5,992 tokens
+73.7%
+accuracy
+88
+HopRouter: Smart Local/Remote AI Router
+HopRouter
+8,615 tokens
+89.5%
+accuracy
+89
+Adaptive General-Purpose AI Agent
+Mr and Mrs Smith
+8,647 tokens
+89.5%
+accuracy
+90
+Hybrid Token-Efficient Routing Agent
+Adam dev teams
+10,580 tokens
+100.0%
+accuracy
+91
+TokenRouter: cheapest model that gets it right
+Saberites
+9,816 tokens
+94.7%
+accuracy
+92
+Zero-Cost Multi-Agent Token Router
+The Goods
+8,129 tokens
+84.2%
+accuracy
+93
+Vote First, Then Answer
+Proxgate
+8,180 tokens
+84.2%
+accuracy
+94
+SmartRouter — cut your LLM bill
+Quicx Labs
+3,936 tokens
+57.9%
+accuracy
+95
+ZeroCredits
+sadhaka
+8,309 tokens
+84.2%
+accuracy
+96
+Agent optimization - a4.2 - AMD-HT-ACTII - last1
+Khela Final
+10,191 tokens
+94.7%
+accuracy
+97
+Mybanana ai agent 🍌
+MY Banana
+8,467 tokens
+84.2%
+accuracy
+98
+Local-First Token-Efficient Routing Agent
+Nural Nexus
+11,121 tokens
+100.0%
+accuracy
+99
+NierRouter
+Nier_Classification
+3,256 tokens
+52.6%
+accuracy
+100
+RepoREpo
+Ryzen
+4,143 tokens
+57.9%
+accuracy
+101
+KORA - Token-Efficient Routing Agent
+Krako Labs - KORA
+10,310 tokens
+94.7%
+accuracy
+102
+ByteRoute
+ByteRoute
+8,703 tokens
+84.2%
+accuracy
+103
+Aegis Semantic Routerv5
+CodeML
+4,350 tokens
+57.9%
+accuracy
+104
+penny-agent
+Lyon
+4,537 tokens
+57.9%
+accuracy
+105
+ROUTER_AGENT
+coffee-and-bugs
+3,636 tokens
+52.6%
+accuracy
+106
+Project HEPHAESTUS
+TokenSaver
+7,607 tokens
+73.7%
+accuracy
+107
+EcoRoute
+Build Future
+8,031 tokens
+73.7%
+accuracy
+108
+TokenRouter : Smart AI Routing Agent
+ROYAL RAVENS
+12,901 tokens
+100.0%
+accuracy
+109
+Qorx Zero
+Qorx
+9,382 tokens
+78.9%
+accuracy
+110
+Simple Solutions
+SimpleSolutions
+10,607 tokens
+84.2%
+accuracy
+111
+GemmaCaption
+teamRed
+13,643 tokens
+100.0%
+accuracy
+112
+Local-First Batch Agent
+group
+11,777 tokens
+89.5%
+accuracy
+113
+router-track1
+EvolutionRouting
+13,922 tokens
+100.0%
+accuracy
+114
+Eco Router AI
+Team Skem
+10,903 tokens
+84.2%
+accuracy
+115
+TokenForge — Hybrid Token-Efficient Routing Agent
+Multimodal TokenForge
+14,032 tokens
+100.0%
+accuracy
+116
+CascadeRouter — Token-Efficient Routing Agent
+Veritas
+7,874 tokens
+68.4%
+accuracy
+117
+OmniSolve
+Mjolnir
+14,181 tokens
+100.0%
+accuracy
+118
+hybrid-routing-agent
+Jetpack
+12,305 tokens
+89.5%
+accuracy
+119
+Audisor-amd-track1
+The_One_Shot
+14,527 tokens
+100.0%
+accuracy
+120
+325 Agent — Hybrid Token-Efficient Router
+Milton J Acosta III
+7,198 tokens
+63.2%
+accuracy
+121
+TERA-v2
+Review
+Brute Force
+8,368 tokens
+68.4%
+accuracy
+122
+OmniEdge RouteIQ — Local-First Intelligent Router
+OmniEdge RouteIQ
+12,852 tokens
+89.5%
+accuracy
+123
+Token Saver v1
+Task Force 141
+9,708 tokens
+73.7%
+accuracy
+124
+Hybrid Routing Agent — Local First, Tokens Last
+AgenticDeveloper
+9,844 tokens
+73.7%
+accuracy
+125
+CascadeAgent: Token-Efficient Task Router
+Pixel & Prompt
+14,374 tokens
+94.7%
+accuracy
+126
+TokenRoute — Hybrid Token-Efficient Routing Agent
+Asad
+6,691 tokens
+57.9%
+accuracy
+127
+AAARouteZEro
+Caternaut
+9,765 tokens
+68.4%
+accuracy
+128
+Valid Route Hybrid Agent
+Cognivox
+11,018 tokens
+73.7%
+accuracy
+129
+Routengo
+Lumen
+6,414 tokens
+52.6%
+accuracy
+130
+Intelligent Assistant
+OP_devs
+6,650 tokens
+52.6%
+accuracy
+131
+Token Gate
+SLU Interns
+16,514 tokens
+94.7%
+accuracy
+132
+Hybrid token-efficient routing agent using Python.
+air
+17,224 tokens
+94.7%
+accuracy
+133
+Argonauts - Track 1 - Submission 12
+Argonauts
+20,686 tokens
+100.0%
+accuracy
+134
+Juggernaut Agent
+Juggernaut
+18,589 tokens
+84.2%
+accuracy
+135
+FireRoute Agent
+SilverCrane
+21,319 tokens
+78.9%
+accuracy
+136
+Adaptive Model Dispatcher
+Adaptive Model Dispatcher (AMD)
+16,769 tokens
+57.9%
+accuracy
+137
+A Things That Works v4
+Code Vibing
+68,576 tokens
+100.0%
+accuracy
+138
+Hybrid Token-Efficient Routing Agent-
+Avyra
+34,192 tokens
+52.6%
+accuracy
+Did not qualify
+248
+These submissions couldn’t be scored yet. Fix the issue shown below — image fixes are re-scored automatically on the next run; other fixes need you to re-save your submission.
+OptiRouter
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+ChiefFlow AI — AI Chief of Staff
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Cognexa – Hybrid AI Routing Platform
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+AIconomist- A routing agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+36.8%
+token-smart-router
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Token Efficient Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+ScubaaaaRouter
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Token-Efficient Routing Agent
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+MediConnect: AI Emergency Response Platform
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Son of Alan v6
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+Token-Slasher: Minimalist Hybrid Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Meridian Hybrid Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+SplitLLM  – Explainable Hybrid AI Routing
+OUTPUT_MALFORMED
+This submission could not be scored. Review your submission and re-save to try again.
+TernRoute
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+RouteMind: Token-Efficient AI Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Kaio-Ken Protocol
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+MobZ - Smart Router
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Pact — Hybrid Token-Efficient Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TOKENISER
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+AMD Hybrid Token-Efficient AI Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+NanoRouter
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+31.6%
+TokenEdge — Hybrid AI Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+AMD Router: Local-First Token-Efficient Routing
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+Tokenless
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+🐉 HydraRoute: Zero-Token-First Hybrid AI Router
+MISSING_TASKS
+This submission could not be scored. Review your submission and re-save to try again.
+OptimiserSim
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Zero-Token Hybrid Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+dasch ai v1: Hybrid Token-Efficient Router
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+TriSphere
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TERA- Token Efficient Routing Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Argus by Perciqa
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+General-purpose AI Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid-Routing-Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Token Sage Application
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+DeliveryBoy AI
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+DealScope
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token-Efficient Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+VoxRouter — Hybrid Token-Efficient Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+SignalSniper Multi Agent Forex Market Intelligence
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+SignSpeak AI Real-Time AI Sign Language Translator
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Tokenomics: 3-Stage Zero-Cost Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+DonieleTheLastAgent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+Smart-Router Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+track1-agent:latest
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+5.3%
+RoxAI + RoxKV: AI-Powered Database Platform
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Simple AI Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+DSS BACKGROUND HANDSHAKES PROTOCOL
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+VESTRA AI: Hybrid Router for outfit Assistants
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+RK Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+VaultEdge AI: Secure Hybrid Edge-to-Cloud Router
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Token-Efficient-one-two-three
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+SobatHitung
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+RouteMind
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Divine Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+31.6%
+Hybrid Token-Efficient Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+SmartRoute AI
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+RouteLM: Adaptive Model Routing Engine
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Pandora – AI-Powered Intelligent Workspace
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Kartik - Adaptive Inference Under Constraints
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+InteliRouter
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+ExecOS AI – Multi-Agent Executive Operating System
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Hybrid Token-Efficient AI Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token Efficient  Gestor Detector
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token-Efficient Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+AMD AI Agent & Video Captioning Suit
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+minima
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+36.8%
+Taskly: Smart Multi-Model Task Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Obsidia Router: Structure Before Inference
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+10.5%
+NeuralGate:Intelligent Multi-Model AI Routing Eng
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Sieve: Zero-Token-First Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+AuditAgent: AI Smart-Contract Oracle
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TalentCore AI
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+Cheapskate Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Penny — the Hybrid Token-Efficient Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient Routing Agent
+INVALID_RESULTS_SCHEMA
+This submission could not be scored. Review your submission and re-save to try again.
+AgriSight: Edge-to-Cloud Crop Diagnosis
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+RouteWise — Token-Efficient Routing Agent
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+Echo: Token-Minimal AI Routing Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Transit Ops Solution
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+SceneSense: Adaptive Video Intelligence Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Mallana: AI Runtime for Autonomous Development
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Cloud Architect Ai
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token Traffic Cop
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Noob_Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+36.8%
+Drupal AI Factchecker — Claim-Level Truth on AMD
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Intellexa Efficient Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Weather Intelligence as a service (Wiaas)
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Develarper: Token-Efficient AI Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Autonomous Product Studio
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+AegisRouter
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Rune - A Hosted AgentOS
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+AI Lakaton: Hackathon Compliance Auditor
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Droughter
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+TOKEMIZER
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+RDNA AI Guard
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+YOLOAI
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+Router to Vibehalla
+INFRA_ERROR
+This submission could not be scored. Review your submission and re-save to try again.
+AgentStar
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+CrosslaneAI
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+OmniAgent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Rauto
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+10.5%
+PhantomGrid
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+ZeroToken_Router_[H][I]
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Why Incoreperated
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+Token-Efficient Hybrid AI Gatekeeper
+INVALID_RESULTS_SCHEMA
+This submission could not be scored. Review your submission and re-save to try again.
+Inbound Routing
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TACTIC
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+routerx-agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+. SmartTender A
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Vigilant-Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+CodeRouter AI — Cost-Aware AI Multitask Router
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Fallthrough
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+PocoToken
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+SmartBandit Router
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Ralphi-IA Hybrid Ops Copilot - AMD
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Wave Engine: Multi-Agent Software Intelligence
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Instinct Gate
+INVALID_RESULTS_SCHEMA
+This submission could not be scored. Review your submission and re-save to try again.
+Probably runs on Samsung S25
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+EcoRoute: 3-Tier Agentic Router
+INVALID_RESULTS_SCHEMA
+This submission could not be scored. Review your submission and re-save to try again.
+Wayfinder | Hybrid Token-Efficient Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid AI Router with Dynamic LLM Selection
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Abacus — Zero-Token Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+10.5%
+NeuroRoute
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Frugal Route
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+XO Screens
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+Bifrost
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+15.8%
+Neural Assembly Pattern Learning
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Confidence-Cascade Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token - Efficient Routing Agent #nexus-26
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+10.5%
+NexusOps – Autonomous Industrial Maintenance
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Nomy Route
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+CaptionChameleon
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+single-shot multi-style
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+ZeroToken-Guardrail Hybrid Router
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+EdgeGuard: Cost-Optimized Hybrid AI Router
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Team Scorpians – Zero-Token Hybrid Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+31.6%
+Frugal Router, a Token-Efficient AI Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+AuraRoute: Token-Efficient Hybrid AI Router
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+ApexFlow AI: Self-Healing Telemetry Gateway
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+track one project
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+NetGuard Incident Triage Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+Cheap Route
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TriForge: Hybrid Token-Efficient Router
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Zephyr: Adaptive Token Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Veedra
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+Sync City
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Axiom — Token-Efficient General-Purpose AI Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+ROCmRoute Zero
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Central Finite AI
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Baseline Agent Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+ForgeMind – Multi-Model AI Workspace
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+3CoffeeNoLunch
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Looma Assistant: Concurrent AI Orchestration Agent
+MISSING_TASKS
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Token Efficient Routing - V11
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+CineCaption AI  Multi-Style Video Captioning Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+EyeQ 3
+INVALID_RESULTS_SCHEMA
+This submission could not be scored. Review your submission and re-save to try again.
+Smart Token Efficient Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Simple Request Router
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+NoCoast AI
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+YOUSUN Axion
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TokenGolf
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+5.3%
+TRIARC
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Multi-Agent-Hackathon-Suite
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+tokentaxi
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+WarRoom — Autonomous Competitive Intelligence
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TokenSmart Router — AMD Track 1
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+31.6%
+NeuralGrid
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token-Efficient Routing Agent. (Track 1)
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Adaptive Router: Intelligent Model Routing
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+StormSense AI
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token-Efficient AI Routing Agent
+INVALID_RESULTS_SCHEMA
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Token-Efficient Router
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient Hybrid Router for Fireworks AI
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+tokenfree
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token Saver
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+5.3%
+Portfolio+
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token Efficient Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+15.8%
+ZeroToken Router
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Tokenizer
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+Petra
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Tokersaverpro
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Pathfinder0
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+RescueFlow AI
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+TitanAI: Attention-Free LM Engine on HIP
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient Routing Agent
+INFRA_ERROR
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Router for Token Optimization
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Axiom - Aether
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Routing Agent 0027
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+V12 Zero Token Hybrid AI Router
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Token-Efficient Routing Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Lina Xu
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Nexus Pathfinder
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Smart_route_ai
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+Tiara Sovereign RAG
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient General-Purpose AI Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Thymus
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+AsterRoute: Zero Token Binary LLM Router
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Gradelytics: AI Syllabus & VibeGrading
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Lazy Lives track 2 power of frienship
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+Machine Yearning
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+Synapse Swarm
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Jarvis Pro Max limited edition
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+RouteZero: Hybrid Token-Efficient AI Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+SCode AI Academic Assistant
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+ZeroFirst — Token-Efficient Routing Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Hybrid-Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Adaptive Cost-aware LLM router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+TokenAgent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Datapoch Business OS – AI Business Builder
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+EdgePali
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Router: Hybrid Token-Efficient Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+FireRoute: Token-Efficient Multi-Model AI Agent
+MISSING_TASKS
+This submission could not be scored. Review your submission and re-save to try again.
+Hybrid Semantic Routing Agent
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Brocacho Video Caption V3
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+TokenGuard
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Mirror AI - AI Stress Testing Platform
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient Router
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Hybrid Token-Efficient Routing Agent
+EMPTY_ANSWER
+This submission could not be scored. Review your submission and re-save to try again.
+Adaptive Multi-LLM Inference Router
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+TokenSage
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Efficient Model V11
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+TerraceRoute — Token-Efficient Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+26.3%
+Smart Local & Cloud LLM Selection
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+TokenSaver, Track 1
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+NLP Execution Router: Hybrid Token-Efficient Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Phoenix Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+penny — zero-token-first LLM routing agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Lifeline AI
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Token-Efficient Hybrid Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Hybrid Token Router
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+AMD Smart Router + Video Caption Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+42.1%
+Hybrid AI Router
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+21.1%
+Crossfire :- CUDA to ROCm Migration Agent.
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Petasos Routing Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+CipherRoute
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+MANAS — Token-Efficient Hybrid Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+Hybrid Token-Efficient Routing Agent
+RUNTIME_ERROR
+Your container was pulled but crashed during evaluation. Check your entrypoint/CMD and that it runs on linux/amd64.
+Agent Rerouter
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+47.4%
+Token Pilot
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+31.6%
+Smart Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+SecureTrade Ai
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+Aora - The Adaptive, Optimized Routing Agent
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+WiseRouter — Token-Efficient Routing Agent
+ACCURACY_GATE_FAILED
+Your agent ran but didn't reach the minimum accuracy threshold. Improve correctness, then re-push your image and re-save your submission.
+0.0%
+HybridRouter
+OUTPUT_MISSING
+This submission could not be scored. Review your submission and re-save to try again.
+Smart Selector
+PULL_ERROR
+We couldn't pull your Docker image. Make sure the package is PUBLIC and the reference is exact — e.g. ghcr.io/you/agent:tag (no https://, include a tag).
+PANSLA AI
+TIMEOUT
+This submission could not be scored. Review your submission and re-save to try again.
+Scores are produced by the AMD automated judging system. Entries marked “Review” are ranked but held pending manual review before any prize decision.
+Final stats
+Total participants
+20,728
+across 4,884 teams
+Teams formed
+4,884
+avg 1.6 members
+Final submissions
+1,148
+across 3 tracks
+Community votes
+2,752
+hearts across all submissions
+Technologies
+Used this round
+20
+tools
+🔥
+AMD Developer Cloud
+649
+AMD ROCm
+375
+Gemma
+325
+AI/ML API
+323
+Claude Code
+256
+Antigravity
+241
+Anthropic Claude
+225
+ChatGPT
+194
+OpenAI
+132
+Qwen3
+123
+Codex
+117
+HuggingFace Hub
+114
+Gemini AI
+111
+Vercel
+109
+rest api
+95
+DeepSeek V3
+86
+Gemini 3 Flash
+81
+AgentOps
+75
+AI Studio
+69
+Gemini 3 pro
+67
+Submissions by track
+Where teams are building
+Unicorn Track
+620
+submission
+s
+Hybrid Token-Efficient Routing Agent
+376
+submission
+s
+Video Captioning
+189
+submission
+s
+Final standings
+Top submissions
+01
+Aitinerary
+LaVerData CeeKeRS
+190
+02
+MediCast: Autonomous Surgical Intelligence
+The CheckInTech
+171
+03
+ClipContext
+Kira
+149
+04
+FinI(Financial Identity)
+Squad4
+125
+05
+KisanNama—Multi-Agent AI Crop Advisor for Pakistan
+NInja_Trinity
+89
+06
+Project Raze: Neural Decontamination Platform
+Astrix
+74
+07
+VISTA
+Team Vista
+58
+08
+Kiodev-Powered by AMD
+Kido Dev
+53
+09
+Visiolab
+Visiolab
+52
+10
+ClipTone : Multi-Style Video Captioning Agent
+BlvK
+50
+Load more
+Hall of fame
+Top builders, final
+Referrals
+Top referrers
+Lablab Social Wall
+Live
+lablab · event archived · results immutable
+Explore more hackathons →
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI about this hackathon.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help
+Join
+Challenge + Get $100 credits
+AI Hackathons
+AI Apps
+AI Tech
+AI Tutorials
+AI Articles
+NativelyAI
+Sponsor
+Toggle main menu

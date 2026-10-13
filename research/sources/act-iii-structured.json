@@ -1,0 +1,584 @@
+{
+  "people": [
+    {
+      "fullName": "Sandeep Vattikuti",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Sandeep",
+        "lastName": "Vattikuti",
+        "role": "",
+        "picture": "https://avatars.githubusercontent.com/u/216076858?v=4",
+        "linkedinUrl": "",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "sandeep9z27",
+        "user": {
+          "name": "sandeep9z"
+        }
+      }
+    },
+    {
+      "fullName": "Andrea Marazzi",
+      "eventRole": "SPEAKER",
+      "profile": {
+        "firstName": "Andrea",
+        "lastName": "Marazzi",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(15).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "uffaaaa",
+        "user": {
+          "name": "uffaaaa"
+        }
+      }
+    },
+    {
+      "fullName": "Maharshi Trivedi",
+      "eventRole": "SPEAKER",
+      "profile": {
+        "firstName": "Maharshi",
+        "lastName": "Trivedi",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(4).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "maharshitrivedi47313",
+        "user": {
+          "name": null
+        }
+      }
+    },
+    {
+      "fullName": null,
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": null,
+        "lastName": null,
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(43).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "anshikasisodia82085",
+        "user": {
+          "name": null
+        }
+      }
+    },
+    {
+      "fullName": "Omer Shmarak",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Omer",
+        "lastName": "Shmarak",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(3).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "omers",
+        "user": {
+          "name": "omers"
+        }
+      }
+    },
+    {
+      "fullName": null,
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": null,
+        "lastName": null,
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(73).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "aryamanyaduvanshi33149",
+        "user": {
+          "name": null
+        }
+      }
+    },
+    {
+      "fullName": "Anil Mandloi",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Anil",
+        "lastName": "Mandloi",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(10).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "amandloi1979",
+        "user": {
+          "name": "amandloi1979"
+        }
+      }
+    },
+    {
+      "fullName": "Goutham Manian Subramanian",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Goutham Manian",
+        "lastName": "Subramanian",
+        "role": "Engineering Manager",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/users/true/cmq7ms8j202zhs6015qv7i2iv_picture_nuxpk7b2vwd757rez5cn6ig7.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/goutham-subramanian-b8780a65/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "Gotham",
+        "user": {
+          "name": "Gotham"
+        }
+      }
+    },
+    {
+      "fullName": "Adarsh Naidu",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Adarsh",
+        "lastName": "Naidu",
+        "role": "Director",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(62).png",
+        "linkedinUrl": "https://www.linkedin.com/in/adarsh-n-56ab6310/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "adnaidu2910",
+        "user": {
+          "name": "adnaidu2910"
+        }
+      }
+    },
+    {
+      "fullName": "Arjun Gopichander Ravichander",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Arjun",
+        "lastName": "Gopichander Ravichander",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmtouo8be1ae0s601dlxws2z3/profile/picture_ub5pm0g9prtutv0okz8o6wmr.jpg",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "ArjunGR",
+        "user": {
+          "name": "ArjunGR"
+        }
+      }
+    },
+    {
+      "fullName": "Kishore Dara",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Kishore",
+        "lastName": "Dara",
+        "role": "",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(86).png",
+        "linkedinUrl": "",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "darak6111",
+        "user": {
+          "name": "darak6111"
+        }
+      }
+    },
+    {
+      "fullName": "Piyush Dhar Diwan",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Piyush",
+        "lastName": "Diwan",
+        "role": "Director Software Engineering",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmsr56ylr00mqs601qdfmmr39/profile/picture_bo09tnei7t3s5qn2pifwzogf.jpg",
+        "linkedinUrl": "",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "piyushdiwan",
+        "user": {
+          "name": "piyushdiwan"
+        }
+      }
+    },
+    {
+      "fullName": "Ramachandra Nalam",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Ramachandra",
+        "lastName": "Nalam",
+        "role": "Senior Data Engineer",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmrh7qace01nss601pvdkjeu3/profile/picture_a0bz3gyb7jy9hcl5gk92pw55.jpg",
+        "linkedinUrl": "",
+        "twitterUrl": "https://x.com/therealnalam",
+        "personalwebsiteUrl": "",
+        "userName": "ramachandranalam",
+        "user": {
+          "name": "ramachandranalam"
+        }
+      }
+    },
+    {
+      "fullName": "Rishabh Mehan",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Rishabh",
+        "lastName": "Mehan",
+        "role": "Senior Staff Software Engineer",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmt7k8uvr01mqs601x6ark5wx/profile/picture_zulpl0w075fgonr8naiua0z6.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/rmehan/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "https://rmehan.dev",
+        "userName": "rmehan91",
+        "user": {
+          "name": "rmehan91"
+        }
+      }
+    },
+    {
+      "fullName": "Shalabh Gupta",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Shalabh",
+        "lastName": "Gupta",
+        "role": "",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(64).png",
+        "linkedinUrl": "",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "shalabh",
+        "user": {
+          "name": "shalabh"
+        }
+      }
+    },
+    {
+      "fullName": "Vasu Raj Jain",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Vasu Raj",
+        "lastName": "Jain",
+        "role": "Senior Software Engineer",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/users/true/cmmf3r8k700006e0tbhphypfr_picture_mnn1q0yl94ddoqcxyllrt6g9.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/vasujain00/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "vasujain00",
+        "user": {
+          "name": "vasujain00"
+        }
+      }
+    },
+    {
+      "fullName": "Viresh Jivane",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Viresh",
+        "lastName": "Jivane",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(34).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "vireshjivane",
+        "user": {
+          "name": "vireshjivane"
+        }
+      }
+    },
+    {
+      "fullName": "Yadla Niranjan",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Niranjan",
+        "lastName": "Yadla",
+        "role": "",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmt864usa03lvs601y0j9vqfy/profile/picture_eiuev9cldx4k68ws65ol6kgp.jpg",
+        "linkedinUrl": "",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "yadlaniranjan",
+        "user": {
+          "name": "yadlaniranjan"
+        }
+      }
+    },
+    {
+      "fullName": "Emmanuel Iriarte",
+      "eventRole": "SPEAKER",
+      "profile": {
+        "firstName": "Emmanuel",
+        "lastName": "Iriarte",
+        "role": "RnD AI Lead",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/users/undefined_picture_6313n202d8.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/iriarteemmanuel/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "emmanueliriarte",
+        "user": {
+          "name": "emmanueliriarte"
+        }
+      }
+    },
+    {
+      "fullName": "Riccardo Benedetti",
+      "eventRole": "MENTOR",
+      "profile": {
+        "firstName": null,
+        "lastName": null,
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(5).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "rbenedetti93911",
+        "user": {
+          "name": null
+        }
+      }
+    },
+    {
+      "fullName": "Subhasis Kundu",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Subhasis",
+        "lastName": "Kundu",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(116).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "bld4p3y",
+        "user": {
+          "name": "bld4p3y"
+        }
+      }
+    },
+    {
+      "fullName": "Suneeth Maraboina",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "suneeth",
+        "lastName": "maraboina",
+        "role": "lead audiio engineer",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(10).png",
+        "linkedinUrl": "https://www.linkedin.com/in/suneethmaraboina",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "Audioai",
+        "user": {
+          "name": "Audioai"
+        }
+      }
+    },
+    {
+      "fullName": "Suresh Kumar Gunasekaran",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Suresh Kumar",
+        "lastName": "Gunasekaran",
+        "role": "Senior Software Engineer",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmrmnwpzl004js601q3fgj1lr/profile/picture_gdd1u4l12buahzalsyd3ksk2.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/suresh89/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "Suresh89",
+        "user": {
+          "name": "Suresh89"
+        }
+      }
+    },
+    {
+      "fullName": "Mahati Kumar",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Mahati",
+        "lastName": "Kumar",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(122).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "mahati",
+        "user": {
+          "name": "mahati"
+        }
+      }
+    },
+    {
+      "fullName": "Manasa Kumar",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Manasa",
+        "lastName": "Kumar",
+        "role": null,
+        "picture": "https://storage.googleapis.com/lablab-static-eu/images/midjourney/profile/profile%20(84).png",
+        "linkedinUrl": null,
+        "twitterUrl": null,
+        "personalwebsiteUrl": null,
+        "userName": "manasa13",
+        "user": {
+          "name": "manasa13"
+        }
+      }
+    },
+    {
+      "fullName": "Nalini Garg",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Nalini",
+        "lastName": "Garg",
+        "role": "Associate Vice President",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmsezfwr8008ws601jybh1lv2/profile/picture_o37ea7xp1zpbrmhibfjh4hoq.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/nalini-garg-427278136/",
+        "twitterUrl": "",
+        "personalwebsiteUrl": "",
+        "userName": "NaliniGarg",
+        "user": {
+          "name": "NaliniGarg"
+        }
+      }
+    },
+    {
+      "fullName": "Neeharika Kompala",
+      "eventRole": "JUDGE",
+      "profile": {
+        "firstName": "Neeharika",
+        "lastName": "Kompala",
+        "role": "Sr SDE",
+        "picture": "https://storage.googleapis.com/lablab-static-eu/users/cmtue1ap80041s601qpxl5x3s/profile/picture_egybgaj47c88cgln41qhjhg7.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/neeharika-kompala/",
+        "twitterUrl": "https://x.com/NeehaKompala",
+        "personalwebsiteUrl": "",
+        "userName": "NeehaKompala",
+        "user": {
+          "name": "NeehaKompala"
+        }
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "id": "cmsg0dkym0000s601ai7etti4",
+      "eventId": "c67zv8igdssavcljwmij0wwh",
+      "name": "Start",
+      "description": null,
+      "timestamp": "2026-10-12T17:00:00.000Z",
+      "showTime": true,
+      "autoCheck": true,
+      "adminChecked": false,
+      "streamId": null
+    },
+    {
+      "id": "cmsg0dkym0001s601z7tpprr3",
+      "eventId": "c67zv8igdssavcljwmij0wwh",
+      "name": "End",
+      "description": null,
+      "timestamp": "2026-10-17T17:00:00.000Z",
+      "showTime": true,
+      "autoCheck": true,
+      "adminChecked": false,
+      "streamId": null
+    },
+    {
+      "id": "",
+      "name": "Hackathon Kick-off ",
+      "showTime": true,
+      "timestamp": "Mon Oct 12 2026 17:00:00 GMT+0200 (czas \u015brodkowoeuropejski letni)"
+    },
+    {
+      "id": "",
+      "name": "Discord Q&A session",
+      "showTime": true,
+      "timestamp": "Mon Oct 12 2026 18:00:00 GMT+0200 (czas \u015brodkowoeuropejski letni)"
+    },
+    {
+      "id": "",
+      "name": "Doors Open - (1 hour later for Rome)",
+      "showTime": true,
+      "timestamp": "Sat Oct 17 2026 09:00:00 GMT+0200 (czas \u015brodkowoeuropejski letni)",
+      "description": "Onsite 9:00 AM Milan & Imperia - 10:00 AM Rome"
+    },
+    {
+      "id": "",
+      "name": "Breakfast & Coffee (in Rome available in Cafeteria)",
+      "showTime": true,
+      "timestamp": "Sat Oct 17 2026 09:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)",
+      "description": "Onsite 9:00 AM Milan & Imperia - 10:00 AM Rome"
+    },
+    {
+      "id": "",
+      "name": "Opening Words + Process Explanation",
+      "showTime": true,
+      "timestamp": "Sat Oct 17 2026 10:30:00 GMT+0200 (Ora legale dell\u2019Europa centrale)"
+    },
+    {
+      "id": "",
+      "name": "Lunch Available (Milan&Imperia, in Rome available in Cafeteria)",
+      "showTime": true,
+      "timestamp": "Sat Oct 17 2026 12:30:00 GMT+0200 (Ora legale dell\u2019Europa centrale)"
+    },
+    {
+      "id": "",
+      "name": "Door close",
+      "showTime": true,
+      "timestamp": "Sat Oct 17 2026 18:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)",
+      "description": "On site"
+    },
+    {
+      "id": "",
+      "name": "Doors Open - (1 hour later for Rome)",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 09:00:00 GMT+0200 (czas \u015brodkowoeuropejski letni)",
+      "description": "Onsite 9:00 AM Milan & Imperia - 10:00 AM Rome"
+    },
+    {
+      "id": "",
+      "name": "Breakfast & Coffee (in Rome available in Cafeteria)",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 09:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)",
+      "description": "On site"
+    },
+    {
+      "id": "",
+      "name": "Submission Deadline",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 12:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)"
+    },
+    {
+      "id": "",
+      "name": "Lunch Available (Milan&Imperia, in Rome available in Cafeteria)",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 12:30:00 GMT+0200 (Ora legale dell\u2019Europa centrale)",
+      "description": "On site"
+    },
+    {
+      "id": "",
+      "name": "Demo Showcasing / Live Pitches",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 14:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)"
+    },
+    {
+      "id": "",
+      "name": "Pitching ends",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 16:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)"
+    },
+    {
+      "id": "",
+      "name": "Door close",
+      "showTime": true,
+      "timestamp": "Sun Oct 18 2026 17:00:00 GMT+0200 (Ora legale dell\u2019Europa centrale)",
+      "description": "On site"
+    }
+  ],
+  "fields": [
+    [
+      "judging",
+      "Judging"
+    ]
+  ]
+}

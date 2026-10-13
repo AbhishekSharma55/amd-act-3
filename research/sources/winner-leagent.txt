@@ -1,0 +1,161 @@
+AI app: LeAgent for AMD Developer Hackathon: ACT II
+Home
+App Discovery
+LeAgent
+LeAgent
+Created by team
+leMinou
+on
+July 08, 2026
+2
+AMD Developer Cloud
+Hybrid Token-Efficient Routing Agent
+This project is a general-purpose AI agent built for Track 1, designed to handle eight distinct task categories — factual knowledge, mathematical reasoning, sentiment classification, text summarization, named entity recognition, code debugging, logical/deductive reasoning, and code generation — through a single containerized pipeline.
+At its core is a lightweight, regex-based heuristic classifier that identifies each incoming task's category in microseconds, with zero model calls and zero token cost. Once classified, tasks are routed to a specific Fireworks-hosted model chosen for that category's needs, using a role-based routing table resolved dynamically at startup: the pipeline probes every candidate model with a minimal health check before the run begins, so it adapts automatically if a particular model isn't servable, rather than hardcoding assumptions.
+For math and logic-puzzle tasks, the agent takes a hybrid approach — instead of asking the model to reason through arithmetic or constraint-satisfaction purely in natural language, it prompts the model to generate a short, self-contained Python script, then executes that script locally in an isolated, timeout-bounded subprocess. This trades expensive "thinking" tokens for exact, deterministic computation, improving both accuracy and token efficiency. If code generation or execution fails for any reason, the agent falls back gracefully to a direct natural-language answer from the same model, so no task is ever left unanswered.
+All requests are processed concurrently via a thread pool, with a strict runtime budget enforced well under the platform's limits, and every call is logged with detailed latency and token metrics for post-run analysis. The result is a robust, self-adapting agent that balances correctness, speed, and cost across a genuinely broad range of task types.
+Category tags:
+Agent Builder track - The INTERNET OF AGENTS
+Github
+Presentation
+Demo
+Explore more applications
+WebRetriever — Deterministic Web Retrieval Agent
+WebRetriever is an autonomous web information retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. Ask in plain English and get back the specific information you asked for, with the exact source URLs behind it — or an honest refusal when no verifiable answer exists.
+
+How it works — five-stage pipeline with a deterministic core:
+
+Understand — parses the request into intent (price, contact, hours, spec, definition, how-to, date, fact), entities, and 2–4 search query variants. No ML model required.
+
+Search — provider chain with automatic fallback: TinyFish Search for the best quality (JS-aware), and DuckDuckGo HTML as the keyless fallback with no signup needed.
+
+Fetch + navigate — fetches top hits, then follows promising in-page links within a fixed budget (8 pages, 2 hops) when the answer looks like it is one click deeper.
+
+Extract — structure-aware parsing: JSON-LD (Product, Organization, FAQPage), HTML tables such as spec sheets, intent-specific patterns for prices, phone numbers, emails, hours and dates, plus ranked text spans.
+
+Verify — every candidate is checked against its own source text; independent multi-source agreement boosts confidence. If nothing is supported by evidence, the agent refuses instead of guessing.
+
+The core pipeline uses no LLM, so results are reproducible and cheap. Citations are mandatory, and the agent runs on the free tier with no paid APIs. MIT licensed and Docker-ready, with 12 unit tests.
+ArcOmega
+rest api
+WebScout ROCm
+WebScout is an advanced, high-efficiency autonomous web information retrieval engine built specifically to harness the massive parallel processing power of AMD ROCm hardware. Designed for modern AI agents and knowledge workers, WebScout delivers lightning-fast web scraping, DOM parsing, and vector embedding generation. By leveraging AMD ROCm and ROCm-accelerated local LLMs, WebScout processes millions of web tokens with minimal latency, ensuring robust data extraction, semantic search, and structured knowledge synthesis. Key features include intelligent adaptive rate limiting, automated anti-bot avoidance strategies, robust proxy rotation, DOM distillation to remove boilerplate clutter, and real-time vector embedding indexing directly on AMD Radeon and Instinct GPUs using PyTorch and ROCm hipBLAS. WebScout empowers autonomous agents to query live web data securely, efficiently, and at scale without relying on expensive commercial APIs.
+AMD AI Innovators
+AMD ROCm
+Kaminari Web Retrieval Agent
+An autonomous web retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. The agent accepts natural-language requests (for example: "find the current lead time for part X on the supplier site") and returns the exact information together with its source URL. Pipeline: (1) query understanding and target-site selection, (2) deterministic navigation with retries and fallbacks, (3) structure-aware content extraction, (4) evidence-grounded answer synthesis with citations, and (5) refusal when a fact cannot be verified against a primary source. A resident local model on AMD ROCm handles extraction and reranking so per-request latency stays within the evaluation budget. The verifier cross-checks every extracted value against the page it came from, and every answer carries the exact source link. Built solo by Eran Rosadi (Kaminari Research).
+Kaminari Research
+AMD ROCm
+AMD Developer Cloud
+HuggingFace Hub
+Why They Return
+An open Google model on an AMD GPU reads every review of a product, finds why it comes back (runs small, runs large, length, fabric, colour) and writes the size note and listing fix. Measured against renters' own labels.
+KHLab
+AMD ROCm
+AMD Developer Cloud
+Gemma
+HuggingFace Hub
+Streamlit
+Compressor Maintenance Copilot
+Catches compressor faults hours to days before they stop the line, explains them in plain language with cited manual pages and past repairs, and drafts the work order. An Evolus agent on an open model running on AMD GPUs.
+gheware
+AMD Developer Cloud
+Streamlit
+Maria Hadj Messaoud
+boulanouar mohamed
+Student
+Upcoming AI Hackathons
+For Innovators & Creators
+Explore more applications
+WebRetriever — Deterministic Web Retrieval Agent
+WebRetriever is an autonomous web information retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. Ask in plain English and get back the specific information you asked for, with the exact source URLs behind it — or an honest refusal when no verifiable answer exists.
+
+How it works — five-stage pipeline with a deterministic core:
+
+Understand — parses the request into intent (price, contact, hours, spec, definition, how-to, date, fact), entities, and 2–4 search query variants. No ML model required.
+
+Search — provider chain with automatic fallback: TinyFish Search for the best quality (JS-aware), and DuckDuckGo HTML as the keyless fallback with no signup needed.
+
+Fetch + navigate — fetches top hits, then follows promising in-page links within a fixed budget (8 pages, 2 hops) when the answer looks like it is one click deeper.
+
+Extract — structure-aware parsing: JSON-LD (Product, Organization, FAQPage), HTML tables such as spec sheets, intent-specific patterns for prices, phone numbers, emails, hours and dates, plus ranked text spans.
+
+Verify — every candidate is checked against its own source text; independent multi-source agreement boosts confidence. If nothing is supported by evidence, the agent refuses instead of guessing.
+
+The core pipeline uses no LLM, so results are reproducible and cheap. Citations are mandatory, and the agent runs on the free tier with no paid APIs. MIT licensed and Docker-ready, with 12 unit tests.
+ArcOmega
+rest api
+WebScout ROCm
+WebScout is an advanced, high-efficiency autonomous web information retrieval engine built specifically to harness the massive parallel processing power of AMD ROCm hardware. Designed for modern AI agents and knowledge workers, WebScout delivers lightning-fast web scraping, DOM parsing, and vector embedding generation. By leveraging AMD ROCm and ROCm-accelerated local LLMs, WebScout processes millions of web tokens with minimal latency, ensuring robust data extraction, semantic search, and structured knowledge synthesis. Key features include intelligent adaptive rate limiting, automated anti-bot avoidance strategies, robust proxy rotation, DOM distillation to remove boilerplate clutter, and real-time vector embedding indexing directly on AMD Radeon and Instinct GPUs using PyTorch and ROCm hipBLAS. WebScout empowers autonomous agents to query live web data securely, efficiently, and at scale without relying on expensive commercial APIs.
+AMD AI Innovators
+AMD ROCm
+Kaminari Web Retrieval Agent
+An autonomous web retrieval agent built for AMD AI League Match 4: Intelligent Web Information Retrieval. The agent accepts natural-language requests (for example: "find the current lead time for part X on the supplier site") and returns the exact information together with its source URL. Pipeline: (1) query understanding and target-site selection, (2) deterministic navigation with retries and fallbacks, (3) structure-aware content extraction, (4) evidence-grounded answer synthesis with citations, and (5) refusal when a fact cannot be verified against a primary source. A resident local model on AMD ROCm handles extraction and reranking so per-request latency stays within the evaluation budget. The verifier cross-checks every extracted value against the page it came from, and every answer carries the exact source link. Built solo by Eran Rosadi (Kaminari Research).
+Kaminari Research
+AMD ROCm
+AMD Developer Cloud
+HuggingFace Hub
+Why They Return
+An open Google model on an AMD GPU reads every review of a product, finds why it comes back (runs small, runs large, length, fabric, colour) and writes the size note and listing fix. Measured against renters' own labels.
+KHLab
+AMD ROCm
+AMD Developer Cloud
+Gemma
+HuggingFace Hub
+Streamlit
+Compressor Maintenance Copilot
+Catches compressor faults hours to days before they stop the line, explains them in plain language with cited manual pages and past repairs, and drafts the work order. An Evolus agent on an open model running on AMD GPUs.
+gheware
+AMD Developer Cloud
+Streamlit
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI anything.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help
+Join
+Challenge + Get $100 credits
+AI Hackathons
+AI Apps
+AI Tech
+AI Tutorials
+AI Articles
+NativelyAI
+Sponsor
+Toggle main menu

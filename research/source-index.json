@@ -1,0 +1,382 @@
+[
+  {
+    "id": "amd-cloud-launch",
+    "url": "https://www.amd.com/en/blogs/2025/introducing-the-amd-developer-cloud.html",
+    "retrieved_at_utc": "2026-10-13T17:36:52.431069+00:00",
+    "error": "HTTPSConnectionPool(host='www.amd.com', port=443): Read timed out. (read timeout=45)",
+    "verification_method": "web research tool",
+    "verification_notes": "Direct snapshot failed; relevant official content verified separately. See web-evidence.json."
+  },
+  {
+    "id": "amd-rocm-production",
+    "url": "https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html",
+    "retrieved_at_utc": "2026-10-13T17:36:52.433053+00:00",
+    "error": "HTTPSConnectionPool(host='www.amd.com', port=443): Read timed out. (read timeout=45)",
+    "verification_method": "web research tool",
+    "verification_notes": "Direct snapshot failed; relevant official content verified separately. See web-evidence.json."
+  },
+  {
+    "id": "amd-community-inference",
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/kimi-code-in-mxfp4-on-amd-gpus.html",
+    "retrieved_at_utc": "2026-10-13T17:36:52.433888+00:00",
+    "error": "HTTPSConnectionPool(host='www.amd.com', port=443): Read timed out. (read timeout=45)",
+    "verification_method": "web research tool",
+    "verification_notes": "Direct snapshot failed; relevant official content verified separately. See web-evidence.json."
+  },
+  {
+    "id": "amd-playbooks",
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/launching-amd-ai-playbooks.html",
+    "retrieved_at_utc": "2026-10-13T17:36:52.434512+00:00",
+    "error": "HTTPSConnectionPool(host='www.amd.com', port=443): Read timed out. (read timeout=45)",
+    "verification_method": "web research tool",
+    "verification_notes": "Direct snapshot failed; relevant official content verified separately. See web-evidence.json."
+  },
+  {
+    "id": "amd-gemma-support",
+    "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/day-0-support-for-gemma-4-on-amd-processors-and-gpus.html",
+    "retrieved_at_utc": "2026-10-13T17:36:52.435100+00:00",
+    "error": "HTTPSConnectionPool(host='www.amd.com', port=443): Read timed out. (read timeout=45)",
+    "verification_method": "web research tool",
+    "verification_notes": "Direct snapshot failed; relevant official content verified separately. See web-evidence.json."
+  },
+  {
+    "id": "amd-annual-report",
+    "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+    "retrieved_at_utc": "2026-10-13T17:36:52.435688+00:00",
+    "status": 200,
+    "final_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000018/amd-20251227.htm",
+    "bytes": 2167547,
+    "snapshot": "sources/amd-annual-report.txt"
+  },
+  {
+    "id": "lablab-sponsor",
+    "url": "https://lablab.ai/sponsor",
+    "retrieved_at_utc": "2026-10-13T17:36:52.436473+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/sponsor",
+    "bytes": 113372,
+    "snapshot": "sources/lablab-sponsor.txt"
+  },
+  {
+    "id": "lablab-win-guide",
+    "url": "https://lablab.ai/guide/how-to-win-an-ai-hackathon",
+    "retrieved_at_utc": "2026-10-13T17:36:52.437033+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/guide/how-to-win-an-ai-hackathon",
+    "bytes": 153819,
+    "snapshot": "sources/lablab-win-guide.txt"
+  },
+  {
+    "id": "lablab-submission-guide",
+    "url": "https://lablab.ai/delivering-your-hackathon-solution",
+    "retrieved_at_utc": "2026-10-13T17:36:53.100316+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/delivering-your-hackathon-solution",
+    "bytes": 20529,
+    "snapshot": "sources/lablab-submission-guide.txt"
+  },
+  {
+    "id": "lablab-guidelines",
+    "url": "https://lablab.ai/ai-articles/hackathon-guidelines",
+    "retrieved_at_utc": "2026-10-13T17:36:53.101552+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-articles/hackathon-guidelines",
+    "bytes": 147966,
+    "snapshot": "sources/lablab-guidelines.txt"
+  },
+  {
+    "id": "evolus-developers",
+    "url": "https://evolus.ai/en/developers",
+    "retrieved_at_utc": "2026-10-13T17:36:54.134072+00:00",
+    "status": 200,
+    "final_url": "https://evolus.ai/en/developers",
+    "bytes": 531259,
+    "snapshot": "sources/evolus-developers.txt"
+  },
+  {
+    "id": "luma-milan",
+    "url": "https://luma.com/AMDHackathon-Milan",
+    "retrieved_at_utc": "2026-10-13T17:36:54.249278+00:00",
+    "status": 200,
+    "final_url": "https://luma.com/AMDHackathon-Milan",
+    "bytes": 201167,
+    "snapshot": "sources/luma-milan.txt"
+  },
+  {
+    "id": "luma-rome",
+    "url": "https://luma.com/AMDHackathon-Rome",
+    "retrieved_at_utc": "2026-10-13T17:36:54.906880+00:00",
+    "status": 200,
+    "final_url": "https://luma.com/AMDHackathon-Rome",
+    "bytes": 200456,
+    "snapshot": "sources/luma-rome.txt"
+  },
+  {
+    "id": "luma-imperia",
+    "url": "https://luma.com/AMDHackathon-Imperia",
+    "retrieved_at_utc": "2026-10-13T17:36:55.333960+00:00",
+    "status": 200,
+    "final_url": "https://luma.com/AMDHackathon-Imperia",
+    "bytes": 200436,
+    "snapshot": "sources/luma-imperia.txt"
+  },
+  {
+    "id": "winner-cctv",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/roc-dragon/intelligence-for-existing-cctv-systems",
+    "retrieved_at_utc": "2026-10-13T17:36:55.964734+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/roc-dragon/intelligence-for-existing-cctv-systems",
+    "bytes": 190648,
+    "snapshot": "sources/winner-cctv.txt"
+  },
+  {
+    "id": "winner-cacheforge",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/roc-m-roll/cacheforge-topology-aware-kv",
+    "retrieved_at_utc": "2026-10-13T17:36:55.973619+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/roc-m-roll/cacheforge-topology-aware-kv",
+    "bytes": 178565,
+    "snapshot": "sources/winner-cacheforge.txt"
+  },
+  {
+    "id": "winner-ageband",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/kiano/ageband",
+    "retrieved_at_utc": "2026-10-13T17:36:56.777647+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/kiano/ageband",
+    "bytes": 184325,
+    "snapshot": "sources/winner-ageband.txt"
+  },
+  {
+    "id": "winner-leagent",
+    "url": "https://lablab.ai/submissions/seswtk4cs6nz2gy2se0dtuf8",
+    "retrieved_at_utc": "2026-10-13T17:36:57.464604+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/submissions/seswtk4cs6nz2gy2se0dtuf8",
+    "bytes": 169082,
+    "snapshot": "sources/winner-leagent.txt"
+  },
+  {
+    "id": "winner-padayon",
+    "url": "https://lablab.ai/submissions/p7pvs9jxr2fr7g1kes8jrh18",
+    "retrieved_at_utc": "2026-10-13T17:36:58.159095+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/submissions/p7pvs9jxr2fr7g1kes8jrh18",
+    "bytes": 161942,
+    "snapshot": "sources/winner-padayon.txt"
+  },
+  {
+    "id": "winner-announcement",
+    "url": "https://www.linkedin.com/posts/lablab-ai_three-tracks-real-amd-hardware-20000-activity-7500512595343405056-jZgl",
+    "retrieved_at_utc": "2026-10-13T17:36:58.404589+00:00",
+    "status": 200,
+    "final_url": "https://www.linkedin.com/posts/lablab-ai_three-tracks-real-amd-hardware-20000-activity-7500512595343405056-jZgl",
+    "bytes": 183443,
+    "snapshot": "sources/winner-announcement.txt"
+  },
+  {
+    "id": "current-docuswarm",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/yanero-rockstar/docuswarm-parallel-due-diligence-on-amd-gpus",
+    "retrieved_at_utc": "2026-10-13T17:36:58.814650+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/yanero-rockstar/docuswarm-parallel-due-diligence-on-amd-gpus",
+    "bytes": 172463,
+    "snapshot": "sources/current-docuswarm.txt"
+  },
+  {
+    "id": "current-fiscalrag",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/vyson-fiscalrag/vyson-fiscalrag-cited-tax-answers-on-amd-instinct",
+    "retrieved_at_utc": "2026-10-13T17:36:58.970061+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/vyson-fiscalrag/vyson-fiscalrag-cited-tax-answers-on-amd-instinct",
+    "bytes": 174154,
+    "snapshot": "sources/current-fiscalrag.txt"
+  },
+  {
+    "id": "current-compressor",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/gheware/compressor-maintenance-copilot",
+    "retrieved_at_utc": "2026-10-13T17:36:59.331852+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/gheware/compressor-maintenance-copilot",
+    "bytes": 165979,
+    "snapshot": "sources/current-compressor.txt"
+  },
+  {
+    "id": "current-gas",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/aisupersecuresystv2-3chaliveret/super-secure-syst-v23-6-gas-ai-guardian",
+    "retrieved_at_utc": "2026-10-13T17:36:59.572689+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/aisupersecuresystv2-3chaliveret/super-secure-syst-v23-6-gas-ai-guardian",
+    "bytes": 172901,
+    "snapshot": "sources/current-gas.txt"
+  },
+  {
+    "id": "current-industrial",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/industrial-fault-copilot/industrial-fault-copilot",
+    "retrieved_at_utc": "2026-10-13T17:36:59.592330+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/industrial-fault-copilot/industrial-fault-copilot",
+    "bytes": 168548,
+    "snapshot": "sources/current-industrial.txt"
+  },
+  {
+    "id": "current-patient",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/figueira-ai/patientkeeper-retorno",
+    "retrieved_at_utc": "2026-10-13T17:36:59.942600+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/figueira-ai/patientkeeper-retorno",
+    "bytes": 172726,
+    "snapshot": "sources/current-patient.txt"
+  },
+  {
+    "id": "current-forgesight",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/amders/forgesight-ai",
+    "retrieved_at_utc": "2026-10-13T17:37:00.206170+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/amders/forgesight-ai",
+    "bytes": 172095,
+    "snapshot": "sources/current-forgesight.txt"
+  },
+  {
+    "id": "current-returns",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/khlab/why-they-return",
+    "retrieved_at_utc": "2026-10-13T17:37:00.283919+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/khlab/why-they-return",
+    "bytes": 166235,
+    "snapshot": "sources/current-returns.txt"
+  },
+  {
+    "id": "winner-cctv-readme",
+    "url": "https://raw.githubusercontent.com/CU-DrAgon/rocm-cctv-analysis/main/README.md",
+    "retrieved_at_utc": "2026-10-13T17:37:00.804641+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/CU-DrAgon/rocm-cctv-analysis/main/README.md",
+    "bytes": 17817,
+    "snapshot": "sources/winner-cctv-readme.txt"
+  },
+  {
+    "id": "winner-cacheforge-readme",
+    "url": "https://raw.githubusercontent.com/lucheeseng827/amd-hackathon/main/README.md",
+    "retrieved_at_utc": "2026-10-13T17:37:01.586809+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lucheeseng827/amd-hackathon/main/README.md",
+    "bytes": 12348,
+    "snapshot": "sources/winner-cacheforge-readme.txt"
+  },
+  {
+    "id": "act-i-live",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer/live",
+    "retrieved_at_utc": "2026-10-13T17:37:01.637701+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer/live",
+    "bytes": 318377,
+    "snapshot": "sources/act-i-live.txt"
+  },
+  {
+    "id": "act-iii",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii",
+    "retrieved_at_utc": "2026-10-13T17:37:01.984864+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii",
+    "bytes": 376532,
+    "snapshot": "sources/act-iii.txt"
+  },
+  {
+    "id": "act-iii-live",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/live",
+    "retrieved_at_utc": "2026-10-13T17:37:02.002085+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/live",
+    "bytes": 255127,
+    "snapshot": "sources/act-iii-live.txt"
+  },
+  {
+    "id": "act-ii",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii",
+    "retrieved_at_utc": "2026-10-13T17:37:02.241638+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii",
+    "bytes": 2678795,
+    "snapshot": "sources/act-ii.txt"
+  },
+  {
+    "id": "act-ii-live",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/live",
+    "retrieved_at_utc": "2026-10-13T17:37:02.681572+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii/live",
+    "bytes": 2084695,
+    "snapshot": "sources/act-ii-live.txt"
+  },
+  {
+    "id": "rulebook",
+    "url": "https://lablab.ai/hackathon-rules",
+    "retrieved_at_utc": "2026-10-13T17:37:02.787201+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/hackathon-rules",
+    "bytes": 27115,
+    "snapshot": "sources/rulebook.txt"
+  },
+  {
+    "id": "terms",
+    "url": "https://lablab.ai/terms-of-use",
+    "retrieved_at_utc": "2026-10-13T17:37:03.214284+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/terms-of-use",
+    "bytes": 67584,
+    "snapshot": "sources/terms.txt"
+  },
+  {
+    "id": "tokenfactory",
+    "url": "https://notebooks.amd.com/tokenfactory",
+    "retrieved_at_utc": "2026-10-13T17:37:04.442304+00:00",
+    "status": 200,
+    "final_url": "https://notebooks.amd.com/tokenfactory",
+    "bytes": 7337,
+    "snapshot": "sources/tokenfactory.txt"
+  },
+  {
+    "id": "evolus-conditions",
+    "url": "https://evolus.ai/en/hackathon-conditions",
+    "retrieved_at_utc": "2026-10-13T17:39:17.893770+00:00",
+    "status": 200,
+    "final_url": "https://evolus.ai/en/hackathon-conditions",
+    "bytes": 453779,
+    "snapshot": "sources/evolus-conditions.txt"
+  },
+  {
+    "id": "evolus-event-blog",
+    "url": "https://evolus.ai/en/blog/evolus-amd-developer-hackathon-lablab",
+    "retrieved_at_utc": "2026-10-13T17:39:17.894151+00:00",
+    "status": 200,
+    "final_url": "https://evolus.ai/en/blog/evolus-amd-developer-hackathon-lablab",
+    "bytes": 651221,
+    "snapshot": "sources/evolus-event-blog.txt"
+  },
+  {
+    "id": "winner-chaos",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer/techmavericks/chaos-economy-multi-agent-rl-market-simulator",
+    "retrieved_at_utc": "2026-10-13T17:39:17.895567+00:00",
+    "status": 200,
+    "final_url": "https://lablab.ai/ai-hackathons/amd-developer/techmavericks/chaos-economy-multi-agent-rl-market-simulator",
+    "bytes": 180470,
+    "snapshot": "sources/winner-chaos.txt"
+  },
+  {
+    "id": "act-i-announcement",
+    "url": "https://www.linkedin.com/posts/lablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz",
+    "retrieved_at_utc": "2026-10-13T17:39:17.896464+00:00",
+    "status": 200,
+    "final_url": "https://www.linkedin.com/posts/lablab-ai_10770-builders-walked-in-these-teams-activity-7472361155663978496-knnz",
+    "bytes": 144012,
+    "snapshot": "sources/act-i-announcement.txt"
+  },
+  {
+    "id": "evolus-track",
+    "url": "https://evolus.ai/en/hackathon",
+    "status": 200,
+    "snapshot": "sources/evolus-track.txt",
+    "retrieved_at_utc": "2026-10-13T17:38:03+00:00"
+  }
+]

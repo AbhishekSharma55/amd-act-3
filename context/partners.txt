@@ -1,0 +1,71 @@
+Partners
+Build on AMD GPUs in the cloud
+Lead partner
+[note: This partner technology is mandatory for all the challenges]
+
+AMD
+This hackathon gives developers the opportunity to explore and build AI workloads using AMD’s cloud-based AI stack. All development happens on cloud-accessible AMD GPUs, so there is no need to own or manage hardware.
+
+The focus is on experimenting, benchmarking and running real workloads in a flexible environment. During the hackathon, teams can choose to work with the technologies below.
+
+AMD Developer Cloud
+On-demand access to AMD GPUs through the cloud. Spin up a GPU environment in minutes and build and test AI workloads without infrastructure overhead.
+
+Training and fine-tuning models
+Benchmarking AI workloads on AMD GPUs
+Prototyping before moving to on-prem infrastructure
+ROCm
+ROCm is AMD’s open-source software platform for GPU computing — the AMD equivalent of CUDA. It runs AI/ML and HPC workloads on AMD GPUs.
+
+Running PyTorch and TensorFlow on AMD GPUs
+Porting CUDA-based workloads to AMD hardware
+High-performance AI and ML workloads
+AMD AI Developer Program
+Membership in the AMD AI Developer Program (ADP) unlocks the AMD developer ecosystem around the hackathon.
+
+AI tutorials, training and technical resources
+Access to AMD engineers and technical experts
+Private community channels and developer updates
+Training & learning resources
+Curated AI learning material, tutorials and hands-on labs to help you build faster during the event.
+
+AMD AI Academy courses and documentation
+Hands-on labs with real GPU access
+Fully cloud-based — no local setup required
+AMD AI Developer Program
+AMD cloud development
+ROCm AI Developer Hub
+ROCm documentation
+ROCm installation guide
+github.com/ROCm/ROCm
+Technology partners
+
+Vibe
+Vibe Generation
+Vibe Generation is the project founded by Paolo Bonetti to integrate specialized professionals and artificial intelligence tools into the real-world processes of businesses.
+The model was created to support companies, brands and organizations in moving from the occasional use of AI tools to building hybrid teams and processes, in which technology and human skills work together.
+The project focuses in particular on the relationship between artificial intelligence, talent, judgment and organizational transformation.
+
+
+Evolus AI
+Evolus AI
+The platform to build AI agents that run real business processes. Bring your own AMD-hosted model and ship an agent that does real work.
+
+Evolus gives companies AI agents that read documents, answer from company knowledge, run automations and act on the systems they already use through APIs and MCP. Businesses also use Evolus for digital employees that work in email and Microsoft Teams, and for an AI Switchboard that answers the phone.
+
+For developers, everything is driven by the Evolus REST API, agents can also be reached through an OpenAI-compatible endpoint, and an MCP server lets coding agents build on Evolus directly. During the hackathon every team brings its own model.
+
+500 Evolus AI coupons available.
+Coupons are available on a first-come, first-served basis, while supplies last.
+
+Claim your Evolus AI coupon →
+
+Imment
+PwC Italy
+PwC Italy PwC’s purpose is to build trust in society and solve important problems by providing innovative responses to complex challenges. PwC operates through 23 offices in Italy with more than 9,000 professionals committed to delivering high‑quality tax, legal, audit, and consulting services across organizational and strategic areas. PwC offers an extensive range of integrated and multidisciplinary services.
+PwC’s true strength lies in its ability to combine in‑depth knowledge of local markets with a globally integrated network. With over 364,000 people in 136 countries, it is one of the world’s largest networks of professional services firms.
+
+
+Imment
+IMMENT
+Building the Future of Startups. We help you create, fund, and manage your startup using innovative tools and specialized expertise in Administration, Finance, and Control.

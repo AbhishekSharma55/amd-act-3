@@ -1,0 +1,66 @@
+Technology requirement: build on AMD
+Every project must run a meaningful part of its workload on AMD infrastructure or AMD hardware. Teams may use:
+
+AMD Developer Cloud
+AMD Instinct accelerators
+AMD ROCm
+AMD Ryzen AI
+AMD Radeon hardware
+Other approved AMD powered infrastructure provided during the event
+The AMD component must be part of the working product shown to the judges. Teams may choose their own compatible models, frameworks, and development tools.
+
+FAQ:
+1) The event is hosted on notebooks.amd.com/tokenfactory. There is no billing or credit card info needed.
+2) Developers dont need the $100 credit to participate in the event. Just the api from the tokenfactory.
+
+Partner awards
+Google and Evolus technologies are optional. Teams that use an eligible partner technology can also compete for that partner’s prize. A single project may qualify for the main challenge prize, one partner prize, or both partner prizes.
+
+What to Submit
+📋 Project
+Project title
+Short and long descriptions
+Selected challenge
+Technology tags
+Working prototype
+📸 Presentation
+Cover image
+Demo video
+Pitch presentation
+Clear explanation of the problem and intended user
+Track by partner: Evolus
+Evolus Business Agents on AMD
+Build an AI agent that runs a real business process end to end, on Evolus, powered by an open model served on AMD.
+
+Pick a process that a real company runs every day and let an agent run it. The agent takes the input (an email, a PDF, a recording, a web form, a chat), reasons over it with an open model running on AMD, and acts: it runs an Evolus workflow, turns documents into data, uses AI Tools, updates another system, or hands the case to a person when it should.
+
+Requirements
+Build in a free Evolus event workspace, created at app.evolus.ai with the event code shared at kickoff.
+Bring your own model: the main agent must use an open model served on AMD infrastructure through your own vLLM endpoint on AMD Developer Cloud.
+Use at least two Evolus building blocks: workflows, document extractors, AI Tools, knowledge libraries, MCP connectors, sub-agents, chat widget.
+Drive Evolus from your app through its APIs: the Evolus REST API for workflows, extractors, AI Tools and libraries; agent chat through the REST API or the OpenAI-compatible endpoint.
+Follow the hackathon submission rules: containerized app, public GitHub repository, a README that runs. Never commit API keys: use environment variables.
+Sample use cases
+Use case	Input	What the solution does
+Invoice and order intake	Emails with PDF attachments	A workflow started by incoming email reads the PDF, extracts the fields into JSON, matches them to the order and flags mismatches to a person
+Support desk on company knowledge	Chat, email or website widget	An agent answers from the company’s documents with sources and passes the case to a person when unsure
+Lead qualification	Chat widget on a website	Qualifies the visitor, books a call and pushes the lead to a CRM through MCP
+Contract review	Uploaded contracts	Extracts key clauses, compares them with the company’s standard terms and redacts personal data before sharing
+Multilingual documents	PDF and Word files	Translates manuals and offers keeping their layout, then files them through a workflow
+Meeting follow-up	Recordings of calls and meetings	Turns the recording into minutes and action items and sends them to the attendees
+Judging
+The hackathon’s four criteria, read on this track:
+
+Application of Technology
+How deeply the solution uses Evolus building blocks, and how well the AMD-hosted model is integrated.
+
+Business Value
+A real process, a clear user, a measurable gain.
+
+Originality
+A new approach, or a process nobody automated this way.
+
+Presentation
+A clear demo and pitch.
+
+To verify the requirements, the Evolus team reviews the configuration and usage statistics of each event workspace: the connected model endpoint, the building blocks used and the API calls.

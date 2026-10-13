@@ -1,0 +1,572 @@
+AMD Developer Hackathon: ACT III AI Hackathon | lablab.ai
+Live
+Results
+Hybrid
+AMD Developer Hackathon: ACT III
+Build AI agents and high-performance AI applications on AMD GPUs in the cloud I Prize Pool $17,000+
+🌎Hybrid Hackathon | 💻 Online Build: 12-18 October 2026 | On-site phase: 17-18 October 2026 in Rome, Milan, and Imperia
+To participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account.
+The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure.
+📍
+If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.
+Free $100 AMD credits for new members!
+Sign up with
+About
+Challenges
+Partners
+Prizes
+Judging Criteria
+Event Schedule
+Community & Social Channels
+Speakers
+Teams
+AMD × lablab.ai
+AMD Developer Hackathon: ACT III
+Build AI agents and high-performance AI apps on AMD GPUs in the cloud.
+Online phase
+12–18 October 2026
+On-site · Italy
+17–18 October 2026
+Prize pool
+$17,000+
+Build AI agents and high-performance AI applications on AMD GPUs — entirely in the cloud.
+The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure. Whether you are just starting out or already shipping, you can jump in and start creating.
+You’ll be working with
+AMD GPUs in the Cloud with the ROCm software stack, AMD's open-source GPU computing platform.
+Everything runs fully in the cloud, so there is no local hardware to set up and you can focus on building instead of configuration.
+One hackathon. Three cities. One special weekend in Italy.
+This edition of the AMD Developer Hackathon comes with a special on-site experience across
+three locations in Italy: Rome, Milan, and Imperia
+.
+The hackathon remains open online throughout the event, while selected participants can also join us in person for the on-site phase. If approved, you’ll choose
+one of the three locations
+to build alongside other developers, get hands-on support, and showcase your project live.
+City
+Venue
+Address
+Opening/closing
+Rome
+Link Campus University
+Via del Casale di San Pio V, 44, 00165 Roma
+10:00 AM - 6:00 PM (Oct 17)
+10:00 AM - 5:00 PM (Oct 18)
+Milan
+SmartCityLab Milano
+Via Giuseppe Ripamonti, 88, 20141 Milano MI
+9:00 AM - 6:00 PM (Oct 17)
+9:00 AM - 5:00 PM (Oct 18)
+Imperia
+IMPERIAWARE
+Via Antonio Delbecchi, 22, 18100 Imperia (IM)
+9:00 AM - 6:00 PM (Oct 17)
+9:00 AM - 5:00 PM (Oct 18)
+Challenges
+Solve a real Business Problem with AMD technology
+Choose
+one or more tracks
+and build a working product on AMD infrastructure. We are looking for projects that solve a real problem for a real user. Your idea can use language models, computer vision, audio, agents, predictive models, or a combination of technologies.
+The important part is simple: the product should work, and
+AMD technology should power a meaningful part of it. AMD is a required technology to be eligible for prizes
+.
+Choose Your tracks
+Track 1 by partner: Vibe Generation
+Intelligent Industry
+Help factories spot problems earlier and operate better.
+Read the full brief
+Hide the brief
+Factories produce data from machines, cameras, sensors, maintenance reports, and technical manuals. The problem is rarely a lack of information. The problem is knowing what matters and what to do next.
+Build a product that helps a manufacturer reduce downtime, improve quality, increase safety, or use resources more efficiently.
+Ideas
+Predict equipment failures
+Detect defects from images or video
+Explain production anomalies
+Help technicians search manuals and maintenance records
+Recommend maintenance actions
+Monitor safety conditions
+Reduce energy or material waste
+Your demo
+Show your product processing realistic industrial data and producing a useful alert, explanation, recommendation, or action. Make it clear who would use the product and what result it improves.
+Good projects will show
+A real manufacturing problem
+A working product, not only a dashboard or presentation
+Results that operators can understand
+A measurable improvement in time, cost, safety, quality, or efficiency
+Track 2 by partner: Vibe Generation
+Health and Wellbeing
+Make a part of the patient journey safer, clearer, or easier.
+Read the full brief
+Hide the brief
+Patients and healthcare workers deal with long documents, scattered information, repetitive administration, language barriers, and limited time.
+Build a product that helps patients, caregivers, or healthcare staff handle one part of this journey better.
+Ideas
+Patient intake
+Medical record summaries
+Appointment preparation
+Care navigation
+Clearer discharge instructions
+Multilingual patient communication
+Healthcare document processing
+Administrative workflow automation
+Wellbeing and prevention support
+Your demo
+Show a realistic case from the first input to the final result. Your product should make uncertainty visible. It should also know when a person needs to review or take over the case.
+Safety rules
+The product must not present autonomous diagnosis or treatment as medical advice. Explain how you handle:
+Incorrect or unsupported responses
+Sensitive information
+Uncertain results
+High risk decisions
+Human review
+Good projects will show
+A clearly defined patient or staff need
+Responsible handling of health information
+Useful and understandable results
+A measurable improvement in time, accuracy, accessibility, or workload
+Track 3 by partner: Vibe Generation
+Reinvent Commerce
+Help a business understand its customers and take better action.
+Read the full brief
+Hide the brief
+Retailers have product data, transactions, inventory, reviews, support conversations, and marketing results. These sources are often disconnected, which makes it difficult to turn them into useful decisions.
+Build a product that helps a business attract, serve, convert, or retain customers.
+Ideas
+Shopping assistants
+Product discovery and recommendations
+Customer support
+Demand and inventory planning
+Product catalogue enrichment
+Review and sentiment analysis
+Promotion planning
+Churn prevention
+Accessible and multilingual shopping
+In store computer vision
+Your demo
+Show how your product turns customer or business data into a useful recommendation or action.
+If your product predicts demand, sales, or customer behaviour, explain how the prediction was calculated. Do not use a language model as the only forecasting method.
+Good projects will show
+A real customer or merchant problem
+A useful commercial action
+Relevant recommendations or personalization
+A measurable effect on revenue, margin, conversion, retention, inventory, or service quality
+Track 4 by partner: Vibe Generation
+Create a New Kind of Experience
+Build a media, marketing, or entertainment experience that was not practical before generative AI.
+Read the full brief
+Hide the brief
+Do more than generate an image, advertisement, or chatbot. Create something that responds to its audience, changes with context, or produces a different experience for each person.
+Ideas
+Personalized video
+Interactive stories
+Audience driven entertainment
+Adaptive campaigns
+Multilingual creative content
+Generative brand experiences
+Responsive sound or visual environments
+New social media formats
+Accessible media experiences
+Creative quality control
+Your demo
+Show the experience changing for at least two different audiences, situations, or inputs.
+Explain:
+What the team created
+What the models generated or decided
+How you controlled quality and consistency
+How much each generated experience costs
+Who would pay for it and why
+Good projects will show
+An original concept
+A strong user experience
+A thoughtful combination of human creativity and technology
+A product that could work at a realistic cost
+Technology requirement: build on AMD
+Every project must run a meaningful part of its workload on AMD infrastructure or AMD hardware. Teams may use:
+AMD Developer Cloud
+AMD Instinct accelerators
+AMD ROCm
+AMD Ryzen AI
+AMD Radeon hardware
+Other approved AMD powered infrastructure provided during the event
+The AMD component must be part of the working product shown to the judges.
+Teams may choose their own compatible models, frameworks, and development tools.
+FAQ:
+1) The event is hosted on
+notebooks.amd.com/tokenfactory
+. There is
+no billing or credit card info needed
+.
+2) Developers
+dont need the $100 credit to participate
+in the event. Just the api from the tokenfactory.
+Partner awards
+Google and Evolus technologies are optional. Teams that use an eligible partner technology can also compete for that partner’s prize. A single project may qualify for the main challenge prize, one partner prize, or both partner prizes.
+What to Submit
+📋 Project
+Project title
+Short and long descriptions
+Selected challenge
+Technology tags
+Working prototype
+📸 Presentation
+Cover image
+Demo video
+Pitch presentation
+Clear explanation of the problem and intended user
+Track by partner: Evolus
+Evolus Business Agents on AMD
+Build an AI agent that runs a real business process end to end, on Evolus, powered by an open model served on AMD.
+Pick a process that a real company runs every day and let an agent run it. The agent takes the input (an email, a PDF, a recording, a web form, a chat), reasons over it with an open model running on AMD, and acts: it runs an Evolus workflow, turns documents into data, uses AI Tools, updates another system, or hands the case to a person when it should.
+Requirements
+Build in a free Evolus event workspace
+, created at
+app.evolus.ai
+with the event code shared at kickoff.
+Bring your own model:
+the main agent must use an open model served on AMD infrastructure through your own vLLM endpoint on AMD Developer Cloud.
+Use at least two Evolus building blocks:
+workflows, document extractors, AI Tools, knowledge libraries, MCP connectors, sub-agents, chat widget.
+Drive Evolus from your app through its APIs:
+the Evolus REST API for workflows, extractors, AI Tools and libraries; agent chat through the REST API or the OpenAI-compatible endpoint.
+Follow the hackathon submission rules:
+containerized app, public GitHub repository, a README that runs. Never commit API keys: use environment variables.
+Sample use cases
+Use case
+Input
+What the solution does
+Invoice and order intake
+Emails with PDF attachments
+A workflow started by incoming email reads the PDF, extracts the fields into JSON, matches them to the order and flags mismatches to a person
+Support desk on company knowledge
+Chat, email or website widget
+An agent answers from the company’s documents with sources and passes the case to a person when unsure
+Lead qualification
+Chat widget on a website
+Qualifies the visitor, books a call and pushes the lead to a CRM through MCP
+Contract review
+Uploaded contracts
+Extracts key clauses, compares them with the company’s standard terms and redacts personal data before sharing
+Multilingual documents
+PDF and Word files
+Translates manuals and offers keeping their layout, then files them through a workflow
+Meeting follow-up
+Recordings of calls and meetings
+Turns the recording into minutes and action items and sends them to the attendees
+Judging
+The hackathon’s four criteria, read on this track:
+Application of Technology
+How deeply the solution uses Evolus building blocks, and how well the AMD-hosted model is integrated.
+Business Value
+A real process, a clear user, a measurable gain.
+Originality
+A new approach, or a process nobody automated this way.
+Presentation
+A clear demo and pitch.
+To verify the requirements, the Evolus team reviews the configuration and usage statistics of each event workspace: the connected model endpoint, the building blocks used and the API calls.
+Partners
+Build on AMD GPUs in the cloud
+Lead partner
+[note: This partner technology is mandatory for all the challenges]
+This hackathon gives developers the opportunity to explore and build AI workloads using AMD’s cloud-based AI stack. All development happens on cloud-accessible AMD GPUs, so there is no need to own or manage hardware.
+The focus is on experimenting, benchmarking and running real workloads in a flexible environment. During the hackathon, teams can choose to work with the technologies below.
+AMD Developer Cloud
+On-demand access to AMD GPUs through the cloud. Spin up a GPU environment in minutes and build and test AI workloads without infrastructure overhead.
+Training and fine-tuning models
+Benchmarking AI workloads on AMD GPUs
+Prototyping before moving to on-prem infrastructure
+ROCm
+ROCm is AMD’s open-source software platform for GPU computing — the AMD equivalent of CUDA. It runs AI/ML and HPC workloads on AMD GPUs.
+Running PyTorch and TensorFlow on AMD GPUs
+Porting CUDA-based workloads to AMD hardware
+High-performance AI and ML workloads
+AMD AI Developer Program
+Membership in the AMD AI Developer Program (ADP) unlocks the AMD developer ecosystem around the hackathon.
+AI tutorials, training and technical resources
+Access to AMD engineers and technical experts
+Private community channels and developer updates
+Training & learning resources
+Curated AI learning material, tutorials and hands-on labs to help you build faster during the event.
+AMD AI Academy courses and documentation
+Hands-on labs with real GPU access
+Fully cloud-based — no local setup required
+AMD AI Developer Program
+AMD cloud development
+ROCm AI Developer Hub
+ROCm documentation
+ROCm installation guide
+github.com/ROCm/ROCm
+Technology partners
+Vibe Generation
+Vibe Generation is the project founded by Paolo Bonetti to integrate specialized professionals and artificial intelligence tools into the real-world processes of businesses.
+The model was created to support companies, brands and organizations in moving from the occasional use of AI tools to building hybrid teams and processes, in which technology and human skills work together.
+The project focuses in particular on the relationship between artificial intelligence, talent, judgment and organizational transformation.
+Evolus AI
+The platform to build AI agents that run real business processes. Bring your own AMD-hosted model and ship an agent that does real work.
+Evolus gives companies AI agents that read documents, answer from company knowledge, run automations and act on the systems they already use through APIs and MCP. Businesses also use Evolus for digital employees that work in email and Microsoft Teams, and for an AI Switchboard that answers the phone.
+For developers, everything is driven by the Evolus REST API, agents can also be reached through an OpenAI-compatible endpoint, and an MCP server lets coding agents build on Evolus directly. During the hackathon every team brings its own model.
+500 Evolus AI coupons available.
+Coupons are available on a
+first-come, first-served basis
+, while supplies last.
+Claim your Evolus AI coupon →
+Technology
+Technology & access
+Teams connect their own model and build around it: agents, business automations, document extractors, knowledge libraries and ready-made AI Tools, all driven by API.
+Agents and sub-agents
+Agents with tools and memory, running on the team’s own model.
+Evolus REST API (
+ask
+, streaming
+ask-stream
+); for chat also the OpenAI-compatible
+/v1/chat/completions
+Workflows (business automations)
+Multi-step pipelines of agents, document reading, extractors and webhooks, with branches, loops and parallel steps. They start from an API call, an incoming email or a schedule: files in, result out to a callback URL.
+Evolus REST API:
+POST /api/v1/workflows/{id}/execute
+with text and files, then the execution status
+Document extractors
+Turn PDFs, scans and images into structured JSON, following a schema you define.
+Evolus REST API, or as a workflow step
+AI Tools
+Eleven ready-made tools: document to structured data (JSON, CSV, XML), table extraction, translation of PDF and Word files keeping the original layout, real redaction of personal data in PDFs, summaries, meeting minutes from audio or video, email writing and replies, rewriting, plain-language simplification, sentiment, comparison of two texts.
+Evolus REST API:
+/api/v1/ai-tools/{tool}/run
+,
+run-media
+for audio and video,
+run-file
+for file in, file out
+Knowledge libraries (RAG)
+Upload documents or import web pages; agents answer from them, with sources.
+Evolus REST API, attached to agents
+Webhooks
+Notify your own systems when something happens.
+Evolus REST API
+MCP connectors
+Connect agents to external systems through MCP servers, including your own.
+Configured in the workspace
+Chat widget
+Put an agent on any website.
+One script tag
+Evolus MCP server
+Build and manage agents, workflows and libraries from Claude Code, Cursor or any MCP client.
+https://api.evolus.ai/mcp
+Evolus Studio
+A coding agent for terminal and desktop, built on the open-source OpenCode, with the Evolus MCP tools built in.
+Desktop app and CLI
+Bring your own model.
+Event workspaces run their agents on the model each team connects: an open model through a vLLM endpoint on AMD Developer Cloud, or any OpenAI-compatible provider.
+Which API for what.
+Workflows, extractors, AI Tools and knowledge libraries use the Evolus REST API; only agent chat is also available through the OpenAI-compatible endpoint. Document reading, AI Tools and knowledge indexing run on Evolus and use the workspace credits.
+Access, free for every participant
+Go to
+app.evolus.ai
+and sign in with GitHub, Google, Apple or Microsoft.
+Enter the event code, shared at kickoff: a free workspace until October 31, 2026, for up to 6 team members, with 50,000 platform credits and no credit card.
+Connect your model, create an API key and start building.
+Evolus Studio: download link shared before the kickoff; sign in with your Evolus account.
+Technical resources
+Resource
+Where
+Available
+Developer quickstart and examples
+evolus.ai/developers
+Before the kickoff
+Interactive API reference
+Inside every Evolus workspace
+Now
+Evolus REST API: workflows, extractors, AI Tools, libraries, agents
+https://api.evolus.ai/api/v1
+with the
+X-ApiKey
+and
+X-Application-Id
+headers
+Now
+OpenAI-compatible agent chat
+Base URL
+https://api.evolus.ai/v1
+, model
+<applicationId>:<agentId>
+, Bearer API key
+Now
+Evolus MCP server
+https://api.evolus.ai/mcp
+, same headers as the REST API
+Now
+Evolus Studio
+Download link on evolus.ai/developers
+Before the kickoff
+evolus.ai
+app.evolus.ai
+Evolus is a trademark of Codedesign SRL, a software company based in Taggia, in the province of Imperia, Italy.
+PwC Italy
+PwC Italy PwC’s purpose is to build trust in society and solve important problems by providing innovative responses to complex challenges. PwC operates through 23 offices in Italy with more than 9,000 professionals committed to delivering high‑quality tax, legal, audit, and consulting services across organizational and strategic areas. PwC offers an extensive range of integrated and multidisciplinary services.
+PwC’s true strength lies in its ability to combine in‑depth knowledge of local markets with a globally integrated network. With over 364,000 people in 136 countries, it is one of the world’s largest networks of professional services firms.
+IMMENT
+Building the Future of Startups. We help you create, fund, and manage your startup using innovative tools and specialized expertise in Administration, Finance, and Control.
+Prizes
+🏆 Total prize pool:
+$17,000+
+AMD Prizes
+$5,000 in prizes from AMD
+$5,000
+Google Prizes
+$5,000 in prizes from Google
+$5,000
+Evolus Track: Business Agents Prizes
+1st place
+€578
+12 months of the Evolus Developer plan for the team + 1,000,000 bonus credits + a showcase on evolus.ai
+2nd place
+€289
+6 months of the Evolus Developer plan for the team + 500,000 bonus credits
+3rd place
+€144.50
+3 months of the Evolus Developer plan for the team + 250,000 bonus credits
+Total: €1,011.50
+Values at list price, VAT excluded: the Evolus Developer plan costs €29 per month and bonus credits are valued at €0.23 per 1,000.
+Vibe Generation special prize
+The best solution will be awarded with AirPods 5 for all members of the team.
+The solution will be judged based on those 3 criteria:
+Hybrid
+Strategic thinking, ability to quantify value, commercial attitude.
+Becreatives
+Quality of technical execution, orchestration of AI tools, ability to ship.
+Vibe Generation
+Taste, originality of the concept, design of the human plus AI creative workflow.
+Imment: Best Italian Teams Startup Incubation Opportunity
+The three most promising startup ideas will be selected to receive dedicated incubation support, helping teams transform innovative concepts into viable ventures.
+Team 1
+Startup award program
+€1,599
+Team 2
+Startup award program
+€1,599
+Team 3
+Startup award program
+€1,599
+Please note: participation in lablab.ai hackathons is voluntary. Prizes and opportunities depend on eligibility, availability and third-party sponsors. Hackathon rules, prizes and terms may change or be canceled at our discretion. Submissions must be original and MIT-compliant. Prize distribution may take up to 90 days.
+Full details
+.
+Before you start building
+Guidelines
+How to participate
+The hackathon takes place online on the lablab.ai platform and the
+lablab.ai Discord server
+. Please register for both in order to participate. To join, click the Enroll button at the bottom of the page and read the
+Hackathon Guidelines
+, the
+Getting Started Guide
+and the
+lablab.ai Hackathon Rule Book
+.
+To be approved for the hackathon, participants must also sign up for the
+AMD AI Developer Program
+.
+Everyone is welcome to participate, regardless of previous AI or coding experience.
+Before the kickoff, browse the
+AI Tech
+and
+tutorials
+pages to read up on the available technologies and get a head start on your project.
+Teams
+Teams consist of 1-6 people. If you don't have a team, don't worry. You can connect with other participants from all over the world on the dashboard or on the
+Discord server
+, where you can also find teammates and bounce around ideas.
+What to submit
+📋 Basic information
+Project title
+Short description
+Long description
+Technology & category tags
+📸 Cover image and presentation
+Cover image
+Video presentation
+Slide presentation
+💻 App hosting and repository
+Public GitHub repository
+Demo application platform
+Application URL
+Judging criteria
+Application of Technology
+How effectively the chosen model(s) are integrated into the solution.
+Presentation
+The clarity and effectiveness of the project presentation.
+Business Value
+The impact and practical value, considering how well it fits into business areas.
+Originality
+The uniqueness and creativity of the solution, highlighting approaches and ability to demonstrate behaviors.
+Event Schedule / Onsite Schedule
+To be announced
+Follow along
+Community & social channels
+Stay connected with the teams behind the hackathon and follow along for updates, highlights and future opportunities.
+AMD
+X
+·
+LinkedIn
+·
+AI Developer Program
+·
+ROCm Developer Hub
+lablab.ai
+X
+·
+LinkedIn
+·
+Instagram
+·
+YouTube
+·
+Twitch
+·
+Discord
+·
+Website
+NativelyAI
+Website
+·
+LinkedIn
+·
+Discord
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI about this hackathon.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help

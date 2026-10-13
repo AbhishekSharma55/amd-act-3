@@ -1,0 +1,79 @@
+Welcome to the lablab.ai Hackathon. Please read these rules carefully. Non-compliance may result in lower scores or disqualification.
+Failure to adhere to submission guidelines may result in a lower score or exclusion from the hackathon.
+Project Title
+Short and Long Descriptions
+Technology and Category Tags
+Cover Image
+Video and Slide Presentation
+Public GitHub Repository
+Demo Application Platform
+Application URL
+Specific criteria are outlined in a separate section.
+by Walaa Nasr
+Presentation
+Judging criteria Score: Presentation (pdf and video)
+1 - Poor
+No description of problem or gaps to fill.
+2 - Limited
+The problem & solution are not effectively communicated and difficult to understand. Presentation video is less than 3 min.
+3 - Adequate
+Effectively communicates the problem, solution, and value proposition in less than 5 min. Absent market analysis and or marketing revenue. No future goals or plans.
+4 - Strong
+Effectively communicates the problem, solution, and value proposition in less than 5 min. Explain market analysis and marketing revenue. Explain future goals & plans.
+5 - Excellent
+Exceptional in every aspect. Well-crafted and flawlessly communicates problem, solution, and value proposition. Effectively shows project's strengths and uniqueness through competitive analysis.
+Business value
+Judging criteria Score: Business value
+1 - Limited Business Value
+Little or no potential for practical or commercial viability. Not addressing a significant problem or market need.
+2 - Some Business Value
+Some potential for business value. Uncertain market feasibility, scalability, or revenue generation. Address a niche market with limited demand.
+3 - Moderate Business Value
+Shows reasonable business value. Addresses market need with potential to generate revenue. Require further development or validation.
+4 - High Business Value
+High business value, with clear market potential. Potential to attract a large customer base and generate significant revenue. Strong market feasibility and scalability.
+5 - Exceptional Business Value
+Stands out as having exceptional business value. Potential to disrupt the industry or create a new market. Presents a clear sustainable revenue generation and long-term business success.
+Application of technology
+Judging criteria Score: Application of technology
+1 - Poor Application
+Demo video is not available in video presentation. Demo link is not available. Github is not available.
+2 - Limited Application
+Demo video may be shown in presentation but not with full features of the idea. Framework is not clearly shown. Demo link is not available or working. Github code is not available or shown.
+3 - Adequate Application
+Demo video is shown with all features tried. Demo link is available and working as expected, but there may be minor areas for improvement or optimization. Github code is not available or partly available.
+4 - Strong Application
+Demo video is shown with all features tried. Demo link is working & is well-executed, with features and functionalities working smoothly. Github code is available & well thought off.
+5 - Excellent Application
+Demonstrates exceptional application of AI technology through demo link, video & GitHub code. The technical implementation is flawless, and the project utilizes technology in a way that surpasses expectations.
+Originality
+Judging criteria Score: Originality
+1 - Not Original
+App is an exact copy of existing solutions without any novel approaches.
+2 - Limited Originality
+Idea is common or lacks differentiation from existing solutions in the field.
+3 - Moderately Original
+Exhibits some unique idea or approach that distinguishes it from existing non-AI solutions like decreasing cost or time.
+4 - Highly Original
+Unique perspective or innovative idea employing unconventional methods to solve the problem. Novel elements, creative combinations, or unexpected applications.
+5 - Exceptionally Original
+Stands out as exceptionally original, offering transformative idea or approach. Completely new perspective. Has potential to disrupt the industry or solve the problem in a completely unprecedented way.
+Manual submission is available for 6 hours post-hackathon for those with valid reasons and prior approval from organizers or mentors.
+Unethical behavior, such as plagiarism or gaming the voting system, will lead to immediate disqualification.
+If lablab.ai or its event partners determine that a participant has acted in a way that undermines the fairness
+or proper functioning of a hackathon—such as cheating, tampering with systems, using unauthorized automation,
+engaging in fraudulent behaviour, or in any other manner we consider grounds for
+disqualification—the participant may be removed from the event.
+Organizers are welcome to participate but are not eligible for prizes.
+If mentors or organizers participate, they cannot serve as judges.
+Judges must adhere to the following principles:
+Confidentiality of all submissions.
+Abstaining from judging in case of a conflict of interest.
+Declaring any affiliations that might compromise impartiality.
+Not copying, retaining, or sharing any entry materials.
+All general rules apply.
+Limited mentor support is available as this is considered an expert challenge.
+Good luck! We are excited to see your innovation and creativity in action.
+AI Hackathons: The Complete Guide
+How to Win an AI Hackathon
+Submission Guidelines

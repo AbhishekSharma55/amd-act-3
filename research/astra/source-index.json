@@ -1,0 +1,137 @@
+[
+  {
+    "id": "dynasched-readme",
+    "url": "https://raw.githubusercontent.com/dsbx7/DynaSchedBench/main/README.md",
+    "retrieved_utc": "2026-10-13T18:50:54.086521+00:00",
+    "path": "research/astra/dynasched-readme.txt",
+    "bytes": 3946,
+    "sha256": "6d722ca9a5336ded72abbded5fe4d1d4057da069184e5420dc4c8d80d16191bb",
+    "status": "retrieved"
+  },
+  {
+    "id": "dynasched-license",
+    "url": "https://raw.githubusercontent.com/dsbx7/DynaSchedBench/main/LICENSE",
+    "retrieved_utc": "2026-10-13T18:50:54.087151+00:00",
+    "path": "research/astra/dynasched-license.txt",
+    "bytes": 10767,
+    "sha256": "33973f276af491c9cf2fd99506a617b643d3e68b5fef31a02c6b6ee3d6bbb36c",
+    "status": "retrieved"
+  },
+  {
+    "id": "dynasched-minimal-input",
+    "url": "https://raw.githubusercontent.com/dsbx7/DynaSchedBench/main/docs/examples/minimal_input_model.json",
+    "retrieved_utc": "2026-10-13T18:50:54.087536+00:00",
+    "path": "research/astra/dynasched-minimal-input.txt",
+    "bytes": 2515,
+    "sha256": "e95b018615560ccf3ebcf1ff87042c4430832c6c90af8144381d9ba0ff44018a",
+    "status": "retrieved"
+  },
+  {
+    "id": "dynasched-agents",
+    "url": "https://raw.githubusercontent.com/dsbx7/DynaSchedBench/main/docs/agents.md",
+    "retrieved_utc": "2026-10-13T18:50:54.087897+00:00",
+    "path": "research/astra/dynasched-agents.txt",
+    "bytes": 4579,
+    "sha256": "20e6089f2f2eb2aa786151ef1af9e0e5ec68ed8b9fa2d8c028fdb2209bc00716",
+    "status": "retrieved"
+  },
+  {
+    "id": "dynasched-events",
+    "url": "https://raw.githubusercontent.com/dsbx7/DynaSchedBench/main/src/dsbx/Sim/Events.py",
+    "retrieved_utc": "2026-10-13T18:50:54.088226+00:00",
+    "path": "research/astra/dynasched-events.txt",
+    "bytes": 933,
+    "sha256": "07d6c5be0fd473ff3013ba3f68a4939c26f6e9d722baeb86fc41bd1dc5a5f7fd",
+    "status": "retrieved"
+  },
+  {
+    "id": "dynasched-metrics",
+    "url": "https://raw.githubusercontent.com/dsbx7/DynaSchedBench/main/src/dsbx/Eval/Metrics.py",
+    "retrieved_utc": "2026-10-13T18:50:54.090235+00:00",
+    "path": "research/astra/dynasched-metrics.txt",
+    "bytes": 14111,
+    "sha256": "88015988c248dee3cc5e2ce3f48bb8e9c538dc927d7933b674bbb801e6209c19",
+    "status": "retrieved"
+  },
+  {
+    "id": "fjsp-readme",
+    "url": "https://raw.githubusercontent.com/SchedulingLab/fjsp-instances/main/README.md",
+    "retrieved_utc": "2026-10-13T18:50:54.591593+00:00",
+    "path": "research/astra/fjsp-readme.txt",
+    "bytes": 2815,
+    "sha256": "37bf02b332e5da8a8d1f3a27e0ebe79b3e6a238d11fac316f3412dff81d76186",
+    "status": "retrieved"
+  },
+  {
+    "id": "fjsp-license",
+    "url": "https://raw.githubusercontent.com/SchedulingLab/fjsp-instances/main/LICENSE",
+    "retrieved_utc": "2026-10-13T18:50:55.003488+00:00",
+    "path": "research/astra/fjsp-license.txt",
+    "bytes": 1070,
+    "sha256": "920f816a1ba1efe5de8fdaea9df5d865c268667ebd6596cbdbc5b4c989a85709",
+    "status": "retrieved"
+  },
+  {
+    "id": "fjsp-instances",
+    "url": "https://raw.githubusercontent.com/SchedulingLab/fjsp-instances/main/instances.json",
+    "retrieved_utc": "2026-10-13T18:50:55.410465+00:00",
+    "path": "research/astra/fjsp-instances.txt",
+    "bytes": 55356,
+    "sha256": "0943429dcae036607067b11ae2e0eb4f0960c7dd6c9ef572e23eb2fa96325c1a",
+    "status": "retrieved"
+  },
+  {
+    "id": "qwen3-model-card",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B/raw/main/README.md",
+    "retrieved_utc": "2026-10-13T18:50:55.491859+00:00",
+    "path": "research/astra/qwen3-model-card.txt",
+    "bytes": 16660,
+    "sha256": "0f36caaff9c2516411a7738db384606263ba653c1e63e61d72f511606164d5a6",
+    "status": "retrieved"
+  },
+  {
+    "id": "qwen3-vllm-recipe",
+    "url": "https://raw.githubusercontent.com/vllm-project/recipes/main/Qwen/Qwen3.md",
+    "retrieved_utc": "2026-10-13T18:50:55.540546+00:00",
+    "path": "research/astra/qwen3-vllm-recipe.txt",
+    "bytes": 2486,
+    "sha256": "e10389ddfcf903782c0375cc846b59bf0d12321907283f37597a651b81c4db81",
+    "status": "retrieved"
+  },
+  {
+    "id": "ortools-flexible-example",
+    "url": "https://raw.githubusercontent.com/google/or-tools/stable/examples/python/flexible_job_shop_sat.py",
+    "retrieved_utc": "2026-10-13T18:50:55.583755+00:00",
+    "path": "research/astra/ortools-flexible-example.txt",
+    "bytes": 7580,
+    "sha256": "ed9484f61c0d8064204b3aad32958a0e4e6eaeb377abe58a3b85f8681034c44f",
+    "status": "retrieved"
+  },
+  {
+    "id": "live-oct14-astra",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/live",
+    "retrieved_utc": "2026-10-13T18:50:55.736368+00:00",
+    "path": "research/astra/live-oct14-astra.html",
+    "bytes": 259366,
+    "sha256": "b3e334872778e3ebe4772b128515b9f37c0ba0e43a344014deab04b3302a05d9",
+    "status": "retrieved"
+  },
+  {
+    "id": "events-oct14-astra",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii",
+    "retrieved_utc": "2026-10-13T18:50:55.838823+00:00",
+    "path": "research/astra/events-oct14-astra.html",
+    "bytes": 376532,
+    "sha256": "e587d117ccbbf8577582889d5c6e9c36fe31db795e5ec057c2a7c3b86b2d483e",
+    "status": "retrieved"
+  },
+  {
+    "id": "sortsmart-business-advisor",
+    "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii/arcomega/sortsmart-business-advisor",
+    "retrieved_utc": "2026-10-13T18:56:18.479020+00:00",
+    "path": "research/astra/sortsmart-business-advisor.html",
+    "bytes": 167438,
+    "sha256": "645468df6ee07e6a83015a161bc9779d6ca826cf0568d5c9b889c7b168a470be",
+    "status": "retrieved"
+  }
+]

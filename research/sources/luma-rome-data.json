@@ -1,0 +1,1285 @@
+{
+  "props": {
+    "initialUserData": null,
+    "randomSeed": 0.31576703854578536,
+    "countryCode": "IN",
+    "latitude": "28.62137",
+    "longitude": "77.21480",
+    "initialLocale": null,
+    "initialMessages": null,
+    "squarePreview": false,
+    "pageProps": {
+      "initialData": {
+        "kind": "event",
+        "data": {
+          "api_id": "evt-OE6PPD5Qru3gUaq",
+          "accepts_usdc_for_usd": false,
+          "calendar": {
+            "access_level": "public",
+            "api_id": "cal-LgEZCmq6DGHfOko",
+            "avatar_url": "https://images.lumacdn.com/uploads/np/716e000d-20e3-4faa-8e36-e460cd4e3040.png",
+            "coordinate": null,
+            "cover_image_url": "https://images.lumacdn.com/uploads/ih/bc6008f4-933b-4d7b-8533-3416c7541843.png",
+            "description_short": "lablab.ai is a global platform supporting AI innovation through hackathons, workshops, and community-driven events. Stay updated on all our upcoming events and join our AI community!",
+            "end_date": null,
+            "event_submission_restriction": "open",
+            "google_measurement_id": null,
+            "instagram_handle": "lablab.ai",
+            "is_blocked": false,
+            "is_verified": false,
+            "launch_status": "launched",
+            "linkedin_handle": "/company/lablab-ai",
+            "location": null,
+            "luma_plan": "plus",
+            "luma_plus_active": true,
+            "meta_pixel_id": null,
+            "name": "lablab.ai Events",
+            "personal_user_api_id": null,
+            "refund_policy": null,
+            "slug": "lablab.ai",
+            "social_image_url": null,
+            "start_date": null,
+            "stripe_account_id": null,
+            "tax_config": {
+              "tax_name": "5252808655",
+              "tax_percent": 23
+            },
+            "tiktok_handle": null,
+            "tint_color": "#ffffff",
+            "track_meta_ads_from_luma": false,
+            "twitter_handle": "lablabai",
+            "verified_at": "2024-10-24T10:10:45.588Z",
+            "website": "https://lablab.ai",
+            "youtube_handle": "lablab10",
+            "is_personal": false,
+            "personal_user": null,
+            "timezone": null,
+            "charges_enabled": null,
+            "payment_methods": []
+          },
+          "meta_pixel_id": null,
+          "coupon": null,
+          "google_measurement_id": null,
+          "stripe_account_id": null,
+          "payment_methods": [],
+          "tax_config": {
+            "tax_name": "5252808655",
+            "tax_percent": 23
+          },
+          "event": {
+            "api_id": "evt-OE6PPD5Qru3gUaq",
+            "calendar_api_id": "cal-LgEZCmq6DGHfOko",
+            "cover_url": "https://images.lumacdn.com/uploads/tj/71b3e674-9d2b-4ba8-8a8d-4d409d670139.jpg",
+            "end_at": "2026-10-18T16:00:00.000Z",
+            "event_type": "independent",
+            "hide_rsvp": false,
+            "location_type": "offline",
+            "name": "AMD Developer Hackathon: ACT III \u2014 Rome",
+            "one_to_one": true,
+            "recurrence_id": null,
+            "show_guest_list": true,
+            "social_image_url": "https://images.lumacdn.com/event-social/6f/8ab460d2-5bb6-4f96-850e-600856148e3b.png",
+            "start_at": "2026-10-17T07:00:00.000Z",
+            "timezone": "Europe/Rome",
+            "url": "AMDHackathon-Rome",
+            "user_api_id": "usr-WqGmcWjTGBBLAAV",
+            "visibility": "public",
+            "virtual_info": {
+              "has_access": false
+            },
+            "geo_address_info": {
+              "city": "Roma",
+              "type": "google",
+              "region": "Lazio",
+              "address": "Via del Casale di S. Pio V, 44",
+              "country": "Italy",
+              "place_id": "ChIJuxyVyeBfLxMRBe83VKrUODs",
+              "localized": {
+                "it": {
+                  "city": "Roma",
+                  "region": "Lazio",
+                  "address": "Via del Casale di S. Pio V, 44",
+                  "country": "Italia",
+                  "city_state": "Roma, Italia",
+                  "sublocality": "Quartiere XIII Aurelio",
+                  "full_address": "Via del Casale di S. Pio V, 44, 00165 Roma RM, Italia",
+                  "region_short": "Lazio",
+                  "short_address": "Via del Casale di S. Pio V, 44, Roma"
+                }
+              },
+              "city_state": "Roma, Italy",
+              "description": "",
+              "sublocality": "Aurelio",
+              "country_code": "IT",
+              "full_address": "Via del Casale di S. Pio V, 44, 00165 Roma RM, Italy",
+              "region_short": "Lazio",
+              "short_address": "Via del Casale di S. Pio V, 44, Roma",
+              "place_coordinate": {
+                "latitude": 41.8926243,
+                "longitude": 12.432768399999999
+              },
+              "apple_maps_place_id": null,
+              "mode": "shown"
+            },
+            "geo_address_visibility": "public",
+            "coordinate": {
+              "longitude": 12.432768399999999,
+              "latitude": 41.8926243
+            },
+            "waitlist_enabled": false,
+            "waitlist_status": "disabled"
+          },
+          "start_at": "2026-10-17T07:00:00.000Z",
+          "guest_data": {
+            "email": null,
+            "name": null,
+            "ticket_key": null,
+            "approval_status": null,
+            "proxy_key": null,
+            "event_tickets": [],
+            "payments": []
+          },
+          "featured_guests": [
+            {
+              "api_id": "usr-cDDgcVw2BFFGMpf",
+              "avatar_url": "https://images.lumacdn.com/uploads/x0/528ec220-c6ea-4fc2-9099-a633467d5c50.png",
+              "bio_short": null,
+              "first_name": "Visual Innovation",
+              "last_name": "Awards",
+              "instagram_handle": "romeaifestival",
+              "is_verified": false,
+              "linkedin_handle": "/in/riccardo-vincenzi-563034203",
+              "name": "Visual Innovation Awards",
+              "tiktok_handle": null,
+              "timezone": "Europe/Rome",
+              "twitter_handle": null,
+              "username": "Visual",
+              "website": "https://viagroup.ai/",
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-CFeMEsoNqN9GBEq",
+              "avatar_url": "https://cdn.lu.ma/avatars-default/avatar_21.png",
+              "bio_short": null,
+              "first_name": "Emanuele",
+              "last_name": "Musumeci",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": "/in/emanuele-m",
+              "name": "Emanuele Musumeci",
+              "tiktok_handle": null,
+              "timezone": "Europe/Rome",
+              "twitter_handle": null,
+              "username": null,
+              "website": null,
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-h4H404gN8FHclS6",
+              "avatar_url": "https://images.lumacdn.com/avatars/pw/01473846-6e4d-45bd-b00b-9f9ad5f413ce",
+              "bio_short": null,
+              "first_name": "Monika",
+              "last_name": "Zaj\u0105c",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": "/in/monika-b-zajac",
+              "name": "Monika Zaj\u0105c",
+              "tiktok_handle": null,
+              "timezone": "Europe/Warsaw",
+              "twitter_handle": "monikabzajac",
+              "username": null,
+              "website": null,
+              "youtube_handle": ""
+            },
+            {
+              "api_id": "usr-IBLzH1fMCicYnJr",
+              "avatar_url": "https://cdn.lu.ma/avatars-default/avatar_22.png",
+              "bio_short": null,
+              "first_name": "Ludovico",
+              "last_name": "Comito",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": "/in/ludovico-comito",
+              "name": "Ludovico Comito",
+              "tiktok_handle": null,
+              "timezone": "Europe/Rome",
+              "twitter_handle": "ludocomito",
+              "username": "ludocomito",
+              "website": "https://ludocomito.dev",
+              "youtube_handle": ""
+            },
+            {
+              "api_id": "usr-NkXjQZbu8rceI2z",
+              "avatar_url": "https://cdn.lu.ma/avatars-default/avatar_23.png",
+              "bio_short": null,
+              "first_name": "Mariam",
+              "last_name": "Latsabidze",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": null,
+              "name": "Mariam Latsabidze",
+              "tiktok_handle": null,
+              "timezone": "Europe/Rome",
+              "twitter_handle": null,
+              "username": null,
+              "website": null,
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-nyBsABfn22lffj4",
+              "avatar_url": "https://images.lumacdn.com/uploads/6l/3b5477cf-3574-4af6-8729-cac4893875e6.jpg",
+              "bio_short": "Web3 Blockchain AI ecosystem builder exploring emerging technologies, events, communities & startups. tech- non tech contributor Supporter",
+              "first_name": "Hasanalam",
+              "last_name": "Attar",
+              "instagram_handle": "hasanalamattar",
+              "is_verified": false,
+              "linkedin_handle": "/in/hasanalamattar",
+              "name": "Hasanalam Attar",
+              "tiktok_handle": "Hasanalamattar",
+              "timezone": "Asia/Kolkata",
+              "twitter_handle": "HasanalamAttar",
+              "username": "HasanalamAttar",
+              "website": null,
+              "youtube_handle": "HasanalamAttar"
+            },
+            {
+              "api_id": "usr-pD2AFwcsEZmwgPv",
+              "avatar_url": "https://cdn.lu.ma/avatars-default/avatar_20.png",
+              "bio_short": null,
+              "first_name": "Adrien",
+              "last_name": "Robino",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": "/in/adrien-robino",
+              "name": "Adrien Robino",
+              "tiktok_handle": null,
+              "timezone": "Europe/Rome",
+              "twitter_handle": null,
+              "username": null,
+              "website": null,
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-PqxhGAL5ey4luj9",
+              "avatar_url": "https://images.lumacdn.com/avatars/9q/03a376b3-5325-474c-ad0b-62ad4824bf55",
+              "bio_short": "Experienced Engineer, Entrepreneur and Philosopher.",
+              "first_name": "Tiago",
+              "last_name": "Bizzaro",
+              "instagram_handle": "tiagobizzaro",
+              "is_verified": false,
+              "linkedin_handle": "/in/tiagobizzaro",
+              "name": "Tiago Bizzaro",
+              "tiktok_handle": null,
+              "timezone": "America/New_York",
+              "twitter_handle": "riovale_ai",
+              "username": "tiagobizzaro",
+              "website": null,
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-s0F5A97IqEICH5r",
+              "avatar_url": "https://cdn.lu.ma/avatars-default/avatar_37.png",
+              "bio_short": null,
+              "first_name": "Giulia",
+              "last_name": "Marcantonio",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": null,
+              "name": "Giulia Marcantonio",
+              "tiktok_handle": null,
+              "timezone": "Europe/Paris",
+              "twitter_handle": null,
+              "username": null,
+              "website": null,
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-YePVvXwDcxJv0vd",
+              "avatar_url": "https://cdn.lu.ma/avatars-default/avatar_8.png",
+              "bio_short": "Builder",
+              "first_name": "Alessio",
+              "last_name": "A.",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": null,
+              "name": "Alessio",
+              "tiktok_handle": null,
+              "timezone": "Europe/Rome",
+              "twitter_handle": null,
+              "username": null,
+              "website": null,
+              "youtube_handle": null
+            }
+          ],
+          "has_available_ticket_types": true,
+          "refund_policy": null,
+          "guest_count": 24,
+          "ticket_count": 24,
+          "hosts": [
+            {
+              "api_id": "usr-WqGmcWjTGBBLAAV",
+              "avatar_url": "https://images.lumacdn.com/avatars/wl/ae6d6558-b31a-4941-9278-b99be42a03f8.png",
+              "bio_short": "lablab.ai connects 300,000+ developers through AI hackathons, workshops and community events, delivering 100+ hackathons worldwide.",
+              "first_name": "",
+              "last_name": "",
+              "instagram_handle": "lablab.ai",
+              "is_verified": false,
+              "linkedin_handle": "/company/lablab-ai",
+              "name": "lablab",
+              "tiktok_handle": "lablab.ai",
+              "timezone": "Asia/Dubai",
+              "twitter_handle": "lablabai",
+              "username": "lablab",
+              "website": "https://lablab.ai/",
+              "youtube_handle": "lablab10"
+            },
+            {
+              "api_id": "usr-Y35WsP4slpVjsAQ",
+              "avatar_url": "https://images.lumacdn.com/uploads/f3/c0b0fe39-5133-41d2-833e-61fb124aeea8.jpg",
+              "bio_short": "PMM obsessed with Dev Topics, Demand Gen, ABM, GTM, and using all my weekly AI Tokens immediately.\n\nI like to write & drink specialty coffee",
+              "first_name": "Josh",
+              "last_name": "Shulman",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": "/in/jdshulman",
+              "name": "Josh Shulman",
+              "tiktok_handle": null,
+              "timezone": "Europe/Vienna",
+              "twitter_handle": "MKTMeetsDEV",
+              "username": "JShulman",
+              "website": null,
+              "youtube_handle": null
+            },
+            {
+              "api_id": "usr-eCTc5JupAW98F34",
+              "avatar_url": "https://images.lumacdn.com/avatars/ka/c34eed64-d54e-4713-92f7-d0caa387c58f.png",
+              "bio_short": "WeAreDevelopers is the global platform for developers and AI professionals to grow, connect, and lead in the age of AI.",
+              "first_name": "Clemens",
+              "last_name": "Bauer",
+              "instagram_handle": null,
+              "is_verified": false,
+              "linkedin_handle": "/in/clemensmbauer",
+              "name": "WeAreDevelopers",
+              "tiktok_handle": null,
+              "timezone": "Europe/Vienna",
+              "twitter_handle": "WeAreDevs",
+              "username": "wearedevelopers",
+              "website": "https://wearedevelopers.com",
+              "youtube_handle": ""
+            }
+          ],
+          "referred_by": null,
+          "cover_image": {
+            "colors": [
+              "#fefefe",
+              "#181515",
+              "#9f181d"
+            ],
+            "palette": {
+              "neutral": [
+                {
+                  "color": "#181515",
+                  "percentage": 21.05
+                },
+                {
+                  "color": "#fefefe",
+                  "percentage": 38.57
+                }
+              ],
+              "vibrant": [
+                {
+                  "color": "#9f181d",
+                  "percentage": 4.62
+                }
+              ]
+            }
+          },
+          "cover_video": null,
+          "social_image": {
+            "cdn_url": "https://images.lumacdn.com/event-social/6f/8ab460d2-5bb6-4f96-850e-600856148e3b.png",
+            "width": 1200,
+            "height": 630,
+            "mime_type": "image/png"
+          },
+          "social_video": null,
+          "sessions": [],
+          "ticket_types": [
+            {
+              "api_id": "ttype-MFkSMEUmi0UGYuM",
+              "cents": null,
+              "currency": null,
+              "description": null,
+              "ethereum_token_requirements": [],
+              "event_api_id": "evt-OE6PPD5Qru3gUaq",
+              "is_flexible": false,
+              "is_hidden": false,
+              "max_capacity": null,
+              "max_per_guest": null,
+              "membership_restriction": null,
+              "min_cents": null,
+              "position": "8",
+              "name": "Standard",
+              "require_approval": false,
+              "tint_color": null,
+              "type": "free",
+              "valid_end_at": null,
+              "valid_start_at": null,
+              "num_tickets_registered": 24,
+              "num_guests": 24,
+              "spots_remaining": null,
+              "is_disabled": false
+            }
+          ],
+          "featured_infos": [],
+          "categories": [
+            {
+              "api_id": "cat-ai",
+              "description": "Join a hackathon, learn about LLMs and prompt engineering, or connect with other AI practitioners.",
+              "event_count": 3959,
+              "hero_image_desktop_url": "https://images.lumacdn.com/uploads/42/5719a861-c421-4624-a9dc-8b8b73e3cf57.png",
+              "icon_url": "https://images.lumacdn.com/uploads/0z/c1143c0e-a2ab-4434-b82b-80b0ba3ec2f0.png",
+              "name": "AI",
+              "page_title": "AI Events",
+              "simple_icon_url": "https://images.lumacdn.com/uploads/2g/4121b0fa-bd9e-4a50-ad85-cf0000b6d919.png",
+              "slug": "ai",
+              "social_image_url": "https://images.lumacdn.com/uploads/c1/486065e1-2511-4577-a0e0-5eb683d38a3d.png",
+              "subscriber_count": 106975,
+              "tint_color": "#D96D9B"
+            }
+          ],
+          "ticket_info": {
+            "price": null,
+            "is_free": true,
+            "max_price": null,
+            "is_sold_out": false,
+            "spots_remaining": null,
+            "is_near_capacity": false,
+            "require_approval": false
+          },
+          "registration_availability": "open",
+          "subscribed_to_calendar": false,
+          "event_invite": null,
+          "manager_info": null,
+          "guest_info": null,
+          "host_info": null,
+          "sold_out": false,
+          "locale": "en",
+          "theme_meta": {
+            "theme": "legacy"
+          },
+          "ticket_transfer_enabled": false,
+          "tint_color": "#fefefe",
+          "can_register_for_multiple_tickets": false,
+          "font_title": "snpro",
+          "description_mirror": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Build AI agents and high-performance AI applications on AMD GPUs in the cloud and bring your project to Rome",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "AMD Developer Hackathon: ACT III",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is an event for developers, founders, engineers, students, and AI builders ready to turn ambitious ideas into working products.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "On ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "October 17\u201318",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", participants will meet at ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "Link Campus University in Rome",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " to collaborate, receive hands-on support, and showcase their projects live.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "What you\u2019ll build",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Create an end-to-end ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "AI application, agent, or developer tool powered by AMD technology",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ".",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "You\u2019ll work with ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "AMD GPUs in the cloud",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and the ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "ROCm open-source software stack",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Everything runs in the cloud, so there is no local hardware to configure \u2014 you can focus on experimenting, building, and testing your idea.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Possible directions include:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "AI agents and autonomous workflows",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "High-performance AI and machine learning applications",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Model training and fine-tuning",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "AI workload benchmarking",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Developer tools built around AMD\u2019s compute stack",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Porting and optimizing existing AI workloads for AMD GPUs",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Tracks and detailed challenges will be announced before the kickoff.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "Why join us in Rome?",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "The Rome edition will take place at ",
+                    "type": "text"
+                  },
+                  {
+                    "text": "Link Campus University",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", located in the historic Casale di San Pio V campus.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "During the two-day on-site experience, you\u2019ll be able to:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Build alongside other developers and founders",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Get technical guidance and hands-on support",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Meet members of the local and international AI community",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Refine your project before the submission deadline",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Present your work live during the final pitching session",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Compete for a share of the ",
+                            "type": "text"
+                          },
+                          {
+                            "text": "$5,000 prize pool",
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "Who should attend?",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "This event is for:",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "AI and machine learning developers",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Software engineers and technical founders",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Students and early-career builders",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Teams exploring AI products and infrastructure",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Anyone interested in building with AMD GPUs and ROCm",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "All experience levels are welcome. You can participate individually or in a team of up to six people.",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "Schedule",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Saturday, October 17",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "9:00 AM \u2014 Doors open",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "10:00 AM \u2014 Welcome and opening remarks",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Build day, mentoring, and collaboration",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "7:00 PM \u2014 Doors close",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Sunday, October 18",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "bullet_list",
+                "content": [
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "9:00 AM \u2014 Doors open",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "Final build sessions",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "4:00 PM \u2014 Submission deadline",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "5:00 PM \u2014 Live pitching and networking",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list_item",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "text": "7:00 PM \u2014 Doors close",
+                            "type": "text"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "Location",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "Link Campus University",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "hard_break"
+                  },
+                  {
+                    "text": "Via del Casale di San Pio V, 44",
+                    "type": "text"
+                  },
+                  {
+                    "type": "hard_break"
+                  },
+                  {
+                    "text": "00165 Roma, Italy",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "level": 2
+                },
+                "content": [
+                  {
+                    "text": "Organized by",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "text": "lablab.ai",
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "https://lablab.ai"
+                        }
+                      },
+                      {
+                        "type": "bold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " A global platform connecting 300,000+ developers through AI hackathons, workshops, and community-driven events, with 100+ hackathons delivered worldwide.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          "eth_address_requirement": null,
+          "faqs": null,
+          "name_requirement": "full-name",
+          "phone_number_requirement": null,
+          "solana_address_requirement": null,
+          "registration_questions": [
+            {
+              "id": "ksgt6jpr",
+              "label": "What is your LinkedIn profile?",
+              "required": true,
+              "question_type": "linkedin"
+            },
+            {
+              "id": "ims7xdox",
+              "label": "What is your GitHub username?",
+              "required": true,
+              "question_type": "github"
+            },
+            {
+              "id": "h2q61xc2",
+              "label": "Country of Residence",
+              "required": true,
+              "question_type": "text"
+            },
+            {
+              "id": "gqf3zm5e",
+              "label": "Are you able to travel to Rome, Italy on October 17\u201318, 2026? Note: Spots are limited. Travel and accommodation are not covered.",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "required": true,
+              "question_type": "select"
+            }
+          ],
+          "prefilled_answers": {},
+          "is_flagged": false,
+          "is_managing_calendar_admin": false,
+          "show_unlock_code_option": false,
+          "has_multiple_ticket_types": false,
+          "membership_tiers": [],
+          "membership_info": null,
+          "waitlist_active": false,
+          "route": null,
+          "featured_city": null
+        }
+      }
+    }
+  },
+  "page": "/[...url]",
+  "query": {
+    "url": [
+      "AMDHackathon-Rome"
+    ]
+  },
+  "buildId": "k23E5LwzKNwlkz5Zh0QVr",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gip": true,
+  "appGip": true,
+  "scriptLoader": []
+}

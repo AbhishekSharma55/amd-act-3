@@ -1,0 +1,185 @@
+AMD Developer Hackathon with Evolus — Build an agent on lablab.ai | Evolus
+Cookies and statistics
+We measure visits anonymously, without cookies. With your consent we also use Google Analytics, marketing cookies and visit recordings. Closing with the X rejects everything. You can change your mind at any time from “Cookie preferences” at the bottom of the page.
+Cookie policy
+Reject all
+Accept all
+Customize
+Essential
+Always on: they only remember the choice you make here.
+Statistics
+Google Analytics: measures, in aggregate form, how the site is used.
+Marketing
+Google Ads and Meta Pixel: they measure how well our campaigns on Google, Facebook and Instagram perform and let us show ads to people who have visited the site.
+Experience analysis
+With your permission we record how you use our pages (clicks, scrolling, mouse movements and what appears on screen, including your conversation with Evo) to understand what to improve. The fields you fill in and the chat are never recorded. Recordings stay on our server in Germany for 30 days.
+Save my choices
+Skip to content
+evolus
+Home
+Platform
+Products
+One more colleague, starting today
+AI employees
+Processes that run themselves
+AI automations and workflows
+Never miss a call again
+AI receptionist
+An expert for every task
+Specialised AI agents
+A website that answers for you
+AI website widget
+Your assistant, in your pocket
+Evo Assistant, the app for solo professionals
+AI that works on your computer
+Evolus Studio, the app for Mac, Windows and Linux
+How it works
+Memory, models, security and control
+Solutions
+AI for Customer Care
+Your support team never sleeps. Evolus replies to emails, answers calls, chats with customers — in parallel, always, without burning out.
+AI for Sales Teams
+Every lead answered in seconds. Every follow-up sent at the right time. Every meeting booked without friction. Evolus works for your sales team 24/7, missing no opportunity.
+Document Management & Back-Office Automation
+Turn document management from a bottleneck into a seamless, error-free process. Evolus reads, extracts, processes and archives your documents — automatically.
+HR & Recruiting Automation
+HR teams shouldn't waste time on administrative tasks. Evolus handles emails, interviews, documents and repetitive questions — so your HR team can do the work that truly matters.
+Evolus for Legal
+From contract analysis to deadline tracking: Evolus works as an expert collaborator alongside your lawyers.
+Evolus for Accounting
+From incoming invoice to updated ledger: Evolus eliminates manual data entry and reduces errors to zero.
+All solutions
+Pricing
+Blog
+Contact us
+Language
+:
+EN
+Hackathon
+Start now
+Open menu
+IT
+Italiano
+EN
+English
+ES
+Español
+DE
+Deutsch
+FR
+Français
+evolus
+Close menu
+Home
+Platform
+One more colleague, starting today
+Processes that run themselves
+Never miss a call again
+An expert for every task
+A website that answers for you
+Your assistant, in your pocket
+AI that works on your computer
+How it works
+Solutions
+AI for Customer Care
+AI for Sales Teams
+Document Management & Back-Office Automation
+HR & Recruiting Automation
+Evolus for Legal
+Evolus for Accounting
+Pricing
+Blog
+Contact us
+Hackathon
+Start now
+Language
+Italiano
+English
+Español
+Deutsch
+Français
+AMD Developer Hackathon · ACT III
+Build the agent that does the work.
+The lablab.ai hackathon with AMD. With Evolus, you build agents that work for a business, on the model you bring.
+Online
+October 12 – 18, 2026
+In person
+October 17 – 18, 2026 · Rome, Milan, and Imperia
+For selected participants.
+Track
+Evolus Business Agents on AMD
+The event workspace is open
+Join with the event link and create your free workspace.
+Join the Hackathon
+Developer instructions
+Sign up on lablab.ai
+How to take part
+Three steps.
+1
+Sign up
+Register for the hackathon on lablab.ai and for the AMD AI Developer Program, as lablab asks. Teams have 1 to 6 people.
+2
+Join on October 12, 2026
+At the start of the hackathon we publish the event link on this page and on lablab.ai. Create your workspace only from that link: a workspace created earlier is not an event workspace.
+3
+Connect your model and build
+The agents work on your team's model. The steps are in the developer instructions.
+Developer instructions
+What you get
+An Evolus workspace for your team.
+Free, no card, for the whole hackathon and beyond.
+6
+people in the same workspace
+50,000
+platform credits
+60
+API requests per minute
+Free, no card
+You don't have to register any payment method.
+Active until November 15, 2026
+The workspace stays active until 23:59, Italian time.
+Your model
+The agents work on your team's model, through an OpenAI-compatible endpoint, for example vLLM on AMD Developer Cloud. Calls to your own model don't use credits.
+Evolus Studio included
+The computer app, to work with the agents from your Mac, Windows or Linux machine.
+Discover Evolus Studio
+Hackathon conditions
+Ready to build?
+Read how we got here or go to the event page.
+Questions? Contact us
+Read the article about the hackathon
+Hackathon page on lablab.ai
+↗
+evolus
+AI orchestration platform for businesses. We integrate the best AI models with an advanced memory system. For complex needs, we work together with our clients.
+Products
+AI employees
+AI automations and workflows
+AI receptionist
+Specialised AI agents
+AI website widget
+Evo Assistant
+Evolus Studio
+Useful Links
+Home
+Start now
+How it works
+Pricing
+Blog
+Contact us
+Comparisons
+Contact us
++39 0184 716 626
+sales@evolus.ai
+Evolus Platform
+Terms of Use
+Data processing agreement
+Security measures
+Subprocessors
+Privacy Policy
+AI transparency
+© Codedesign SRL - 2026 | P.Iva IT01739830089 | All Rights Reserved
+Website privacy
+Cookie policy
+Cookie preferences
+AI orchestration for business

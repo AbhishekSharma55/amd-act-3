@@ -1,0 +1,227 @@
+Live Dashboard
+Back to event
+Ended · Results final
+closed
+May 10, 2026, 19:20 UTC
+AMD Developer Hackathon
+Wrapped up with
+481
+projects shipped and
+10,776
+participants
+across
+2,618
+teams.
+View all submissions
+Event recap
+Next hackathon
+Winners
+2
+Runner-up
+Strike Lab
+Strike Lab
+1
+Winner
+1
+Champion
+Chaos Economy: Multi-Agent RL Market Simulator
+TechMavericks
+15
+3
+Third place
+Automato
+BISAKOLAI
+6
+Final stats
+Total participants
+10,776
+across 2,618 teams
+Teams formed
+2,618
+avg 1.4 members
+Final submissions
+481
+across 5 tracks
+Community votes
+1,163
+hearts across all submissions
+Technologies
+Used this round
+20
+tools
+🔥
+AMD Developer Cloud
+373
+AMD ROCm
+308
+HuggingFace Spaces
+164
+Qwen3
+156
+HuggingFace Hub
+122
+Claude Code
+120
+Anthropic Claude
+105
+LangChain
+101
+Antigravity
+101
+AI/ML API
+92
+Codex
+74
+ChatGPT
+67
+CrewAI
+58
+Qwen3-VL
+52
+Gemini 3 pro
+52
+Groq
+49
+Gemini AI
+49
+Streamlit
+46
+Vercel
+38
+OpenAI
+36
+Submissions by track
+Where teams are building
+AI Agents & Agentic Workflows (Best Track for Beginners)
+379
+submission
+s
+Qwen
+209
+submission
+s
+Hugging Face
+201
+submission
+s
+Fine-Tuning on AMD GPUs (Advanced / GPU-Intensive)
+143
+submission
+s
+Vision & Multimodal AI
+141
+submission
+s
+Finalists
+Also making the shortlist
+StudioMI300 - cinematic reel from one prompt
+StudioMI300
+4
+Lumi, AI voice helper for elderly with dementia
+AlphaZero
+4
+AtlasOps
+Da Big Three
+3
+Final standings
+Top submissions
+01
+CogniCore
+ChamPeng
+122
+02
+ClinSight: Agentic Multimodal Clinical AI
+Recourse
+95
+03
+HexySAR: an AI-powered hexapod for SAR missions
+Singkong
+88
+04
+OncoTriage AMD-Boosted Uncertainty-Aware CT Triage
+Reaper Eagle
+84
+05
+The AI-Native IDE & iOS Emulator for Windows
+HADES
+49
+06
+AgriSync
+AgriSync
+43
+07
+DC-Ops-Assistant
+DC-Ops-Assistant
+34
+08
+Autonomous Oncology Board (AOB)
+Syntroph
+30
+09
+CareerPilotX
+CareerPilotX
+28
+10
+Neural-Ink: Real-Time Stylized Universes
+VantEdge Neural Tech
+22
+Load more
+Hall of fame
+Top builders, final
+Referrals
+Top referrers
+Lablab Social Wall
+Live
+lablab · event archived · results immutable
+Explore more hackathons →
+Footer navigation
+Unlocking state-of-the-art artificial intelligence and building with the world's talent
+LinkedIn
+Twitter/X
+Instagram
+Discord
+YouTube
+Twitch
+Other group brands:
+Links
+AI Tech
+AI Hackathons
+AI Tutorials
+AI Applications
+NativelyAI
+AI Articles
+Leaderboard
+Writers
+lablab
+About
+Brand
+Hackathon Guidelines
+Terms of Use
+Code of Conduct
+Privacy Policy
+Security
+Get in touch
+Discord
+Sponsor
+Cooperation
+Contribute
+Send email
+© 2026 NativelyAI Inc. All rights reserved.
+3.78.1
+Chat
+Ask our AI about this hackathon.
+Help Center
+Browse FAQs and guides.
+Discord Community
+Chat with mentors and the team.
+Help
+Join
+Challenge + Get $100 credits
+AI Hackathons
+AI Apps
+AI Tech
+AI Tutorials
+AI Articles
+NativelyAI
+Sponsor
+Toggle main menu
