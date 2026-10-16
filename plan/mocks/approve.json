@@ -1,0 +1,78 @@
+{
+  "dispatch_csv": "machine,sequence,job,op,start,end,changed\nM1,1,J3,1,08:00,09:00,frozen\nM1,2,J6,1,09:00,10:10,frozen\nM1,3,J1,2,10:10,11:20,restarted_on_M1\nM1,4,J7,2,11:20,13:40,moved_from_M2\nM1,5,J6,2,13:40,15:05,retimed\nM1,6,J4,2,15:05,16:35,retimed\nM2,1,J5,1,08:00,09:20,frozen\nM2,2,J2,1,14:00,15:30,retimed\nM3,1,J1,1,08:00,09:00,frozen\nM3,2,J3,2,09:00,09:50,frozen\nM3,3,J5,2,09:50,10:20,frozen\nM3,4,J7,1,10:20,11:00,retimed\nM3,5,J4,1,11:00,11:45,retimed\nM3,6,J7,3,13:40,14:10,retimed\nM3,7,J2,2,15:30,16:10,retimed\n",
+  "decision_record": {
+    "run_id": "r_mock_0001_s1",
+    "approved_at": "2026-10-16T10:21:44+05:30",
+    "approver": "Shift supervisor (demo)",
+    "message": "Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00. Overtime requires approval.",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "machine_down",
+        "params": {
+          "machine": "M2",
+          "from": "10:00",
+          "until": "14:00"
+        },
+        "source_span": "Mill M2 is unavailable until 14:00",
+        "status": "ok",
+        "issues": [
+          "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
+        ],
+        "origin": "amd_model",
+        "blocking_issues": []
+      },
+      {
+        "id": "c2",
+        "type": "due_date",
+        "params": {
+          "job": "J7",
+          "time": "16:00",
+          "hard": true
+        },
+        "source_span": "Order J7 still needs to ship at 16:00",
+        "status": "ok",
+        "issues": [],
+        "origin": "amd_model",
+        "blocking_issues": []
+      },
+      {
+        "id": "c3",
+        "type": "overtime",
+        "params": {
+          "allowed": true,
+          "until": "20:00"
+        },
+        "source_span": "Overtime requires approval",
+        "status": "ok",
+        "issues": [
+          "Overtime is a concession and needs approval"
+        ],
+        "origin": "amd_model",
+        "blocking_issues": []
+      }
+    ],
+    "alternative_id": "alt_reroute",
+    "concessions": [
+      {
+        "id": "k1",
+        "type": "late_delivery",
+        "job": "J2",
+        "detail": "J2 (Birla Valves) ships 190 min late"
+      }
+    ],
+    "checker": {
+      "valid": true,
+      "violations": []
+    },
+    "amd_trace": {
+      "model": "MOCK",
+      "latency_ms": 0
+    },
+    "replay": {
+      "samples": 500,
+      "device": "cpu-numpy"
+    },
+    "data_notice": "Synthetic demo data"
+  }
+}
