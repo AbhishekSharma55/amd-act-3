@@ -1,0 +1,107 @@
+[
+ {
+  "job": "J3",
+  "op": 1,
+  "machine": "M1",
+  "start": "08:00",
+  "end": "09:00"
+ },
+ {
+  "job": "J6",
+  "op": 1,
+  "machine": "M1",
+  "start": "09:00",
+  "end": "10:10"
+ },
+ {
+  "job": "J6",
+  "op": 2,
+  "machine": "M1",
+  "start": "10:10",
+  "end": "11:35"
+ },
+ {
+  "job": "J4",
+  "op": 2,
+  "machine": "M1",
+  "start": "11:35",
+  "end": "13:05"
+ },
+ {
+  "job": "J5",
+  "op": 1,
+  "machine": "M2",
+  "start": "08:00",
+  "end": "09:20"
+ },
+ {
+  "job": "J1",
+  "op": 2,
+  "machine": "M2",
+  "start": "09:20",
+  "end": "10:05"
+ },
+ {
+  "job": "J2",
+  "op": 1,
+  "machine": "M2",
+  "start": "10:05",
+  "end": "11:35"
+ },
+ {
+  "job": "J7",
+  "op": 2,
+  "machine": "M2",
+  "start": "11:45",
+  "end": "13:25"
+ },
+ {
+  "job": "J1",
+  "op": 1,
+  "machine": "M3",
+  "start": "08:00",
+  "end": "09:00"
+ },
+ {
+  "job": "J3",
+  "op": 2,
+  "machine": "M3",
+  "start": "09:00",
+  "end": "09:50"
+ },
+ {
+  "job": "J5",
+  "op": 2,
+  "machine": "M3",
+  "start": "09:50",
+  "end": "10:20"
+ },
+ {
+  "job": "J4",
+  "op": 1,
+  "machine": "M3",
+  "start": "10:20",
+  "end": "11:05"
+ },
+ {
+  "job": "J7",
+  "op": 1,
+  "machine": "M3",
+  "start": "11:05",
+  "end": "11:45"
+ },
+ {
+  "job": "J2",
+  "op": 2,
+  "machine": "M3",
+  "start": "11:45",
+  "end": "12:25"
+ },
+ {
+  "job": "J7",
+  "op": 3,
+  "machine": "M3",
+  "start": "13:25",
+  "end": "13:55"
+ }
+]

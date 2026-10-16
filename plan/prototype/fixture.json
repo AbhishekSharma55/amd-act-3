@@ -1,0 +1,27 @@
+{
+  "factory": "Demo Machine Shop (synthetic data)",
+  "date": "2026-10-16",
+  "now": "10:00",
+  "shift": {"start": "08:00", "end": "18:00", "overtime_until": "20:00", "overtime_cost_per_hour": 45, "overtime_requires_approval": true},
+  "machines": [
+    {"id": "M1", "name": "Mill M1", "aliases": ["mill 1", "vmc-1", "m1"]},
+    {"id": "M2", "name": "Mill M2", "aliases": ["mill 2", "vmc-2", "big mill", "m2"]},
+    {"id": "M3", "name": "Lathe L3", "aliases": ["lathe", "lathe 3", "l3", "m3"]}
+  ],
+  "jobs": [
+    {"id": "J1", "customer": "Acme Pumps", "due": "12:00", "priority": 2,
+     "ops": [{"op": 1, "eligible": {"M3": 60}}, {"op": 2, "eligible": {"M2": 45, "M1": 70}}]},
+    {"id": "J2", "customer": "Birla Valves", "due": "13:00", "priority": 1,
+     "ops": [{"op": 1, "eligible": {"M2": 90}}, {"op": 2, "eligible": {"M3": 40}}]},
+    {"id": "J3", "customer": "Coastal Marine", "due": "15:00", "priority": 1,
+     "ops": [{"op": 1, "eligible": {"M1": 60, "M2": 50}}, {"op": 2, "eligible": {"M3": 50}}]},
+    {"id": "J4", "customer": "Delta Auto", "due": "17:00", "priority": 1,
+     "ops": [{"op": 1, "eligible": {"M3": 45}}, {"op": 2, "eligible": {"M1": 90}}]},
+    {"id": "J5", "customer": "Everest Tools", "due": "16:00", "priority": 1,
+     "ops": [{"op": 1, "eligible": {"M2": 80, "M1": 110}}, {"op": 2, "eligible": {"M3": 30}}]},
+    {"id": "J6", "customer": "Fusion Robotics", "due": "17:30", "priority": 1,
+     "ops": [{"op": 1, "eligible": {"M1": 70}}, {"op": 2, "eligible": {"M2": 60, "M1": 85}}]},
+    {"id": "J7", "customer": "Gamma Aerospace", "due": "16:00", "priority": 3,
+     "ops": [{"op": 1, "eligible": {"M3": 40}}, {"op": 2, "eligible": {"M2": 100, "M1": 140}}, {"op": 3, "eligible": {"M3": 30}}]}
+  ]
+}

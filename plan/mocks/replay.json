@@ -1,0 +1,171 @@
+{
+  "run_id": "r_mock_0001",
+  "alternative_id": "alt_reroute",
+  "device": "cpu-numpy",
+  "samples": 500,
+  "elapsed_ms": 0,
+  "assumptions": {
+    "duration_spread": [
+      0.9,
+      1.3
+    ],
+    "repair_delay_max_min": 90,
+    "seed": 7,
+    "note": "Synthetic uncertainty, not calibrated to a real factory"
+  },
+  "jobs": [
+    {
+      "job": "J1",
+      "on_time": 500,
+      "of": 500,
+      "p90_finish": "11:40"
+    },
+    {
+      "job": "J2",
+      "on_time": 0,
+      "of": 500,
+      "p90_finish": "17:38"
+    },
+    {
+      "job": "J3",
+      "on_time": 500,
+      "of": 500,
+      "p90_finish": "09:50"
+    },
+    {
+      "job": "J4",
+      "on_time": 211,
+      "of": 500,
+      "p90_finish": "17:29"
+    },
+    {
+      "job": "J5",
+      "on_time": 500,
+      "of": 500,
+      "p90_finish": "10:25"
+    },
+    {
+      "job": "J6",
+      "on_time": 500,
+      "of": 500,
+      "p90_finish": "15:50"
+    },
+    {
+      "job": "J7",
+      "on_time": 500,
+      "of": 500,
+      "p90_finish": "14:49"
+    }
+  ],
+  "failing_scenario": {
+    "index": 24,
+    "reason": "J4 misses 17:00 by 65 min",
+    "timeline": [
+      {
+        "job": "J3",
+        "op": 1,
+        "machine": "M1",
+        "start": "08:00",
+        "end": "09:00"
+      },
+      {
+        "job": "J5",
+        "op": 1,
+        "machine": "M2",
+        "start": "08:00",
+        "end": "09:20"
+      },
+      {
+        "job": "J1",
+        "op": 1,
+        "machine": "M3",
+        "start": "08:00",
+        "end": "09:00"
+      },
+      {
+        "job": "J6",
+        "op": 1,
+        "machine": "M1",
+        "start": "09:00",
+        "end": "10:14"
+      },
+      {
+        "job": "J3",
+        "op": 2,
+        "machine": "M3",
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "job": "J5",
+        "op": 2,
+        "machine": "M3",
+        "start": "09:50",
+        "end": "10:26"
+      },
+      {
+        "job": "J1",
+        "op": 2,
+        "machine": "M1",
+        "start": "10:14",
+        "end": "11:43"
+      },
+      {
+        "job": "J7",
+        "op": 1,
+        "machine": "M3",
+        "start": "10:26",
+        "end": "11:09"
+      },
+      {
+        "job": "J4",
+        "op": 1,
+        "machine": "M3",
+        "start": "11:09",
+        "end": "12:06"
+      },
+      {
+        "job": "J7",
+        "op": 2,
+        "machine": "M1",
+        "start": "11:43",
+        "end": "14:34"
+      },
+      {
+        "job": "J6",
+        "op": 2,
+        "machine": "M1",
+        "start": "14:34",
+        "end": "16:19"
+      },
+      {
+        "job": "J7",
+        "op": 3,
+        "machine": "M3",
+        "start": "14:34",
+        "end": "15:07"
+      },
+      {
+        "job": "J2",
+        "op": 1,
+        "machine": "M2",
+        "start": "14:03",
+        "end": "15:49"
+      },
+      {
+        "job": "J4",
+        "op": 2,
+        "machine": "M1",
+        "start": "16:19",
+        "end": "18:05"
+      },
+      {
+        "job": "J2",
+        "op": 2,
+        "machine": "M3",
+        "start": "15:49",
+        "end": "16:30"
+      }
+    ]
+  }
+}
