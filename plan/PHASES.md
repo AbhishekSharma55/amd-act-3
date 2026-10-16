@@ -37,7 +37,7 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 | 6 | Approval + export | Concessions, CSV, decision record | 2 h | **Must** |
 | 7 | Run inspector + run log | AMD proof panel, health | 1.5 h | **Must** (chhota version) |
 | 8 | Errors, loading, edge cases | App kabhi crash na ho | 1.5-2 h | **Must** |
-| 9 | Evaluation | 15-20 labeled messages, accuracy table | 2-3 h | Must (chhota) |
+| 9 | Evaluation | Labeled messages + 5-8 held-out recovery cases, results table | 2-3 h | Must (chhota) |
 | 10 | Deploy + Docker | Public URL | 2 h | **Must** |
 | 11 | Repo, README, licenses | Public repo jo chal jaaye | 1.5 h | **Must** |
 | 12 | Pitch material | Video, slides, cover, descriptions | 3-4 h | **Must** |
@@ -195,9 +195,9 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 - [ ] Status icon: ✓ ok, ⚠ review
 - [ ] Issues (reasons) constraint ke neeche dikhein
 - [ ] Constraint par click karo to message mein uska source text highlight ho
-- [ ] Review wale par **Accept** / **Reject** buttons; reject hone par line kat jaaye
+- [ ] Complete ambiguous interpretation par **Accept** / **Reject**; unknown machine, missing time ya contradiction par Accept disabled. Edit/map + backend revalidation karo, ya reject karke corrected message dobara bhejo
 - [ ] Origin badge: "AMD model" ya "fallback" (fallback par warning)
-- [ ] Jab tak koi review item undecided hai, "Find recovery plans" button disabled rahe
+- [ ] Jab tak koi non-rejected review item undecided hai ya `blocking_issues` hain, "Find recovery plans" disabled. Backend `accepted` items ko bhi dobara validate kare
 
 ✅ **Done jab:** 5 alag messages (demo, alias wala, bina time, ek job ke do facts, off-topic) par sahi constraints ya sahi review aaye, aur UI mein highlight + accept/reject chale.
 🧪 **Edge cases:** khaali message, bahut lamba message, Hindi/Hinglish message, "2pm" ya "4 baje" jaise time, "no overtime".
@@ -218,12 +218,13 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 - [ ] Outage se ruka hua kaam restart hoga (beech se nahi)
 - [ ] Outage ke time machine par koi kaam nahi
 - [ ] Naya kaam "now" ke baad hi shuru ho
-- [ ] Shift 18:00 tak; overtime 20:00 tak sirf tab, jab allowed ho
+- [ ] Shift 18:00 tak; overtime sirf accepted cutoff tak (fixture ka 20:00 upper limit). Policy isse aage nahi badha sakti; solver aur checker dono enforce karein
 - [ ] Hard due date ho to plan usse **todega nahi**
 
 ### 3b. Accha plan kaisa hoga (objective)
 - [ ] Late jobs kam se kam, priority ke hisaab se weight
-- [ ] Overtime ka paisa kam se kam
+- [ ] Nayi due date hard ho ya soft, tardiness aur concession dono usi se niklein; hard date ka feasibility bound alag rahe
+- [ ] Overtime ka paisa actual occupied machine-minutes / 60 × hourly rate se; har operation ke end ke baad ki khaali window ko dobara count na karo
 - [ ] Purane plan se kam se kam badlav (machine change aur time shift)
 
 ### 3c. Alternatives
@@ -238,7 +239,7 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 - [ ] Koi plan possible nahi to "INFEASIBLE" + kaunse constraints takra rahe hain
 - [ ] Wording: "ye constraints saath mein possible nahi" (sufficient set hai, minimum nahi)
 - [ ] Time limit mein jawab na mile to "10 sec mein plan nahi mila", **"impossible" nahi**
-- [ ] Concession options: hard due date chhodo, re-route allow karo, overtime allow karo
+- [ ] Concession options: re-route allow karo, overtime allow karo. Hard due relaxation tabhi enable jab server effective constraints aur extra approval concession store/check kar sake; example helper mein ye disabled hai
 
 ### 3e. Alternative cards (UI)
 - [ ] Har plan ka ek card, KPIs ke saath
@@ -298,8 +299,9 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 
 ### 5a. Simulation ke rules (fix rakho, README mein likho)
 - [ ] Machine aur order wahi rehte hain; simulation plan ko dobara optimize **nahi** karta
-- [ ] Random cheezein: har baaki operation ka time (0.9x se 1.3x), aur repair ka end (0-90 min late)
-- [ ] Operation tab shuru hoga jab machine free ho, pichla operation khatam ho, aur repair ho chuka ho
+- [ ] Random cheezein: unstarted operation ka full time (0.9x se 1.3x); chal rahe operation ka sirf remaining time random ho. Observed start aur elapsed time fixed, finish kabhi "now" se pehle nahi
+- [ ] Operation apne planned start se pehle dispatch nahi hoga; machine free, pichla operation khatam, "now" aur repair ka wait bhi kare
+- [ ] Future repair ka end 0-90 min late; already observed repair fixed rahe
 - [ ] Khatam ho chuke kaam mein randomness nahi
 - [ ] Fixed seed, taaki har baar same result aaye (demo reproducible rahe)
 
@@ -311,14 +313,14 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 - [ ] Assumptions ki list (spread, repair delay, samples, seed)
 
 ### 5c. UI
-- [ ] Har job ka bar: "211 of 500" (percentage reliability claim nahi)
+- [ ] Har job ka bar: "239 of 500" (percentage reliability claim nahi)
 - [ ] "Show a failure" button → timeline par failing future draw ho
 - [ ] Bottleneck operation highlight ho
-- [ ] Ek line ka reason: "J4 17:00 se 65 min late"
+- [ ] Ek line ka reason: "J4 17:00 se 61 min late"
 - [ ] Assumptions chhote text mein neeche
 - [ ] Optional: repair delay ka slider jo replay dobara chalaye (judges ke liye interactive)
 
-✅ **Done jab:** re-route plan par J4 "211 of 500" aaye (mock se match) aur failing timeline dikhe.
+✅ **Done jab:** re-route plan par J4 "239 of 500" aaye (mock se match) aur failing timeline dikhe.
 🧪 **Edge cases:** zero randomness par result plan jaisa hi aaye, same seed par same result aaye, koi failure na ho to "No failure found in 500 scenarios" dikhe.
 
 ---
@@ -330,8 +332,11 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 **Kis par depend nahi:** replay, extraction. Checker real na ho to mock "valid" use karo.
 
 ### 6a. Backend checks
-- [ ] Approve se pehle checker **dobara** chalao; fail ho to approve reject (422)
-- [ ] Har concession tick hua ho; ek bhi missing ho to reject
+- [ ] Har solve ko fresh immutable `run_id` do; server fixture, accepted constraints aur alternatives store kare. Purane run expire ho to UI solve dobara karaye
+- [ ] Approve request mein sirf run/alternative IDs, approved concession IDs aur approver naam. Schedule, constraints aur replay server store se lo; client replacements reject karo
+- [ ] Stored plan par checker **dobara** chalao; fail ho to approve reject (422)
+- [ ] Required concessions stored schedule + effective due dates/overtime se dobara nikalo; cached/client concessions list khaali karne se approval bypass na ho
+- [ ] Har derived concession tick hua ho; ek bhi missing ho to reject
 - [ ] Approver ka naam khaali na ho
 
 ### 6b. Dispatch CSV
@@ -359,7 +364,7 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 - [ ] Approve ke baad plan "locked" dikhe; naya message daalne par reset
 
 ✅ **Done jab:** mock alternative approve ho, CSV Excel mein sahi khule, aur decision record mein saari fields hon.
-🧪 **Edge cases:** ek concession untick, toda hua schedule bheja (reject hona chahiye), double click par do baar approve na ho.
+🧪 **Edge cases:** ek concession untick, client concessions list khaali bheje, stored schedule checker fail, expired run, double click approve.
 
 ---
 
@@ -429,8 +434,8 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 ## 12. Phase 9: Evaluation (measurable evidence)
 
 **Goal:** judges ke "measurable improvement" ke liye asli numbers.
-**Input:** extraction ka contract. Labeling ke liye kuch nahi chahiye. **Output:** `eval/` mein messages, results table, README section.
-**Independence:** messages likhna aur labeling abhi shuru ho sakta hai. Final run ke liye Phase 2 chahiye.
+**Input:** extraction contract + 5-8 held-out recovery scenarios. **Output:** `eval/` mein messages, recovery cases, results table, README section.
+**Independence:** labeling aur scenarios abhi freeze kar sakte hain. Final extraction run ke liye Phase 2, recovery comparison ke liye solver/checker/replay chahiye.
 
 ### 9a. Messages likhna (15-20)
 - [ ] Demo jaisa normal message
@@ -463,6 +468,14 @@ Example: "Show a failure" (Phase 5) ko solver ka schedule chahiye. Wo `mocks/sol
 - [ ] Ek member manually demo scenario reschedule kare, time note karo
 - [ ] Phir Rehearsal se, time note karo
 - [ ] Label: "builder-run test, 1 person", koi bada claim nahi
+
+### 9f. Chhota recovery comparison (required evidence, bada benchmark nahi)
+- [ ] Demo tune karne se pehle 5-8 alag scenarios freeze: outage, due-date update, limited overtime aur infeasible case
+- [ ] Same time budget par correct typed input wala CPU CP-SAT optimizer reference rakho; weak strawman se compare nahi
+- [ ] Rehearsal replay hidden vs replay shown compare karo; selection rule pehle fix ho (priority jobs ka sampled risk, phir tardiness/cost)
+- [ ] Plan choose karne wale seeds aur outcome check karne wale fixed seeds alag rakho
+- [ ] Schedule valid hai ya nahi, weighted lateness, occupied overtime/cost, risky promises exposed aur held-out sampled outcomes ki chhoti table
+- [ ] Gain na mile to wahi report karo; data aur uncertainty synthetic label ho. AMD ka role message interpretation, replay ka role risk dikhana; CPU optimizer scheduling karta hai
 
 ✅ **Done jab:** table repo mein ho aur har number reproduce ho sake.
 

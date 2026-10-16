@@ -15,7 +15,8 @@
       "issues": [
         "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
       ],
-      "origin": "amd_model"
+      "origin": "amd_model",
+      "blocking_issues": []
     },
     {
       "id": "c2",
@@ -28,7 +29,8 @@
       "source_span": "Order J7 still needs to ship at 16:00",
       "status": "ok",
       "issues": [],
-      "origin": "amd_model"
+      "origin": "amd_model",
+      "blocking_issues": []
     },
     {
       "id": "c3",
@@ -42,7 +44,8 @@
       "issues": [
         "Overtime is a concession and needs approval"
       ],
-      "origin": "amd_model"
+      "origin": "amd_model",
+      "blocking_issues": []
     }
   ],
   "trace": {

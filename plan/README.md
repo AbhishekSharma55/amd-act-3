@@ -2,6 +2,10 @@
 
 Prepared October 15, 2026, before any product code was written. This folder turns the [project decision](../research/ASTRA_PROJECT_DECISION.md) into a build plan for two people working in parallel.
 
+Start with [HACKATHON_GUIDE.md](HACKATHON_GUIDE.md) for orientation and [PHASES.md](PHASES.md) for the latest feature plan. `01_PHASES.md` preserves the earlier ownership split; its timing sketch is superseded by the newer draft. Technical behavior is defined by `02`-`05` and the checked examples.
+
+PR review corrections cover server-owned approval, blocking input validation, accepted overtime cutoffs, effective due dates, occupied overtime/cost, and replay that preserves planned releases and observed running work. The corrected synthetic demo has J4 on time in **239/500** scenarios. Run `python3 plan/prototype/regression_checks.py` for the 20 focused checks. Evaluation now includes a small held-out recovery comparison as well as extraction accuracy; those product measurements still need to be run during the build.
+
 **Product in one line:** a planner types a disruption message ("Mill M2 is down until 14:00, J7 must still ship at 16:00"). An open model on AMD turns it into typed constraints. A CP-SAT solver builds recovery alternatives, and an independent checker verifies them. A replay engine shows how each alternative can fail. The planner approves one alternative and exports a dispatch CSV with a decision record.
 
 ## Read in this order
@@ -34,7 +38,9 @@ Prepared October 15, 2026, before any product code was written. This folder turn
 
 The two tracks touch only through `shared/` and the API contract, so neither person waits for the other.
 
-## Key dates (IST)
+## Original timing sketch (IST, superseded)
+
+These were the initial planning targets. Use the latest draft in `PHASES.md` when assigning work; verify the enforced submission cutoff in the event form because published times disagree.
 
 | When | Milestone |
 | --- | --- |

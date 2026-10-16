@@ -1,5 +1,7 @@
 # 01. Phases and ownership
 
+This is the original ownership/timing sketch. Use `PHASES.md` for the latest feature plan, and `02`-`05` for the corrected validation, scheduling, replay and approval rules.
+
 **A** = backend (Python). **B** = frontend + submission (React). Each phase lists its input and output, so the other person can keep working from mocks without waiting.
 
 ```
@@ -38,7 +40,7 @@ This is the only phase that both people do together. After it, the two tracks sp
 | **A4. Checker** | Oct 16 afternoon | `checker.py`: separate code with no solver import. It checks every operation once, eligibility, duration, precedence, machine overlap, outages, frozen work, shift/overtime window and hard due dates | schedule → `{valid, violations[]}` | Hand-broken schedules fail with the right reason, and every solver output passes |
 | **A5. Replay** | Oct 16 evening | `replay.py`: NumPy Monte Carlo with a fixed dispatch policy and random durations and repair time. It returns "X of N on time" per job and the worst scenario as a timeline | schedule → per-job outcomes + one failing timeline | A failing scenario is found for at least one alternative in the demo |
 | **A6. API + approval** | Oct 16 night | `main.py`: FastAPI endpoints that match the contract exactly. `/approve` re-runs the checker and returns the CSV and the decision record. Add an in-memory run log | HTTP | All endpoints work from curl/Postman, and the responses match the mocks |
-| **A7. Evaluation + inspector data** | Oct 17 morning | `eval/messages.jsonl` with 15-20 labeled messages and `eval/run_eval.py`, which outputs an accuracy table. Record model, latency and tokens per AMD call | labeled messages → results table | Table committed and pasted into the README |
+| **A7. Evaluation + inspector data** | Oct 17 morning | 15-20 labeled extraction messages plus 5-8 held-out recovery cases, a competent CPU optimizer reference and a replay-hidden/shown comparison (see `PHASES.md`, 9f). Record model, latency and tokens per AMD call | labeled messages + recovery scenarios → results table | Reproducible table committed and pasted into the README; no improvement claimed unless measured |
 | A8. GPU replay (nice-to-have) | Oct 17 morning, only if A1-A7 are done | The same replay with PyTorch on an AMD GPU, compared with the CPU result on identical samples | — | CPU and GPU results match; timing is recorded honestly |
 
 ## Track B: Frontend + submission
@@ -46,7 +48,7 @@ This is the only phase that both people do together. After it, the two tracks sp
 | Phase | When | Build | Data source | Done when |
 | --- | --- | --- | --- | --- |
 | **B1. Setup + timeline** | Oct 15 evening | Vite React app. Gantt timeline with machines as rows, operations as colored blocks per job, a "now" line, outage blocks and due markers | `shared/fixture.json` | The committed schedule renders correctly |
-| **B2. Message + constraints** | Oct 16 morning | Message box with sample messages. Constraint list: clicking one highlights its `source_span` in the message. `review` items show the reason and **Accept / Reject** buttons. Only accepted items go to `/solve` | `mocks/extract.json` | Highlight works, and Solve stays disabled while any `review` item is undecided |
+| **B2. Message + constraints** | Oct 16 morning | Message box with sample messages. Constraint list highlights `source_span`. Complete ambiguous items can be confirmed; blocking IDs/times/contradictions require correction and backend revalidation or rejection. Send complete `ok` / `accepted` items to `/solve` | `mocks/extract.json` | Highlight works; Accept cannot bypass missing fields; Solve stays disabled while non-rejected reviews/blockers remain |
 | **B3. Alternatives** | Oct 16 afternoon | Alternative cards: late jobs, overtime minutes and cost, moved operations, checker badge. Selecting a card shows the before/after timeline. An **infeasible** result shows a red card with the conflicting constraints and the concessions on offer | `mocks/solve.json` | Switching cards updates the timeline, and the infeasible card renders |
 | **B4. Replay + approval** | Oct 16 evening | **Show a failure** button that draws the failing scenario timeline and highlights the bottleneck operation. Approval panel: concessions as checkboxes and the approver's name; then **Approve** downloads the CSV and the decision record | `mocks/replay.json`, `mocks/approve.json` | Approve is disabled until every concession is ticked; the CSV downloads |
 | **B5. Run inspector** | Oct 16 night | Collapsible panel: AMD model, endpoint host, latency, tokens, raw model output, validation results, solver status/time, checker result and replay sample count | run log fields | Panel shows real values after Sync 2 |

@@ -25,8 +25,10 @@ constraints = [
      "source_span": "Overtime requires approval", "status": "ok",
      "issues": ["Overtime is a concession and needs approval"], "origin": "amd_model"},
 ]
-RUN = "r_mock_0001"
-dump("extract.json", {"run_id": RUN, "message": MSG, "constraints": constraints, "trace": {
+for c in constraints:
+    c["blocking_issues"] = []
+EXTRACT_RUN, RUN = "r_mock_0001", "r_mock_0001_s1"
+dump("extract.json", {"run_id": EXTRACT_RUN, "message": MSG, "constraints": constraints, "trace": {
     "provider": "AMD Token Factory", "model": "MOCK", "host": "MOCK", "latency_ms": 0, "attempts": 1,
     "usage": {"prompt_tokens": 0, "completion_tokens": 0}, "raw_output": "MOCK - replace with real model output", "fallback_used": False}})
 
@@ -34,10 +36,11 @@ dump("extract.json", {"run_id": RUN, "message": MSG, "constraints": constraints,
 dump("extract_review.json", {"run_id": "r_mock_0002", "message": "Mill 4 is down after lunch. J7 ships at 4.", "constraints": [
     {"id": "c1", "type": "machine_down", "params": {"machine": "Mill 4", "from": None, "until": None},
      "source_span": "Mill 4 is down after lunch", "status": "review",
-     "issues": ["Unknown machine 'Mill 4'. Known: Mill M1, Mill M2, Lathe L3", "No end time given for the outage", "'after lunch' is not a time"], "origin": "amd_model"},
+     "issues": ["Unknown machine 'Mill 4'. Known: Mill M1, Mill M2, Lathe L3", "No end time given for the outage", "'after lunch' is not a time"],
+     "blocking_issues": ["Choose a known machine", "Provide explicit outage start and repair end times"], "origin": "amd_model"},
     {"id": "c2", "type": "due_date", "params": {"job": "J7", "time": "16:00", "hard": False},
      "source_span": "J7 ships at 4", "status": "review",
-     "issues": ["'4' interpreted as 16:00; please confirm"], "origin": "amd_model"}],
+     "issues": ["'4' interpreted as 16:00; please confirm"], "blocking_issues": [], "origin": "amd_model"}],
     "trace": {"provider": "AMD Token Factory", "model": "MOCK", "host": "MOCK", "latency_ms": 0, "attempts": 1,
               "usage": {"prompt_tokens": 0, "completion_tokens": 0}, "raw_output": "MOCK", "fallback_used": False}})
 
@@ -61,10 +64,12 @@ def label(s):
 
 def kpis(s):
     late = []
+    effective_due = {j["id"]: hm(j["due"]) for j in F["jobs"]}
+    effective_due.update({c["params"]["job"]: hm(c["params"]["time"]) for c in constraints if c["type"] == "due_date"})
     for j in F["jobs"]:
         end = max(hm(a["end"]) for a in s if a["job"] == j["id"])
-        if end > hm(j["due"]):
-            late.append({"job": j["id"], "minutes_late": end - hm(j["due"]), "customer": j["customer"]})
+        if end > effective_due[j["id"]]:
+            late.append({"job": j["id"], "minutes_late": end - effective_due[j["id"]], "customer": j["customer"]})
     ot = sum(max(0, hm(a["end"]) - max(hm(a["start"]), hm(F["shift"]["end"]))) for a in s)
     return {"late_jobs": late, "overtime_minutes": ot, "overtime_cost": round(ot / 60 * F["shift"]["overtime_cost_per_hour"], 2),
             "moved_ops": sum(1 for a in s if a["change"].startswith("moved") or a["change"].startswith("restarted_on")),
@@ -72,6 +77,9 @@ def kpis(s):
 
 st, s = solve(F, now, downs, {"J7": hm("16:00")}, allow_alt=True, allow_ot=False, baseline=base, w_move=1)
 assert s, st
+st_ot, s_ot = solve(F, now, downs, {"J7": hm("16:00")}, allow_alt=True, allow_ot=True, baseline=base,
+                    w_move=1, overtime_until="20:00")
+assert s_ot == s, "Demo alternatives diverged; generate both instead of claiming a merge"
 s = label(s); k = kpis(s)
 conc = [{"id": f"k{i+1}", "type": "late_delivery", "job": l["job"], "detail": f"{l['job']} ({l['customer']}) ships {l['minutes_late']} min late"} for i, l in enumerate(k["late_jobs"])]
 alt = {"id": "alt_reroute", "label": "Re-route to qualified machines", "policy": {"reroute": True, "overtime": False},

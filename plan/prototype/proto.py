@@ -3,15 +3,24 @@ import json, sys
 from ortools.sat.python import cp_model
 
 def hm(s):
-    h, m = s.split(":"); return int(h) * 60 + int(m)
+    if not isinstance(s, str):
+        raise ValueError("Time must be HH:MM")
+    parts = s.split(":")
+    if len(parts) != 2 or len(parts[0]) != 2 or len(parts[1]) != 2 or not all(p.isdigit() for p in parts):
+        raise ValueError("Time must be HH:MM")
+    h, m = map(int, parts)
+    if not (0 <= h <= 23 and 0 <= m <= 59):
+        raise ValueError("Invalid clock time")
+    return h * 60 + m
 def fmt(x):
     return f"{x//60:02d}:{x%60:02d}"
 
 
-def solve(F, now, downs, hard_due, allow_alt, allow_ot, baseline=None, w_move=0, time_limit=10):
+def solve(F, now, downs, hard_due, allow_alt, allow_ot, baseline=None, w_move=0, time_limit=10, overtime_until=None):
     m = cp_model.CpModel()
     shift_end = hm(F["shift"]["end"]); ot_end = hm(F["shift"]["overtime_until"])
     H = ot_end
+    limit = min(ot_end, hm(overtime_until)) if allow_ot and overtime_until else ot_end if allow_ot else shift_end
     per_m = {k["id"]: [] for k in F["machines"]}
     ends, starts, pres_map, job_end = {}, {}, {}, {}
     base = {(a["job"], a["op"]): a for a in (baseline or [])}
@@ -22,7 +31,7 @@ def solve(F, now, downs, hard_due, allow_alt, allow_ot, baseline=None, w_move=0,
         for o in j["ops"]:
             key = (j["id"], o["op"])
             b = base.get(key)
-            fixed = b is not None and hm(b["start"]) < now and not (b["machine"] in downs and hm(b["end"]) > downs[b["machine"]][0])  # frozen unless interrupted by outage
+            fixed = b is not None and hm(b["start"]) < now and not (b["machine"] in downs and hm(b["start"]) < downs[b["machine"]][0] < hm(b["end"]))
             s = m.new_int_var(hm(F["shift"]["start"]), H, f"s{key}")
             e = m.new_int_var(hm(F["shift"]["start"]), H, f"e{key}")
             if fixed:
@@ -47,17 +56,18 @@ def solve(F, now, downs, hard_due, allow_alt, allow_ot, baseline=None, w_move=0,
                     dev = m.new_int_var(0, H, f"dev{key}")
                     m.add(dev >= s - hm(b["start"])); m.add(dev >= hm(b["start"]) - s)
                     obj.append(dev)
-            if not allow_ot:
-                m.add(e <= shift_end)
-            else:
+            m.add(e <= limit)
+            if limit > shift_end:
                 ot = m.new_int_var(0, ot_end - shift_end, f"ot{key}")
-                m.add(ot >= e - shift_end); ot_vars.append(ot)
+                ot_start = m.new_int_var(shift_end, H, f"ot_start{key}")
+                m.add_max_equality(ot_start, [s, shift_end])
+                m.add_max_equality(ot, [0, e - ot_start]); ot_vars.append(ot)
             if prev_end is not None:
                 m.add(s >= prev_end)
             prev_end = e; ends[key] = e; starts[key] = s
         job_end[j["id"]] = prev_end
         tard = m.new_int_var(0, H, f"t{j['id']}")
-        m.add(tard >= prev_end - hm(j["due"]))
+        m.add(tard >= prev_end - hard_due.get(j["id"], hm(j["due"])))
         obj.append(100 * j["priority"] * tard)
         obj.append(prev_end)  # tie-break: finish early
     for mc, d in downs.items():
@@ -66,8 +76,7 @@ def solve(F, now, downs, hard_due, allow_alt, allow_ot, baseline=None, w_move=0,
         m.add_no_overlap(ivs)
     for jid, t in hard_due.items():
         m.add(job_end[jid] <= t)
-    obj.append(F["shift"]["overtime_cost_per_hour"] * sum(ot_vars) if ot_vars else 0)
-    m.minimize(sum(obj))
+    m.minimize(60 * sum(obj) + (F["shift"]["overtime_cost_per_hour"] * sum(ot_vars) if ot_vars else 0))
     sv = cp_model.CpSolver(); sv.parameters.max_time_in_seconds = time_limit; sv.parameters.num_workers = 8
     st = sv.solve(m)
     if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
@@ -98,7 +107,7 @@ if __name__ == "__main__":
                      ("C overtime", dict(allow_alt=True, allow_ot=True, w_move=1))]:
         for hard in ({}, {"J7": hm("16:00")}):
             st, s = solve(F, now, downs, hard, baseline=base, **kw)
-            ot = sum(max(0, hm(a["end"]) - hm(F["shift"]["end"])) for a in s) if s else None
+            ot = sum(max(0, hm(a["end"]) - max(hm(a["start"]), hm(F["shift"]["end"]))) for a in s) if s else None
             moved = sum(1 for a in s for b in base if (a["job"], a["op"]) == (b["job"], b["op"]) and a["machine"] != b["machine"]) if s else None
             print(name, "hardJ7" if hard else "soft", st, "late:", late(F, s) if s else "-", "ot_min:", ot, "moved:", moved)
     json.dump(base, open(sys.argv[2], "w"), indent=1)

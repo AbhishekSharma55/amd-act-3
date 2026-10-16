@@ -90,13 +90,15 @@ Note: the Evolus partner track additionally requires the model on an owned vLLM 
 
 ## 6. What we checked by running code (scratch prototype, not product code)
 
+PR review re-ran the corrected planning examples with Python 3.14.4, OR-Tools 9.15.6755 and NumPy 2.5.4. The 20 focused regressions in `prototype/regression_checks.py` cover the reported correctness failures. Live AMD calls and deployment remain unverified.
+
 | Check | Result |
 | --- | --- |
 | Example fixture: committed schedule computed with CP-SAT | Every job on time; checker passes |
 | Demo scenario, keep machines + J7 hard | `INFEASIBLE`; sufficient assumptions = `["c2"]` (J7's hard due date) |
 | Demo scenario, re-route | `OPTIMAL`; J7 on time, J2 190 min late; checker passes |
 | Demo scenario, re-route + overtime | Identical to re-route, so it is merged |
-| Replay of the re-route plan (500 samples, seed 7) | J4 on time in 211 of 500; J1, J3, J5, J6, J7 in 500 of 500; J2 in 0 of 500 |
+| Replay of the re-route plan (500 samples, seed 7) | J4 on time in 239 of 500; J1, J3, J5, J6, J7 in 500 of 500; J2 in 0 of 500 |
 | Replay with zero noise | Reproduces the planned times exactly; the same seed gives identical output |
 | Checker on hand-broken schedules | Catches precedence, machine overlap and outage overlap |
 | Extraction code | Syntax and JSON parsing checked; failure path raises after 3 attempts. **Never called a real model** (no key) |

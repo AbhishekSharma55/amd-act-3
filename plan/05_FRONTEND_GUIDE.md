@@ -65,7 +65,7 @@ One page, read top to bottom in demo order:
 │ [textarea + sample buttons]   │ ✓ M2 down 10:00-14:00   (source ↗)    │
 │ "Mill M2 is unavailable..."   │ ✓ J7 due 16:00 (hard)                 │
 │ [Read message]                │ ⚠ Review: unknown machine "Mill 4"   │
-│                               │   [Accept] [Reject]                   │
+│                               │   [Edit / map] [Reject]               │
 ├───────────────────────────────┴──────────────────────────────────────┤
 │ 3. ALTERNATIVES   [Find recovery plans]                               │
 │ ┌ Keep machines ──────┐ ┌ Re-route ───────────┐                       │
@@ -74,7 +74,7 @@ One page, read top to bottom in demo order:
 │ │ Conflict: c1 + c2   │ │ Checker ✓           │                       │
 │ └─────────────────────┘ └─────────────────────┘                       │
 ├──────────────────────────────────────────────────────────────────────┤
-│ 4. REHEARSE   [Show a failure]  J4 on time in 211 of 500 scenarios    │
+│ 4. REHEARSE   [Show a failure]  J4 on time in 239 of 500 scenarios    │
 │ 5. APPROVE    ☐ J2 ships 190 min late   Approver [____]  [Approve]    │
 └──────────────────────────────────────────────────────────────────────┘
 ```
@@ -86,7 +86,7 @@ One page, read top to bottom in demo order:
 | `Timeline` | B1 | `machines`, `schedule`, `now`, `outages`, `dueMarkers`, `highlight` | SVG. Rows are machines, x-axis 08:00-20:00, with the shift end at 18:00 and overtime shaded. One color per job, labeled `J7·2`. Outages hatched. A vertical "now" line. Frozen operations dimmed. Changed operations outlined. |
 | `MessagePanel` | B2 | `onSubmit(message)` | Textarea plus 3-4 sample buttons (the demo message, one with an unknown machine, one with no time, one "no overtime today"). Loading state while the AMD call runs. |
 | `SourceHighlight` | B2 | `message`, `spans[]`, `activeId` | Renders the message with each constraint's `source_span` wrapped in `<mark>`; the active one is stronger. Match case-insensitively. If a span is not found, show nothing; the backend has already flagged it. |
-| `ConstraintList` | B2 | `constraints`, `onDecide(id, "accepted" \| "rejected")` | Icon per status. Shows `issues` under each item. **Review items require Accept or Reject.** Rejected items are struck through. Shows `origin`; `rule_fallback` gets a visible warning badge. |
+| `ConstraintList` | B2 | `constraints`, `onDecide(id, "accepted" \| "rejected")`, `onEdit(id, params)` | Icon per status. Shows `issues` under each item. **Complete ambiguous interpretations can be confirmed; items with `blocking_issues` require edit/map + backend revalidation or Reject.** Disable Accept while blocking fields remain. Rejected items are struck through. Preserve original text and record edits. Shows `origin`; `rule_fallback` gets a visible warning badge. |
 | `AlternativeCard` | B3 | one alternative or one infeasible entry | KPIs: late jobs with minutes, overtime minutes and cost, moved/retimed counts, checker badge, solver status. "Merged with: re-route + overtime" note when present. Infeasible: red card, `explanation`, conflicting constraint IDs that link back to the list, and `conflict_kind` worded as "these constraints together cannot be met (sufficient set)". |
 | `CompareTimeline` | B3 | committed + selected schedules | Before/after stacked, or a toggle. Highlight operations where `change !== "none"`. |
 | `ReplayPanel` | B4 | replay response | Per-job bar: "on time in X of N simulated scenarios". **Show a failure** draws `failing_scenario.timeline` in `Timeline` and highlights the bottleneck. Lists the assumptions under it in small text. |
@@ -101,9 +101,11 @@ Keep it in one place (`useReducer` or a small store). The flow is linear:
 idle → extracting → constraints (needs decisions?) → solving → alternatives → (replaying) → approving → approved
 ```
 
-- **Find recovery plans** stays disabled while any constraint is `review` and undecided.
-- Send only `ok` and `accepted` constraints to `/api/solve`.
+- **Find recovery plans** stays disabled while any non-rejected constraint is `review` and undecided or has unresolved `blocking_issues`.
+- Send only complete `ok` and `accepted` constraints to `/api/solve`; the backend validates again. A minimal implementation can require rejecting a blocking item and re-entering an explicit corrected message rather than building inline editing.
+- Store the fresh `run_id` from every solve response. For replay send that ID, the alternative ID and assumptions. For approval send those IDs, the approved concession IDs and approver name; the backend owns the schedule, constraints and replay record.
 - Editing the message clears everything after step 1, so a stale plan is never shown for a new message.
+- Changing reviewed constraints or solver policy clears alternatives, replay and approval. Re-solving creates a new immutable run. Expired run errors ask the planner to solve again.
 - Every API error goes to one visible banner with the backend's message and a **Retry** button. For a failed AMD call, the banner says so plainly; the app must not crash.
 
 ## CSV download
@@ -121,7 +123,7 @@ function download(name, text, type = "text/csv") {
 
 ## Wording rules (judges will read these)
 
-- "211 of 500 simulated scenarios under these assumptions", never "42% reliable".
+- "239 of 500 simulated scenarios under these assumptions", never a measured factory reliability claim.
 - "Schedule simulator", never "digital twin".
 - "No feasible plan found within 10 s" for `UNKNOWN`; "No plan can meet these constraints" only for `INFEASIBLE`.
 - Show "Synthetic demo data" in the header.

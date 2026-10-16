@@ -1,33 +1,37 @@
-import json, numpy as np
+"""Replay example, kept identical to A5 in the backend guide."""
+import json
+from proto import hm
+import numpy as np
 
-def hm(s):
-    h, m = s.split(":"); return int(h) * 60 + int(m)
-
-def replay(schedule, jobs_due, now, outages, n=500, seed=7, dur_spread=(0.9, 1.3), repair_extra_max=90):
-    """Fixed dispatch policy: same machine + same order per machine. Only durations / repair time are random."""
+def replay(schedule, due, now, outages, n=500, seed=7, spread=(0.9, 1.3), repair_extra_max=90):
     rng = np.random.default_rng(seed)
-    ops = sorted(schedule, key=lambda a: hm(a["start"]))       # planned order respects precedence + machine order
-    mfree = {}                                                  # machine -> array[n] of free time
-    jfree = {}                                                  # job -> array[n] of last op end
-    repair_end = {m: hm(u) + rng.uniform(0, repair_extra_max, n) for m, (f, u) in outages.items()}
+    ops = sorted(schedule, key=lambda a: hm(a["start"]))   # respects precedence and machine order
+    mfree, jfree, sim = {}, {}, []
+    repair_end = {m: hm(u) + (rng.uniform(0, repair_extra_max, n) if hm(u) > now else np.zeros(n))
+                  for m, (f, u) in outages.items()}
     out_start = {m: hm(f) for m, (f, u) in outages.items()}
-    sim = []
+    zeros = np.zeros(n)
     for a in ops:
-        d = hm(a["end"]) - hm(a["start"])
-        m, j = a["machine"], a["job"]
-        if hm(a["end"]) <= now:                                 # already finished: no randomness
-            s = np.full(n, float(hm(a["start"])))
-            dd = np.full(n, float(d))
+        d = hm(a["end"]) - hm(a["start"]); m, j = a["machine"], a["job"]
+        planned_start, planned_end = hm(a["start"]), hm(a["end"])
+        if planned_end <= now:
+            s = np.full(n, float(planned_start)); dd = np.full(n, float(d))
         else:
-            s = np.maximum.reduce([mfree.get(m, np.zeros(n)), jfree.get(j, np.zeros(n)), np.full(n, float(hm(a["start"])) if hm(a["start"]) < now else float(now))])
-            dd = d * rng.triangular(dur_spread[0], 1.0, dur_spread[1], n)
-            if m in repair_end:                                 # op would overlap outage -> wait for repair
-                hit = (s < repair_end[m]) & (s + dd > out_start[m])
-                s = np.where(hit, np.maximum(s, repair_end[m]), s)
+            factor = rng.triangular(spread[0], 1.0, spread[1], n) if spread[0] < spread[1] else np.ones(n)
+            if planned_start < now:  # observed running: randomize remaining work only
+                s = np.full(n, float(planned_start))
+                dd = (now - planned_start) + (planned_end - now) * factor
+            else:
+                floor = float(max(now, planned_start))
+                s = np.maximum.reduce([mfree.get(m, zeros), jfree.get(j, zeros), np.full(n, floor)])
+                dd = d * factor
+                if m in repair_end:
+                    hit = (s < repair_end[m]) & (s + dd > out_start[m])
+                    s = np.where(hit, np.maximum(s, repair_end[m]), s)
         e = s + dd
         mfree[m] = e; jfree[j] = e
         sim.append((a, s, e))
-    lateness = {j: jfree[j] - hm(due) for j, due in jobs_due.items()}
+    lateness = {j: jfree[j] - hm(t) for j, t in due.items()}
     return sim, lateness
 
 if __name__ == "__main__":

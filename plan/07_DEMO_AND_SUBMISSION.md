@@ -17,7 +17,7 @@ Main owner: B. A narrates the backend and AMD parts. The judging criteria are **
 | 5 | Back to the demo message → **Find recovery plans** | "A CP-SAT solver builds the alternatives; a separate checker verifies every one." | Application of Technology |
 | 6 | Red card: keep machines is impossible, conflict c1 + c2 | "Keeping the machines can't save J7. It tells us why, instead of quietly moving the deadline." | Business Value |
 | 7 | Re-route card: J7 on time, J2 late 190 min | "Re-routing saves J7, but J2 will be late. That's a decision for a person." | Business Value |
-| 8 | **Show a failure** → J4 on time in only 211 of 500 scenarios; the failing timeline shows M1 as the bottleneck | "On paper J4 has 25 minutes of slack. In simulated futures where operations run a little long, it misses its date. That's the promise we would have broken." | Originality, Presentation |
+| 8 | **Show a failure** → J4 on time in only 239 of 500 scenarios; the failing timeline shows M1 as the bottleneck | "On paper J4 has 25 minutes of slack. In simulated futures where operations run a little long, it misses its date. That's the promise we would have broken." | Originality, Presentation |
 | 9 | Tick the concession, approver name → **Approve** → CSV + decision record download | "The planner approves with the trade-offs in plain view, and the shop floor gets a dispatch list plus an audit record." | Business Value |
 | 10 | Open the Run inspector | "Here is the actual AMD call: model, latency, tokens and raw output, plus the checker and replay records." | Application of Technology |
 
@@ -82,8 +82,8 @@ The project decision gives an illustrative example: 40 incidents × 30 minutes �
 ## Questions judges may ask (prepare one-line answers)
 
 - What does the AMD model do that matters? *It turns the unstructured note into the constraints that decide the plan, and every call is visible in the inspector.*
-- What if the model is wrong? *Validation catches unknown IDs, bad times and quotes that are not in the message; anything doubtful needs human Accept. False acceptance is measured in A7.*
+- What if the model is wrong? *Validation catches unknown IDs, bad times and quotes that are not in the message; complete ambiguous interpretations need confirmation; missing fields or unknown IDs need correction and revalidation or rejection. False acceptance is measured in A7.*
 - Isn't this just Siemens APS with chat? *APS tools schedule. Our contribution is the checked path from the message to an approved decision: source spans, an independent checker, a replayed counterexample and an audit record.*
 - How do you know the plan is valid? *A separate checker, with no solver code, re-verifies every alternative and again at approval.*
-- Is "211 of 500" a real probability? *No. It is a count under declared synthetic assumptions, and we say so on screen.*
+- Is "239 of 500" a real probability? *No. It is a count under declared synthetic assumptions, and we say so on screen.*
 - What would a pilot look like? *Shadow planning on historical disruptions first, measuring planner time to a correct approved plan.*

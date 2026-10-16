@@ -100,6 +100,7 @@ The model may only propose these types. Anything else becomes `type: "unsupporte
   "params": {"machine": "M2", "from": "10:00", "until": "14:00"},
   "source_span": "Mill M2 is unavailable until 14:00",
   "status": "ok",
+  "blocking_issues": [],
   "issues": [],
   "origin": "amd_model"
 }
@@ -107,8 +108,9 @@ The model may only propose these types. Anything else becomes `type: "unsupporte
 
 | Field | Values |
 | --- | --- |
-| `status` | `ok`: passed every check. `review`: a person must decide. `accepted` / `rejected`: decided by a person in the UI (the frontend sets these) |
+| `status` | `ok`: passed every check. `review`: needs confirmation, correction or rejection. `accepted` / `rejected`: human decisions submitted by the UI and revalidated by the backend |
 | `issues[]` | Human-readable reasons, e.g. `"Unknown machine 'Mill 4'"`, `"No end time given for the outage"`, `"Two different due dates for J7"`, `"Outage interrupts J1 op 2, which is in progress; it will restart after repair"` |
+| `blocking_issues[]` | Required corrections (unknown IDs, missing/invalid required times, unsupported types, contradictions). Accept is disabled until these are resolved and the backend revalidates. A complete but ambiguous interpretation can be confirmed with an empty list |
 | `origin` | `amd_model` for model output, `rule_fallback` when the model was unavailable (the UI must show this clearly), `user` for manual edits |
 
 ### Validation rules (A2), applied after the model returns
@@ -120,6 +122,10 @@ The model may only propose these types. Anything else becomes `type: "unsupporte
 5. Two constraints contradict each other (two due dates for one job, overtime both allowed and forbidden) → both `review`.
 6. A `machine_down` that starts while an operation is running on that machine → `ok`, plus an issue explaining that the operation restarts after the repair. The supported model is non-preemptive with restart. Rework or partial completion is out of scope and must say so.
 7. A missing `until` on an outage → `review` with "end time unknown". Never invent a repair time.
+
+Confirmation never bypasses rules 1-5 or 7. Map unknown machines and enter explicit missing times, then revalidate; alternatively reject the constraint. Preserve the original source span and record the human edit with `origin: "user"`. `machine_down.from` defaults to `now` only when no start was specified; vague wording such as "after lunch" needs an explicit reviewed time. Repeat structural and contradiction validation before solving, even for `accepted` items.
+
+The effective overtime cutoff is the earlier of the fixture limit and the accepted `overtime.until` (defaulting to the fixture limit when omitted). A solver policy may narrow that window, never expand it. All due-date updates, including hard dates, replace the date used for tardiness and concession reporting. Count occupied overtime as `max(0, end - max(start, shift_end))` for each operation, and charge hourly rate × minutes / 60.
 
 Passing these checks proves that the constraint refers to real things. It does not prove that the model understood the meaning correctly, which is why A7 measures semantic accuracy separately.
 
@@ -136,16 +142,16 @@ Passing these checks proves that the constraint refers to real things. It does n
 | Policy | J7 hard at 16:00 | Result |
 | --- | --- | --- |
 | Keep machines (no re-routing, overtime allowed) | Yes | **Infeasible.** This is the honest "no plan meets your requirements" moment |
-| Keep machines (no re-routing, overtime allowed) | No (relaxed as a concession) | J1 late 165 min, J2 late 335 min, J7 late 55 min, 35 overtime minutes |
+| Keep machines (no re-routing, overtime allowed) | No (relaxation experiment only; disabled in approval until explicitly implemented) | J1 late 165 min, J2 late 335 min, J7 late 55 min, 35 overtime minutes |
 | Re-route (alternate eligible machines, no overtime) | Yes | Feasible (OPTIMAL): J1 op 2 restarts on M1, J7 op 2 moves to M1, 7 operations retimed, J7 on time, **J2 late 190 min** (J2 op 1 can only run on M2) |
 | Re-route + overtime | Yes | Same as re-route. Overtime does not help here, so the UI should merge identical alternatives instead of showing a fake third option |
 
-**Replay of the re-route plan** (scratch prototype: 500 samples, seed 7, operation durations × triangular(0.9, 1.0, 1.3), M2 repair end 14:00 + uniform(0, 90) min):
+**Replay of the re-route plan** (corrected scratch prototype: 500 samples, seed 7, unstarted operation durations × triangular(0.9, 1.0, 1.3), running operations' remaining work × that same distribution, M2 repair end 14:00 + uniform(0, 90) min). Planned release times and observed starts stay fixed. Zero noise reproduces the selected plan exactly:
 
 | Job | On time in |
 | --- | --- |
 | J1, J3, J5, J6, J7 | 500 of 500 |
-| **J4** | **211 of 500**. On paper J4 finishes at 16:35 against a 17:00 due time, but M1 now carries J1 and J7, so normal duration variation pushes J4 late |
+| **J4** | **239 of 500**. On paper J4 finishes at 16:35 against a 17:00 due time, but M1 now carries J1 and J7, so normal duration variation pushes J4 late |
 | J2 | 0 of 500 (already late in the plan; an approved concession) |
 
 What these results mean for the demo:
@@ -153,7 +159,7 @@ What these results mean for the demo:
 - Re-routing saves J7, but J2 must be accepted as late. This is a concession that has to be approved, and J2's customer is affected.
 - **Show a failure** then exposes a weak point the plan does not show: J4 looks safe (25 min slack) but is late in most simulated futures, because M1 became the bottleneck. This is exactly the "broken promise exposed before it reaches the shop floor" moment from the project decision.
 
-Every result above was produced only by our scratch prototype for this fixture. If you tune the fixture, re-run the solver and update this table. Do not present these numbers as measured product results. The full outputs are in [`mocks/`](mocks/).
+Every result above was produced only by our scratch prototype for this fixture. If you tune the fixture or simulator, re-run the solver and update this table. The corrected replay supersedes the earlier 211/500 count, which used different dispatch/running-work semantics. Do not present these numbers as measured product results. The full outputs are in [`mocks/`](mocks/).
 
 ## Dispatch CSV (output of `/api/approve`)
 

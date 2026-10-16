@@ -52,6 +52,7 @@ Returns `shared/fixture.json` as is.
       "params": {"machine": "M2", "from": "10:00", "until": "14:00"},
       "source_span": "Mill M2 is unavailable until 14:00",
       "status": "ok",
+      "blocking_issues": [],
       "issues": ["Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"],
       "origin": "amd_model"
     },
@@ -61,6 +62,7 @@ Returns `shared/fixture.json` as is.
       "params": {"job": "J7", "time": "16:00", "hard": true},
       "source_span": "Order J7 still needs to ship at 16:00",
       "status": "ok",
+      "blocking_issues": [],
       "issues": [],
       "origin": "amd_model"
     },
@@ -70,6 +72,7 @@ Returns `shared/fixture.json` as is.
       "params": {"allowed": true, "until": "20:00"},
       "source_span": "Overtime requires approval",
       "status": "ok",
+      "blocking_issues": [],
       "issues": ["Overtime is a concession and needs approval"],
       "origin": "amd_model"
     }
@@ -87,11 +90,13 @@ Returns `shared/fixture.json` as is.
 }
 ```
 
-A message with problems returns the same shape. The doubtful items have `"status": "review"` and a non-empty `issues` list. For example, "Mill 4 is down" gives `issues: ["Unknown machine 'Mill 4'. Known: Mill M1, Mill M2, Lathe L3"]`.
+A message with problems returns the same shape. Every constraint includes `blocking_issues: []`. Doubtful items have `"status": "review"` and a non-empty `issues` list. Unknown IDs, invalid/missing required times, unsupported requests and contradictions also populate `blocking_issues`; these need edits and revalidation or rejection. Accept is available only when `blocking_issues` is empty. See `mocks/extract_review.json` for one blocking item and one confirmable interpretation.
 
 ## `POST /api/solve`
 
-The frontend sends **only** constraints whose status is `ok` or `accepted`. It also sends the concessions the planner allows the solver to consider.
+The frontend sends **only** constraints whose status is `ok` or `accepted`, with no unresolved blocking issues. It also sends the concessions the planner allows the solver to consider. The backend revalidates IDs, required fields, clock times, source spans and contradictions regardless of client status; invalid input returns 422. Any human edit is recorded against the original extraction.
+
+Each solve creates a fresh immutable run snapshot (fixture, original message/trace, reviewed constraints, alternatives). The response's `run_id` replaces the extraction draft ID in UI state. Re-solving always gets a new ID. The simple in-memory store may expire after restart; unknown/expired IDs return 404/410 and the UI asks the planner to solve again.
 
 **Request**
 ```json
@@ -106,7 +111,7 @@ The frontend sends **only** constraints whose status is `ok` or `accepted`. It a
 **Response 200, feasible**
 ```json
 {
-  "run_id": "r_20261016_101502_ab12",
+  "run_id": "r_20261016_101502_ab12_s1",
   "status": "ok",
   "alternatives": [
     {
@@ -154,13 +159,13 @@ The frontend sends **only** constraints whose status is `ok` or `accepted`. It a
 
 ## `POST /api/replay`
 
+Load the schedule and accepted constraints from the stored run/alternative, check them, and save the replay result under those IDs. The request controls only the declared simulation assumptions. The dispatch policy preserves planned start floors and observed running work; see backend A5.
+
 **Request**
 ```json
 {
-  "run_id": "r_20261016_101502_ab12",
+  "run_id": "r_20261016_101502_ab12_s1",
   "alternative_id": "alt_reroute",
-  "schedule": [ "...the alternative's full schedule..." ],
-  "constraints": [ "...the accepted constraints..." ],
   "assumptions": {"samples": 500, "seed": 7, "duration_spread": [0.9, 1.3], "repair_delay_max_min": 90}
 }
 ```
@@ -168,20 +173,20 @@ The frontend sends **only** constraints whose status is `ok` or `accepted`. It a
 **Response 200**
 ```json
 {
-  "run_id": "r_20261016_101502_ab12",
+  "run_id": "r_20261016_101502_ab12_s1",
   "alternative_id": "alt_reroute",
   "device": "cpu-numpy",
   "samples": 500,
   "elapsed_ms": 38,
   "assumptions": {"duration_spread": [0.9, 1.3], "repair_delay_max_min": 90, "seed": 7, "note": "Synthetic uncertainty, not calibrated to a real factory"},
   "jobs": [
-    {"job": "J7", "on_time": 500, "of": 500, "p90_finish": "14:49"},
-    {"job": "J4", "on_time": 211, "of": 500, "p90_finish": "17:29"},
+    {"job": "J7", "on_time": 500, "of": 500, "p90_finish": "14:45"},
+    {"job": "J4", "on_time": 239, "of": 500, "p90_finish": "17:23"},
     {"job": "J2", "on_time": 0, "of": 500, "p90_finish": "17:38"}
   ],
   "failing_scenario": {
     "index": 24,
-    "reason": "J4 misses 17:00 by 65 min",
+    "reason": "J4 misses 17:00 by 61 min",
     "timeline": [
       {"job": "J4", "op": 2, "machine": "M1", "start": "...", "end": "...", "bottleneck": true}
     ]
@@ -190,7 +195,7 @@ The frontend sends **only** constraints whose status is `ok` or `accepted`. It a
 ```
 
 - The `on_time` counts above are the scratch prototype's results for the re-route plan (see `02_DATA_MODEL.md`). The full failing timeline is in `mocks/replay.json`.
-- The UI wording is "211 of 500 simulated scenarios under these assumptions", never "42% reliable".
+- The UI wording is "239 of 500 simulated scenarios under these assumptions", never a measured factory reliability claim.
 - `bottleneck: true` marks the operation that pushed the failing job late. The mock does not set it yet; A5 adds it (see `04_BACKEND_GUIDE.md`).
 
 ## `POST /api/approve`
@@ -198,23 +203,21 @@ The frontend sends **only** constraints whose status is `ok` or `accepted`. It a
 **Request**
 ```json
 {
-  "run_id": "r_20261016_101502_ab12",
-  "alternative": {"id": "alt_reroute", "...": "the full alternative object from /solve"},
-  "constraints": [ "...the accepted constraints..." ],
+  "run_id": "r_20261016_101502_ab12_s1",
+  "alternative_id": "alt_reroute",
   "approved_concessions": ["k1"],
-  "approver": "Shift supervisor (demo)",
-  "replay_summary": {"samples": 500, "device": "cpu-numpy"}
+  "approver": "Shift supervisor (demo)"
 }
 ```
 
-The backend **re-runs the checker** and verifies that every concession in `alternative.concessions` is listed in `approved_concessions`. If either check fails → 422.
+The backend loads the immutable run and selected alternative, **re-runs the checker**, and recomputes required concessions from the stored schedule and accepted constraints (including updated due dates and occupied overtime). Every required concession must be approved, otherwise 422. It also loads any replay summary from its own store. Client-supplied schedules, constraint replacements, concession lists and replay summaries are rejected. An in-memory store is sufficient for the demo.
 
 **Response 200**
 ```json
 {
   "dispatch_csv": "machine,sequence,job,op,start,end,changed\nM1,1,J3,1,08:00,09:00,frozen\n...",
   "decision_record": {
-    "run_id": "r_20261016_101502_ab12",
+    "run_id": "r_20261016_101502_ab12_s1",
     "approved_at": "2026-10-16T10:21:44+05:30",
     "approver": "Shift supervisor (demo)",
     "message": "Mill M2 is unavailable until 14:00. ...",

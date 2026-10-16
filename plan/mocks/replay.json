@@ -1,5 +1,5 @@
 {
-  "run_id": "r_mock_0001",
+  "run_id": "r_mock_0001_s1",
   "alternative_id": "alt_reroute",
   "device": "cpu-numpy",
   "samples": 500,
@@ -18,7 +18,7 @@
       "job": "J1",
       "on_time": 500,
       "of": 500,
-      "p90_finish": "11:40"
+      "p90_finish": "11:33"
     },
     {
       "job": "J2",
@@ -34,32 +34,32 @@
     },
     {
       "job": "J4",
-      "on_time": 211,
+      "on_time": 239,
       "of": 500,
-      "p90_finish": "17:29"
+      "p90_finish": "17:23"
     },
     {
       "job": "J5",
       "on_time": 500,
       "of": 500,
-      "p90_finish": "10:25"
+      "p90_finish": "10:23"
     },
     {
       "job": "J6",
       "on_time": 500,
       "of": 500,
-      "p90_finish": "15:50"
+      "p90_finish": "15:46"
     },
     {
       "job": "J7",
       "on_time": 500,
       "of": 500,
-      "p90_finish": "14:49"
+      "p90_finish": "14:45"
     }
   ],
   "failing_scenario": {
     "index": 24,
-    "reason": "J4 misses 17:00 by 65 min",
+    "reason": "J4 misses 17:00 by 61 min",
     "timeline": [
       {
         "job": "J3",
@@ -87,7 +87,7 @@
         "op": 1,
         "machine": "M1",
         "start": "09:00",
-        "end": "10:14"
+        "end": "10:11"
       },
       {
         "job": "J3",
@@ -101,49 +101,49 @@
         "op": 2,
         "machine": "M3",
         "start": "09:50",
-        "end": "10:26"
+        "end": "10:24"
       },
       {
         "job": "J1",
         "op": 2,
         "machine": "M1",
-        "start": "10:14",
-        "end": "11:43"
+        "start": "10:11",
+        "end": "11:39"
       },
       {
         "job": "J7",
         "op": 1,
         "machine": "M3",
-        "start": "10:26",
-        "end": "11:09"
+        "start": "10:24",
+        "end": "11:07"
       },
       {
         "job": "J4",
         "op": 1,
         "machine": "M3",
-        "start": "11:09",
-        "end": "12:06"
+        "start": "11:07",
+        "end": "12:04"
       },
       {
         "job": "J7",
         "op": 2,
         "machine": "M1",
-        "start": "11:43",
-        "end": "14:34"
+        "start": "11:39",
+        "end": "14:31"
       },
       {
         "job": "J6",
         "op": 2,
         "machine": "M1",
-        "start": "14:34",
-        "end": "16:19"
+        "start": "14:31",
+        "end": "16:15"
       },
       {
         "job": "J7",
         "op": 3,
         "machine": "M3",
-        "start": "14:34",
-        "end": "15:07"
+        "start": "14:31",
+        "end": "15:03"
       },
       {
         "job": "J2",
@@ -156,8 +156,8 @@
         "job": "J4",
         "op": 2,
         "machine": "M1",
-        "start": "16:19",
-        "end": "18:05"
+        "start": "16:15",
+        "end": "18:01"
       },
       {
         "job": "J2",

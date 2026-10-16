@@ -17,6 +17,10 @@
         "No end time given for the outage",
         "'after lunch' is not a time"
       ],
+      "blocking_issues": [
+        "Choose a known machine",
+        "Provide explicit outage start and repair end times"
+      ],
       "origin": "amd_model"
     },
     {
@@ -32,6 +36,7 @@
       "issues": [
         "'4' interpreted as 16:00; please confirm"
       ],
+      "blocking_issues": [],
       "origin": "amd_model"
     }
   ],
