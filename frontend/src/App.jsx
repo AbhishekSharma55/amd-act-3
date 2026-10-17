@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Timeline from "./components/Timeline.jsx";
+import CheckerResult from "./components/CheckerResult.jsx";
 import { createApi } from "./lib/api.js";
 import {
   annotateChanges,
@@ -13,6 +14,7 @@ import sampleFactory from "../../shared/mocks/factory.json";
 import sampleSolve from "../../shared/mocks/solve.json";
 import sampleReplay from "../../shared/mocks/replay.json";
 import sampleExtract from "../../shared/mocks/extract.json";
+import checkerReports from "../../shared/checker-reports.json";
 
 const VIEWS = [
   {
@@ -407,6 +409,60 @@ export default function App() {
             </section>
 
             <section
+              className="checker-section"
+              aria-label="Independent schedule verification"
+              aria-live="polite"
+            >
+              <div className="checker-section-title">
+                <div className="eyebrow">BEFORE YOU COMMIT</div>
+                <h2>Check the plan against the rules.</h2>
+              </div>
+              {view === "committed" ? (
+                <CheckerResult
+                  result={
+                    source === "sample"
+                      ? checkerReports.reports.committed
+                      : null
+                  }
+                  title="Committed schedule"
+                  description={
+                    source === "sample"
+                      ? "Saved independent check of the sample fixture, before any disruption. All operations satisfy the factory rules."
+                      : "This factory response has no checker report. A saved sample check cannot verify live data."
+                  }
+                />
+              ) : view === "recovery" ? (
+                <>
+                  <CheckerResult
+                    result={checkerReports.reports.recovery}
+                    title="Recovery alternative"
+                    description="Saved independent check against the sample outage, hard due time and overtime cutoff. J2’s late delivery still needs approval."
+                  />
+                  <details className="checker-comparison" key="recovery-comparison">
+                    <summary>Why the original plan cannot continue</summary>
+                    <CheckerResult
+                      result={checkerReports.reports.disrupted_committed}
+                      title="Original plan with the disruption applied"
+                      description="The same checker rejects the unchanged schedule under the new constraints."
+                    />
+                  </details>
+                </>
+              ) : (
+                <CheckerResult
+                  result={null}
+                  title="Sampled future"
+                  description="This is a simulated outcome with varying durations, rather than a dispatch plan with fixed processing times. The independent check applies to the recovery alternative."
+                />
+              )}
+              <p className="checker-scope">
+                Checks cover operation coverage, eligibility, duration, order,
+                machine conflicts, outages, started work, working hours and hard
+                due times. Saved reports come from the Python checker; they do
+                not prove that a disruption message was understood correctly.
+              </p>
+            </section>
+
+            <section
               className="orders-section"
               aria-labelledby="orders-heading"
             >
@@ -537,7 +593,7 @@ export default function App() {
                 {view === "failure"
                   ? "Recorded simulation with synthetic uncertainty. Not calibrated to a real factory."
                   : view === "recovery"
-                    ? "Recorded prototype output. No live solver, checker, or approval has run."
+                    ? "Saved schedule and independent check. No live solve or approval has run."
                 : "Message understanding and recovery tools are being built."}
               </p>
             </footer>
