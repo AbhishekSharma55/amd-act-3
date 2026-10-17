@@ -4,23 +4,31 @@ FastAPI + OR-Tools CP-SAT + NumPy. The contract is [plan/03_API_CONTRACT.md](../
 
 ## Run locally
 
+Use Python 3.12. From the repository root on macOS/Linux:
+
 ```bash
-python -m venv .venv
-.venv/Scripts/python -m pip install -r backend/requirements-dev.txt     # macOS/Linux: .venv/bin/python
-cp .env.example .env                                                  # fill in the Token Factory values
-cd backend && ../.venv/Scripts/python -m uvicorn app.main:app --reload --port 8000
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r backend/requirements-dev.txt
+cp .env.example .env
+# Fill the AMD settings for real inference. For an offline check, leave the key
+# empty and set ALLOW_RULE_FALLBACK=1 explicitly.
+python -m uvicorn app.main:app --app-dir backend --reload --port 8000
 ```
+
+See [Windows commands, frontend setup and checks](../docs/DEVELOPMENT.md),
+[Docker](../docs/DOCKER.md) and [the architecture](../docs/ARCHITECTURE.md).
 
 The Vite dev server proxies `/api` to port 8000. If `backend/static/index.html` exists (the built frontend), FastAPI serves it at `/`.
 
 Check the AMD connection once (records model, host, JSON mode and latency in `eval/smoke/`, never the key):
 
 ```bash
-.venv/Scripts/python backend/scripts/amd_smoke.py --models
-.venv/Scripts/python backend/scripts/amd_smoke.py --all
+python backend/scripts/amd_smoke.py --models
+python backend/scripts/amd_smoke.py --all
 ```
 
-Tests (from the repository root or `backend/`): `.venv/Scripts/python -m pytest -q backend/tests`. CI runs them, the checker
+Tests from the repository root: `python -m pytest -q backend/tests`. CI runs them, the checker
 report freshness check and the frontend tests/build on every pull request (`.github/workflows/ci.yml`).
 
 ## Modules

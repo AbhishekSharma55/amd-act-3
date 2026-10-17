@@ -1,91 +1,71 @@
-# Factory view, independent check and approval · issues #3–4/#8
+# Rehearsal frontend
 
-See [verification notes and screenshots](../docs/FACTORY_VIEW_QA.md) for the
-completed browser and API checks.
-The [checker verification notes](../docs/CHECKER_QA.md) cover the saved results,
-rejection display and live-data boundaries added in issue #4.
+React workspace for the integrated disruption → review → recovery → rehearsal
+→ approval/export flow. The production build calls the same-origin FastAPI
+backend. AMD interpretation runs on the server; the browser holds no AMD key.
 
-React/Vite frontend for Rehearsal. This phase displays the committed production
-schedule and two clearly labeled, recorded synthetic examples. It does not call
-AMD, solve schedules, or run simulations. The independent
-Python checker produces the saved verification reports shown beside the
-sample plans. Those reports are labeled as saved; live factory responses and
-sampled futures never inherit a passing sample badge. Approval/export can now
-run against the service's stored synthetic example: it rechecks the plan,
-requires all tradeoffs and returns CSV/JSON downloads. See the setup below.
+See the [project guide](../README.md), [architecture](../docs/ARCHITECTURE.md)
+and [native setup](../docs/DEVELOPMENT.md). The earlier factory-only and
+approval-only development servers are isolated helpers, not the full application.
 
 ## Run
 
-Use Node **22.12+** (Node 24.21 tested) and npm. From this folder:
+Use Node **22.12 or newer** and npm. From the repository root:
 
 ```bash
-npm ci
-npm run dev -- --port 5173
+npm --prefix frontend ci
+VITE_USE_MOCKS=0 npm --prefix frontend run dev -- --port 5173
 ```
 
-Open <http://127.0.0.1:5173>. No account, API key, or backend is needed for the
-default sample fixture. The dependency lockfile is committed. Fonts are served
-locally, with their SIL Open Font License notices in `public/fonts/`.
+Start `app.main:app` on port 8000 using the [development instructions](../docs/DEVELOPMENT.md).
+Open http://localhost:5173. The Vite proxy forwards `/api` to `127.0.0.1:8000`.
+For PowerShell, set `$env:VITE_USE_MOCKS="0"` before the npm command.
+
+| Source | Behavior |
+| --- | --- |
+| Live API + configured AMD | Real extraction, validation, solving, checking, replay and approval against the backend |
+| Live API + explicit rule fallback | Real local workflow, with interpretation visibly labeled as fallback rather than AMD |
+| Recorded samples | Deep-copied saved responses for previews; no model, solver or replay call and no new approval |
+
+Plain `npm run dev` defaults to Recorded samples; `VITE_USE_MOCKS=0` selects live
+mode at startup. The source selector remains available. Production builds
+normally default to Live API; the Docker build explicitly sets that mode.
+The frontend never silently replaces a failed live request with samples.
+
+`VITE_API_BASE_URL` can point at a different API origin if the backend permits
+CORS from the frontend origin. Leave it empty for the development proxy or
+same-origin production deployment. All `VITE_*` settings are public browser
+configuration: never put credentials in them.
+
+## Build and checks
 
 ```bash
-npm test
-npm run build
-npm run preview -- --port 4173
+npm --prefix frontend test
+npm --prefix frontend run build
+npm --prefix frontend run preview -- --port 4173
 ```
 
-The production build is `dist/`. The build is portable static frontend output;
-the development `/api` proxy is not part of that output. Deployment will serve
-the frontend and backend together or configure a real API origin.
+`frontend/dist` is static output. The preview server has no backend API proxy;
+use it to preview Recorded samples, or configure `VITE_API_BASE_URL` before
+building. To run the complete production app, serve the build through FastAPI
+or [Docker](../docs/DOCKER.md). Fonts are local assets with their SIL OFL notices
+in `public/fonts/`.
 
-## Live factory endpoint
-
-Start the factory-only API using `../backend/README-factory.md`. The data-source
-selector switches the committed view between the checked sample and
-`GET /api/factory`; the Vite proxy forwards `/api` to `127.0.0.1:8000`. It never
-silently falls back to sample data. A failed request shows a retryable error.
-
-To start in live mode:
-
-```bash
-VITE_USE_MOCKS=0 npm run dev -- --port 5173
-```
-
-Optional `VITE_API_BASE_URL` points at a different API origin (which must allow
-the frontend origin with CORS). Leave it empty for the same-origin proxy. Never
-put AMD credentials into `VITE_*` variables: they are public browser settings.
-
-Only `/api/factory` is needed in live mode. Switching to Sample recovery or
-Sample failure always uses that example's own checked sample fixture and says
-so above the timeline. These views do not call future `/solve` or `/replay`
-endpoints and cannot be mistaken for freshly calculated results.
-
-## Try approval and export
-
-Start `app.approval_dev:app` using [the approval setup](../backend/README-approval.md)
-instead of the factory-only development server. In **Sample recovery**, review
-the tradeoffs, enter a name and approve the sample. The backend independently
-checks its stored plan before returning downloads. It uses saved synthetic inputs
-and a `MOCK` model trace; no AMD key or payment is needed. Running `npm run dev`
-alone still supports browsing, while approval requires this service.
-
-`ApprovalPanel` accepts `runId`, `alternative`, optional `sample`, `hidden` and
-`onInvalidRun`. It always calls the real `/api/approve` transport, including for
-samples. A new run/alternative resets the form and discards pending/stale results;
-hiding it to inspect another timeline preserves the same plan's decision.
-Unknown/expired/locked runs block submission and can return to a fresh solve via
-`onInvalidRun`. Pass the selected live solve's IDs/alternative when that feature
-lands. The current app intentionally approves only its saved example.
-
-See [approval verification notes](../docs/APPROVAL_QA.md) for screenshots, tested
-retries and downloaded-record checks.
+The Node test runner covers transport failures/cancellation, response boundaries,
+review gates, checker state, timeline and approval helpers without downloading a
+browser. Historical [factory](../docs/FACTORY_VIEW_QA.md),
+[checker](../docs/CHECKER_QA.md), [workflow](../docs/WORKFLOW_QA.md),
+[robustness](../docs/ROBUSTNESS_QA.md) and [approval](../docs/APPROVAL_QA.md)
+reports describe their feature-stage checks. The latest
+[public AWS evidence](../docs/AWS_DEPLOYMENT.md) verifies the integrated app
+with real AMD access.
 
 ## Integration contracts
 
 `src/components/CheckerResult.jsx` accepts `result: {valid, violations}` plus
 optional `title` and `description`. It renders every violation as text and
 fails closed for missing, malformed or inconsistent results. Alternative
-cards, approval and the run inspector can reuse it with their own backend
-results. The existing solve/approve response shapes are unchanged.
+cards, approval and the run inspector use it with their own backend results. The existing solve/approve response shapes are unchanged.
 
 `shared/checker-reports.json` is generated by the real Python checker against
 the existing synthetic fixture and sample constraints. The comparison under
@@ -110,8 +90,7 @@ backend's canonical message. Existing factory/extract/solve/replay/approve mock
 responses are saved in `shared/mocks/` and follow `plan/03_API_CONTRACT.md`.
 The mock transport refuses `/approve`: recorded artifacts cannot confirm a new
 approval. Mock `/health` is intentionally unsupported rather than inventing
-AMD configuration. `App.jsx` owns this first
-page's state. Future feature panels should import the shared transport.
+AMD configuration. `App.jsx` owns workflow state and uses the shared transport.
 
 `src/components/Timeline.jsx` is independent of the examples:
 

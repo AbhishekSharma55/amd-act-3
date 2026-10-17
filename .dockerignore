@@ -2,6 +2,10 @@
 **
 !Dockerfile
 !.dockerignore
+!LICENSE
+!THIRD_PARTY_NOTICES.md
+!licenses/
+!licenses/**
 !backend/
 !backend/requirements.txt
 !backend/app/
