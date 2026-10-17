@@ -14,9 +14,10 @@ time cannot. Rejecting one of two conflicting dates still clears that conflict.
 
 ## Verification
 
-- On the extraction parent: **92 backend tests and 97 subtests pass**, including
-  six new regression cases. Four of those cases failed before the fix.
-- In an isolated checkout combining PRs #22–#29 and both bug fixes: **132 backend
+- On the latest extraction parent: **94 backend tests and 97 subtests pass**,
+  including six new regression cases and Muskan's two added cases. Four new
+  cases failed on the original extraction baseline before the fix.
+- In an isolated checkout combining PRs #22–#29 and both bug fixes: **136 backend
   tests, 97 subtests, 31 frontend tests, production build, checker freshness and
   20 planning regressions pass**.
 - A production-build Chrome check confirmed that mapping the machine leaves
@@ -24,6 +25,12 @@ time cannot. Rejecting one of two conflicting dates still clears that conflict.
   endpoint returns **422 `review_required`** for that revalidated payload.
   Explicit acceptance enables planning. The full combined workflow passed
   eight browser checks, including the replay fix and approval/export.
+
+The combined checkout incorporates Muskan's parallel parent updates, including
+`ead285b`, and retains their tests.
+This patch also keeps an unresolved field in review when a different field on
+the same item changes. Main and teammate branches were not modified by this
+work; the parent was reconciled into the fix branch only.
 
 API/browser interpretation used deterministic local stubs. No AMD inference or
 paid resource was used. This verifies the decision gate, not AMD availability.
