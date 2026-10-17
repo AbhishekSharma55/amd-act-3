@@ -9,6 +9,7 @@ from .validate import ReviewError, review_constraints, validate_constraints
 
 router = APIRouter(prefix="/api", tags=["extract"])
 limiter = RateLimiter(config.EXTRACT_RATE_PER_MIN)
+global_limiter = RateLimiter(config.EXTRACT_GLOBAL_PER_MIN)
 
 
 @router.post("/extract")
@@ -19,6 +20,9 @@ def api_extract(body: dict, request: Request):
     if len(message) > config.MAX_MESSAGE_CHARS:
         raise ApiError(400, "message_too_long", f"Keep the message under {config.MAX_MESSAGE_CHARS} characters.")
     limiter.check(request)
+    if config.amd_configured():
+        global_limiter.check(None, key="server", message="The shared AMD key is busy right now. Wait a few seconds "
+                                                              "and retry.")
     F = get_fixture()
     try:
         result = extract_amd(message, F)

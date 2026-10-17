@@ -17,7 +17,7 @@ Small, reproducible evidence for Rehearsal's claims. All data is synthetic and t
 ## Run
 
 ```bash
-.venv/Scripts/python eval/run_eval.py extraction --extractor amd     # live Token Factory, sequential with 2.5 s spacing
+.venv/Scripts/python eval/run_eval.py extraction --extractor amd     # live Token Factory, sequential, ~17 calls/min on the shared team key
 .venv/Scripts/python eval/run_eval.py extraction --extractor rules   # labeled rule baseline (offline)
 .venv/Scripts/python eval/run_eval.py recovery
 ```

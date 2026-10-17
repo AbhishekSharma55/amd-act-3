@@ -76,6 +76,7 @@ All optional; see `.env.example`.
 | `AMD_API_BASE`, `AMD_API_KEY`, `AMD_MODEL` | – | Token Factory access. Set the key as a host secret, never in the image or repo |
 | `ALLOW_RULE_FALLBACK` | `0` | `1` uses the labeled rule fallback when AMD is unavailable |
 | `EXTRACT_RATE_PER_MIN` | `12` | `/api/extract` calls per client per minute (protects the shared AMD quota) |
+| `EXTRACT_GLOBAL_PER_MIN` | `15` | `/api/extract` calls per minute for the whole server: the team shares one Token Factory key, limited to 20 requests/min per account at the gateway |
 | `RUN_TTL_S`, `MAX_RUNS` | `21600`, `2000` | Run expiry and memory bound |
 | `SOLVER_WORKERS` | CPU count, max 8 | CP-SAT threads |
 | `STATIC_DIR` | `backend/static`, else `frontend/dist` | Built frontend served at `/` |
@@ -83,3 +84,19 @@ All optional; see `.env.example`.
 
 Run one process (`uvicorn app.main:app --host 0.0.0.0 --port $PORT`): runs and approvals are in memory and are not
 shared between workers.
+
+## Token Factory notes
+
+Base URL `https://developer.amd.com.cn/radeon/api/v1`; recommended model `DeepSeek-V4-Flash` (no thinking by default,
+JSON mode). The team shares one key, so rate limits apply to everyone together. Error handling:
+
+| Token Factory | Rehearsal |
+| --- | --- |
+| 429 with `Retry-After` ≈ 1 s (concurrency) | retried with jitter |
+| 429 with `Retry-After` 60 s (per minute) | fails fast: 429 `amd_rate_limited`, "wait about 60 s" |
+| 401 / 403 / 404 | `amd_auth_failed` / `amd_account_review` / `amd_bad_endpoint`, not retried |
+| 400 "model not supported" | `amd_model_unavailable` (check `amd_smoke.py --models`) |
+| 400 naming `response_format` | retried once without JSON mode |
+| 5xx, timeouts | up to 3 attempts with backoff, then 502 / 504 |
+
+`backend/scripts/amd_smoke.py --usage` prints the shared key's remaining daily quota.

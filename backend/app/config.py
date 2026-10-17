@@ -35,6 +35,8 @@ RUN_TTL_S = int(os.getenv("RUN_TTL_S", str(6 * 3600)))
 MAX_RUNS = int(os.getenv("MAX_RUNS", "2000"))
 # /api/extract calls per client per minute (0 = unlimited); the shared Token Factory key has a small quota.
 EXTRACT_RATE_PER_MIN = int(os.getenv("EXTRACT_RATE_PER_MIN", "12"))
+# Whole server: the team shares one Token Factory key (20 requests/min per account at the gateway).
+EXTRACT_GLOBAL_PER_MIN = int(os.getenv("EXTRACT_GLOBAL_PER_MIN", "15"))
 SOLVER_WORKERS = int(os.getenv("SOLVER_WORKERS", str(min(8, os.cpu_count() or 2))))
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 # cpu-numpy, or gpu-torch-rocm once the optional GPU replay (#15) exists.

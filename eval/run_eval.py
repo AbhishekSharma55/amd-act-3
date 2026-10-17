@@ -56,7 +56,16 @@ def run_extraction(extractor: str):
     for msg in _jsonl(EVAL / "messages.jsonl"):
         lab = labels[msg["id"]]
         try:
-            res = extract_amd(msg["message"], F) if extractor == "amd" else extract_rules(msg["message"], F)
+            if extractor == "amd":
+                try:
+                    res = extract_amd(msg["message"], F)
+                except ExtractionError as e:
+                    if e.code != "amd_rate_limited":
+                        raise
+                    time.sleep(61)  # shared team key: wait out the per-minute window once
+                    res = extract_amd(msg["message"], F)
+            else:
+                res = extract_rules(msg["message"], F)
             origin = "amd_model" if extractor == "amd" else "rule_fallback"
             pred = validate_constraints(msg["message"], res["constraints"], F, origin=origin)
             trace, error = res["trace"], None
@@ -76,7 +85,7 @@ def run_extraction(extractor: str):
                      "latency_ms": trace and trace["latency_ms"], "model": trace and trace["model"],
                      "raw_output": trace and trace["raw_output"]})
         if extractor == "amd":
-            time.sleep(2.5)  # stay well below the shared endpoint's per-minute limit
+            time.sleep(3.5)  # ~17/min: below the 20/min per-account gateway limit on the shared team key
     need_review = [r for r in rows if r["expect_review"]]
     total_ok = sum(1 for r in rows for p in r["predicted"] if p["status"] == "ok")
     summary = {

@@ -3,6 +3,7 @@
 Run from the repo root after filling .env:
     .venv/Scripts/python backend/scripts/amd_smoke.py            # demo message with AMD_MODEL
     .venv/Scripts/python backend/scripts/amd_smoke.py --models   # list models the key can use
+    .venv/Scripts/python backend/scripts/amd_smoke.py --usage    # the team key's remaining daily quota
 """
 import json
 import sys
@@ -29,6 +30,14 @@ SMOKE = [
 def main():
     if not config.amd_configured():
         sys.exit("Set AMD_API_BASE, AMD_API_KEY and AMD_MODEL in .env first.")
+    if "--usage" in sys.argv:
+        import httpx
+        r = httpx.get(config.AMD_API_BASE.rstrip("/") + "/usage", headers={"Authorization": f"Bearer {config.AMD_API_KEY}"},
+                      timeout=20)
+        data = r.json() if r.headers.get("content-type", "").startswith("application/json") else {"status": r.status_code}
+        data.pop("recent", None)
+        print(json.dumps(data, indent=2)[:2000])
+        return
     if "--models" in sys.argv:
         for m in _get_client().models.list():
             print(m.id)
