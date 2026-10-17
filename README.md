@@ -9,7 +9,8 @@ Our objective is to maximize our chances of winning the main AMD award through a
 ## Current status
 
 - Hackathon research and independent Astra project selection are complete.
-- Product implementation has not started. The next working session begins implementation.
+- The factory view, extraction/review, CPU solver, independent checker, NumPy replay and approval/export workflow are implemented.
+- [Docker setup](docs/DOCKER.md) runs the built UI and API together. Public deployment and a verified live AMD run remain pending.
 - Team: two members. Project ambition is not capped by team size or assumed effort.
 - Budget: **$100 AMD allocation supplied by the hackathon, plus up to $20 personal spending**.
 - Benchmarks, GPU acceleration, extraction quality, customer adoption, and business benefits have not yet been validated by our own experiments.
