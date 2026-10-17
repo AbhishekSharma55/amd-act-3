@@ -1,5 +1,8 @@
 # Factory view · issue #3
 
+See [verification notes and screenshots](../docs/FACTORY_VIEW_QA.md) for the
+completed browser and API checks.
+
 React/Vite frontend for Rehearsal. This phase displays the committed production
 schedule and two clearly labeled, recorded synthetic examples. It does not call
 AMD, solve schedules, run simulations, validate recovery feasibility, or approve
