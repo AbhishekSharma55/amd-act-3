@@ -3,6 +3,7 @@ import { createApi } from "../lib/api.js";
 import { approvalFiles, approvalRequest, validateApprovalResponse } from "../lib/approval.js";
 import { checkerState } from "../lib/checker.js";
 import CheckerResult from "./CheckerResult.jsx";
+import RequestNotice from "./RequestNotice.jsx";
 import "./approval.css";
 
 const requestApproval = createApi({
@@ -15,7 +16,7 @@ export default function ApprovalPanel(props) {
   return <ApprovalSession key={`${props.runId}:${props.alternative?.id}`} {...props} />;
 }
 
-function ApprovalSession({ runId, alternative, hidden = false, sample = false, onInvalidRun }) {
+function ApprovalSession({ runId, alternative, hidden = false, sample = false, onInvalidRun, onApproved, disabled = false }) {
   const [approved, setApproved] = useState([]);
   const [approver, setApprover] = useState("");
   const [pending, setPending] = useState(false);
@@ -58,7 +59,7 @@ function ApprovalSession({ runId, alternative, hidden = false, sample = false, o
   const unavailable = ["run_not_found", "run_expired", "alternative_not_found", "run_locked"].includes(error?.code);
   const checked = checkerState(alternative?.checker).status === "passed";
   const ready = Boolean(runId && alternative?.id && checked && approver.trim() && approver.trim().length <= 120 &&
-    concessions.every((item) => approved.includes(item.id)) && !pending && !result && !unavailable);
+    concessions.every((item) => approved.includes(item.id)) && !pending && !result && !unavailable && !disabled);
 
   async function submit(event) {
     event.preventDefault();
@@ -72,7 +73,9 @@ function ApprovalSession({ runId, alternative, hidden = false, sample = false, o
     try {
       const response = await requestApproval("/api/approve", body, { signal: controller.current.signal });
       if (session.current !== generation) return;
-      setResult(validateApprovalResponse(response, body));
+      const confirmed = validateApprovalResponse(response, body);
+      setResult(confirmed);
+      onApproved?.(confirmed);
     } catch (failure) {
       if (session.current === generation && failure.name !== "AbortError") {
         setError({ message: failure.message, code: failure.code });
@@ -111,7 +114,7 @@ function ApprovalSession({ runId, alternative, hidden = false, sample = false, o
         </div>
       ) : (
         <form onSubmit={submit} aria-busy={pending}>
-          <fieldset disabled={pending || unavailable} className="approval-tradeoffs">
+          <fieldset disabled={pending || unavailable || disabled} className="approval-tradeoffs">
             <legend>Required tradeoffs for {alternative?.label || "this plan"}</legend>
             {concessions.length ? concessions.map((item) => (
               <label className="approval-concession" key={item.id}>
@@ -124,12 +127,13 @@ function ApprovalSession({ runId, alternative, hidden = false, sample = false, o
           <p className="approval-recheck-note">The service recalculates required tradeoffs and checks the stored schedule again. Every required tradeoff must be accepted before export.</p>
           <div className="approval-actions">
             <label className="approver-input">Approver name
-              <input name="approver" type="text" maxLength={120} autoComplete="name" placeholder="Shift supervisor" value={approver} disabled={pending || unavailable} onChange={(event) => setApprover(event.target.value)} />
+              <input name="approver" type="text" maxLength={120} autoComplete="name" placeholder="Shift supervisor" value={approver} disabled={pending || unavailable || disabled} onChange={(event) => setApprover(event.target.value)} />
             </label>
             <button type="submit" disabled={!ready}>{pending ? "Checking and approving…" : error && !unavailable ? "Retry approval" : sample ? "Approve synthetic sample" : "Approve and export"}<span aria-hidden="true">↗</span></button>
           </div>
           {!checked && <p className="approval-not-ready">A passing schedule check is required before approval.</p>}
-          {error && <div className="approval-error" role="alert"><strong>Approval was not confirmed.</strong><p>{error.message}</p>{unavailable && onInvalidRun && <button type="button" onClick={onInvalidRun}>Choose a new recovery plan</button>}</div>}
+          <RequestNotice title="Approval was not confirmed." error={error} />
+          {unavailable && onInvalidRun && <button type="button" onClick={onInvalidRun}>Choose a new recovery plan</button>}
         </form>
       )}
     </section>

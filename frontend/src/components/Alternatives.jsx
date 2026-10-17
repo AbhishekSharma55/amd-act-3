@@ -1,31 +1,34 @@
+import { checkerState } from "../lib/checker.js";
+
 const POLICY = (p) => `${p.reroute ? "re-route allowed" : "same machines"} · ${p.overtime ? "overtime allowed" : "no overtime"}`;
 const MERGED = { alt_keep: "Keep machines", alt_reroute: "Re-route", alt_reroute_overtime: "Re-route + overtime" };
 
-export default function Alternatives({ solve, selectedId, onSelect, onConstraintClick }) {
+export default function Alternatives({ solve, selectedId, onSelect, onConstraintClick, busy }) {
   if (!solve) return null;
   return (
     <section className="panel wide" aria-labelledby="alt-h">
       <h2 id="alt-h"><span className="step">3</span> Recovery alternatives</h2>
       {solve.status === "no_feasible_plan" && (
-        <p className="warn-box">No alternative meets these constraints. Read why below, then edit or reject a constraint and solve again.</p>
+        <p className="warn-box">No recovery plan was returned. Review each result below: an infeasible result is proven impossible under that policy; UNKNOWN means no plan was found within the search budget.</p>
       )}
       <div className="cards">
         {solve.infeasible.map((x) => <InfeasibleCard key={x.id || x.label} x={x} onConstraintClick={onConstraintClick} />)}
         {solve.alternatives.map((a) => (
-          <AltCard key={a.id} a={a} selected={a.id === selectedId} onSelect={() => onSelect(a.id)} />
+          <AltCard key={a.id} a={a} selected={a.id === selectedId} busy={busy} onSelect={() => onSelect(a.id)} />
         ))}
       </div>
     </section>
   );
 }
 
-function AltCard({ a, selected, onSelect }) {
+function AltCard({ a, selected, onSelect, busy }) {
   const k = a.kpis;
+  const checked = checkerState(a.checker).status === "passed";
   return (
-    <button className={`card ${selected ? "selected" : ""}`} onClick={onSelect} aria-pressed={selected}>
+    <button className={`card ${selected ? "selected" : ""}`} disabled={busy || !checked} onClick={onSelect} aria-pressed={selected}>
       <div className="card-head">
         <b>{a.label}</b>
-        <span className={`pill ${a.checker.valid ? "good" : "bad"}`}>{a.checker.valid ? "Checker ✓" : "Checker ✕"}</span>
+        <span className={`pill ${checked ? "good" : "bad"}`}>{checked ? "Checker ✓" : "Checker ✕"}</span>
       </div>
       <div className="muted small">{POLICY(a.policy)} · {a.solver.status === "OPTIMAL" ? "optimal" : "best found in budget"}
         {a.solver.time_ms ? ` · ${a.solver.time_ms} ms` : ""}</div>

@@ -26,8 +26,10 @@ export function createApi({
   useMocks = true,
   baseUrl = "",
   fetchImpl = globalThis.fetch,
+  timeoutMs = 120000,
 } = {}) {
   return async function api(path, body, { signal } = {}) {
+    signal?.throwIfAborted();
     if (useMocks) {
       if (path === "/api/approve")
         throw new ApiError(
@@ -42,6 +44,11 @@ export function createApi({
     }
 
     let response;
+    const controller = new AbortController();
+    let timedOut = false;
+    const abort = () => controller.abort(signal?.reason);
+    signal?.addEventListener("abort", abort, { once: true });
+    const timer = setTimeout(() => { timedOut = true; controller.abort(); }, timeoutMs);
     try {
       response = await fetchImpl(`${baseUrl.replace(/\/$/, "")}${path}`, {
         method: body === undefined ? "GET" : "POST",
@@ -51,9 +58,13 @@ export function createApi({
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(body),
             }),
-        signal,
+        signal: controller.signal,
       });
+      signal?.throwIfAborted();
     } catch (error) {
+      clearTimeout(timer);
+      signal?.removeEventListener("abort", abort);
+      if (timedOut) throw new ApiError("The request timed out. Retry when the service is available.", { code: "request_timeout", retryable: true });
       if (error.name === "AbortError") throw error;
       throw new ApiError(
         "Could not reach the service. Check the connection, then retry.",
@@ -64,11 +75,17 @@ export function createApi({
     let data;
     try {
       data = await response.json();
+      signal?.throwIfAborted();
     } catch {
+      if (signal?.aborted) signal.throwIfAborted();
+      if (timedOut) throw new ApiError("The response timed out. Retry when the service is available.", { code: "request_timeout", retryable: true });
       throw new ApiError(
         `The API returned an unreadable response (${response.status}).`,
         { code: "invalid_response", status: response.status, retryable: true },
       );
+    } finally {
+      clearTimeout(timer);
+      signal?.removeEventListener("abort", abort);
     }
     if (!response.ok) {
       throw new ApiError(
@@ -76,7 +93,7 @@ export function createApi({
         {
           code: data?.error?.code,
           status: response.status,
-          retryable: data?.error?.retryable ?? response.status >= 500,
+          retryable: data?.error?.retryable ?? (response.status === 429 || response.status >= 500),
         },
       );
     }

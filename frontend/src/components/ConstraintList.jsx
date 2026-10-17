@@ -2,7 +2,7 @@ import { useState } from "react";
 import { describe } from "../lib/workflow.js";
 
 export default function ConstraintList({ factory, constraints, trace, activeId, onActivate, onDecide, onEdit, busy,
-                                         canSolve, onSolve, solving, blockedReason }) {
+                                         canSolve, onSolve, solving, blockedReason, onBeginEdit }) {
   if (!constraints) {
     return (
       <section className="panel" aria-labelledby="c-h">
@@ -23,7 +23,7 @@ export default function ConstraintList({ factory, constraints, trace, activeId, 
         {constraints.map((c) => (
           <ConstraintItem key={c.id} c={c} factory={factory} active={c.id === activeId} busy={busy}
                           onActivate={() => onActivate(c.id)} onDecide={(d) => onDecide(c.id, d)}
-                          onEdit={(params) => onEdit(c.id, params)} />
+                          onEdit={(params) => onEdit(c.id, params)} onBeginEdit={onBeginEdit} />
         ))}
       </ul>
       <div className="row-between">
@@ -36,7 +36,7 @@ export default function ConstraintList({ factory, constraints, trace, activeId, 
   );
 }
 
-function ConstraintItem({ c, factory, active, busy, onActivate, onDecide, onEdit }) {
+function ConstraintItem({ c, factory, active, busy, onActivate, onDecide, onEdit, onBeginEdit }) {
   const [editing, setEditing] = useState(false);
   const rejected = c.decision === "rejected";
   const accepted = c.decision === "accepted" || c.status === "accepted";
@@ -66,7 +66,7 @@ function ConstraintItem({ c, factory, active, busy, onActivate, onDecide, onEdit
                   title={blocking ? "Correct the required fields first" : "Confirm this interpretation"}>
             {accepted ? "Accepted" : "Accept"}
           </button>
-          {editable && <button disabled={busy} onClick={() => setEditing((v) => !v)}>{editing ? "Cancel edit" : "Edit / map"}</button>}
+          {editable && <button disabled={busy} onClick={() => { if (!editing) onBeginEdit?.(); setEditing((v) => !v); }}>{editing ? "Cancel edit" : "Edit / map"}</button>}
           <button disabled={busy} onClick={() => onDecide("rejected")}>Reject</button>
         </div>
       )}
