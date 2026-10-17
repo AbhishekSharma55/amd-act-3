@@ -1,0 +1,56 @@
+{
+  "run_id": "r_mock_0002",
+  "message": "Mill 4 is down after lunch. J7 ships at 4.",
+  "constraints": [
+    {
+      "id": "c1",
+      "type": "machine_down",
+      "params": {
+        "machine": "Mill 4",
+        "from": null,
+        "until": null
+      },
+      "source_span": "Mill 4 is down after lunch",
+      "status": "review",
+      "issues": [
+        "Unknown machine 'Mill 4'. Known: Mill M1, Mill M2, Lathe L3",
+        "No end time given for the outage",
+        "'after lunch' is not a time"
+      ],
+      "blocking_issues": [
+        "Choose a known machine",
+        "Provide explicit outage start and repair end times"
+      ],
+      "origin": "amd_model"
+    },
+    {
+      "id": "c2",
+      "type": "due_date",
+      "params": {
+        "job": "J7",
+        "time": "16:00",
+        "hard": false
+      },
+      "source_span": "J7 ships at 4",
+      "status": "review",
+      "issues": [
+        "'4' interpreted as 16:00; please confirm"
+      ],
+      "blocking_issues": [],
+      "origin": "amd_model"
+    }
+  ],
+  "trace": {
+    "provider": "AMD Token Factory",
+    "model": "MOCK",
+    "host": "MOCK",
+    "latency_ms": 0,
+    "attempts": 1,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+    },
+    "raw_output": "MOCK",
+    "fallback_used": false
+  }
+}
