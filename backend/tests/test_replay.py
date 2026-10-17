@@ -81,14 +81,19 @@ def test_sampled_running_work_restarts_after_a_future_outage(F):
                                          "source_span": message}], F)
     plan = solve(F, cs, reroute=True, overtime=False)
     assert check(F, cs, plan["schedule"])["valid"]
+    events = {}
     sim, _ = simulate(plan["schedule"], effective_due(F, cs), hm(F["now"]), outage_windows(F, cs), n=500, seed=7,
-                      repair_extra_max=0)
+                      repair_extra_max=0, restart_events=events)
     for a, s, e in sim:
-        if a["machine"] == "M1":
+        if a["machine"] == "M1" and (a["job"], a["op"]) not in events:
             assert not ((s < hm("11:00")) & (e > hm("10:11"))).any(), (a, int(((s < 660) & (e > 611)).sum()))
     row, s, e = next(x for x in sim if (x[0]["job"], x[0]["op"]) == ("J6", 1))
-    restarted = s > hm("09:00")
-    assert restarted.any() and (s[restarted] >= hm("11:00")).all()
+    # Start/end includes history and waiting. The processing attempts stop at
+    # the outage and restart after repair; the observed start must not move.
+    cutoff, restart_starts, restarted = events[("J6", 1)][0]
+    assert cutoff == hm("10:11") and (s == hm("09:00")).all()
+    assert restarted.any() and (restart_starts[restarted] >= hm("11:00")).all()
+    assert (e[restarted] > restart_starts[restarted]).all()
     assert (e[~restarted] <= hm("10:11")).all()
     # Nominal times are unchanged: zero noise reproduces the plan exactly.
     sim, _ = simulate(plan["schedule"], effective_due(F, cs), hm(F["now"]), outage_windows(F, cs), n=5,

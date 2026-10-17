@@ -53,11 +53,19 @@ The five contract endpoints plus two additions used by the frontend:
 | `POST /api/approve` | `{run_id, alternative_id, approved_concessions, approver}` → dispatch CSV + decision record |
 | `GET /api/runs/{run_id}` | **Added.** Inspector evidence: trace, step log, solver/checker per alternative, replay settings |
 
-Additive fields beyond the mocks: constraint lists are echoed by `/solve` (`constraints`, `rejected`), infeasible entries carry `id` and `solver`, replay jobs carry `planned_finish`, `due`, `late_in_plan`, `worst_late_min`, and the failing scenario carries `job`, `minutes_late` and a `bottleneck` summary.
+Additive fields beyond the mocks: constraint lists are echoed by `/solve` (`constraints`, `rejected`), infeasible entries carry `id` and `solver`, replay jobs carry `planned_finish`, `due`, `late_in_plan`, `worst_late_min`, and the failing scenario carries `job`, `minutes_late` and a `bottleneck` summary. Interrupted running operations also carry `segments: [{start, end, kind}]`, with `kind` equal to `interrupted` or `restart`. Their outer start/end is elapsed time including discarded work and repair waits; only the segments represent processing. `assumptions.running_work` states the restart policy, and approval retains this evidence.
 
 ## Replay semantics
 
 Same machine and same order per machine; no re-optimization per sample. Unstarted operations take duration × triangular(0.9, 1.0, 1.3); running operations keep their observed start and elapsed work and only their remaining work is randomized. An operation never starts before its planned start, its machine being free, its job's previous operation, or `now`, and waits for the sampled repair end if it would overlap an outage. Each outage still open at `now` ends 0-90 min late (uniform). Defaults: 500 samples, seed 7. With zero spread and zero delay the plan is reproduced exactly. These are synthetic assumptions, not calibrated factory reliability.
+
+If randomized remaining running work crosses a future outage, the interrupted
+attempt is scrapped and the full operation restarts after the sampled repair.
+The same sampled duration factor applies to that full restart; this is an
+explicit synthetic assumption. Further outages can interrupt the restart.
+Observed history stays in place, and delays propagate to later operations on
+the job and machine. The failure timeline separates processing attempts from
+outage waits instead of painting one continuous processing bar.
 
 ## Production settings
 

@@ -119,7 +119,7 @@ page's state. Future feature panels should import the shared transport.
 | ------------- | ------------------------------------------------------------------------------- |
 | `machines`    | Fixture machine objects, in row order; empty machine rows are supported         |
 | `jobs`        | Fixture jobs; array order determines stable job colors                          |
-| `schedule`    | Array of `{job, op, machine, start, end, change?}`                              |
+| `schedule`    | Array of `{job, op, machine, start, end, change?, segments?}`                   |
 | `now`         | `HH:MM`, factory local time                                                     |
 | `shift`       | Fixture shift; `start`, `end`, optional `overtime_until`                        |
 | `outages`     | `{machine, from, until}[]`; defaults to empty                                   |
@@ -134,6 +134,13 @@ so overtime is not clipped. The selected-operation detail lives outside the
 SVG. The component itself does not know solver, checker, replay, concession, or
 AMD semantics. Frozen styling describes started work; the approval service owns
 approval decisions.
+
+An interrupted operation may provide `segments: [{start, end, kind}]`, where
+`kind` is `interrupted` or `restart`. The component paints only those processing
+segments and leaves the repair wait as a gap. It remains one logical operation
+for selection and machine counts; its outer start/end includes elapsed waiting
+time. Accessible descriptions list the segments. Old schedules without this
+optional field render as before.
 
 `src/lib/timeline.js` supplies strict clock parsing, schedule-derived delivery
 outcomes, stable operation keys, and optional sample annotations.
