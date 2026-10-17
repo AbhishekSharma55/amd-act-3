@@ -1,12 +1,18 @@
-"""Check a running packaged app without calling AMD or needing third-party packages.
+"""Check a running packaged app using only the Python standard library.
 
 python scripts/container_smoke.py http://127.0.0.1:7860 --mode strict
 python scripts/container_smoke.py http://127.0.0.1:7860 --mode fallback
+python scripts/container_smoke.py http://127.0.0.1:7860 --mode amd --save-to eval/smoke/docker_live.json
+
+Strict/fallback modes require AMD to be unconfigured. AMD mode makes one real
+model request and requires rule fallback to be disabled.
 """
 import argparse
 import csv
+from datetime import datetime, timezone
 import io
 import json
+from pathlib import Path
 import re
 import time
 import urllib.error
@@ -19,7 +25,8 @@ MESSAGE = ("Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("base_url")
-    parser.add_argument("--mode", choices=("strict", "fallback"), required=True)
+    parser.add_argument("--mode", choices=("strict", "fallback", "amd"), required=True)
+    parser.add_argument("--save-to", type=Path, help="Save workflow inputs, responses and checks as JSON.")
     args = parser.parse_args()
     base = args.base_url.rstrip("/")
     checks = []
@@ -50,9 +57,11 @@ def main():
                 raise
             time.sleep(0.5)
     assert health["ok"] and health["replay_device"] == "cpu-numpy"
-    assert health["amd"]["configured"] is False, "Smoke tests require empty AMD configuration."
+    assert health["amd"]["configured"] is (args.mode == "amd"), "AMD configuration does not match the requested mode."
     assert health["fallback_enabled"] is (args.mode == "fallback"), health
     checks.append("health and explicit extraction mode")
+    evidence = {"recorded_at": datetime.now(timezone.utc).isoformat(), "base_url": base,
+                "health": health, "message": MESSAGE}
 
     status, html = request("/")
     assert status == 200 and b'<div id="root">' in html
@@ -75,10 +84,26 @@ def main():
         checks.append("missing AMD returns 503 without recorded substitution")
     else:
         draft = api("/api/extract", {"message": MESSAGE})
-        assert draft["trace"]["fallback_used"] is True
-        assert all(c["origin"] == "rule_fallback" for c in draft["constraints"])
+        fallback = args.mode == "fallback"
+        assert draft["trace"]["fallback_used"] is fallback
+        origin = "rule_fallback" if fallback else "amd_model"
+        assert draft["constraints"] and all(c["origin"] == origin for c in draft["constraints"])
         assert all(c["status"] == "ok" and not c["blocking_issues"] for c in draft["constraints"])
-        checks.append("labeled rule extraction without an AMD call")
+        # These expected facts were agreed in both builders' frozen demo labels.
+        # Checking status alone missed a live model turning conditional overtime
+        # into a prohibition and silently removing a recovery option.
+        expected = {"machine_down": {"machine": "M2", "from": factory["now"], "until": "14:00"},
+                    "due_date": {"job": "J7", "time": "16:00", "hard": True},
+                    "overtime": {"allowed": True}}
+        assert len(draft["constraints"]) == len(expected)
+        for kind, params in expected.items():
+            matches = [c for c in draft["constraints"] if c["type"] == kind]
+            assert len(matches) == 1 and all(matches[0]["params"].get(k) == v for k, v in params.items()), (kind, matches)
+        if not fallback:
+            assert draft["trace"]["mode"] == "live"
+            assert draft["trace"]["host"] == health["amd"]["host"] == "developer.amd.com.cn"
+            assert draft["trace"]["requested_model"] == health["amd"]["model"]
+        checks.append("labeled rule extraction without an AMD call" if fallback else "live AMD extraction without fallback")
 
         solved = api("/api/solve", {"run_id": draft["run_id"], "constraints": draft["constraints"]})
         assert solved["run_id"] != draft["run_id"] and solved["alternatives"]
@@ -103,7 +128,7 @@ def main():
         approved = api("/api/approve", approve_body)
         record = approved["decision_record"]
         assert record["checker"]["valid"] and record["run_id"] == solved["run_id"]
-        assert record["amd_trace"]["fallback_used"] is True
+        assert record["amd_trace"]["fallback_used"] is fallback
         assert record["replay"]["samples"] == 500
         rows = list(csv.DictReader(io.StringIO(approved["dispatch_csv"])))
         assert len(rows) == len(factory["committed_schedule"])
@@ -113,8 +138,15 @@ def main():
         details = api(f"/api/runs/{solved['run_id']}")
         assert {"extract", "solve", "replay", "approve"} <= {entry["step"] for entry in details["log"]}
         checks.append("concession approval, idempotent export and locked evidence")
+        evidence.update({"extraction": draft, "solve": solved, "replay": replay,
+                         "approval": approved, "inspector": details})
 
-    print(json.dumps({"mode": args.mode, "passed": len(checks), "checks": checks}, indent=2))
+    summary = {"mode": args.mode, "passed": len(checks), "checks": checks}
+    if args.save_to:
+        args.save_to.parent.mkdir(parents=True, exist_ok=True)
+        args.save_to.write_text(json.dumps({**evidence, "summary": summary}, indent=2), encoding="utf-8")
+        summary["saved_to"] = str(args.save_to)
+    print(json.dumps(summary, indent=2))
 
 
 if __name__ == "__main__":

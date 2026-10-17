@@ -1,0 +1,66 @@
+{
+  "message": "Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00. Overtime requires approval.",
+  "recorded_at": "2026-10-17T23:14:34+05:30",
+  "trace": {
+    "provider": "AMD Token Factory",
+    "model": "self-dploy/DeepSeek-V4-Flash",
+    "requested_model": "DeepSeek-V4-Flash",
+    "host": "developer.amd.com.cn",
+    "latency_ms": 6476,
+    "attempts": 1,
+    "usage": {
+      "prompt_tokens": 609,
+      "completion_tokens": 140
+    },
+    "raw_output": "{\"constraints\": [\n  {\"type\": \"machine_down\", \"params\": {\"machine\": \"Mill M2\", \"from\": null, \"until\": \"14:00\"}, \"source_span\": \"Mill M2 is unavailable until 14:00\"},\n  {\"type\": \"due_date\", \"params\": {\"job\": \"J7\", \"time\": \"16:00\", \"hard\": true}, \"source_span\": \"Order J7 still needs to ship at 16:00\"},\n  {\"type\": \"overtime\", \"params\": {\"allowed\": false, \"until\": null}, \"source_span\": \"Overtime requires approval\"}\n]}",
+    "fallback_used": false,
+    "mode": "live",
+    "json_mode": true
+  },
+  "validated": [
+    {
+      "id": "c1",
+      "type": "machine_down",
+      "params": {
+        "machine": "M2",
+        "from": "10:00",
+        "until": "14:00"
+      },
+      "source_span": "Mill M2 is unavailable until 14:00",
+      "status": "ok",
+      "blocking_issues": [],
+      "issues": [
+        "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
+      ],
+      "origin": "amd_model"
+    },
+    {
+      "id": "c2",
+      "type": "due_date",
+      "params": {
+        "job": "J7",
+        "time": "16:00",
+        "hard": true
+      },
+      "source_span": "Order J7 still needs to ship at 16:00",
+      "status": "ok",
+      "blocking_issues": [],
+      "issues": [],
+      "origin": "amd_model"
+    },
+    {
+      "id": "c3",
+      "type": "overtime",
+      "params": {
+        "allowed": false,
+        "until": null
+      },
+      "source_span": "Overtime requires approval",
+      "status": "ok",
+      "blocking_issues": [],
+      "issues": [],
+      "origin": "amd_model"
+    }
+  ],
+  "wall_ms": 7000
+}

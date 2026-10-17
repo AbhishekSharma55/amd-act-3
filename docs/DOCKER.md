@@ -116,6 +116,25 @@ independent checking, CPU replay, concession approval, CSV/JSON export,
 idempotent approval and evidence locking. The custom-port check also sets
 `WEB_CONCURRENCY=4` to exercise the fixed single-worker entry point.
 
+### Verify a real AMD request
+
+After setting the Token Factory settings in `.env` and starting Compose with
+`ALLOW_RULE_FALLBACK=0`:
+
+```bash
+python3 scripts/container_smoke.py http://localhost:7860 --mode amd \
+  --save-to eval/smoke/docker_live.json
+```
+
+This mode makes one real model request. It requires AMD configuration and
+disabled fallback, verifies the model trace, then checks solve, replay,
+approval and exports. The optional JSON artifact contains the synthetic
+workflow inputs and responses. The API key stays on the server. CI runs only
+the two offline modes.
+
+The same command can check a deployed HTTPS URL after deployment. A local
+success does not establish that the public host or its AMD secrets work.
+
 ## Public deployment still needed
 
 This packages the application for issue #12. Choosing a host, publishing a live

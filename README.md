@@ -10,10 +10,10 @@ Our objective is to maximize our chances of winning the main AMD award through a
 
 - Hackathon research and independent Astra project selection are complete.
 - The factory view, extraction/review, CPU solver, independent checker, NumPy replay and approval/export workflow are implemented.
-- [Docker setup](docs/DOCKER.md) runs the built UI and API together. Public deployment and a verified live AMD run remain pending.
+- [Docker setup](docs/DOCKER.md) runs the built UI and API together. [Live AMD integration is verified locally](docs/LIVE_AMD_QA.md); public deployment remains pending.
 - Team: two members. Project ambition is not capped by team size or assumed effort.
 - Budget: **$100 AMD allocation supplied by the hackathon, plus up to $20 personal spending**.
-- Benchmarks, GPU acceleration, extraction quality, customer adoption, and business benefits have not yet been validated by our own experiments.
+- Extraction has been measured on a provisional builder-labeled development set. GPU acceleration, customer adoption and business benefits remain unvalidated; the extraction results are not a benchmark.
 
 This repository is **private** for preparation, as requested. The event calls for a public GitHub submission; resolve visibility during submission preparation.
 
@@ -38,7 +38,7 @@ This repository is **private** for preparation, as requested. The event calls fo
 
 GPU performance gains must be measured against a competent CPU implementation. Simulation outcomes must remain distinguishable from real factory benefits.
 
-## Next working session
+## Original verification plan
 
 - Verify the supplied AMD allocation, available compute, Token Factory models, and service limits.
 - Pin the benchmark and software versions; inspect the selected data and supported scheduling semantics.
@@ -47,7 +47,7 @@ GPU performance gains must be measured against a competent CPU implementation. S
 - Establish CPU/GPU replay agreement before making performance claims.
 - Define held-out evaluation cases and baselines before tuning.
 
-These are planned checks; they have not been run. The complete design and limitations are in the Astra decision memo.
+This planning list is preserved as background; current verification evidence is linked above. The complete design and limitations are in the Astra decision memo.
 
 ## Repository contents
 

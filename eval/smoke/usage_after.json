@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-17T17:58:35.542720+00:00",
+  "note": "Shared team quota meter, not an invoice or isolated attribution to these checks.",
+  "rpm_limit": 20,
+  "daily_cost_limit_usd": 1,
+  "daily_cost_used_usd": 0.0039538126438856125,
+  "daily_cost_remaining_usd": 0.9960461873561144,
+  "daily_reset_at": "2026-10-18T16:00:00.000Z",
+  "daily_reset_timezone": "Asia/Shanghai"
+}
