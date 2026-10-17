@@ -2,14 +2,12 @@ import factory from "../../../shared/mocks/factory.json" with { type: "json" };
 import extract from "../../../shared/mocks/extract.json" with { type: "json" };
 import solve from "../../../shared/mocks/solve.json" with { type: "json" };
 import replay from "../../../shared/mocks/replay.json" with { type: "json" };
-import approve from "../../../shared/mocks/approve.json" with { type: "json" };
 
 const mocks = {
   "/api/factory": factory,
   "/api/extract": extract,
   "/api/solve": solve,
   "/api/replay": replay,
-  "/api/approve": approve,
 };
 
 export class ApiError extends Error {
@@ -31,6 +29,11 @@ export function createApi({
 } = {}) {
   return async function api(path, body, { signal } = {}) {
     if (useMocks) {
+      if (path === "/api/approve")
+        throw new ApiError(
+          "Approval needs the service to recheck the stored plan. A recorded response cannot approve it.",
+          { code: "approval_requires_service" },
+        );
       if (!mocks[path])
         throw new ApiError(`No recorded sample is available for ${path}.`, {
           code: "mock_unavailable",
@@ -53,7 +56,7 @@ export function createApi({
     } catch (error) {
       if (error.name === "AbortError") throw error;
       throw new ApiError(
-        "Could not reach the factory API. Check that the backend is running, then retry.",
+        "Could not reach the service. Check the connection, then retry.",
         { code: "network_error", retryable: true },
       );
     }
