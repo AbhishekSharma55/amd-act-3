@@ -228,9 +228,16 @@ export default function Timeline({
                 const job = jobs.find((item) => item.id === operation.job);
                 const key = operationKey(operation);
                 const active = key === selectedKey;
+                const pieces = operation.segments?.length ? operation.segments : [operation];
+                const labelPiece = pieces.reduce((widest, piece) =>
+                  minutes(piece.end) - minutes(piece.start) > minutes(widest.end) - minutes(widest.start)
+                    ? piece : widest);
+                const interruption = operation.segments?.length
+                  ? ` Interrupted by outage. Processing: ${pieces.map((p) => `${p.start} to ${p.end} (${p.kind})`).join("; ")}.`
+                  : "";
                 const width = Math.max(
                   2,
-                  x(operation.end) - x(operation.start),
+                  x(labelPiece.end) - x(labelPiece.start),
                 );
                 const frozen = minutes(operation.start) < minutes(now);
                 const showText = width > 33;
@@ -239,7 +246,7 @@ export default function Timeline({
                     key={key}
                     role="button"
                     tabIndex={0}
-                    aria-label={`${operation.job} operation ${operation.op}, ${job?.customer}, ${machine.name}, ${operation.start} to ${operation.end}, due ${job?.due}. ${describeChange(operation.change)}`}
+                    aria-label={`${operation.job} operation ${operation.op}, ${job?.customer}, ${machine.name}, ${operation.start} to ${operation.end}, due ${job?.due}. ${describeChange(operation.change)}${interruption}`}
                     aria-pressed={active}
                     className={`operation ${frozen ? "is-frozen" : ""} ${isChanged(operation) ? "is-changed" : ""} ${highlighted(operation) ? "is-highlighted" : ""} ${active ? "is-selected" : ""}`}
                     onMouseEnter={() => onInspect?.(operation)}
@@ -252,19 +259,23 @@ export default function Timeline({
                       }
                     }}
                   >
-                    <title>{`${operation.job} · operation ${operation.op} | ${job?.customer} | ${machine.name} | ${operation.start}–${operation.end} | due ${job?.due}`}</title>
-                    <rect
-                      className="operation-fill"
-                      x={x(operation.start) + 1}
-                      y={y + 32}
-                      width={Math.max(1, width - 2)}
-                      height="35"
-                      rx="4"
-                      fill={color(operation.job)}
-                    />
+                    <title>{`${operation.job} · operation ${operation.op} | ${job?.customer} | ${machine.name} | ${operation.start}–${operation.end} | due ${job?.due}${interruption}`}</title>
+                    {pieces.map((piece, index) => (
+                      <rect
+                        key={index}
+                        className="operation-fill"
+                        data-segment-kind={piece.kind}
+                        x={x(piece.start) + 1}
+                        y={y + 32}
+                        width={Math.max(1, x(piece.end) - x(piece.start) - 2)}
+                        height="35"
+                        rx="4"
+                        fill={color(operation.job)}
+                      />
+                    ))}
                     {showText && (
                       <text
-                        x={x(operation.start) + Math.min(10, width / 6)}
+                        x={x(labelPiece.start) + Math.min(10, width / 6)}
                         y={y + 54}
                         className="operation-text"
                       >

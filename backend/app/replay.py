@@ -4,6 +4,8 @@ Semantics (also stated in the README and shown in the UI):
 - Same machine and same order per machine; the simulator never re-optimizes a sampled future.
 - Unstarted operations: full duration x triangular(lo, 1.0, hi). Running operations keep their observed
   start and elapsed work; only the planned remaining work is multiplied by the same distribution.
+  If sampled remaining work crosses a future outage, that attempt is lost and the full operation
+  restarts after sampled repair, using the same duration factor. Observed history is retained.
 - An unstarted operation starts at the latest of its planned start, machine free, previous op of its job
   done and `now`. If it would overlap an outage it waits for the sampled repair end.
 - Each outage that has not ended by `now` gets repair end + uniform(0, repair_delay_max_min).
@@ -39,8 +41,14 @@ def check_assumptions(a: dict | None) -> dict:
             "repair_delay_max_min": float(delay)}
 
 
-def simulate(schedule, due, now, outages, n=500, seed=7, spread=(0.9, 1.3), repair_extra_max=90):
-    """outages: {machine: [(from_min, until_min), ...]} merged and sorted. Returns (sim, lateness)."""
+def simulate(schedule, due, now, outages, n=500, seed=7, spread=(0.9, 1.3), repair_extra_max=90,
+             restart_events=None):
+    """Return (sim, lateness); outages are merged/sorted {machine: [(from, until), ...]}.
+
+    Optional restart_events collects (outage start, restart starts, affected mask)
+    per (job, op), allowing the selected failure to show processing separately
+    from outage waits without changing the observed operation start in sim.
+    """
     rng = np.random.default_rng(seed)
     ops = sorted(schedule, key=lambda a: hm(a["start"]))   # respects precedence and machine order
     mfree, jfree, sim = {}, {}, []
@@ -57,6 +65,20 @@ def simulate(schedule, due, now, outages, n=500, seed=7, spread=(0.9, 1.3), repa
             if planned_start < now:  # observed running: randomize remaining work only
                 s = np.full(n, float(planned_start))
                 dd = (now - planned_start) + (planned_end - now) * factor
+                finish = s + dd
+                attempt_start = np.full(n, float(now))
+                for f, rend in windows.get(m, []):
+                    hit = (attempt_start < rend) & (finish > f)
+                    if not hit.any():
+                        continue
+                    restart = np.maximum(attempt_start, rend)
+                    if restart_events is not None:
+                        restart_events.setdefault((j, a["op"]), []).append((f, restart, hit))
+                    # Non-preemptive work is scrapped on interruption: restart
+                    # the full duration, not merely the pre-outage remainder.
+                    finish = np.where(hit, restart + d * factor, finish)
+                    attempt_start = np.where(hit, restart, attempt_start)
+                dd = finish - s
             else:
                 floor = float(max(now, planned_start))
                 s = np.maximum.reduce([mfree.get(m, zeros), jfree.get(j, zeros), np.full(n, floor)])
@@ -76,8 +98,9 @@ def run_replay(F, schedule, outages, due, priority, assumptions, device="cpu-num
     a = check_assumptions(assumptions)
     now, n = hm(F["now"]), a["samples"]
     t0 = time.perf_counter()
+    restarts = {}
     sim, lat = simulate(schedule, due, now, outages, n=n, seed=a["seed"], spread=a["duration_spread"],
-                        repair_extra_max=a["repair_delay_max_min"])
+                        repair_extra_max=a["repair_delay_max_min"], restart_events=restarts)
     elapsed_ms = round((time.perf_counter() - t0) * 1000, 2)
     planned_end = {j["id"]: max(hm(x["end"]) for x in schedule if x["job"] == j["id"]) for j in F["jobs"]}
     jobs = []
@@ -99,6 +122,17 @@ def run_replay(F, schedule, outages, due, priority, assumptions, device="cpu-num
             row = {"job": op["job"], "op": op["op"], "machine": op["machine"],
                    "start": fmt(int(round(float(ss[idx])))), "end": fmt(int(round(float(ee[idx])))),
                    "planned_start": op["start"], "planned_end": op["end"], "bottleneck": False}
+            interrupted = [(f, float(restart[idx])) for f, restart, hit in
+                           restarts.get((op["job"], op["op"]), []) if hit[idx]]
+            if interrupted:
+                segments, cursor = [], float(ss[idx])
+                for f, restart in interrupted:
+                    if cursor < f:  # overlapping repairs may prevent an attempt from starting
+                        segments.append({"start": fmt(int(round(cursor))), "end": fmt(f),
+                                         "kind": "interrupted"})
+                    cursor = restart
+                segments.append({"start": fmt(int(round(cursor))), "end": row["end"], "kind": "restart"})
+                row["segments"] = segments
             timeline.append(row)
             if op["job"] == target:
                 waits.append((float(ss[idx]) - hm(op["start"]), len(timeline) - 1))
@@ -116,5 +150,7 @@ def run_replay(F, schedule, outages, due, priority, assumptions, device="cpu-num
     return {"device": device, "samples": n, "elapsed_ms": elapsed_ms,
             "assumptions": {"duration_spread": a["duration_spread"], "repair_delay_max_min": a["repair_delay_max_min"],
                             "seed": a["seed"], "note": NOTE,
+                            "running_work": "Observed history retained; a future outage scraps the attempt and "
+                                            "restarts the full operation after repair with the same duration factor",
                             "dispatch": "Fixed machine order and planned start floors; no re-optimization"},
             "jobs": jobs, "failing_scenario": failing}
