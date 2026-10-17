@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "reports": {
+    "committed": {
+      "valid": true,
+      "violations": []
+    },
+    "recovery": {
+      "valid": true,
+      "violations": []
+    },
+    "disrupted_committed": {
+      "valid": false,
+      "violations": [
+        "J1 op 2 starts in the past (09:20); new or restarted work must start at or after now 10:00",
+        "J1 op 2 overlaps outage c1 on M2 (10:00–14:00)",
+        "J2 op 1 overlaps outage c1 on M2 (10:00–14:00)",
+        "J7 op 2 overlaps outage c1 on M2 (10:00–14:00)"
+      ]
+    }
+  },
+  "provenance": {
+    "description": "Saved independent checks of synthetic fixture/mock records; not a live backend validation or AMD request.",
+    "synthetic": true,
+    "amd_request_made": false,
+    "source_files": {
+      "fixture": {
+        "path": "shared/fixture.json",
+        "sha256": "392c0bc69f3189809470818bf9febff9c301337f56b9c8dbbf48fcf45ad9f383"
+      },
+      "extract": {
+        "path": "shared/mocks/extract.json",
+        "sha256": "a5d63c7c9d33c40f2d876603fca3603939b331acb922ae9614e6ec5c2f1cc530"
+      },
+      "solve": {
+        "path": "shared/mocks/solve.json",
+        "sha256": "ffb7439ae8606ebd557268b2da1a5f4e2d8e5e3c9ef5f69ba278a1a5964f9f4e"
+      },
+      "checker": {
+        "path": "backend/app/checker.py",
+        "sha256": "f88d0012125789602e91e47b2a4d257c23fe53373c8d91e949f90104456c2e64"
+      }
+    },
+    "checked_inputs": {
+      "committed": {
+        "fixture": "shared/fixture.json",
+        "constraints": [],
+        "schedule": "shared/fixture.json#/committed_schedule"
+      },
+      "recovery": {
+        "fixture": "shared/fixture.json",
+        "constraints": "shared/mocks/extract.json#/constraints",
+        "schedule": "shared/mocks/solve.json#/alternatives/0/schedule"
+      },
+      "disrupted_committed": {
+        "fixture": "shared/fixture.json",
+        "constraints": "shared/mocks/extract.json#/constraints",
+        "schedule": "shared/fixture.json#/committed_schedule"
+      }
+    }
+  }
+}
