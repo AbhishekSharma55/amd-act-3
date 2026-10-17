@@ -1,0 +1,17 @@
+{
+  "source_revision": "b6497acfb35663be533556bfb6a4164e80fae194",
+  "endpoint_host": "developer.amd.com.cn",
+  "requested_model": "DeepSeek-V4-Flash",
+  "prompt_template_sha256": "5f2463f33c9ea8d5d23816e2de913d8ff95fd696305540b8b8f8cc926cb6b37e",
+  "source_hashes": {
+    "backend/app/extract.py": "d5124cb53fd9805bd8a1480900a2d49732cde73a0c0496287f26189bcfd587ab",
+    "backend/app/validate.py": "4f8932f7c4f918bb4feafd5ec1c0acacb4de268de5dd5185a1b8dcebf5b6a7ad",
+    "eval/run_eval.py": "da0b882e30c7a83982697a23bebff88b37bc51611021637e3d7288826d0dc805",
+    "eval/messages.jsonl": "66696566301e1fa6ce749b2272353e7b2df6f3057f0de62c48c13b4fa9cb1e13",
+    "eval/labels/muskan.jsonl": "3f766949c8750b210c7999a3a8f650190308562aaa6233fbae86d0b7dd2e1f30",
+    "eval/labels/abhishek.jsonl": "26ff6a388d957220132987f10bf1b1c6d54db0ca9291e18f324381872da77761"
+  },
+  "fallback_enabled": false,
+  "labels_reconciled": false,
+  "note": "Initial live run before clarifying conditional overtime. Synthetic builder-written messages; no benchmark claim."
+}

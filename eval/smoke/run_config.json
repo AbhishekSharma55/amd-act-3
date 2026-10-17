@@ -1,0 +1,23 @@
+{
+  "base_revision": "b6497acfb35663be533556bfb6a4164e80fae194",
+  "endpoint_host": "developer.amd.com.cn",
+  "requested_model": "DeepSeek-V4-Flash",
+  "json_mode": true,
+  "timeout_seconds_per_attempt": 30.0,
+  "temperature": 0,
+  "fallback_enabled": false,
+  "prompt_template_sha256": "6a472826f2ade6678d392cec40f63b6701171369be470ddc51464cc916feed26",
+  "source_hashes": {
+    "backend/app/extract.py": "06cc967ba9fee5135cdb3b4a0e81282ac5663ba6bebe1d86e6405d745889b8e2",
+    "backend/app/validate.py": "4f8932f7c4f918bb4feafd5ec1c0acacb4de268de5dd5185a1b8dcebf5b6a7ad",
+    "eval/run_eval.py": "da0b882e30c7a83982697a23bebff88b37bc51611021637e3d7288826d0dc805",
+    "eval/messages.jsonl": "66696566301e1fa6ce749b2272353e7b2df6f3057f0de62c48c13b4fa9cb1e13",
+    "eval/labels/muskan.jsonl": "3f766949c8750b210c7999a3a8f650190308562aaa6233fbae86d0b7dd2e1f30",
+    "eval/labels/abhishek.jsonl": "26ff6a388d957220132987f10bf1b1c6d54db0ca9291e18f324381872da77761",
+    "scripts/container_smoke.py": "733971b7fa4afa229f2369e6a059a2cbca0613bc758ee106c4d3664e0b93648c",
+    "eval/rescore_saved.py": "9857de4f8de9b74bdbfe06d8c6ea5fb25613f026409e1b00b71aab6906631723"
+  },
+  "labels_reconciled": false,
+  "note": "Development rerun on the same frozen 23 builder-written messages after prompt clarifications informed by the initial run. Not an independent test set or benchmark.",
+  "tested_container_image": "sha256:58bd4419eb6c664c3db9f8ec2a32bdba6530884f04fe54e9f25d4327361d72ce"
+}

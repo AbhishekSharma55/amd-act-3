@@ -6,13 +6,30 @@ Small, reproducible evidence for Rehearsal's claims. All data is synthetic and t
 
 | File | What |
 | --- | --- |
-| `messages.jsonl` | 18 builder-written disruption messages: aliases, 12-hour and bare-hour times, missing/vague times, unknown machine/job, negation, contradiction, out-of-scope, multi-fact, Hinglish |
+| `messages.jsonl` | 23 builder-written disruption messages: aliases, 12-hour and bare-hour times, missing/vague times, unknown machine/job, negation, contradiction, out-of-scope, multi-fact, Hinglish, relative times and prompt injection |
 | `labels/muskan.jsonl` | Muskan's labels (expected typed constraints + whether review is needed) |
 | `labels/abhishek.jsonl` | Abhishek's independent labels (PR #29) |
 | `labels/final.jsonl` | **To do:** reconciled labels after discussing disagreements. `run_eval.py` uses this when present and says so in every result |
 | `recovery_cases.json` | 7 recovery scenarios frozen with the selection rule and seeds: **h1 is the demo/reference case**; h2-h7 (outage, changed due dates, limited overtime, infeasible, two machines) are held out |
 | `run_eval.py` | Runs both evaluations and writes `results/` |
+| `rescore_saved.py` | Scores saved predictions against another label file without another model call |
 | `smoke/` | Raw outputs from `backend/scripts/amd_smoke.py` (model, host, latency; never the key) |
+
+## Live AMD evidence
+
+The [live integration report](../docs/LIVE_AMD_QA.md) records authenticated AMD
+extraction, the Docker/browser workflow and the development evaluation.
+`results/extraction_amd_initial.*` preserves the first live evaluation;
+`results/extraction_amd.*` is the development rerun after prompt clarification.
+The latter uses the same messages that informed those changes, so it is not an
+independent test set. Both use Muskan's provisional labels while `final.jsonl`
+is absent; neither replaces Abhishek's labels or establishes reconciled results.
+
+`smoke/initial_run_config.json` and `smoke/run_config.json` record source and
+prompt hashes. `smoke/docker_live.json` retains the full synthetic workflow,
+while `smoke/browser_live.json` records the browser check. The `initial_*`
+smoke records precede the prompt changes and do not satisfy the strengthened
+demo-fact assertions. API keys are excluded from these artifacts.
 
 ## Run
 

@@ -1,0 +1,1567 @@
+{
+  "recorded_at": "2026-10-17T17:53:41.467145+00:00",
+  "base_url": "http://127.0.0.1:7860",
+  "health": {
+    "ok": true,
+    "amd": {
+      "configured": true,
+      "provider": "AMD Token Factory",
+      "model": "DeepSeek-V4-Flash",
+      "host": "developer.amd.com.cn"
+    },
+    "fallback_enabled": false,
+    "replay_device": "cpu-numpy",
+    "fixture": {
+      "factory": "Demo Machine Shop (synthetic data)",
+      "now": "10:00",
+      "synthetic": true
+    }
+  },
+  "message": "Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00. Overtime requires approval.",
+  "extraction": {
+    "run_id": "r_20261017_175351_b714",
+    "message": "Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00. Overtime requires approval.",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "machine_down",
+        "params": {
+          "machine": "M2",
+          "from": "10:00",
+          "until": "14:00"
+        },
+        "source_span": "Mill M2 is unavailable until 14:00.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [
+          "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
+        ],
+        "origin": "amd_model"
+      },
+      {
+        "id": "c2",
+        "type": "due_date",
+        "params": {
+          "job": "J7",
+          "time": "16:00",
+          "hard": true
+        },
+        "source_span": "Order J7 still needs to ship at 16:00.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [],
+        "origin": "amd_model"
+      },
+      {
+        "id": "c3",
+        "type": "overtime",
+        "params": {
+          "allowed": true,
+          "until": "20:00"
+        },
+        "source_span": "Overtime requires approval.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [
+          "Overtime is a concession and needs approval"
+        ],
+        "origin": "amd_model"
+      }
+    ],
+    "trace": {
+      "provider": "AMD Token Factory",
+      "model": "self-dploy/DeepSeek-V4-Flash",
+      "requested_model": "DeepSeek-V4-Flash",
+      "host": "developer.amd.com.cn",
+      "latency_ms": 8930,
+      "attempts": 1,
+      "usage": {
+        "prompt_tokens": 749,
+        "completion_tokens": 178
+      },
+      "raw_output": "{\n  \"constraints\": [\n    {\n      \"type\": \"machine_down\",\n      \"params\": {\n        \"machine\": \"M2\",\n        \"from\": null,\n        \"until\": \"14:00\"\n      },\n      \"source_span\": \"Mill M2 is unavailable until 14:00.\"\n    },\n    {\n      \"type\": \"due_date\",\n      \"params\": {\n        \"job\": \"J7\",\n        \"time\": \"16:00\",\n        \"hard\": true\n      },\n      \"source_span\": \"Order J7 still needs to ship at 16:00.\"\n    },\n    {\n      \"type\": \"overtime\",\n      \"params\": {\n        \"allowed\": true,\n        \"until\": null\n      },\n      \"source_span\": \"Overtime requires approval.\"\n    }\n  ]\n}",
+      "fallback_used": false,
+      "mode": "live",
+      "json_mode": true
+    }
+  },
+  "solve": {
+    "run_id": "r_20261017_175351_b714_s1",
+    "status": "ok",
+    "alternatives": [
+      {
+        "id": "alt_reroute",
+        "label": "Re-route to qualified machines",
+        "policy": {
+          "reroute": true,
+          "overtime": false
+        },
+        "solver": {
+          "status": "OPTIMAL",
+          "time_ms": 21,
+          "objective": 25667.0
+        },
+        "schedule": [
+          {
+            "job": "J3",
+            "op": 1,
+            "machine": "M1",
+            "start": "08:00",
+            "end": "09:00",
+            "change": "frozen"
+          },
+          {
+            "job": "J6",
+            "op": 1,
+            "machine": "M1",
+            "start": "09:00",
+            "end": "10:10",
+            "change": "frozen"
+          },
+          {
+            "job": "J1",
+            "op": 2,
+            "machine": "M1",
+            "start": "10:10",
+            "end": "11:20",
+            "change": "restarted_on_M1"
+          },
+          {
+            "job": "J7",
+            "op": 2,
+            "machine": "M1",
+            "start": "11:20",
+            "end": "13:40",
+            "change": "moved_from_M2"
+          },
+          {
+            "job": "J6",
+            "op": 2,
+            "machine": "M1",
+            "start": "13:40",
+            "end": "15:05",
+            "change": "retimed"
+          },
+          {
+            "job": "J4",
+            "op": 2,
+            "machine": "M1",
+            "start": "15:05",
+            "end": "16:35",
+            "change": "retimed"
+          },
+          {
+            "job": "J5",
+            "op": 1,
+            "machine": "M2",
+            "start": "08:00",
+            "end": "09:20",
+            "change": "frozen"
+          },
+          {
+            "job": "J2",
+            "op": 1,
+            "machine": "M2",
+            "start": "14:00",
+            "end": "15:30",
+            "change": "retimed"
+          },
+          {
+            "job": "J1",
+            "op": 1,
+            "machine": "M3",
+            "start": "08:00",
+            "end": "09:00",
+            "change": "frozen"
+          },
+          {
+            "job": "J3",
+            "op": 2,
+            "machine": "M3",
+            "start": "09:00",
+            "end": "09:50",
+            "change": "frozen"
+          },
+          {
+            "job": "J5",
+            "op": 2,
+            "machine": "M3",
+            "start": "09:50",
+            "end": "10:20",
+            "change": "frozen"
+          },
+          {
+            "job": "J7",
+            "op": 1,
+            "machine": "M3",
+            "start": "10:20",
+            "end": "11:00",
+            "change": "retimed"
+          },
+          {
+            "job": "J4",
+            "op": 1,
+            "machine": "M3",
+            "start": "11:00",
+            "end": "11:45",
+            "change": "retimed"
+          },
+          {
+            "job": "J7",
+            "op": 3,
+            "machine": "M3",
+            "start": "13:40",
+            "end": "14:10",
+            "change": "retimed"
+          },
+          {
+            "job": "J2",
+            "op": 2,
+            "machine": "M3",
+            "start": "15:30",
+            "end": "16:10",
+            "change": "retimed"
+          }
+        ],
+        "kpis": {
+          "late_jobs": [
+            {
+              "job": "J2",
+              "minutes_late": 190,
+              "customer": "Birla Valves"
+            }
+          ],
+          "overtime_minutes": 0,
+          "overtime_cost": 0.0,
+          "moved_ops": 2,
+          "retimed_ops": 7,
+          "weighted_tardiness": 190
+        },
+        "merged_with": [
+          "alt_reroute_overtime"
+        ],
+        "checker": {
+          "valid": true,
+          "violations": []
+        },
+        "concessions": [
+          {
+            "id": "k1",
+            "type": "late_delivery",
+            "job": "J2",
+            "detail": "J2 (Birla Valves) ships 190 min late"
+          }
+        ]
+      }
+    ],
+    "infeasible": [
+      {
+        "id": "alt_keep",
+        "policy": {
+          "reroute": false,
+          "overtime": true
+        },
+        "label": "Keep machines",
+        "solver_status": "INFEASIBLE",
+        "solver": {
+          "status": "INFEASIBLE",
+          "time_ms": 8
+        },
+        "conflict": [
+          "c1",
+          "c2"
+        ],
+        "conflict_kind": "sufficient",
+        "explanation": "With M2 down 10:00-14:00 and no re-routing and overtime until 20:00, J7 by 16:00 cannot be met.",
+        "possible_concessions": [
+          {
+            "type": "allow_reroute",
+            "available": true
+          },
+          {
+            "type": "relax_hard_due",
+            "constraint": "c2",
+            "available": false,
+            "note": "Disabled: reject or edit the hard date and solve again"
+          }
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "machine_down",
+        "params": {
+          "machine": "M2",
+          "from": "10:00",
+          "until": "14:00"
+        },
+        "source_span": "Mill M2 is unavailable until 14:00.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [
+          "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
+        ],
+        "origin": "amd_model"
+      },
+      {
+        "id": "c2",
+        "type": "due_date",
+        "params": {
+          "job": "J7",
+          "time": "16:00",
+          "hard": true
+        },
+        "source_span": "Order J7 still needs to ship at 16:00.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [],
+        "origin": "amd_model"
+      },
+      {
+        "id": "c3",
+        "type": "overtime",
+        "params": {
+          "allowed": true,
+          "until": "20:00"
+        },
+        "source_span": "Overtime requires approval.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [
+          "Overtime is a concession and needs approval"
+        ],
+        "origin": "amd_model"
+      }
+    ],
+    "rejected": []
+  },
+  "replay": {
+    "run_id": "r_20261017_175351_b714_s1",
+    "alternative_id": "alt_reroute",
+    "device": "cpu-numpy",
+    "samples": 500,
+    "elapsed_ms": 0.63,
+    "assumptions": {
+      "duration_spread": [
+        0.9,
+        1.3
+      ],
+      "repair_delay_max_min": 90.0,
+      "seed": 7,
+      "note": "Synthetic uncertainty, not calibrated to a real factory",
+      "running_work": "Observed history retained; a future outage scraps the attempt and restarts the full operation after repair with the same duration factor",
+      "dispatch": "Fixed machine order and planned start floors; no re-optimization"
+    },
+    "jobs": [
+      {
+        "job": "J1",
+        "on_time": 500,
+        "of": 500,
+        "p90_finish": "11:33",
+        "planned_finish": "11:20",
+        "due": "12:00",
+        "late_in_plan": false,
+        "worst_late_min": 0
+      },
+      {
+        "job": "J2",
+        "on_time": 0,
+        "of": 500,
+        "p90_finish": "17:38",
+        "planned_finish": "16:10",
+        "due": "13:00",
+        "late_in_plan": true,
+        "worst_late_min": 305
+      },
+      {
+        "job": "J3",
+        "on_time": 500,
+        "of": 500,
+        "p90_finish": "09:50",
+        "planned_finish": "09:50",
+        "due": "15:00",
+        "late_in_plan": false,
+        "worst_late_min": 0
+      },
+      {
+        "job": "J4",
+        "on_time": 239,
+        "of": 500,
+        "p90_finish": "17:23",
+        "planned_finish": "16:35",
+        "due": "17:00",
+        "late_in_plan": false,
+        "worst_late_min": 61
+      },
+      {
+        "job": "J5",
+        "on_time": 500,
+        "of": 500,
+        "p90_finish": "10:23",
+        "planned_finish": "10:20",
+        "due": "16:00",
+        "late_in_plan": false,
+        "worst_late_min": 0
+      },
+      {
+        "job": "J6",
+        "on_time": 500,
+        "of": 500,
+        "p90_finish": "15:46",
+        "planned_finish": "15:05",
+        "due": "17:30",
+        "late_in_plan": false,
+        "worst_late_min": 0
+      },
+      {
+        "job": "J7",
+        "on_time": 500,
+        "of": 500,
+        "p90_finish": "14:45",
+        "planned_finish": "14:10",
+        "due": "16:00",
+        "late_in_plan": false,
+        "worst_late_min": 0
+      }
+    ],
+    "failing_scenario": {
+      "index": 24,
+      "job": "J4",
+      "minutes_late": 61,
+      "reason": "J4 misses 17:00 by 61 min",
+      "bottleneck": {
+        "job": "J4",
+        "op": 2,
+        "machine": "M1",
+        "extra_wait_min": 70,
+        "detail": "J4 op 2 waited 70 min longer than planned for M1"
+      },
+      "timeline": [
+        {
+          "job": "J3",
+          "op": 1,
+          "machine": "M1",
+          "start": "08:00",
+          "end": "09:00",
+          "planned_start": "08:00",
+          "planned_end": "09:00",
+          "bottleneck": false
+        },
+        {
+          "job": "J5",
+          "op": 1,
+          "machine": "M2",
+          "start": "08:00",
+          "end": "09:20",
+          "planned_start": "08:00",
+          "planned_end": "09:20",
+          "bottleneck": false
+        },
+        {
+          "job": "J1",
+          "op": 1,
+          "machine": "M3",
+          "start": "08:00",
+          "end": "09:00",
+          "planned_start": "08:00",
+          "planned_end": "09:00",
+          "bottleneck": false
+        },
+        {
+          "job": "J6",
+          "op": 1,
+          "machine": "M1",
+          "start": "09:00",
+          "end": "10:11",
+          "planned_start": "09:00",
+          "planned_end": "10:10",
+          "bottleneck": false
+        },
+        {
+          "job": "J3",
+          "op": 2,
+          "machine": "M3",
+          "start": "09:00",
+          "end": "09:50",
+          "planned_start": "09:00",
+          "planned_end": "09:50",
+          "bottleneck": false
+        },
+        {
+          "job": "J5",
+          "op": 2,
+          "machine": "M3",
+          "start": "09:50",
+          "end": "10:24",
+          "planned_start": "09:50",
+          "planned_end": "10:20",
+          "bottleneck": false
+        },
+        {
+          "job": "J1",
+          "op": 2,
+          "machine": "M1",
+          "start": "10:11",
+          "end": "11:39",
+          "planned_start": "10:10",
+          "planned_end": "11:20",
+          "bottleneck": false
+        },
+        {
+          "job": "J7",
+          "op": 1,
+          "machine": "M3",
+          "start": "10:24",
+          "end": "11:07",
+          "planned_start": "10:20",
+          "planned_end": "11:00",
+          "bottleneck": false
+        },
+        {
+          "job": "J4",
+          "op": 1,
+          "machine": "M3",
+          "start": "11:07",
+          "end": "12:04",
+          "planned_start": "11:00",
+          "planned_end": "11:45",
+          "bottleneck": false
+        },
+        {
+          "job": "J7",
+          "op": 2,
+          "machine": "M1",
+          "start": "11:39",
+          "end": "14:31",
+          "planned_start": "11:20",
+          "planned_end": "13:40",
+          "bottleneck": false
+        },
+        {
+          "job": "J6",
+          "op": 2,
+          "machine": "M1",
+          "start": "14:31",
+          "end": "16:15",
+          "planned_start": "13:40",
+          "planned_end": "15:05",
+          "bottleneck": false
+        },
+        {
+          "job": "J7",
+          "op": 3,
+          "machine": "M3",
+          "start": "14:31",
+          "end": "15:03",
+          "planned_start": "13:40",
+          "planned_end": "14:10",
+          "bottleneck": false
+        },
+        {
+          "job": "J2",
+          "op": 1,
+          "machine": "M2",
+          "start": "14:03",
+          "end": "15:49",
+          "planned_start": "14:00",
+          "planned_end": "15:30",
+          "bottleneck": false
+        },
+        {
+          "job": "J4",
+          "op": 2,
+          "machine": "M1",
+          "start": "16:15",
+          "end": "18:01",
+          "planned_start": "15:05",
+          "planned_end": "16:35",
+          "bottleneck": true
+        },
+        {
+          "job": "J2",
+          "op": 2,
+          "machine": "M3",
+          "start": "15:49",
+          "end": "16:30",
+          "planned_start": "15:30",
+          "planned_end": "16:10",
+          "bottleneck": false
+        }
+      ]
+    }
+  },
+  "approval": {
+    "dispatch_csv": "machine,sequence,job,op,start,end,changed\nM1,1,J3,1,08:00,09:00,frozen\nM1,2,J6,1,09:00,10:10,frozen\nM1,3,J1,2,10:10,11:20,restarted_on_M1\nM1,4,J7,2,11:20,13:40,moved_from_M2\nM1,5,J6,2,13:40,15:05,retimed\nM1,6,J4,2,15:05,16:35,retimed\nM2,1,J5,1,08:00,09:20,frozen\nM2,2,J2,1,14:00,15:30,retimed\nM3,1,J1,1,08:00,09:00,frozen\nM3,2,J3,2,09:00,09:50,frozen\nM3,3,J5,2,09:50,10:20,frozen\nM3,4,J7,1,10:20,11:00,retimed\nM3,5,J4,1,11:00,11:45,retimed\nM3,6,J7,3,13:40,14:10,retimed\nM3,7,J2,2,15:30,16:10,retimed\n",
+    "decision_record": {
+      "run_id": "r_20261017_175351_b714_s1",
+      "approved_at": "2026-10-17T17:53:51+00:00",
+      "approver": "Container smoke test",
+      "message": "Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00. Overtime requires approval.",
+      "constraints": [
+        {
+          "id": "c1",
+          "type": "machine_down",
+          "params": {
+            "machine": "M2",
+            "from": "10:00",
+            "until": "14:00"
+          },
+          "source_span": "Mill M2 is unavailable until 14:00.",
+          "status": "ok",
+          "blocking_issues": [],
+          "issues": [
+            "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
+          ],
+          "origin": "amd_model"
+        },
+        {
+          "id": "c2",
+          "type": "due_date",
+          "params": {
+            "job": "J7",
+            "time": "16:00",
+            "hard": true
+          },
+          "source_span": "Order J7 still needs to ship at 16:00.",
+          "status": "ok",
+          "blocking_issues": [],
+          "issues": [],
+          "origin": "amd_model"
+        },
+        {
+          "id": "c3",
+          "type": "overtime",
+          "params": {
+            "allowed": true,
+            "until": "20:00"
+          },
+          "source_span": "Overtime requires approval.",
+          "status": "ok",
+          "blocking_issues": [],
+          "issues": [
+            "Overtime is a concession and needs approval"
+          ],
+          "origin": "amd_model"
+        }
+      ],
+      "alternative_id": "alt_reroute",
+      "concessions": [
+        {
+          "id": "k1",
+          "type": "late_delivery",
+          "job": "J2",
+          "detail": "J2 (Birla Valves) ships 190 min late"
+        }
+      ],
+      "checker": {
+        "valid": true,
+        "violations": []
+      },
+      "amd_trace": {
+        "provider": "AMD Token Factory",
+        "model": "self-dploy/DeepSeek-V4-Flash",
+        "requested_model": "DeepSeek-V4-Flash",
+        "host": "developer.amd.com.cn",
+        "latency_ms": 8930,
+        "attempts": 1,
+        "usage": {
+          "prompt_tokens": 749,
+          "completion_tokens": 178
+        },
+        "raw_output": "{\n  \"constraints\": [\n    {\n      \"type\": \"machine_down\",\n      \"params\": {\n        \"machine\": \"M2\",\n        \"from\": null,\n        \"until\": \"14:00\"\n      },\n      \"source_span\": \"Mill M2 is unavailable until 14:00.\"\n    },\n    {\n      \"type\": \"due_date\",\n      \"params\": {\n        \"job\": \"J7\",\n        \"time\": \"16:00\",\n        \"hard\": true\n      },\n      \"source_span\": \"Order J7 still needs to ship at 16:00.\"\n    },\n    {\n      \"type\": \"overtime\",\n      \"params\": {\n        \"allowed\": true,\n        \"until\": null\n      },\n      \"source_span\": \"Overtime requires approval.\"\n    }\n  ]\n}",
+        "fallback_used": false,
+        "mode": "live",
+        "json_mode": true
+      },
+      "replay": {
+        "run_id": "r_20261017_175351_b714_s1",
+        "alternative_id": "alt_reroute",
+        "device": "cpu-numpy",
+        "samples": 500,
+        "elapsed_ms": 0.63,
+        "assumptions": {
+          "duration_spread": [
+            0.9,
+            1.3
+          ],
+          "repair_delay_max_min": 90.0,
+          "seed": 7,
+          "note": "Synthetic uncertainty, not calibrated to a real factory",
+          "running_work": "Observed history retained; a future outage scraps the attempt and restarts the full operation after repair with the same duration factor",
+          "dispatch": "Fixed machine order and planned start floors; no re-optimization"
+        },
+        "jobs": [
+          {
+            "job": "J1",
+            "on_time": 500,
+            "of": 500,
+            "p90_finish": "11:33",
+            "planned_finish": "11:20",
+            "due": "12:00",
+            "late_in_plan": false,
+            "worst_late_min": 0
+          },
+          {
+            "job": "J2",
+            "on_time": 0,
+            "of": 500,
+            "p90_finish": "17:38",
+            "planned_finish": "16:10",
+            "due": "13:00",
+            "late_in_plan": true,
+            "worst_late_min": 305
+          },
+          {
+            "job": "J3",
+            "on_time": 500,
+            "of": 500,
+            "p90_finish": "09:50",
+            "planned_finish": "09:50",
+            "due": "15:00",
+            "late_in_plan": false,
+            "worst_late_min": 0
+          },
+          {
+            "job": "J4",
+            "on_time": 239,
+            "of": 500,
+            "p90_finish": "17:23",
+            "planned_finish": "16:35",
+            "due": "17:00",
+            "late_in_plan": false,
+            "worst_late_min": 61
+          },
+          {
+            "job": "J5",
+            "on_time": 500,
+            "of": 500,
+            "p90_finish": "10:23",
+            "planned_finish": "10:20",
+            "due": "16:00",
+            "late_in_plan": false,
+            "worst_late_min": 0
+          },
+          {
+            "job": "J6",
+            "on_time": 500,
+            "of": 500,
+            "p90_finish": "15:46",
+            "planned_finish": "15:05",
+            "due": "17:30",
+            "late_in_plan": false,
+            "worst_late_min": 0
+          },
+          {
+            "job": "J7",
+            "on_time": 500,
+            "of": 500,
+            "p90_finish": "14:45",
+            "planned_finish": "14:10",
+            "due": "16:00",
+            "late_in_plan": false,
+            "worst_late_min": 0
+          }
+        ],
+        "failing_scenario": {
+          "index": 24,
+          "job": "J4",
+          "minutes_late": 61,
+          "reason": "J4 misses 17:00 by 61 min",
+          "bottleneck": {
+            "job": "J4",
+            "op": 2,
+            "machine": "M1",
+            "extra_wait_min": 70,
+            "detail": "J4 op 2 waited 70 min longer than planned for M1"
+          },
+          "timeline": [
+            {
+              "job": "J3",
+              "op": 1,
+              "machine": "M1",
+              "start": "08:00",
+              "end": "09:00",
+              "planned_start": "08:00",
+              "planned_end": "09:00",
+              "bottleneck": false
+            },
+            {
+              "job": "J5",
+              "op": 1,
+              "machine": "M2",
+              "start": "08:00",
+              "end": "09:20",
+              "planned_start": "08:00",
+              "planned_end": "09:20",
+              "bottleneck": false
+            },
+            {
+              "job": "J1",
+              "op": 1,
+              "machine": "M3",
+              "start": "08:00",
+              "end": "09:00",
+              "planned_start": "08:00",
+              "planned_end": "09:00",
+              "bottleneck": false
+            },
+            {
+              "job": "J6",
+              "op": 1,
+              "machine": "M1",
+              "start": "09:00",
+              "end": "10:11",
+              "planned_start": "09:00",
+              "planned_end": "10:10",
+              "bottleneck": false
+            },
+            {
+              "job": "J3",
+              "op": 2,
+              "machine": "M3",
+              "start": "09:00",
+              "end": "09:50",
+              "planned_start": "09:00",
+              "planned_end": "09:50",
+              "bottleneck": false
+            },
+            {
+              "job": "J5",
+              "op": 2,
+              "machine": "M3",
+              "start": "09:50",
+              "end": "10:24",
+              "planned_start": "09:50",
+              "planned_end": "10:20",
+              "bottleneck": false
+            },
+            {
+              "job": "J1",
+              "op": 2,
+              "machine": "M1",
+              "start": "10:11",
+              "end": "11:39",
+              "planned_start": "10:10",
+              "planned_end": "11:20",
+              "bottleneck": false
+            },
+            {
+              "job": "J7",
+              "op": 1,
+              "machine": "M3",
+              "start": "10:24",
+              "end": "11:07",
+              "planned_start": "10:20",
+              "planned_end": "11:00",
+              "bottleneck": false
+            },
+            {
+              "job": "J4",
+              "op": 1,
+              "machine": "M3",
+              "start": "11:07",
+              "end": "12:04",
+              "planned_start": "11:00",
+              "planned_end": "11:45",
+              "bottleneck": false
+            },
+            {
+              "job": "J7",
+              "op": 2,
+              "machine": "M1",
+              "start": "11:39",
+              "end": "14:31",
+              "planned_start": "11:20",
+              "planned_end": "13:40",
+              "bottleneck": false
+            },
+            {
+              "job": "J6",
+              "op": 2,
+              "machine": "M1",
+              "start": "14:31",
+              "end": "16:15",
+              "planned_start": "13:40",
+              "planned_end": "15:05",
+              "bottleneck": false
+            },
+            {
+              "job": "J7",
+              "op": 3,
+              "machine": "M3",
+              "start": "14:31",
+              "end": "15:03",
+              "planned_start": "13:40",
+              "planned_end": "14:10",
+              "bottleneck": false
+            },
+            {
+              "job": "J2",
+              "op": 1,
+              "machine": "M2",
+              "start": "14:03",
+              "end": "15:49",
+              "planned_start": "14:00",
+              "planned_end": "15:30",
+              "bottleneck": false
+            },
+            {
+              "job": "J4",
+              "op": 2,
+              "machine": "M1",
+              "start": "16:15",
+              "end": "18:01",
+              "planned_start": "15:05",
+              "planned_end": "16:35",
+              "bottleneck": true
+            },
+            {
+              "job": "J2",
+              "op": 2,
+              "machine": "M3",
+              "start": "15:49",
+              "end": "16:30",
+              "planned_start": "15:30",
+              "planned_end": "16:10",
+              "bottleneck": false
+            }
+          ]
+        }
+      },
+      "data_notice": "Synthetic demo data",
+      "fixture": {
+        "factory": "Demo Machine Shop (synthetic data)",
+        "date": "2026-10-16",
+        "now": "10:00",
+        "shift": {
+          "start": "08:00",
+          "end": "18:00",
+          "overtime_until": "20:00",
+          "overtime_cost_per_hour": 45,
+          "overtime_requires_approval": true
+        },
+        "machines": [
+          {
+            "id": "M1",
+            "name": "Mill M1",
+            "aliases": [
+              "mill 1",
+              "vmc-1",
+              "m1"
+            ]
+          },
+          {
+            "id": "M2",
+            "name": "Mill M2",
+            "aliases": [
+              "mill 2",
+              "vmc-2",
+              "big mill",
+              "m2"
+            ]
+          },
+          {
+            "id": "M3",
+            "name": "Lathe L3",
+            "aliases": [
+              "lathe",
+              "lathe 3",
+              "l3",
+              "m3"
+            ]
+          }
+        ],
+        "jobs": [
+          {
+            "id": "J1",
+            "customer": "Acme Pumps",
+            "due": "12:00",
+            "priority": 2,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M3": 60
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M2": 45,
+                  "M1": 70
+                }
+              }
+            ]
+          },
+          {
+            "id": "J2",
+            "customer": "Birla Valves",
+            "due": "13:00",
+            "priority": 1,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M2": 90
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M3": 40
+                }
+              }
+            ]
+          },
+          {
+            "id": "J3",
+            "customer": "Coastal Marine",
+            "due": "15:00",
+            "priority": 1,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M1": 60,
+                  "M2": 50
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M3": 50
+                }
+              }
+            ]
+          },
+          {
+            "id": "J4",
+            "customer": "Delta Auto",
+            "due": "17:00",
+            "priority": 1,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M3": 45
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M1": 90
+                }
+              }
+            ]
+          },
+          {
+            "id": "J5",
+            "customer": "Everest Tools",
+            "due": "16:00",
+            "priority": 1,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M2": 80,
+                  "M1": 110
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M3": 30
+                }
+              }
+            ]
+          },
+          {
+            "id": "J6",
+            "customer": "Fusion Robotics",
+            "due": "17:30",
+            "priority": 1,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M1": 70
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M2": 60,
+                  "M1": 85
+                }
+              }
+            ]
+          },
+          {
+            "id": "J7",
+            "customer": "Gamma Aerospace",
+            "due": "16:00",
+            "priority": 3,
+            "ops": [
+              {
+                "op": 1,
+                "eligible": {
+                  "M3": 40
+                }
+              },
+              {
+                "op": 2,
+                "eligible": {
+                  "M2": 100,
+                  "M1": 140
+                }
+              },
+              {
+                "op": 3,
+                "eligible": {
+                  "M3": 30
+                }
+              }
+            ]
+          }
+        ],
+        "committed_schedule": [
+          {
+            "job": "J1",
+            "op": 1,
+            "machine": "M3",
+            "start": "08:00",
+            "end": "09:00"
+          },
+          {
+            "job": "J1",
+            "op": 2,
+            "machine": "M2",
+            "start": "09:20",
+            "end": "10:05"
+          },
+          {
+            "job": "J2",
+            "op": 1,
+            "machine": "M2",
+            "start": "10:05",
+            "end": "11:35"
+          },
+          {
+            "job": "J2",
+            "op": 2,
+            "machine": "M3",
+            "start": "11:45",
+            "end": "12:25"
+          },
+          {
+            "job": "J3",
+            "op": 1,
+            "machine": "M1",
+            "start": "08:00",
+            "end": "09:00"
+          },
+          {
+            "job": "J3",
+            "op": 2,
+            "machine": "M3",
+            "start": "09:00",
+            "end": "09:50"
+          },
+          {
+            "job": "J4",
+            "op": 1,
+            "machine": "M3",
+            "start": "10:20",
+            "end": "11:05"
+          },
+          {
+            "job": "J4",
+            "op": 2,
+            "machine": "M1",
+            "start": "11:35",
+            "end": "13:05"
+          },
+          {
+            "job": "J5",
+            "op": 1,
+            "machine": "M2",
+            "start": "08:00",
+            "end": "09:20"
+          },
+          {
+            "job": "J5",
+            "op": 2,
+            "machine": "M3",
+            "start": "09:50",
+            "end": "10:20"
+          },
+          {
+            "job": "J6",
+            "op": 1,
+            "machine": "M1",
+            "start": "09:00",
+            "end": "10:10"
+          },
+          {
+            "job": "J6",
+            "op": 2,
+            "machine": "M1",
+            "start": "10:10",
+            "end": "11:35"
+          },
+          {
+            "job": "J7",
+            "op": 1,
+            "machine": "M3",
+            "start": "11:05",
+            "end": "11:45"
+          },
+          {
+            "job": "J7",
+            "op": 2,
+            "machine": "M2",
+            "start": "11:45",
+            "end": "13:25"
+          },
+          {
+            "job": "J7",
+            "op": 3,
+            "machine": "M3",
+            "start": "13:25",
+            "end": "13:55"
+          }
+        ]
+      },
+      "schedule": [
+        {
+          "machine": "M1",
+          "job": "J3",
+          "op": 1,
+          "start": "08:00",
+          "end": "09:00",
+          "change": "frozen"
+        },
+        {
+          "machine": "M1",
+          "job": "J6",
+          "op": 1,
+          "start": "09:00",
+          "end": "10:10",
+          "change": "frozen"
+        },
+        {
+          "machine": "M1",
+          "job": "J1",
+          "op": 2,
+          "start": "10:10",
+          "end": "11:20",
+          "change": "restarted_on_M1"
+        },
+        {
+          "machine": "M1",
+          "job": "J7",
+          "op": 2,
+          "start": "11:20",
+          "end": "13:40",
+          "change": "moved_from_M2"
+        },
+        {
+          "machine": "M1",
+          "job": "J6",
+          "op": 2,
+          "start": "13:40",
+          "end": "15:05",
+          "change": "retimed"
+        },
+        {
+          "machine": "M1",
+          "job": "J4",
+          "op": 2,
+          "start": "15:05",
+          "end": "16:35",
+          "change": "retimed"
+        },
+        {
+          "machine": "M2",
+          "job": "J5",
+          "op": 1,
+          "start": "08:00",
+          "end": "09:20",
+          "change": "frozen"
+        },
+        {
+          "machine": "M2",
+          "job": "J2",
+          "op": 1,
+          "start": "14:00",
+          "end": "15:30",
+          "change": "retimed"
+        },
+        {
+          "machine": "M3",
+          "job": "J1",
+          "op": 1,
+          "start": "08:00",
+          "end": "09:00",
+          "change": "frozen"
+        },
+        {
+          "machine": "M3",
+          "job": "J3",
+          "op": 2,
+          "start": "09:00",
+          "end": "09:50",
+          "change": "frozen"
+        },
+        {
+          "machine": "M3",
+          "job": "J5",
+          "op": 2,
+          "start": "09:50",
+          "end": "10:20",
+          "change": "frozen"
+        },
+        {
+          "machine": "M3",
+          "job": "J7",
+          "op": 1,
+          "start": "10:20",
+          "end": "11:00",
+          "change": "retimed"
+        },
+        {
+          "machine": "M3",
+          "job": "J4",
+          "op": 1,
+          "start": "11:00",
+          "end": "11:45",
+          "change": "retimed"
+        },
+        {
+          "machine": "M3",
+          "job": "J7",
+          "op": 3,
+          "start": "13:40",
+          "end": "14:10",
+          "change": "retimed"
+        },
+        {
+          "machine": "M3",
+          "job": "J2",
+          "op": 2,
+          "start": "15:30",
+          "end": "16:10",
+          "change": "retimed"
+        }
+      ],
+      "policy": {
+        "reroute": true,
+        "overtime": false
+      }
+    }
+  },
+  "inspector": {
+    "run_id": "r_20261017_175351_b714_s1",
+    "kind": "solve",
+    "message": "Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00. Overtime requires approval.",
+    "trace": {
+      "provider": "AMD Token Factory",
+      "model": "self-dploy/DeepSeek-V4-Flash",
+      "requested_model": "DeepSeek-V4-Flash",
+      "host": "developer.amd.com.cn",
+      "latency_ms": 8930,
+      "attempts": 1,
+      "usage": {
+        "prompt_tokens": 749,
+        "completion_tokens": 178
+      },
+      "raw_output": "{\n  \"constraints\": [\n    {\n      \"type\": \"machine_down\",\n      \"params\": {\n        \"machine\": \"M2\",\n        \"from\": null,\n        \"until\": \"14:00\"\n      },\n      \"source_span\": \"Mill M2 is unavailable until 14:00.\"\n    },\n    {\n      \"type\": \"due_date\",\n      \"params\": {\n        \"job\": \"J7\",\n        \"time\": \"16:00\",\n        \"hard\": true\n      },\n      \"source_span\": \"Order J7 still needs to ship at 16:00.\"\n    },\n    {\n      \"type\": \"overtime\",\n      \"params\": {\n        \"allowed\": true,\n        \"until\": null\n      },\n      \"source_span\": \"Overtime requires approval.\"\n    }\n  ]\n}",
+      "fallback_used": false,
+      "mode": "live",
+      "json_mode": true
+    },
+    "log": [
+      {
+        "step": "extract",
+        "at": "2026-10-17T17:53:51+00:00",
+        "provider": "AMD Token Factory",
+        "model": "self-dploy/DeepSeek-V4-Flash",
+        "latency_ms": 8930,
+        "attempts": 1,
+        "fallback_used": false,
+        "review": []
+      },
+      {
+        "step": "solve",
+        "at": "2026-10-17T17:53:51+00:00",
+        "alternatives": [
+          {
+            "id": "alt_reroute",
+            "status": "OPTIMAL",
+            "time_ms": 21,
+            "checker_valid": true
+          }
+        ],
+        "infeasible": [
+          {
+            "id": "alt_keep",
+            "status": "INFEASIBLE"
+          }
+        ],
+        "edits": []
+      },
+      {
+        "step": "replay",
+        "at": "2026-10-17T17:53:51+00:00",
+        "alternative_id": "alt_reroute",
+        "device": "cpu-numpy",
+        "samples": 500,
+        "elapsed_ms": 0.63,
+        "seed": 7,
+        "failing": "J4 misses 17:00 by 61 min"
+      },
+      {
+        "step": "approve",
+        "at": "2026-10-17T17:53:51+00:00",
+        "alternative_id": "alt_reroute",
+        "approver": "Container smoke test",
+        "concessions": [
+          "k1"
+        ]
+      }
+    ],
+    "draft_id": "r_20261017_175351_b714",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "machine_down",
+        "params": {
+          "machine": "M2",
+          "from": "10:00",
+          "until": "14:00"
+        },
+        "source_span": "Mill M2 is unavailable until 14:00.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [
+          "Outage interrupts J1 op 2 (in progress on M2); it will restart after repair"
+        ],
+        "origin": "amd_model"
+      },
+      {
+        "id": "c2",
+        "type": "due_date",
+        "params": {
+          "job": "J7",
+          "time": "16:00",
+          "hard": true
+        },
+        "source_span": "Order J7 still needs to ship at 16:00.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [],
+        "origin": "amd_model"
+      },
+      {
+        "id": "c3",
+        "type": "overtime",
+        "params": {
+          "allowed": true,
+          "until": "20:00"
+        },
+        "source_span": "Overtime requires approval.",
+        "status": "ok",
+        "blocking_issues": [],
+        "issues": [
+          "Overtime is a concession and needs approval"
+        ],
+        "origin": "amd_model"
+      }
+    ],
+    "rejected": [],
+    "edits": [],
+    "alternatives": [
+      {
+        "id": "alt_reroute",
+        "label": "Re-route to qualified machines",
+        "solver": {
+          "status": "OPTIMAL",
+          "time_ms": 21,
+          "objective": 25667.0
+        },
+        "checker": {
+          "valid": true,
+          "violations": []
+        },
+        "merged_with": [
+          "alt_reroute_overtime"
+        ]
+      }
+    ],
+    "infeasible": [
+      {
+        "id": "alt_keep",
+        "policy": {
+          "reroute": false,
+          "overtime": true
+        },
+        "label": "Keep machines",
+        "solver_status": "INFEASIBLE",
+        "solver": {
+          "status": "INFEASIBLE",
+          "time_ms": 8
+        },
+        "conflict": [
+          "c1",
+          "c2"
+        ],
+        "conflict_kind": "sufficient",
+        "explanation": "With M2 down 10:00-14:00 and no re-routing and overtime until 20:00, J7 by 16:00 cannot be met.",
+        "possible_concessions": [
+          {
+            "type": "allow_reroute",
+            "available": true
+          },
+          {
+            "type": "relax_hard_due",
+            "constraint": "c2",
+            "available": false,
+            "note": "Disabled: reject or edit the hard date and solve again"
+          }
+        ]
+      }
+    ],
+    "replays": {
+      "alt_reroute": {
+        "device": "cpu-numpy",
+        "samples": 500,
+        "elapsed_ms": 0.63,
+        "assumptions": {
+          "duration_spread": [
+            0.9,
+            1.3
+          ],
+          "repair_delay_max_min": 90.0,
+          "seed": 7,
+          "note": "Synthetic uncertainty, not calibrated to a real factory",
+          "running_work": "Observed history retained; a future outage scraps the attempt and restarts the full operation after repair with the same duration factor",
+          "dispatch": "Fixed machine order and planned start floors; no re-optimization"
+        }
+      }
+    }
+  },
+  "summary": {
+    "mode": "amd",
+    "passed": 7,
+    "checks": [
+      "health and explicit extraction mode",
+      "same-origin production frontend and compiled assets",
+      "fixture and canonical API failures",
+      "live AMD extraction without fallback",
+      "actual CPU solving and independent checking",
+      "actual NumPy replay",
+      "concession approval, idempotent export and locked evidence"
+    ]
+  }
+}
