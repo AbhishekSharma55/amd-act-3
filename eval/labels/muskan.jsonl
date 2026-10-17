@@ -1,0 +1,23 @@
+{"id": "m01", "expected": [{"type": "machine_down", "params": {"machine": "M2", "until": "14:00"}}, {"type": "due_date", "params": {"job": "J7", "time": "16:00", "hard": true}}, {"type": "overtime", "params": {"allowed": true}}], "expect_review": false}
+{"id": "m02", "expected": [{"type": "machine_down", "params": {"machine": "M2", "until": "14:00"}}, {"type": "due_date", "params": {"job": "J7", "time": "16:00", "hard": true}}], "expect_review": false}
+{"id": "m03", "expected": [{"type": "machine_down", "params": {"machine": "M1", "until": "12:30"}}], "expect_review": false}
+{"id": "m04", "expected": [{"type": "machine_down", "params": {"machine": "M3", "until": "13:00"}}, {"type": "due_date", "params": {"job": "J4", "time": "17:00", "hard": true}}], "expect_review": true}
+{"id": "m05", "expected": [{"type": "machine_down", "params": {"machine": "M2", "until": null}}], "expect_review": true}
+{"id": "m06", "expected": [], "expect_review": true}
+{"id": "m07", "expected": [{"type": "machine_down", "params": {"machine": "M3", "until": "16:00"}}], "expect_review": true}
+{"id": "m08", "expected": [{"type": "overtime", "params": {"allowed": false}}], "expect_review": false}
+{"id": "m09", "expected": [{"type": "overtime", "params": {"allowed": true, "until": "19:00"}}], "expect_review": false}
+{"id": "m10", "expected": [{"type": "due_date", "params": {"job": "J7", "time": "16:30"}}], "expect_review": true}
+{"id": "m11", "expected": [], "expect_review": true}
+{"id": "m12", "expected": [{"type": "machine_down", "params": {"machine": "M1", "from": "11:00", "until": "13:00"}}, {"type": "priority", "params": {"job": "J4", "level": 3}}, {"type": "due_date", "params": {"job": "J6", "time": "17:00", "hard": true}}, {"type": "overtime", "params": {"allowed": false}}], "expect_review": false}
+{"id": "m13", "expected": [{"type": "machine_down", "params": {"machine": "M2", "until": "14:00"}}, {"type": "due_date", "params": {"job": "J7", "time": "16:00", "hard": true}}], "expect_review": true}
+{"id": "m14", "expected": [{"type": "priority", "params": {"job": "J4", "level": 3}}], "expect_review": false}
+{"id": "m15", "expected": [], "expect_review": true}
+{"id": "m16", "expected": [], "expect_review": false}
+{"id": "m17", "expected": [{"type": "due_date", "params": {"job": "J5", "time": "14:30", "hard": false}}], "expect_review": false}
+{"id": "m18", "expected": [{"type": "machine_down", "params": {"machine": "M3", "until": "12:00"}}], "expect_review": true}
+{"id": "m19", "expected": [{"type": "machine_down", "params": {"machine": "M2", "until": "12:00"}}], "expect_review": true}
+{"id": "m20", "expected": [{"type": "machine_down", "params": {"machine": "M3", "until": "18:00"}}], "expect_review": true}
+{"id": "m21", "expected": [{"type": "due_date", "params": {"job": "J7", "time": "16:00", "hard": true}}], "expect_review": false}
+{"id": "m22", "expected": [{"type": "overtime", "params": {"allowed": true, "until": "19:00"}}], "expect_review": true}
+{"id": "m23", "expected": [{"type": "machine_down", "params": {"machine": "M1", "until": "11:30"}}], "expect_review": false}

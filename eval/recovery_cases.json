@@ -1,0 +1,36 @@
+{
+  "frozen_at": "2026-10-17T16:05+05:30",
+  "note": "Held-out recovery scenarios, frozen before demo tuning. Typed constraints are the correct interpretation, so the CPU optimizer reference receives perfect input. Synthetic data.",
+  "selection_seeds": [101, 102, 103],
+  "evaluation_seeds": [9001, 9002, 9003, 9004, 9005],
+  "samples_per_seed": 500,
+  "assumptions": {"duration_spread": [0.9, 1.3], "repair_delay_max_min": 90},
+  "cases": [
+    {"id": "h1", "kind": "outage + hard date (demo)", "constraints": [
+      {"id": "c1", "type": "machine_down", "params": {"machine": "M2", "from": "10:00", "until": "14:00"}},
+      {"id": "c2", "type": "due_date", "params": {"job": "J7", "time": "16:00", "hard": true}},
+      {"id": "c3", "type": "overtime", "params": {"allowed": true, "until": "20:00"}}]},
+    {"id": "h2", "kind": "outage, no overtime", "constraints": [
+      {"id": "c1", "type": "machine_down", "params": {"machine": "M1", "from": "10:00", "until": "13:00"}},
+      {"id": "c2", "type": "overtime", "params": {"allowed": false, "until": null}}]},
+    {"id": "h3", "kind": "lathe outage + priority + limited overtime", "constraints": [
+      {"id": "c1", "type": "machine_down", "params": {"machine": "M3", "from": "10:00", "until": "12:30"}},
+      {"id": "c2", "type": "priority", "params": {"job": "J4", "level": 3}},
+      {"id": "c3", "type": "overtime", "params": {"allowed": true, "until": "19:00"}}]},
+    {"id": "h4", "kind": "changed due dates, no outage", "constraints": [
+      {"id": "c1", "type": "due_date", "params": {"job": "J5", "time": "13:00", "hard": true}},
+      {"id": "c2", "type": "due_date", "params": {"job": "J6", "time": "14:30", "hard": false}},
+      {"id": "c3", "type": "overtime", "params": {"allowed": true, "until": "18:30"}}]},
+    {"id": "h5", "kind": "infeasible hard date", "constraints": [
+      {"id": "c1", "type": "machine_down", "params": {"machine": "M2", "from": "10:00", "until": "16:00"}},
+      {"id": "c2", "type": "due_date", "params": {"job": "J2", "time": "14:00", "hard": true}},
+      {"id": "c3", "type": "overtime", "params": {"allowed": true, "until": "20:00"}}]},
+    {"id": "h6", "kind": "two machines, future outages", "constraints": [
+      {"id": "c1", "type": "machine_down", "params": {"machine": "M2", "from": "11:00", "until": "15:00"}},
+      {"id": "c2", "type": "machine_down", "params": {"machine": "M1", "from": "15:00", "until": "16:00"}},
+      {"id": "c3", "type": "overtime", "params": {"allowed": true, "until": "20:00"}}]},
+    {"id": "h7", "kind": "long lathe outage, tight overtime cutoff", "constraints": [
+      {"id": "c1", "type": "machine_down", "params": {"machine": "M3", "from": "10:00", "until": "15:00"}},
+      {"id": "c2", "type": "overtime", "params": {"allowed": true, "until": "18:30"}}]}
+  ]
+}
