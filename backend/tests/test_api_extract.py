@@ -66,3 +66,36 @@ def test_fallback_is_labeled(client, monkeypatch):
     assert body["trace"]["fallback_used"] is True
     assert {c["origin"] for c in body["constraints"]} == {"rule_fallback"}
     assert [c["type"] for c in body["constraints"]] == ["machine_down", "due_date", "overtime"]
+
+
+def test_unrelated_revalidation_keeps_an_undecided_review(client):
+    """Review finding (PR 23): editing c1 must not silently confirm c2's assumed soft date."""
+    client.state["proposals"] = [
+        {"type": "machine_down", "params": {"machine": "Mill 4", "until": "14:00"}, "source_span": "Mill 4 is down until 14:00"},
+        {"type": "due_date", "params": {"job": "J7", "time": "12:00"}, "source_span": "J7 must ship at 12:00"}]
+    ex = extract(client, "Mill 4 is down until 14:00. J7 must ship at 12:00.")
+    assert ex["constraints"][1]["status"] == "review"
+    kept = deepcopy(ex["constraints"])
+    kept[0]["params"]["machine"] = "M1"
+    r = client.post("/api/constraints/revalidate", json={"run_id": ex["run_id"], "constraints": kept}).json()
+    c2 = r["constraints"][1]
+    assert c2["status"] == "review" and c2["origin"] == "amd_model" and not r["ready"]
+    assert any("fixed" in issue for issue in c2["issues"])
+    kept = deepcopy(r["constraints"])
+    kept[1]["status"] = "accepted"  # an explicit decision clears it
+    r = client.post("/api/constraints/revalidate", json={"run_id": ex["run_id"], "constraints": kept}).json()
+    assert r["constraints"][1]["status"] == "accepted" and r["ready"]
+    kept[1]["status"] = "review"
+    kept[1]["params"] = {"job": "J7", "time": "12:00", "hard": True}  # so does a relevant edit
+    r = client.post("/api/constraints/revalidate", json={"run_id": ex["run_id"], "constraints": kept}).json()
+    assert r["constraints"][1]["status"] == "ok" and r["constraints"][1]["origin"] == "user"
+
+
+def test_rejecting_one_side_clears_a_contradiction(client):
+    client.state["proposals"] = [
+        {"type": "due_date", "params": {"job": "J7", "time": "15:00", "hard": True}, "source_span": "J7 ships at 15:00"},
+        {"type": "due_date", "params": {"job": "J7", "time": "16:30", "hard": True}, "source_span": "J7 ships at 16:30"}]
+    ex = extract(client, "J7 ships at 15:00. Correction: J7 ships at 16:30.")
+    assert all(c["blocking_issues"] for c in ex["constraints"])
+    r = client.post("/api/constraints/revalidate", json={"run_id": ex["run_id"], "constraints": ex["constraints"][1:]}).json()
+    assert r["constraints"][0]["status"] == "ok" and r["ready"]

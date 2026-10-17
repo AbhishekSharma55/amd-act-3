@@ -78,3 +78,18 @@ def test_expired_run_is_410(client, monkeypatch):
     monkeypatch.setattr(runstore.config, "RUN_TTL_S", -1)
     r = solve(client, ex)
     assert r.status_code == 410 and r.json()["error"]["code"] == "run_expired"
+
+
+def test_unconfirmed_date_cannot_reach_the_solver(client):
+    """Review finding (PR 23): the reproduced J7-105-min-late plan must be refused until c2 is decided."""
+    client.state["proposals"] = [
+        {"type": "machine_down", "params": {"machine": "Mill 4", "until": "14:00"}, "source_span": "Mill 4 is down until 14:00"},
+        {"type": "due_date", "params": {"job": "J7", "time": "12:00"}, "source_span": "J7 must ship at 12:00"}]
+    ex = extract(client, "Mill 4 is down until 14:00. J7 must ship at 12:00.")
+    kept = deepcopy(ex["constraints"])
+    kept[0]["params"]["machine"] = "M1"
+    rv = client.post("/api/constraints/revalidate", json={"run_id": ex["run_id"], "constraints": kept}).json()
+    r = client.post("/api/solve", json={"run_id": ex["run_id"], "constraints": rv["constraints"]})
+    assert r.status_code == 422 and r.json()["error"]["code"] == "review_required"
+    rv["constraints"][1]["status"] = "accepted"
+    assert client.post("/api/solve", json={"run_id": ex["run_id"], "constraints": rv["constraints"]}).status_code == 200
