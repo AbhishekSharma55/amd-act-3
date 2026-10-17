@@ -24,11 +24,11 @@ the declared `assumptions.running_work` policy.
 - Seven new backend cases cover the seeded reproduction, dependent-operation
   delay, failure segments, repeated outages, overlapping sampled repairs,
   zero-noise/completed history, and retained approval evidence. Four of the
-  first five cases failed before the fix.
-- On the replay parent: **126 backend tests and 97 subtests pass**. Its frontend
+  first five cases failed on the original replay baseline before the fix.
+- On the latest replay parent: **130 backend tests and 97 subtests pass**. Its frontend
   passes **20 tests** and the production build, including a React-rendering
   regression for the real gap and one logical operation.
-- An isolated checkout combining PRs #22–#29 and both fixes passes **132 backend
+- An isolated checkout combining PRs #22–#29 and both fixes passes **136 backend
   tests, 97 subtests, 31 frontend tests, production build, saved-checker freshness
   and 20 planning regressions**.
 - Recovery evaluation was rerun on that checkout. **All 19 saved result rows
@@ -39,6 +39,13 @@ the declared `assumptions.running_work` policy.
   interruption gap, exported evidence, 390 px layout and no uncaught exceptions.
   Browser extraction uses deterministic local stubs; solving, checking, replay
   and approval use the real local backend. No AMD call or paid resource is used.
+
+The combined checkout incorporates Muskan's parallel parent updates, including
+`52009ac`. The parent's added
+restart regression is retained and checks actual processing attempts rather
+than treating the elapsed historical start/end as continuous machining. The
+observed start stays fixed. Parent updates were brought into this fix branch;
+main and teammate branches were not modified by this work.
 
 ![Local QA: processing stops for the outage and restarts after repair](screenshots/running-outage-restart.png)
 
@@ -55,5 +62,4 @@ containing #27, run `python eval/run_eval.py recovery`; compare its rows with th
 frozen results, excluding timestamp metadata.
 
 The fix PR targets the active replay branch behind #25. Merge it there before
-integrating #25 into main; if #25 lands first, retarget the fix to main. Main and
-the original PR heads were unchanged during this verification.
+integrating #25 into main; if #25 lands first, retarget the fix to main.
