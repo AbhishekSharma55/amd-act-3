@@ -5,7 +5,13 @@ export default function RunInspector({ open, onClose, health, draft, solve, repl
   const [details, setDetails] = useState(null);
   useEffect(() => {
     if (!open || !runId || sampleMode) return setDetails(null);
-    api(`/api/runs/${runId}`).then(setDetails).catch(() => setDetails(null));
+    let current = true;
+    const controller = new AbortController();
+    setDetails(null);
+    api(`/api/runs/${runId}`, undefined, { signal: controller.signal })
+      .then((result) => { if (current && result.run_id === runId) setDetails(result); })
+      .catch(() => { if (current) setDetails(null); });
+    return () => { current = false; controller.abort(); };
   }, [open, runId, replay, solve, api, sampleMode]);
   if (!open) return null;
   const t = draft?.trace;

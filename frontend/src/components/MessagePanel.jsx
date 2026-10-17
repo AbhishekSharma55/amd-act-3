@@ -7,7 +7,7 @@ const SAMPLES = [
 ];
 export const MAX_CHARS = 1000;
 
-export default function MessagePanel({ message, onChange, onSubmit, busy, constraints, activeId }) {
+export default function MessagePanel({ message, onChange, onSubmit, busy, constraints, activeId, sampleMode }) {
   const tooLong = message.length > MAX_CHARS;
   return (
     <section className="panel" aria-labelledby="msg-h">
@@ -20,11 +20,11 @@ export default function MessagePanel({ message, onChange, onSubmit, busy, constr
       </div>
       <textarea value={message} onChange={(e) => onChange(e.target.value)} rows={4} disabled={busy}
                 placeholder="e.g. Mill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00."
-                aria-label="Disruption message" />
+                aria-label="Disruption message" aria-invalid={tooLong} aria-describedby="message-limit" />
       <div className="row-between">
-        <span className={`count ${tooLong ? "bad" : ""}`}>{message.length}/{MAX_CHARS}</span>
+        <span id="message-limit" className={`count ${tooLong ? "bad" : ""}`} aria-live="polite">{message.length}/{MAX_CHARS}{tooLong ? " · Shorten the message before reading it." : ""}</span>
         <button className="primary" disabled={busy || !message.trim() || tooLong} onClick={onSubmit}>
-          {busy ? <><span className="spin" /> AMD model is reading…</> : "Read message"}
+          {busy ? <><span className="spin" /> {sampleMode ? "Loading recorded response…" : "Working…"}</> : "Read message"}
         </button>
       </div>
       {constraints?.length > 0 && <SourceHighlight message={message} constraints={constraints} activeId={activeId} />}

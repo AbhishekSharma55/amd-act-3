@@ -98,6 +98,10 @@
 
 /* rehearsal */
 .wf .slider { display: flex; flex-direction: column; gap: 6px; min-width: 260px; }
+.request-notice { gap: 12px; }
+.request-notice button { margin-left: auto; background: #fffefa; border: 1px solid var(--line); border-radius: 4px; padding: 7px 12px; font: inherit; }
+.wf input:focus-visible, .wf textarea:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
+.wf .source, .wf .quote, .wf .card, .wf .count { overflow-wrap: anywhere; }
 .wf .slider input { padding: 0; accent-color: var(--orange); }
 .wf .bars { display: flex; flex-direction: column; gap: 7px; margin: 14px 0; }
 .wf .bar-row { display: grid; grid-template-columns: 30px minmax(80px, 240px) 1fr; gap: 12px; align-items: center; }
@@ -120,6 +124,10 @@
   .wf .panel { padding: 18px 16px; }
   .wf .bar-row { grid-template-columns: 28px 1fr; }
   .wf .bar-text { grid-column: 1 / -1; }
+  .wf .cards { grid-template-columns: minmax(0, 1fr); }
+  .wf .slider { min-width: 0; width: 100%; }
+  .team-signature { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 5px; }
+  .wf-header-button { margin-right: 0 !important; }
 }
 
 /* page-level additions */

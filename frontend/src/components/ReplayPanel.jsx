@@ -1,5 +1,8 @@
-export default function ReplayPanel({ alt, replay, busy, onRun, delay, setDelay, showFailure, setShowFailure }) {
+import { checkerState } from "../lib/checker.js";
+
+export default function ReplayPanel({ alt, replay, busy, disabled, onRun, delay, setDelay, showFailure, setShowFailure }) {
   if (!alt) return null;
+  const unavailable = busy || disabled || checkerState(alt.checker).status !== "passed";
   return (
     <section className="panel wide" aria-labelledby="rp-h">
       <h2 id="rp-h"><span className="step">4</span> Rehearse “{alt.label}”</h2>
@@ -7,10 +10,10 @@ export default function ReplayPanel({ alt, replay, busy, onRun, delay, setDelay,
         The dispatch order stays fixed, as on the shop floor.</p>
       <div className="row-between wrap">
         <label className="slider">Repair may overrun by up to <b>{delay} min</b>
-          <input type="range" min="0" max="180" step="15" value={delay} disabled={busy}
+          <input type="range" min="0" max="180" step="15" value={delay} disabled={unavailable}
                  onChange={(e) => setDelay(Number(e.target.value))} />
         </label>
-        <button className="primary" disabled={busy} onClick={onRun}>
+        <button className="primary" disabled={unavailable} onClick={onRun}>
           {busy ? <><span className="spin" /> Rehearsing…</> : replay ? "Rehearse again" : "Rehearse plan"}
         </button>
       </div>

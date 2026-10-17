@@ -7,6 +7,9 @@ import Alternatives from "./components/Alternatives.jsx";
 import ReplayPanel from "./components/ReplayPanel.jsx";
 import ApprovalPanel from "./components/ApprovalPanel.jsx";
 import RunInspector from "./components/RunInspector.jsx";
+import RequestNotice from "./components/RequestNotice.jsx";
+import { createRequestScope } from "./lib/request-scope.js";
+import { factoryResponse, workflowResponse } from "./lib/responses.js";
 import { ApiError, createApi } from "./lib/api.js";
 import {
   annotateChanges,
@@ -31,19 +34,23 @@ const VIEWS = [
 const DEFAULT_SOURCE = import.meta.env.VITE_USE_MOCKS === "1" ? "sample"
   : import.meta.env.VITE_USE_MOCKS === "0" || import.meta.env.PROD ? "live" : "sample";
 
-const DOWNSTREAM = { solve: null, selectedAltId: null, replay: null, view: "committed" };
+const DOWNSTREAM = { solve: null, selectedAltId: null, replay: null, approved: false, view: "committed" };
 const RESET = { message: "", draft: null, constraints: null, activeId: null, ...DOWNSTREAM, busy: null, error: null };
 
 function reducer(s, a) {
   switch (a.type) {
     case "reset": return { ...s, ...RESET };
-    case "message": return a.message === s.message ? s : { ...s, message: a.message, draft: null, constraints: null, activeId: null, ...DOWNSTREAM };
-    case "busy": return { ...s, busy: a.busy, error: null };
-    case "error": return { ...s, busy: null, error: a.error };
+    case "message": return a.message === s.message ? s : { ...s, message: a.message, draft: null, constraints: null, activeId: null, error: null, busy: null, ...DOWNSTREAM };
+    case "invalidate": return { ...s, ...DOWNSTREAM, error: null, busy: null };
+    case "cancel": return { ...s, busy: null, error: null };
+    case "approved": return { ...s, approved: true };
+    case "replay-settings": return { ...s, replay: null, view: s.view === "failure" ? "recovery" : s.view, error: null, busy: null };
+    case "busy": return { ...s, ...(["extract", "solve", "revalidate"].includes(a.busy) ? DOWNSTREAM : a.busy === "replay" ? { replay: null, view: s.view === "failure" ? "recovery" : s.view } : {}), busy: a.busy, error: null };
+    case "error": return { ...s, ...(a.error.expired ? { draft: null, constraints: null, ...DOWNSTREAM } : {}), busy: null, error: a.error };
     case "dismiss": return { ...s, error: null };
     case "extracted": return { ...s, busy: null, message: a.draft.message, draft: a.draft,
                                constraints: a.draft.constraints.map((c) => ({ ...c, decision: null })), ...DOWNSTREAM };
-    case "decide": return { ...s, ...DOWNSTREAM, constraints: s.constraints.map((c) => (c.id === a.id ? { ...c, decision: a.decision } : c)) };
+    case "decide": return { ...s, ...DOWNSTREAM, error: null, busy: null, constraints: s.constraints.map((c) => (c.id === a.id ? { ...c, decision: a.decision } : c)) };
     case "revalidated": {
       const byId = Object.fromEntries(a.constraints.map((c) => [c.id, c]));
       return { ...s, busy: null, ...DOWNSTREAM, constraints: s.constraints.map((c) => (byId[c.id]
@@ -80,83 +87,99 @@ export default function App() {
   const [inspector, setInspector] = useState(false);
   const [delay, setDelay] = useState(90);
   const [s, d] = useReducer(reducer, RESET);
+  const requests = useMemo(createRequestScope, []);
   const sampleMode = source === "sample";
   const api = useMemo(() => createApi({ useMocks: sampleMode, baseUrl: import.meta.env.VITE_API_BASE_URL || "" }), [sampleMode]);
 
   useEffect(() => {
+    requests.cancel();
     const controller = new AbortController();
     let current = true;
     setLoading(true);
     setLoadError(null);
     setFactory(null);
+    setHealth(null);
     setSelected(null);
     setHighlight(null);
     d({ type: "reset" });
     api("/api/factory", undefined, { signal: controller.signal })
       .then((data) => {
-        if (!Array.isArray(data?.machines) || !Array.isArray(data?.jobs) || !Array.isArray(data?.committed_schedule) || !data.shift)
-          throw new Error("The factory response is missing schedule data. Check the API fixture.");
-        if (current) setFactory(data);
+        if (current) setFactory(factoryResponse(data));
       })
       .catch((failure) => {
-        if (current && failure.name !== "AbortError") setLoadError(failure.message);
+        if (current && failure.name !== "AbortError") setLoadError(failure);
       })
       .finally(() => {
         if (current) setLoading(false);
       });
-    if (!sampleMode) api("/api/health").then((h) => current && setHealth(h)).catch(() => current && setHealth(null));
+    if (!sampleMode) api("/api/health", undefined, { signal: controller.signal }).then((h) => current && setHealth(typeof h?.amd?.configured === "boolean" ? h : null)).catch(() => current && setHealth(null));
     else setHealth(null);
     return () => {
       current = false;
       controller.abort();
+      requests.cancel();
     };
-  }, [api, sampleMode, attempt]);
+  }, [api, sampleMode, attempt, requests]);
 
   // Every workflow call goes through one place: busy state, one error banner, retry when it makes sense.
   const run = useCallback((busy, fn) => async () => {
+    const token = requests.begin();
+    if (!token) return;
     d({ type: "busy", busy });
     try {
-      await fn();
+      const action = await fn(token.controller.signal);
+      if (requests.matches(token)) d(action);
     } catch (e) {
+      if (!requests.matches(token) || e.name === "AbortError") return;
       const expired = e.code === "run_expired" || e.code === "run_not_found";
-      d({ type: "error", error: { message: expired ? `${e.message}` : e.message,
-                                  retry: !expired && e.retryable ? run(busy, fn) : null } });
+      const revision = requests.revision;
+      d({ type: "error", error: { message: e.message, expired,
+        retry: !expired && e.retryable ? () => { if (requests.revision === revision) run(busy, fn)(); } : null } });
+    } finally {
+      requests.finish(token);
     }
-  }, []);
+  }, [requests]);
 
-  const extract = run("extract", async () => {
+  function invalidate() { requests.cancel(); d({ type: "invalidate" }); }
+  function changeMessage(message) {
+    if (message !== s.message) { requests.cancel(); d({ type: "message", message }); }
+  }
+
+  const extract = run("extract", async (signal) => {
+    if (!s.message.trim() || s.message.length > 1000) throw new ApiError("Enter a disruption message of 1–1000 characters.");
     let draft;
     if (sampleMode) {
-      draft = /mill\s*4/i.test(s.message) ? structuredClone(sampleReview) : await api("/api/extract", { message: s.message });
+      draft = /mill\s*4/i.test(s.message) ? structuredClone(sampleReview) : await api("/api/extract", { message: s.message }, { signal });
     } else {
-      draft = await api("/api/extract", { message: s.message });
+      draft = await api("/api/extract", { message: s.message }, { signal });
     }
-    d({ type: "extracted", draft });
+    return { type: "extracted", draft: workflowResponse("extract", draft) };
   });
-  const edit = (id, params) => run("revalidate", async () => {
+  const edit = (id, params) => run("revalidate", async (signal) => {
     if (sampleMode) throw new ApiError("Editing is checked by the server. Switch the data source to Live to revalidate edits.");
     const constraints = solvePayload(s.constraints).map((c) => (c.id === id ? { ...c, params } : c));
-    const r = await api("/api/constraints/revalidate", { run_id: s.draft.run_id, constraints });
-    d({ type: "revalidated", constraints: r.constraints });
+    const r = await api("/api/constraints/revalidate", { run_id: s.draft.run_id, constraints }, { signal });
+    return { type: "revalidated", constraints: workflowResponse("revalidate", r).constraints };
   })();
-  const solve = run("solve", async () => {
+  const solve = run("solve", async (signal) => {
     const r = await api("/api/solve", { run_id: s.draft.run_id, constraints: solvePayload(s.constraints),
-                                        allow: { reroute: true, overtime: true, relax_hard_due: false }, time_limit_s: 10 });
-    d({ type: "solved", solve: r });
+                                        allow: { reroute: true, overtime: true, relax_hard_due: false }, time_limit_s: 10 }, { signal });
+    return { type: "solved", solve: workflowResponse("solve", r) };
   });
-  const replay = run("replay", async () => {
+  const replay = run("replay", async (signal) => {
     const r = await api("/api/replay", { run_id: s.solve.run_id, alternative_id: s.selectedAltId,
-      assumptions: { samples: 500, seed: 7, duration_spread: [0.9, 1.3], repair_delay_max_min: delay } });
-    d({ type: "replayed", replay: r });
+      assumptions: { samples: 500, seed: 7, duration_spread: [0.9, 1.3], repair_delay_max_min: delay } }, { signal });
+    if (r.run_id !== s.solve.run_id || r.alternative_id !== s.selectedAltId) throw new ApiError("The rehearsal response belongs to a different plan. Rehearse the selected plan again.");
+    return { type: "replayed", replay: workflowResponse("replay", r) };
   });
 
   const alt = s.solve?.alternatives.find((a) => a.id === s.selectedAltId) || null;
   const failing = s.replay?.failing_scenario || null;
   const view = (s.view === "recovery" && !alt) || (s.view === "failure" && !failing) ? "committed" : s.view;
   const pending = s.constraints?.filter(isUsable).filter((c) => !isReady(c)) || [];
-  const canSolve = !!s.draft && pending.length === 0 && !s.busy;
+  const canSolve = !!s.draft && s.constraints?.filter(isUsable).length > 0 && pending.length === 0 && !s.busy;
   const blockedReason = !s.constraints ? "" : pending.length
-    ? `Decide ${pending.map((c) => c.id).join(", ")} first (accept, edit or reject).` : "";
+    ? `Decide ${pending.map((c) => c.id).join(", ")} first (accept, edit or reject).` : s.constraints?.filter(isUsable).length === 0 ? "Keep at least one reviewed constraint, or read another disruption message." : "";
 
   const jobs = useMemo(() => (factory ? effectiveJobs(factory.jobs, s.constraints) : []), [factory, s.constraints]);
   const schedule = useMemo(() => {
@@ -211,7 +234,7 @@ export default function App() {
           </div>
           <label className="source-control">
             <span>DATA SOURCE</span>
-            <select value={source} onChange={(event) => setSource(event.target.value)}>
+            <select value={source} onChange={(event) => { requests.cancel(); d({ type: "reset" }); setSource(event.target.value); }}>
               <option value="sample">Recorded samples</option>
               <option value="live">Live API</option>
             </select>
@@ -224,27 +247,17 @@ export default function App() {
           <span className="provenance-divider">/</span>
           <span>
             {sampleMode ? "Recorded sample responses · no live AMD, solver or replay calls"
-              : health?.amd.configured ? `Live · AMD Token Factory model ${health.amd.model}`
+              : s.draft?.trace?.fallback_used ? "Live service · this message used the labeled rule fallback, not AMD"
+              : health?.amd.configured ? `Live service · AMD configured for ${health.amd.model}`
               : health?.fallback_enabled ? "Live · AMD not configured, messages use the labeled rule fallback"
-              : "Live · AMD not configured on this server"}
+              : health ? "Live · AMD not configured on this server" : "Live service · AMD configuration could not be verified"}
           </span>
         </div>
 
-        {loadError && (
-          <div className="error-banner" role="alert">
-            <div><strong>Factory data couldn’t be loaded.</strong><p>{loadError}</p></div>
-            <button onClick={() => setAttempt((value) => value + 1)}>Retry <ArrowIcon /></button>
-          </div>
-        )}
-        {s.error && (
-          <div className="error-banner" role="alert">
-            <div><strong>That step didn’t complete.</strong><p>{s.error.message}</p></div>
-            <div className="wf-actions">
-              {s.error.retry && <button onClick={s.error.retry}>Retry <ArrowIcon /></button>}
-              <button onClick={() => d({ type: "dismiss" })}>Dismiss</button>
-            </div>
-          </div>
-        )}
+        <RequestNotice title="Factory data couldn’t be loaded." error={loadError} onRetry={loadError ? () => setAttempt((value) => value + 1) : null} />
+        <RequestNotice error={s.error} onRetry={s.error?.retry} onDismiss={() => d({ type: "dismiss" })}
+          busy={s.busy ? ({ extract: "Reading the disruption…", solve: "Finding recovery plans…", revalidate: "Checking edited constraints…", replay: "Rehearsing the selected plan…" })[s.busy] : null}
+          onCancel={() => { requests.cancel(); d({ type: "cancel" }); }} />
         {loading && (
           <div className="loading-panel" role="status"><span className="loading-dot" />Loading the factory schedule…</div>
         )}
@@ -339,14 +352,14 @@ export default function App() {
 
             <div className="wf">
               <div className="wf-grid2">
-                <MessagePanel message={s.message} onChange={(m) => d({ type: "message", message: m })} onSubmit={extract}
-                              busy={s.busy === "extract"} constraints={s.constraints} activeId={s.activeId} />
+                <MessagePanel message={s.message} onChange={changeMessage} onSubmit={extract}
+                              busy={!!s.busy} sampleMode={sampleMode} constraints={s.constraints} activeId={s.activeId} />
                 <ConstraintList factory={factory} constraints={s.constraints} trace={s.draft?.trace} activeId={s.activeId}
-                                onActivate={(id) => d({ type: "active", id })} onDecide={(id, decision) => d({ type: "decide", id, decision })}
+                                onActivate={(id) => d({ type: "active", id })} onDecide={(id, decision) => { requests.cancel(); d({ type: "decide", id, decision }); }} onBeginEdit={invalidate}
                                 onEdit={edit} busy={!!s.busy} canSolve={canSolve} onSolve={solve}
                                 solving={s.busy === "solve"} blockedReason={blockedReason} />
               </div>
-              <Alternatives solve={s.solve} selectedId={s.selectedAltId} onSelect={(id) => d({ type: "select", id })}
+              <Alternatives solve={s.solve} selectedId={s.selectedAltId} busy={!!s.busy || s.approved} onSelect={(id) => { requests.cancel(); d({ type: "select", id }); }}
                             onConstraintClick={(id) => d({ type: "active", id })} />
             </div>
 
@@ -373,12 +386,14 @@ export default function App() {
             </section>
 
             <div className="wf">
-              <ReplayPanel alt={alt} replay={s.replay} busy={s.busy === "replay"} onRun={replay} delay={delay} setDelay={setDelay}
+              <ReplayPanel alt={alt} replay={s.replay} busy={s.busy === "replay"} disabled={!!s.busy || s.approved} onRun={replay} delay={delay} setDelay={(value) => { requests.cancel(); d({ type: "replay-settings" }); setDelay(value); }}
                            showFailure={view === "failure"} setShowFailure={(on) => changeView(on ? "failure" : "recovery")} />
-              {alt && (
+              {alt && !sampleMode && (
                 <ApprovalPanel runId={s.solve.run_id} alternative={alt} sample={sampleMode}
-                               onInvalidRun={() => d({ type: "error", error: { message: "That plan can no longer be approved. Find recovery plans again to get a fresh run." } })} />
+                               onApproved={() => d({ type: "approved" })} disabled={!!s.busy}
+                               onInvalidRun={invalidate} />
               )}
+              {alt && sampleMode && <p className="wf-sample-note">Recorded plans are previews and cannot be approved here. Switch to Live API and read the message again to create a server-owned recovery run.</p>}
             </div>
 
             <section className="orders-section" aria-labelledby="orders-heading">
@@ -437,7 +452,7 @@ export default function App() {
 
             <footer className="workspace-footer">
               <span>REHEARSAL <span> / </span> Understand the plan before you commit.</span>
-              <p>Message reading: open model on AMD Token Factory · recovery plans: OR-Tools CP-SAT on CPU ·
+              <p>{sampleMode ? "Recorded preview responses" : s.draft?.trace?.fallback_used ? "Message reading: labeled rule fallback, not AMD" : s.draft?.trace?.mode === "live" ? "Message reading: AMD Token Factory" : "Message reading: awaiting a verified AMD call"} · recovery plans: OR-Tools CP-SAT on CPU ·
                 independent checker on every plan · rehearsal uses synthetic uncertainty, not calibrated to a real factory.</p>
             </footer>
           </>
