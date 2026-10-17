@@ -57,6 +57,18 @@ def simulate(schedule, due, now, outages, n=500, seed=7, spread=(0.9, 1.3), repa
             if planned_start < now:  # observed running: randomize remaining work only
                 s = np.full(n, float(planned_start))
                 dd = (now - planned_start) + (planned_end - now) * factor
+                # A sampled overrun can reach a future outage. The work stops there and, as in the solver's
+                # restart policy, runs again in full after the sampled repair; the observed start is unchanged
+                # in history, and the restart is what this sample dispatches.
+                restarted = np.zeros(n, dtype=bool)
+                for f, rend in windows.get(m, []):
+                    if f < now:
+                        continue
+                    cut = ~restarted & (s + dd > f)
+                    later = restarted & (s < rend) & (s + dd > f)
+                    s = np.where(cut, rend, np.where(later, np.maximum(s, rend), s))
+                    dd = np.where(cut, d * factor, dd)
+                    restarted |= cut
             else:
                 floor = float(max(now, planned_start))
                 s = np.maximum.reduce([mfree.get(m, zeros), jfree.get(j, zeros), np.full(n, floor)])
