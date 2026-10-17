@@ -87,6 +87,8 @@ export function annotateChanges(schedule, committed, now) {
   );
   return schedule.map((operation) => {
     if (operation.change) return operation;
+    if (operation.segments?.some((piece) => piece.kind === "restart"))
+      return { ...operation, change: "restarted" };
     const original = originals.get(operationKey(operation));
     let change = "none";
     if (original) {
