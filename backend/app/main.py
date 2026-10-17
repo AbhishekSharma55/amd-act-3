@@ -14,6 +14,7 @@ from .factory import router as factory_router
 from .fixture import get_fixture
 from .routes_approval import router as approval_router
 from .routes_extract import router as extract_router
+from .routes_replay import router as replay_router
 from .routes_solve import router as solve_router
 
 logging.basicConfig(level=config.LOG_LEVEL, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -22,7 +23,7 @@ app = FastAPI(title="Rehearsal", description="Test a factory's recovery plan bef
 app.add_middleware(CORSMiddleware, allow_origins=config.CORS_ORIGINS, allow_methods=["GET", "POST"],
                    allow_headers=["Content-Type"])
 install_error_handlers(app)
-for router in [factory_router, extract_router, solve_router, approval_router]:
+for router in [factory_router, extract_router, solve_router, replay_router, approval_router]:
     app.include_router(router)
 
 
