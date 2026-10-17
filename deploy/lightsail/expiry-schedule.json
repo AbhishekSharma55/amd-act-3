@@ -1,0 +1,21 @@
+{
+  "Name": "rehearsal-act3-expiry",
+  "GroupName": "rehearsal-act3",
+  "Description": "Delete the Rehearsal service after 28 days to stay within the hackathon hosting budget",
+  "ScheduleExpression": "at(2026-11-14T18:31:47)",
+  "ScheduleExpressionTimezone": "UTC",
+  "FlexibleTimeWindow": {
+    "Mode": "OFF"
+  },
+  "ActionAfterCompletion": "DELETE",
+  "State": "ENABLED",
+  "Target": {
+    "Arn": "arn:aws:scheduler:::aws-sdk:lightsail:deleteContainerService",
+    "RoleArn": "arn:aws:iam::295392291878:role/rehearsal/RehearsalLightsailExpiry",
+    "Input": "{\"ServiceName\": \"rehearsal-act3\"}",
+    "RetryPolicy": {
+      "MaximumEventAgeInSeconds": 86400,
+      "MaximumRetryAttempts": 10
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-17T18:42:15.183Z",
+  "base_url": "https://rehearsal-act3.aa0brkr65f1ep.us-east-1.cs.amazonlightsail.com",
+  "passed": 7,
+  "checks": [
+    "Fresh isolated Chrome opens public HTTPS URL without sign-in, live API is the default",
+    "Real AMD extraction renders three source-linked proposals, including overtime requiring approval",
+    "Actual CPU solve, independent checker and seven-job rehearsal render",
+    "Concessions and named approval produce readable dispatch CSV and checked decision JSON with real AMD provenance",
+    "Completed workflow and exports fit a 390px phone viewport",
+    "Fresh phone-sized visit with cleared cookies loads schedule and live AMD configuration without sign-in",
+    "No uncaught JavaScript exceptions or failed HTTP responses in browser workflow"
+  ],
+  "desktop_viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile_emulated": true,
+  "physical_phone_tested": false,
+  "approved_widths": {
+    "viewport": 390,
+    "body": 390,
+    "page": 390
+  },
+  "fresh_widths": {
+    "viewport": 390,
+    "body": 390,
+    "page": 390
+  },
+  "trace": {
+    "provider": "AMD Token Factory",
+    "model": "self-dploy/DeepSeek-V4-Flash",
+    "requested_model": "DeepSeek-V4-Flash",
+    "host": "developer.amd.com.cn",
+    "latency_ms": 53374,
+    "attempts": 2,
+    "usage": {
+      "prompt_tokens": 749,
+      "completion_tokens": 178
+    },
+    "raw_output": "{\n  \"constraints\": [\n    {\n      \"type\": \"machine_down\",\n      \"params\": {\n        \"machine\": \"M2\",\n        \"from\": null,\n        \"until\": \"14:00\"\n      },\n      \"source_span\": \"Mill M2 is unavailable until 14:00\"\n    },\n    {\n      \"type\": \"due_date\",\n      \"params\": {\n        \"job\": \"J7\",\n        \"time\": \"16:00\",\n        \"hard\": true\n      },\n      \"source_span\": \"Order J7 still needs to ship at 16:00\"\n    },\n    {\n      \"type\": \"overtime\",\n      \"params\": {\n        \"allowed\": true,\n        \"until\": null\n      },\n      \"source_span\": \"Overtime requires approval\"\n    }\n  ]\n}",
+    "fallback_used": false,
+    "mode": "live",
+    "json_mode": true
+  },
+  "exports": [
+    {
+      "name": "dispatch_r_20261017_184212_f043_s1.csv",
+      "bytes": 500
+    },
+    {
+      "name": "decision_r_20261017_184212_f043_s1.json",
+      "bytes": 16781
+    }
+  ],
+  "exception_count": 0,
+  "failed_responses": []
+}

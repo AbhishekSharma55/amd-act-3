@@ -135,14 +135,17 @@ the two offline modes.
 The same command can check a deployed HTTPS URL after deployment. A local
 success does not establish that the public host or its AMD secrets work.
 
-## Public deployment still needed
+## Public AWS deployment
 
-This packages the application for issue #12. Choosing a host, publishing a live
-URL, configuring AMD secrets there and verifying a real AMD request remain
-separate work. For a Docker host, use the Dockerfile, port `7860` (or the host's
-`PORT`) and one instance. Keep the app running while judges use the link.
+The application is deployed on AWS Lightsail Container Service with managed
+HTTPS and server-side AMD credentials. The complete public workflow passed
+using a real AMD request with fallback disabled. See [the live URL, deployment
+instructions, verification and $15/month hosting estimate](AWS_DEPLOYMENT.md).
+
+The host uses port `7860` and one Small instance. An expiry schedule deletes the
+service after 28 days; its precise time and cleanup commands are documented in
+the deployment guide. For another Docker host, preserve one API worker and one
+instance because run state is held in memory.
 
 References: [Docker multi-stage builds](https://docs.docker.com/build/building/multi-stage/),
-[Dockerfile reference](https://docs.docker.com/reference/dockerfile/),
-[Hugging Face Docker Spaces](https://huggingface.co/docs/hub/spaces-sdks-docker)
-(the previously proposed host).
+[Dockerfile reference](https://docs.docker.com/reference/dockerfile/).

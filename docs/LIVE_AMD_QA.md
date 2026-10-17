@@ -2,8 +2,9 @@
 
 AMD Token Factory authentication, model access and the complete local Docker
 workflow are verified. Rule fallback was disabled throughout the live checks.
-The service is available locally at http://localhost:7860. Public deployment
-has not been verified.
+The local service was checked at http://localhost:7860. On 18 October (IST),
+the complete live workflow also passed on the [public AWS deployment](AWS_DEPLOYMENT.md).
+The local evidence and development evaluation below retain their original results.
 
 ## Provider and configuration
 
@@ -91,7 +92,7 @@ See the [initial results](../eval/results/extraction_amd_initial.md),
 
 ## Remaining work
 
-Publish a stable public URL and repeat the live workflow there, including a
-fresh visitor and sleep/wake checks. Reconcile the two label sets before
+Public deployment and its separate verification are documented in the
+[AWS deployment guide](AWS_DEPLOYMENT.md). Reconcile the two label sets before
 claiming final extraction quality. GPU replay and CPU/GPU comparisons remain
 optional, unimplemented work; the verified replay here is CPU NumPy.

@@ -10,7 +10,8 @@ Our objective is to maximize our chances of winning the main AMD award through a
 
 - Hackathon research and independent Astra project selection are complete.
 - The factory view, extraction/review, CPU solver, independent checker, NumPy replay and approval/export workflow are implemented.
-- [Docker setup](docs/DOCKER.md) runs the built UI and API together. [Live AMD integration is verified locally](docs/LIVE_AMD_QA.md); public deployment remains pending.
+- **[Open the live application](https://rehearsal-act3.aa0brkr65f1ep.us-east-1.cs.amazonlightsail.com/)** — deployed on AWS with real AMD extraction, fallback disabled. The full public workflow passed; see [deployment, costs and expiry](docs/AWS_DEPLOYMENT.md).
+- [Docker setup](docs/DOCKER.md) runs the built UI and API together. [Live AMD integration evidence](docs/LIVE_AMD_QA.md) includes the local checks and provisional extraction evaluation.
 - Team: two members. Project ambition is not capped by team size or assumed effort.
 - Budget: **$100 AMD allocation supplied by the hackathon, plus up to $20 personal spending**.
 - Extraction has been measured on a provisional builder-labeled development set. GPU acceleration, customer adoption and business benefits remain unvalidated; the extraction results are not a benchmark.
