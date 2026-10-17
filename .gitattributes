@@ -1,0 +1,4 @@
+# Keep LF everywhere: saved checker reports hash exact file bytes, and Windows checkouts must match.
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
