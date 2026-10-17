@@ -1,0 +1,24 @@
+services:
+  rehearsal:
+    build: .
+    image: rehearsal:local
+    ports:
+      - "127.0.0.1:${PORT:-7860}:${PORT:-7860}"
+    environment:
+      PORT: "${PORT:-7860}"
+      AMD_API_BASE: "${AMD_API_BASE:-}"
+      AMD_API_KEY: "${AMD_API_KEY:-}"
+      AMD_MODEL: "${AMD_MODEL:-}"
+      AMD_TIMEOUT_S: "${AMD_TIMEOUT_S:-30}"
+      AMD_REASONING_EFFORT: "${AMD_REASONING_EFFORT:-}"
+      AMD_JSON_MODE: "${AMD_JSON_MODE:-1}"
+      ALLOW_RULE_FALLBACK: "${ALLOW_RULE_FALLBACK:-0}"
+      SOLVER_WORKERS: "${SOLVER_WORKERS:-2}"
+      EXTRACT_RATE_PER_MIN: "${EXTRACT_RATE_PER_MIN:-12}"
+      RUN_TTL_S: "${RUN_TTL_S:-21600}"
+      MAX_RUNS: "${MAX_RUNS:-2000}"
+      FACTORY_TZ: "${FACTORY_TZ:-Asia/Kolkata}"
+      CORS_ORIGINS: "${CORS_ORIGINS:-}"
+      LOG_LEVEL: "${LOG_LEVEL:-INFO}"
+    init: true
+    restart: unless-stopped

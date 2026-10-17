@@ -47,3 +47,48 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+
+  docker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add harmless canaries to verify environment files stay outside the image
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          for directory in ("backend/app", "frontend/public", "shared"):
+              (Path(directory) / ".env.docker-canary").write_text("BUILD_CONTEXT_CANARY=not-a-secret\n")
+          PY
+      - name: Build the production UI and API image
+        run: docker build --tag rehearsal:ci .
+      - name: Check the runtime package
+        run: |
+          docker run --rm --entrypoint python rehearsal:ci -c '
+          import importlib.util, os, pathlib, shutil
+          assert os.getuid() == 1000
+          assert shutil.which("node") is None
+          assert importlib.util.find_spec("pytest") is None
+          for path in ("/app/.git", "/app/.env", "/app/backend/.env", "/app/frontend/node_modules",
+                       "/app/backend/app/.env.docker-canary", "/app/backend/static/.env.docker-canary",
+                       "/app/shared/.env.docker-canary"):
+              assert not pathlib.Path(path).exists(), path
+          '
+      - name: Check strict mode without AMD credentials
+        run: |
+          docker run --detach --init --name rehearsal-strict \
+            --publish 127.0.0.1:17860:7860 rehearsal:ci
+          python3 scripts/container_smoke.py http://127.0.0.1:17860 --mode strict
+      - name: Check the full offline workflow on a custom port
+        run: |
+          docker run --detach --init --name rehearsal-fallback \
+            --publish 127.0.0.1:17861:8080 \
+            --env PORT=8080 --env WEB_CONCURRENCY=4 \
+            --env ALLOW_RULE_FALLBACK=1 rehearsal:ci
+          python3 scripts/container_smoke.py http://127.0.0.1:17861 --mode fallback
+      - name: Container logs and cleanup
+        if: always()
+        run: |
+          docker logs rehearsal-strict 2>&1 || true
+          docker logs rehearsal-fallback 2>&1 || true
+          docker rm --force rehearsal-strict rehearsal-fallback 2>/dev/null || true

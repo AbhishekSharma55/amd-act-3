@@ -1,0 +1,30 @@
+# Send only the application inputs, never the full private working directory.
+**
+!Dockerfile
+!.dockerignore
+!backend/
+!backend/requirements.txt
+!backend/app/
+!backend/app/**
+!frontend/
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/index.html
+!frontend/vite.config.js
+!frontend/src/
+!frontend/src/**
+!frontend/public/
+!frontend/public/**
+!shared/
+!shared/**
+
+# Exclude local configuration/caches even inside an allowed directory.
+**/.env
+**/.env.*
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/node_modules
+**/dist
+**/*.pem
+**/*.key
