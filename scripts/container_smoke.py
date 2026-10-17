@@ -24,18 +24,18 @@ def main():
     base = args.base_url.rstrip("/")
     checks = []
 
-    def request(path, body=None):
+    def request(path, body=None, timeout=60):
         data = None if body is None else json.dumps(body).encode()
         req = urllib.request.Request(base + path, data=data,
                                      headers={} if data is None else {"Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=60) as response:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
                 return response.status, response.read()
         except urllib.error.HTTPError as error:
             return error.code, error.read()
 
-    def api(path, body=None, status=200):
-        actual, raw = request(path, body)
+    def api(path, body=None, status=200, timeout=60):
+        actual, raw = request(path, body, timeout=timeout)
         payload = json.loads(raw)
         assert actual == status, (path, actual, payload)
         return payload
@@ -43,9 +43,9 @@ def main():
     deadline = time.monotonic() + 45
     while True:
         try:
-            health = api("/api/health")
+            health = api("/api/health", timeout=3)
             break
-        except (urllib.error.URLError, TimeoutError):
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
             if time.monotonic() >= deadline:
                 raise
             time.sleep(0.5)
