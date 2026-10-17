@@ -300,6 +300,12 @@ def review_constraints(draft: dict, client: list, F: dict) -> tuple[list[dict], 
     if not isinstance(client, list):
         raise ReviewError("constraints must be a list")
     stored = {c["id"]: c for c in draft["constraints"]}
+    # Unedited items are rechecked from the model's original proposal, not from the normalized copy, so a
+    # review raised by normalization (e.g. a missing hard/soft flag) survives until the planner decides.
+    proposals = draft.get("proposals")
+    original = ({c["id"]: (p if isinstance(p, dict) else {"type": "unsupported", "params": {"note": str(p)}})
+                 for c, p in zip(draft["constraints"], proposals)}
+                if isinstance(proposals, list) and len(proposals) == len(draft["constraints"]) else {})
     seen, kept, edits = set(), [], []
     for c in client:
         if not isinstance(c, dict) or c.get("id") not in stored:
@@ -318,8 +324,10 @@ def review_constraints(draft: dict, client: list, F: dict) -> tuple[list[dict], 
         edited = params != s["params"]
         if edited:
             edits.append({"id": cid, "before": deepcopy(s["params"]), "after": deepcopy(params)})
-        kept.append((c, {"type": s["type"], "params": deepcopy(params), "source_span": s["source_span"]},
-                     "user" if edited else s["origin"]))
+            raw = {"type": s["type"], "params": deepcopy(params), "source_span": s["source_span"]}
+        else:
+            raw = deepcopy(original.get(cid) or {"type": s["type"], "params": s["params"], "source_span": s["source_span"]})
+        kept.append((c, raw, "user" if edited else s["origin"]))
     items = [_check_one(raw, draft["message"], F, user_edit=origin == "user") for _, raw, origin in kept]
     _cross_checks(items, F)
     out = []
