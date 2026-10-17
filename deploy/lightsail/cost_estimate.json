@@ -1,0 +1,16 @@
+{
+  "currency": "USD",
+  "source": "https://aws.amazon.com/lightsail/pricing/",
+  "power": "small",
+  "scale": 1,
+  "monthly_base": "15.00",
+  "hours_per_month_assumption": "730",
+  "daily_estimate_before_tax": "0.49",
+  "28_day_estimate_before_tax": "13.81",
+  "illustrative_tax_rate": "18%",
+  "daily_with_illustrative_tax": "0.58",
+  "monthly_with_illustrative_tax": "17.70",
+  "28_day_with_illustrative_tax": "16.29",
+  "credits_applied": false,
+  "excess_transfer_included": false
+}

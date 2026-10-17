@@ -1,0 +1,10 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "lightsail:DeleteContainerService",
+      "Resource": "arn:aws:lightsail:us-east-1:295392291878:ContainerService/5842ba14-fd34-438b-9ff1-9050dd39038b"
+    }
+  ]
+}

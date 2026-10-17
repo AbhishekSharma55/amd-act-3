@@ -1,0 +1,20 @@
+{
+  "name": "rehearsal-act3",
+  "arn": "arn:aws:lightsail:us-east-1:295392291878:ContainerService/5842ba14-fd34-438b-9ff1-9050dd39038b",
+  "created": "2026-10-18T00:01:47+05:30",
+  "url": "https://rehearsal-act3.aa0brkr65f1ep.us-east-1.cs.amazonlightsail.com/",
+  "power": "small",
+  "scale": 1,
+  "region": "us-east-1",
+  "source_revision": "9e3e260a94b21c3b9b2506d03b47bf6eacfebd00",
+  "expires_at": "2026-11-14T18:31:47+00:00",
+  "schedule_group": "rehearsal-act3",
+  "expiry_schedule": "rehearsal-act3-expiry",
+  "expiry_role_name": "RehearsalLightsailExpiry",
+  "expiry_role_arn": "arn:aws:iam::295392291878:role/rehearsal/RehearsalLightsailExpiry",
+  "monthly_base_usd": "15.00",
+  "estimated_daily_base_usd": "0.49",
+  "estimated_28_day_base_usd": "13.81",
+  "estimated_28_day_if_18_percent_tax_usd": "16.29",
+  "image": ":rehearsal-act3.app-9e3e260.1"
+}
