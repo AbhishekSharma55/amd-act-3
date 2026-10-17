@@ -5,6 +5,7 @@ for development and as an evaluation baseline. It is labeled `rule_fallback` and
 AMD output.
 """
 import json
+import random
 import re
 import time
 
@@ -79,6 +80,35 @@ def _usage(r):
     return {"prompt_tokens": getattr(u, "prompt_tokens", None), "completion_tokens": getattr(u, "completion_tokens", None)}
 
 
+
+# Token Factory errors that retrying cannot fix (documented status codes).
+KNOWN_4XX = {
+    400: ("amd_model_unavailable", "The configured AMD model is not in the Token Factory catalog any more. Pick a "
+                                   "current model from GET /v1/models and set AMD_MODEL."),
+    401: ("amd_auth_failed", "Token Factory rejected the API key. Check AMD_API_KEY (the team key is revealed only "
+                             "after every member has redeemed it)."),
+    403: ("amd_account_review", "The AMD account is still in review, so Token Factory refuses the key."),
+    404: ("amd_bad_endpoint", "Token Factory has no such path. Check AMD_API_BASE (it ends in /radeon/api/v1)."),
+}
+
+
+def _error_text(e) -> str:
+    body = getattr(e, "body", None)
+    if isinstance(body, dict):  # gateway {"error": {...}}, platform {"detail": {"error": {...}}}, or the inner error
+        detail = body.get("detail")
+        err = body.get("error") or (detail.get("error") if isinstance(detail, dict) else None) or body
+        if isinstance(err, dict) and err.get("message"):
+            return str(err["message"])
+    return str(getattr(e, "message", "") or e)
+
+
+def _retry_after(e) -> float:
+    try:
+        return max(0.0, float(e.response.headers.get("retry-after", 60)))
+    except (TypeError, ValueError, AttributeError):
+        return 60.0
+
+
 def extract_amd(message: str, fixture: dict) -> dict:
     if not config.amd_configured():
         raise ExtractionError("AMD Token Factory is not configured on this server (AMD_API_BASE, AMD_API_KEY, "
@@ -110,17 +140,30 @@ def extract_amd(message: str, fixture: dict) -> dict:
             messages.append({"role": "user", "content": "Return only valid JSON in the required format."})
         except APIStatusError as e:
             last_err = e
-            if e.status_code == 400 and "response_format" in extra:
+            text = _error_text(e)
+            if e.status_code == 400 and "response_format" in extra and "response_format" in text.lower():
                 extra.pop("response_format")  # model rejects JSON mode; rely on the prompt and parser
                 continue
-            if e.status_code != 429 and e.status_code < 500:
+            if e.status_code == 429:
+                wait = _retry_after(e)
+                if wait > 5 or attempts >= 3:  # per-minute limit on the shared team key: do not hold the request
+                    raise ExtractionError(f"The team's shared AMD key hit its rate limit. Wait about {round(wait)} s and "
+                                          f"retry.", code="amd_rate_limited", status=429, attempts=attempts)
+                time.sleep(wait + random.uniform(0, 0.5))  # concurrency limit: Retry-After is about 1 s
+                continue
+            if e.status_code in KNOWN_4XX:
+                code, message = KNOWN_4XX[e.status_code]
+                if e.status_code == 400 and "not supported" not in text.lower():
+                    code, message = "amd_bad_request", f"Token Factory rejected the request: {text[:200]}"
+                raise ExtractionError(message, code=code, status=502, attempts=attempts)
+            if e.status_code < 500:
                 break  # do not retry other 4xx errors
             if attempts < 3:
-                time.sleep(min(float(e.response.headers.get("retry-after", 2 ** attempts)), 10))
+                time.sleep(2 ** attempts + random.uniform(0, 0.5))
         except (APITimeoutError, APIConnectionError) as e:
             last_err, timed_out = e, isinstance(e, APITimeoutError)
             if attempts < 3:
-                time.sleep(2 ** attempts)
+                time.sleep(2 ** attempts + random.uniform(0, 0.5))
     status = getattr(last_err, "status_code", None)
     if timed_out:
         raise ExtractionError(f"AMD Token Factory did not respond within {config.AMD_TIMEOUT_S:.0f} s. Please retry.",

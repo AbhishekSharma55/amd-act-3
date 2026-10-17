@@ -86,18 +86,20 @@ class RateLimiter:
     def __init__(self, per_minute: int):
         self.per_minute, self._hits, self._lock = per_minute, {}, threading.Lock()
 
-    def check(self, request: Request) -> None:
+    def check(self, request: Request | None, key: str | None = None, message: str | None = None) -> None:
         if self.per_minute <= 0:
             return
-        forwarded = request.headers.get("x-forwarded-for", "")
-        key = forwarded.split(",")[0].strip() or (request.client.host if request.client else "unknown")
+        if key is None:
+            forwarded = request.headers.get("x-forwarded-for", "")
+            key = forwarded.split(",")[0].strip() or (request.client.host if request.client else "unknown")
         now = time.monotonic()
         with self._lock:
             hits = self._hits.setdefault(key, deque())
             while hits and now - hits[0] > 60:
                 hits.popleft()
             if len(hits) >= self.per_minute:
-                raise ApiError(429, "rate_limited", "Too many messages in a minute. Wait a moment and retry.", True)
+                raise ApiError(429, "rate_limited", message or "Too many messages in a minute. Wait a moment and retry.",
+                               True)
             hits.append(now)
             if len(self._hits) > 10_000:
                 self._hits = {k: v for k, v in self._hits.items() if v and now - v[-1] <= 60}

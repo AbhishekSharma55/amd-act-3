@@ -58,6 +58,7 @@ def client(monkeypatch):
         import app.routes_extract as routes_extract
         monkeypatch.setattr(routes_extract, "extract_amd", fake)
         routes_extract.limiter._hits.clear()
+        routes_extract.global_limiter._hits.clear()
     except ImportError:  # foundation-only checkout without the extraction router
         pass
     c = TestClient(main.app)
