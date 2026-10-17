@@ -41,10 +41,12 @@ extraction separately before recording the demo.
 ## Try the workflow while AMD access is pending
 
 ```bash
-ALLOW_RULE_FALLBACK=1 docker compose up --build --detach
+AMD_API_BASE= AMD_API_KEY= AMD_MODEL= ALLOW_RULE_FALLBACK=1 \
+  docker compose up --build --detach
 ```
 
-With no AMD credentials, extraction uses the labeled rule fallback. Solver,
+These explicit empty AMD values override credentials in `.env`, so extraction
+uses the labeled rule fallback without a model request. Solver,
 checker, replay and exports still execute. This is an offline functional check;
 it provides no evidence of AMD inference or extraction quality. Keep
 `ALLOW_RULE_FALLBACK=0` for the real AMD demo so failures remain visible.

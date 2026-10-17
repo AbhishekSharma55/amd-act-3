@@ -33,6 +33,8 @@ COPY --from=dependencies /opt/venv /opt/venv
 COPY backend/app/ /app/backend/app/
 COPY shared/ /app/shared/
 COPY --from=frontend /build/frontend/dist/ /app/backend/static/
+COPY LICENSE THIRD_PARTY_NOTICES.md /app/
+COPY licenses/ /app/licenses/
 USER 1000:1000
 EXPOSE 7860
 HEALTHCHECK --interval=15s --timeout=5s --start-period=15s --retries=3 \

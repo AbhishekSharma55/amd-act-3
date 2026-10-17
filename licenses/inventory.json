@@ -1,0 +1,1179 @@
+{
+  "recorded_at": "2026-10-17T18:57:27.039615+00:00",
+  "python_runtime_source_image": "sha256:58bd4419eb6c664c3db9f8ec2a32bdba6530884f04fe54e9f25d4327361d72ce",
+  "python_runtime_source_revision": "9e3e260a94b21c3b9b2506d03b47bf6eacfebd00",
+  "python_development_source": "Local verification environment; development-only packages absent from the runtime snapshot",
+  "javascript_source": "frontend/package-lock.json and installed package notices; optional platform variants use their same-version upstream family notices",
+  "scope": "Python installed distributions and npm lockfile; not a complete operating-system or native-library SBOM. Keep installed distribution/base-image copyright files.",
+  "python_runtime": [
+    {
+      "name": "absl-py",
+      "version": "2.5.1",
+      "license": "Apache-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "absl_py-2.5.1.dist-info/licenses/AUTHORS",
+        "absl_py-2.5.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/abseil/abseil-py/blob/main/CHANGELOG.md",
+        "Documentation, https://abseil.io/docs/python/",
+        "Issues, https://github.com/abseil/abseil-py/issues",
+        "Source, https://github.com/abseil/abseil-py"
+      ]
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "annotated_doc-0.0.5.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/annotated-doc",
+        "Documentation, https://github.com/fastapi/annotated-doc",
+        "Repository, https://github.com/fastapi/annotated-doc",
+        "Issues, https://github.com/fastapi/annotated-doc/issues",
+        "Changelog, https://github.com/fastapi/annotated-doc/release-notes.md"
+      ]
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "annotated_types-0.8.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/annotated-types/annotated-types",
+        "Source, https://github.com/annotated-types/annotated-types",
+        "Changelog, https://github.com/annotated-types/annotated-types/releases"
+      ]
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "anyio-4.15.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Documentation, https://anyio.readthedocs.io/en/latest/",
+        "Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html",
+        "Source code, https://github.com/agronholm/anyio",
+        "Issue tracker, https://github.com/agronholm/anyio/issues"
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "click-8.5.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "project_urls": [
+        "Changes, https://click.palletsprojects.com/page/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://click.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/click/"
+      ]
+    },
+    {
+      "name": "fastapi",
+      "version": "0.143.3",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "fastapi-0.143.3.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/fastapi",
+        "Documentation, https://fastapi.tiangolo.com/",
+        "Repository, https://github.com/fastapi/fastapi",
+        "Issues, https://github.com/fastapi/fastapi/issues",
+        "Changelog, https://fastapi.tiangolo.com/release-notes/"
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "h11-0.16.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "httpcore2",
+      "version": "2.13.1",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "httpcore2-2.13.1.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/pydantic/httpx2/blob/main/src/httpcore2/CHANGELOG.md",
+        "Homepage, https://github.com/pydantic/httpx2",
+        "Source, https://github.com/pydantic/httpx2/blob/main/src/httpcore2"
+      ]
+    },
+    {
+      "name": "httptools",
+      "version": "0.9.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "httptools-0.9.0.dist-info/licenses/LICENSE",
+        "httptools-0.9.0.dist-info/licenses/vendor/http-parser/LICENSE-MIT",
+        "httptools-0.9.0.dist-info/licenses/vendor/llhttp/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/MagicStack/httptools"
+      ]
+    },
+    {
+      "name": "httpx2",
+      "version": "2.13.1",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "httpx2-2.13.1.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/pydantic/httpx2/blob/main/src/httpx2/CHANGELOG.md",
+        "Homepage, https://github.com/pydantic/httpx2",
+        "Source, https://github.com/pydantic/httpx2"
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "idna-3.20.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+        "Issue tracker, https://github.com/kjd/idna/issues",
+        "Source, https://github.com/kjd/idna"
+      ]
+    },
+    {
+      "name": "immutabledict",
+      "version": "4.3.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "immutabledict-4.3.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Documentation, https://immutabledict.corenting.fr",
+        "Homepage, https://github.com/corenting/immutabledict",
+        "Repository, https://github.com/corenting/immutabledict",
+        "bugtracker, https://github.com/corenting/immutabledict/issues",
+        "changelog, https://github.com/corenting/immutabledict/blob/master/CHANGELOG.md",
+        "donation, https://corenting.fr/donate"
+      ]
+    },
+    {
+      "name": "jiter",
+      "version": "0.17.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "jiter-0.17.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md"
+      ],
+      "project_urls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ]
+    },
+    {
+      "name": "openai",
+      "version": "3.33.0",
+      "license": "Apache-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "openai-3.33.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/openai/openai-python",
+        "Repository, https://github.com/openai/openai-python"
+      ]
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.1",
+      "license": "Apache-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "opentelemetry_api-1.45.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-api",
+        "Repository, https://github.com/open-telemetry/opentelemetry-python"
+      ]
+    },
+    {
+      "name": "ortools",
+      "version": "9.15.6755",
+      "license": "Apache-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "ortools-9.15.6755.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.6",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pandas-3.0.6.dist-info/LICENSE"
+      ],
+      "project_urls": [
+        "homepage, https://pandas.pydata.org",
+        "documentation, https://pandas.pydata.org/docs/",
+        "repository, https://github.com/pandas-dev/pandas"
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pip-25.0.1.dist-info/AUTHORS.txt",
+        "pip-25.0.1.dist-info/LICENSE.txt"
+      ],
+      "project_urls": [
+        "Homepage, https://pip.pypa.io/",
+        "Documentation, https://pip.pypa.io",
+        "Source, https://github.com/pypa/pip",
+        "Changelog, https://pip.pypa.io/en/stable/news/"
+      ]
+    },
+    {
+      "name": "protobuf",
+      "version": "6.33.6",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "protobuf-6.33.6.dist-info/LICENSE"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pydantic-2.14.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic",
+        "Documentation, https://pydantic.dev/docs/validation/latest/get-started/",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic",
+        "Changelog, https://pydantic.dev/docs/validation/latest/get-started/changelog/"
+      ]
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.50.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pydantic_core-2.50.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Homepage, https://github.com/pydantic",
+        "Source, https://github.com/pydantic/pydantic/tree/main/pydantic-core"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "python_dateutil-2.9.0.post0.dist-info/LICENSE"
+      ],
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ]
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "python_dotenv-1.2.4.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Source, https://github.com/theskumar/python-dotenv"
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pyyaml-6.0.3.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+        "CI, https://github.com/yaml/pyyaml/actions",
+        "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+        "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+        "Source Code, https://github.com/yaml/pyyaml"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "six-1.17.0.dist-info/LICENSE"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "license": "MIT OR Apache-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "sniffio-1.3.1.dist-info/LICENSE",
+        "sniffio-1.3.1.dist-info/LICENSE.APACHE2",
+        "sniffio-1.3.1.dist-info/LICENSE.MIT"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/python-trio/sniffio",
+        "Documentation, https://sniffio.readthedocs.io/",
+        "Changelog, https://sniffio.readthedocs.io/en/latest/history.html"
+      ]
+    },
+    {
+      "name": "starlette",
+      "version": "1.8.0",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "starlette-1.8.0.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/Kludex/starlette",
+        "Documentation, https://starlette.dev/",
+        "Changelog, https://starlette.dev/release-notes/",
+        "Funding, https://github.com/sponsors/Kludex",
+        "Source, https://github.com/Kludex/starlette"
+      ]
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.5",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "truststore-0.10.5.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Documentation, https://truststore.readthedocs.io",
+        "Source, https://github.com/sethmlarson/truststore"
+      ]
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "typing_inspection-0.4.4.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/typing-inspection",
+        "Documentation, https://pydantic.github.io/typing-inspection/dev/",
+        "Source, https://github.com/pydantic/typing-inspection",
+        "Changelog, https://github.com/pydantic/typing-inspection/blob/main/HISTORY.md"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license": "PSF-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Bug Tracker, https://github.com/python/typing_extensions/issues",
+        "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+        "Documentation, https://typing-extensions.readthedocs.io/",
+        "Home, https://github.com/python/typing_extensions",
+        "Q & A, https://github.com/python/typing/discussions",
+        "Repository, https://github.com/python/typing_extensions"
+      ]
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.54.0",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "uvicorn-0.54.0.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Changelog, https://uvicorn.dev/release-notes",
+        "Funding, https://github.com/sponsors/Kludex",
+        "Homepage, https://uvicorn.dev/",
+        "Source, https://github.com/Kludex/uvicorn"
+      ]
+    },
+    {
+      "name": "uvloop",
+      "version": "0.23.0",
+      "license": "MIT OR Apache-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "uvloop-0.23.0.dist-info/licenses/LICENSE-APACHE",
+        "uvloop-0.23.0.dist-info/licenses/LICENSE-MIT"
+      ],
+      "project_urls": [
+        "github, https://github.com/MagicStack/uvloop"
+      ]
+    },
+    {
+      "name": "watchfiles",
+      "version": "1.3.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "watchfiles-1.3.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/samuelcolvin/watchfiles/releases",
+        "Documentation, https://watchfiles.helpmanual.io",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Homepage, https://github.com/samuelcolvin/watchfiles",
+        "Source, https://github.com/samuelcolvin/watchfiles"
+      ]
+    },
+    {
+      "name": "websockets",
+      "version": "17.2",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "websockets-17.2.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/python-websockets/websockets",
+        "Changelog, https://websockets.readthedocs.io/en/stable/project/changelog.html",
+        "Documentation, https://websockets.readthedocs.io/",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-websockets?utm_source=pypi-websockets&utm_medium=referral&utm_campaign=readme",
+        "Tracker, https://github.com/python-websockets/websockets/issues"
+      ]
+    }
+  ],
+  "python_development_only": [
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "license": "MPL-2.0",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "certifi-2026.7.22.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Source, https://github.com/certifi/python-certifi"
+      ]
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "httpcore-1.0.9.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Documentation, https://www.encode.io/httpcore",
+        "Homepage, https://www.encode.io/httpcore/",
+        "Source, https://github.com/encode/httpcore"
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license": "BSD-3-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "httpx-0.28.1.dist-info/licenses/LICENSE.md"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+        "Documentation, https://www.python-httpx.org",
+        "Homepage, https://github.com/encode/httpx",
+        "Source, https://github.com/encode/httpx"
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "iniconfig-2.3.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/pytest-dev/iniconfig"
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "packaging-26.3.dist-info/licenses/LICENSE",
+        "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ],
+      "project_urls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ]
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pluggy-1.7.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/pytest-dev/pluggy",
+        "Documentation, https://pluggy.readthedocs.io/",
+        "Changelog, https://pluggy.readthedocs.io/en/latest/changelog.html",
+        "Repository, https://github.com/pytest-dev/pluggy",
+        "Issues, https://github.com/pytest-dev/pluggy/issues",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pluggy"
+      ]
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "license": "BSD-2-Clause",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pygments-2.21.0.dist-info/licenses/AUTHORS",
+        "pygments-2.21.0.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Homepage, https://pygments.org",
+        "Documentation, https://pygments.org/docs",
+        "Source, https://github.com/pygments/pygments",
+        "Bug Tracker, https://github.com/pygments/pygments/issues",
+        "Changelog, https://github.com/pygments/pygments/blob/master/CHANGES"
+      ]
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "license": "MIT",
+      "notice_bundle": "PYTHON_NOTICES.txt",
+      "original_notice_paths": [
+        "pytest-9.1.1.dist-info/licenses/LICENSE"
+      ],
+      "project_urls": [
+        "Changelog, https://docs.pytest.org/en/stable/changelog.html",
+        "Contact, https://docs.pytest.org/en/stable/contact.html",
+        "Funding, https://docs.pytest.org/en/stable/sponsor.html",
+        "Homepage, https://docs.pytest.org/en/latest/",
+        "Source, https://github.com/pytest-dev/pytest",
+        "Tracker, https://github.com/pytest-dev/pytest/issues"
+      ]
+    }
+  ],
+  "javascript_lockfile": [
+    {
+      "name": "@oxc-project/types",
+      "version": "0.154.0",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/@oxc-project/types/-/types-0.154.0.tgz",
+      "integrity": "sha512-KYOUGQFlLWR+s4QMV2Q9ko38TZm7EdO87Qm7rvZLqk/webse/cDjtyxKhg/47l0byCbs/k46LT8qc4PKjAikzA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/@oxc-project/types"
+    },
+    {
+      "name": "@rolldown/binding-android-arm-eabi",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-android-arm-eabi/-/binding-android-arm-eabi-1.2.14.tgz",
+      "integrity": "sha512-aWR+XKH9+rW7m5fWq/5360J3mHycrx/o6xZM2DQFdJnTMdyP7/WzxPjhtLbVWdKo2y612/4U1bWqb3HQhiF7vg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-android-arm64/-/binding-android-arm64-1.2.14.tgz",
+      "integrity": "sha512-QiVxHofl6A8lQU7WAtOUY4QMVZXohxwz7WJJoeh8NBEUyKfIkMRKhYyq8az/1RypNiIXzNTtiS6KwHz0erxYRQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.2.14.tgz",
+      "integrity": "sha512-lTQOzHuBIooh3jIr5XINQkjPGEuGy+Dsy0meXDr6Sjty0b99kYgGh4uBC/8mJX1T0kC8d6S0aPP1Y+bHkh6aBw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.2.14.tgz",
+      "integrity": "sha512-hyMKEGatjmBYCs/Q4sbIcL/GqpFEqsX3wc+HYVQ/85A4rxc1o7rPm4DUI4GV4k/h0ITddwFSGpqQunI14GXjTA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.2.14.tgz",
+      "integrity": "sha512-u371GbXoVXrEgP20PwzoGNOdAOqAMhzo19JzzY+V4YmmnC+DTOoqdbMu+O+54emM59Mik/UdrtWgcuEDKWRPKA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.2.14.tgz",
+      "integrity": "sha512-BqwKsdZQf6EqVWr8fv2MrDYzAvOZ7+NYFSJESRGs87fkseEhs0TU9TXgRJTkZoRRkxTizyEg1LKUXfU3/78uqg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.2.14.tgz",
+      "integrity": "sha512-SD9kY8M009x/7s57Z1dgUVlP5+uYBgKQK0Tkr1WIWngrtUJmRCW1RJFMY7QDla2khXhmg2i5Io7MUjcmZNZ/KQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.2.14.tgz",
+      "integrity": "sha512-BJ2CL19M6uuWesMgnqJzgxoI+N+eV7b0A9O9vLV42y+gitC41fNa8KElau1tHVzuLWX5GzEuxMPhAO0tQXQMkg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-ppc64-gnu/-/binding-linux-ppc64-gnu-1.2.14.tgz",
+      "integrity": "sha512-4+Kl8daPV8NDHaD7mfCcc1pRM+Qg7ab8DyMm5FG5WoZgv4h2i3KFN1CybYBNbQqmuYm7ftJLvmMI1eHYJ22S/Q==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-s390x-gnu/-/binding-linux-s390x-gnu-1.2.14.tgz",
+      "integrity": "sha512-V/h8ePq1fKDrmtFMz6xcCN3DKvuvMRrwwD1q0PkBeeo4DpK64biaKvqWGVxqCeYKqeRk7gE7/iKPxLCn08O97A==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.14.tgz",
+      "integrity": "sha512-WxalXzgrLVpKC93xfpaJ3gCXUWzeCr+FRCbDVD2mUAy4L6Vo3lNVz0epUEUpxPWJkLNYUwM4OSIikv36OJ9mLg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.14.tgz",
+      "integrity": "sha512-3G3tnAmTpdk9jO3GQtyHXqeFD2SlecfTws/Y3M2mmj9nMBwwuLT4kur8sZKeu7ENUHSpVO3cIsm5A52LEWWwlg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.2.14.tgz",
+      "integrity": "sha512-qyr5XiNGxm2ytx17vvtcJ9nXn6v1gENETi503bJx3OGwZ1tSonj7BosxbMa/xeAfSl5iS9X6KjEWYXLu6v1L7Q==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.2.14.tgz",
+      "integrity": "sha512-oA4o5o0S2yB199YyYXDzKUv1Z56Rc+mgOjwm7Z/vJ9Z8igiDPYvoOuDyo6g7AK/ZaF09nPhDKVnGBcYHO11GXA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.14.tgz",
+      "integrity": "sha512-9mE94bf2GZUaR/fUSXCMpBoWkctu421Mi0ORpm4zqfbkjKep7RxzPFa5etcGs5h+2KApoWBOA/hAJa/7saGgEQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+      "integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/@rolldown/pluginutils"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "6.1.2",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.2.tgz",
+      "integrity": "sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/@vitejs/plugin-react"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+      "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/detect-libc"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/fdir"
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "license": "MIT",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "Integrity-verified npm archive in lockfile, package/LICENSE"
+    },
+    {
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+      "integrity": "sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-android-arm64/-/lightningcss-android-arm64-1.33.0.tgz",
+      "integrity": "sha512-gEpRTalKdosp4Bb8qWtc2iOgE5SeIHlpS1up9bFq2wAyYhl1UdTObYiHe98zEM9SQvSoqQZ1IQD0JNpg3Ml5pg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.33.0.tgz",
+      "integrity": "sha512-Sciaz8eenNTKn9b3t7+xr0ipTp9YxKQY4npwQ3mrRuL0BAVHBLyZxofhaKBAVtzmtRZ/zTyo0/to4B1uWG/Djg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.33.0.tgz",
+      "integrity": "sha512-Z5UPAxzrjlWNNyGy6i65cJzzvgJ5D3T6wMvs+gWpY9d7qRhANrxqAp6LhxIgZhWEw18RfJTGcRxjuLIBr+m8XQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.33.0.tgz",
+      "integrity": "sha512-QQM/Ti/hQajJwCY+RiWuCZ9sdtI/XQk7nDK5vC8kkdwixezOlDgvDx7+RT+QjK6FcFT4MpsuoBnHIo/O3StRRg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.33.0.tgz",
+      "integrity": "sha512-N7FVBe6iS24MlM6R/4RBTxGhQheZGs7tiQ9U32UtF75NzP5Q7xWPRqLBCKxlRQRk3rY1jCIPLzx7WzOhuUIRLQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.33.0.tgz",
+      "integrity": "sha512-j2v/itmy4HlNxlc6voKXYgBqNi0Ng2LShg4z7GufpEgs05P+2suBVyi9I6YHq5uoVFx9ETin3eCEhLVyXGQnKg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.33.0.tgz",
+      "integrity": "sha512-yiO5ROMuYQgXbC60yjZU5CYSFZGKXL0HFATXt9mHJn1+zW55oCtMI9NfcVhYLMFDL7gV7oBPon/EmMMGg2OvtQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.33.0.tgz",
+      "integrity": "sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss-linux-x64-gnu"
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz",
+      "integrity": "sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.33.0.tgz",
+      "integrity": "sha512-1K+MPfLSFVpphzpdbfkhlWk6wBrTObBzS2T6db10PNOZgR9GoVsAWzwNyuhUYYbTp23j+4RrncfujZ4uAzXvwA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "development_only": true,
+      "optional": true,
+      "installed_on_collection_host": false,
+      "resolved": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz",
+      "integrity": "sha512-OlEICDx/Xl0FqSp4bry8zFnCvGpig3Gl4gCquvYwHuqJKEC1+n9NgDniFvqHGmMv1ZkqDJrDqKKSykTDX+ehuA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/lightningcss"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+      "integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/nanoid"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/picocolors"
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/picomatch"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.30",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.30.tgz",
+      "integrity": "sha512-zkd+e9S1AQHhmaBKye9zlFHWjOwVgqXl1q3ECYy8561K7qxR2cREf/STLskulBFd78k6AOFeA+ff1TtEzk9bAA==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/postcss"
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "development_only": false,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+      "integrity": "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/react"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "development_only": false,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+      "integrity": "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/react-dom"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.2.14",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.14.tgz",
+      "integrity": "sha512-eTBTTqMR6uHKLgcUqpJP8ntzDI6V4LYA8negAMBEI7gkgVvOdrx6VsvS2Ym+83KhOPdLCHWJu0w7UQFJZhHKNw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/rolldown"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "development_only": false,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+      "integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/scheduler"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+      "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/source-map-js"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/tinyglobby"
+    },
+    {
+      "name": "vite",
+      "version": "8.3.4",
+      "license": "MIT",
+      "development_only": true,
+      "optional": false,
+      "installed_on_collection_host": true,
+      "resolved": "https://registry.npmjs.org/vite/-/vite-8.3.4.tgz",
+      "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==",
+      "notice_bundle": "JAVASCRIPT_NOTICES.txt",
+      "notice_source": "frontend/node_modules/vite"
+    }
+  ],
+  "notice_sha256": {
+    "PYTHON_NOTICES.txt": "d4d9ee62175d1c7852c06bc1739c8c0205ffe0483d7aff17971d9d219ed703e4",
+    "JAVASCRIPT_NOTICES.txt": "9fdd5779b5a06e6d64903fe74095596f9e9e1491d187d1c07206e1f555022b33",
+    "DeepSeek-V4-Flash-LICENSE.txt": "1c8f573e830ca9b3ebfeb7ace1823146e22b66f99ee223840e7637c9e745e1c7"
+  }
+}

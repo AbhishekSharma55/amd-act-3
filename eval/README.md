@@ -34,10 +34,20 @@ demo-fact assertions. API keys are excluded from these artifacts.
 ## Run
 
 ```bash
-.venv/Scripts/python eval/run_eval.py extraction --extractor amd     # live Token Factory, sequential, ~17 calls/min on the shared team key
-.venv/Scripts/python eval/run_eval.py extraction --extractor rules   # labeled rule baseline (offline)
-.venv/Scripts/python eval/run_eval.py recovery
+python eval/run_eval.py extraction --extractor amd     # live Token Factory, sequential, ~17 calls/min on the shared team key
+python eval/run_eval.py extraction --extractor rules   # labeled rule baseline (offline)
+python eval/run_eval.py recovery
 ```
+
+Run from the repository root after the [development setup](../docs/DEVELOPMENT.md).
+These commands write `eval/results/`; use a separate checkout if preserving the
+published records. On Windows without activation, substitute
+`.venv\Scripts\python.exe` for `python`. The live extractor calls AMD directly
+and consumes shared quota; the rules and recovery evaluations make no model calls.
+
+To check the existing AMD predictions against either label file without making
+new calls, use `rescore_saved.py` with a new output path as shown in the
+[verification commands](../docs/DEVELOPMENT.md#checks-and-evaluation).
 
 ## Extraction metrics
 
