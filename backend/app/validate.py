@@ -303,8 +303,11 @@ def review_constraints(draft: dict, client: list, F: dict) -> tuple[list[dict], 
     stored = {c["id"]: c for c in draft["constraints"]}
     # Defaults in normalized params are not evidence that the model supplied a
     # value. Recheck the original proposal and overlay only explicit edits.
-    proposals = {c["id"]: raw for c, raw in zip(
-        draft["constraints"], draft.get("proposals", draft["constraints"]))}
+    raw_proposals = draft.get("proposals")
+    proposals = ({c["id"]: (raw if isinstance(raw, dict) else
+                            {"type": "unsupported", "params": {"note": str(raw)}})
+                  for c, raw in zip(draft["constraints"], raw_proposals)}
+                 if isinstance(raw_proposals, list) and len(raw_proposals) == len(draft["constraints"]) else {})
     seen, kept, edits = set(), [], []
     for c in client:
         if not isinstance(c, dict) or c.get("id") not in stored:
@@ -333,7 +336,8 @@ def review_constraints(draft: dict, client: list, F: dict) -> tuple[list[dict], 
                 original_params[key] = deepcopy(params[key])
             else:
                 original_params.pop(key, None)
-        raw = {"type": s["type"], "params": original_params, "source_span": s["source_span"]}
+        raw = {"type": proposal.get("type", s["type"]), "params": original_params,
+               "source_span": s["source_span"]}
         kept.append((c, raw, "user" if edited else s["origin"], changed_fields))
     items = [_check_one(raw, draft["message"], F, edited_fields=fields) for _, raw, _, fields in kept]
     _cross_checks(items, F)
