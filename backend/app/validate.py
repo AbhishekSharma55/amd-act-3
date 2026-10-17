@@ -126,11 +126,12 @@ def _params(raw: dict) -> dict:
                                                        "blocking_issues", "origin"}}
 
 
-def _check_one(raw: dict, message: str, F: dict, user_edit: bool = False) -> dict:
+def _check_one(raw: dict, message: str, F: dict, edited_fields: set[str] | None = None) -> dict:
     """Normalize one proposal. Returns a constraint with private `_review` / `_blocking` lists.
 
-    `user_edit`: the planner typed these values, so they need no confirmation against the quoted text.
+    Only fields the planner actually changed bypass interpretation confirmation.
     """
+    edited_fields = edited_fields or set()
     kind = raw.get("type") if raw.get("type") in TYPES else "unsupported"
     p = _params(raw)
     span = raw.get("source_span") if isinstance(raw.get("source_span"), str) else ""
@@ -152,7 +153,7 @@ def _check_one(raw: dict, message: str, F: dict, user_edit: bool = False) -> dic
                           f"({F['shift']['start']}-{F['shift']['overtime_until']})")
             blocking.append(f"Provide a valid {label} (HH:MM)")
             return t
-        if span and not user_edit and not time_evidenced(t, span):
+        if span and field not in edited_fields and not time_evidenced(t, span):
             review.append(f"'{span}' was read as {label} {t}; please confirm")
         return t
 
@@ -225,7 +226,7 @@ def _check_one(raw: dict, message: str, F: dict, user_edit: bool = False) -> dic
                 review.append(f"Overtime cutoff '{p.get('until')}' must be between {F['shift']['end']} and "
                               f"{F['shift']['overtime_until']}")
                 blocking.append("Provide a valid overtime cutoff")
-            elif span and not user_edit and until != F["shift"]["overtime_until"] and not time_evidenced(until, span):
+            elif span and "until" not in edited_fields and until != F["shift"]["overtime_until"] and not time_evidenced(until, span):
                 review.append(f"'{span}' was read as overtime until {until}; please confirm")
         if allowed:
             until = until or F["shift"]["overtime_until"]
@@ -300,12 +301,13 @@ def review_constraints(draft: dict, client: list, F: dict) -> tuple[list[dict], 
     if not isinstance(client, list):
         raise ReviewError("constraints must be a list")
     stored = {c["id"]: c for c in draft["constraints"]}
-    # Unedited items are rechecked from the model's original proposal, not from the normalized copy, so a
-    # review raised by normalization (e.g. a missing hard/soft flag) survives until the planner decides.
-    proposals = draft.get("proposals")
-    original = ({c["id"]: (p if isinstance(p, dict) else {"type": "unsupported", "params": {"note": str(p)}})
-                 for c, p in zip(draft["constraints"], proposals)}
-                if isinstance(proposals, list) and len(proposals) == len(draft["constraints"]) else {})
+    # Defaults in normalized params are not evidence that the model supplied a
+    # value. Recheck the original proposal and overlay only explicit edits.
+    raw_proposals = draft.get("proposals")
+    proposals = ({c["id"]: (raw if isinstance(raw, dict) else
+                            {"type": "unsupported", "params": {"note": str(raw)}})
+                  for c, raw in zip(draft["constraints"], raw_proposals)}
+                 if isinstance(raw_proposals, list) and len(raw_proposals) == len(draft["constraints"]) else {})
     seen, kept, edits = set(), [], []
     for c in client:
         if not isinstance(c, dict) or c.get("id") not in stored:
@@ -322,16 +324,25 @@ def review_constraints(draft: dict, client: list, F: dict) -> tuple[list[dict], 
         if not isinstance(params, dict):
             raise ReviewError(f"{cid}: params must be an object")
         edited = params != s["params"]
+        changed_fields = {key for key in params.keys() | s["params"].keys()
+                          if (key in params) != (key in s["params"])
+                          or params.get(key) != s["params"].get(key)}
         if edited:
             edits.append({"id": cid, "before": deepcopy(s["params"]), "after": deepcopy(params)})
-            raw = {"type": s["type"], "params": deepcopy(params), "source_span": s["source_span"]}
-        else:
-            raw = deepcopy(original.get(cid) or {"type": s["type"], "params": s["params"], "source_span": s["source_span"]})
-        kept.append((c, raw, "user" if edited else s["origin"]))
-    items = [_check_one(raw, draft["message"], F, user_edit=origin == "user") for _, raw, origin in kept]
+        proposal = proposals.get(cid, s)
+        original_params = _params(proposal if isinstance(proposal, dict) else s)
+        for key in changed_fields:
+            if key in params:
+                original_params[key] = deepcopy(params[key])
+            else:
+                original_params.pop(key, None)
+        raw = {"type": proposal.get("type", s["type"]), "params": original_params,
+               "source_span": s["source_span"]}
+        kept.append((c, raw, "user" if edited else s["origin"], changed_fields))
+    items = [_check_one(raw, draft["message"], F, edited_fields=fields) for _, raw, _, fields in kept]
     _cross_checks(items, F)
     out = []
-    for (c, _, origin), item in zip(kept, items):
+    for (c, _, origin, _), item in zip(kept, items):
         checked = _finish(item, c["id"], origin)
         if checked["status"] == "review" and not checked["blocking_issues"] and c.get("status") == "accepted":
             checked["status"] = "accepted"
