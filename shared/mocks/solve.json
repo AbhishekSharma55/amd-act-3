@@ -1,0 +1,194 @@
+{
+  "run_id": "r_mock_0001_s1",
+  "status": "ok",
+  "alternatives": [
+    {
+      "id": "alt_reroute",
+      "label": "Re-route to qualified machines",
+      "policy": {
+        "reroute": true,
+        "overtime": false
+      },
+      "solver": {
+        "status": "OPTIMAL",
+        "time_ms": 0,
+        "objective": 0
+      },
+      "schedule": [
+        {
+          "job": "J3",
+          "op": 1,
+          "machine": "M1",
+          "start": "08:00",
+          "end": "09:00",
+          "change": "frozen"
+        },
+        {
+          "job": "J6",
+          "op": 1,
+          "machine": "M1",
+          "start": "09:00",
+          "end": "10:10",
+          "change": "frozen"
+        },
+        {
+          "job": "J1",
+          "op": 2,
+          "machine": "M1",
+          "start": "10:10",
+          "end": "11:20",
+          "change": "restarted_on_M1"
+        },
+        {
+          "job": "J7",
+          "op": 2,
+          "machine": "M1",
+          "start": "11:20",
+          "end": "13:40",
+          "change": "moved_from_M2"
+        },
+        {
+          "job": "J6",
+          "op": 2,
+          "machine": "M1",
+          "start": "13:40",
+          "end": "15:05",
+          "change": "retimed"
+        },
+        {
+          "job": "J4",
+          "op": 2,
+          "machine": "M1",
+          "start": "15:05",
+          "end": "16:35",
+          "change": "retimed"
+        },
+        {
+          "job": "J5",
+          "op": 1,
+          "machine": "M2",
+          "start": "08:00",
+          "end": "09:20",
+          "change": "frozen"
+        },
+        {
+          "job": "J2",
+          "op": 1,
+          "machine": "M2",
+          "start": "14:00",
+          "end": "15:30",
+          "change": "retimed"
+        },
+        {
+          "job": "J1",
+          "op": 1,
+          "machine": "M3",
+          "start": "08:00",
+          "end": "09:00",
+          "change": "frozen"
+        },
+        {
+          "job": "J3",
+          "op": 2,
+          "machine": "M3",
+          "start": "09:00",
+          "end": "09:50",
+          "change": "frozen"
+        },
+        {
+          "job": "J5",
+          "op": 2,
+          "machine": "M3",
+          "start": "09:50",
+          "end": "10:20",
+          "change": "frozen"
+        },
+        {
+          "job": "J7",
+          "op": 1,
+          "machine": "M3",
+          "start": "10:20",
+          "end": "11:00",
+          "change": "retimed"
+        },
+        {
+          "job": "J4",
+          "op": 1,
+          "machine": "M3",
+          "start": "11:00",
+          "end": "11:45",
+          "change": "retimed"
+        },
+        {
+          "job": "J7",
+          "op": 3,
+          "machine": "M3",
+          "start": "13:40",
+          "end": "14:10",
+          "change": "retimed"
+        },
+        {
+          "job": "J2",
+          "op": 2,
+          "machine": "M3",
+          "start": "15:30",
+          "end": "16:10",
+          "change": "retimed"
+        }
+      ],
+      "kpis": {
+        "late_jobs": [
+          {
+            "job": "J2",
+            "minutes_late": 190,
+            "customer": "Birla Valves"
+          }
+        ],
+        "overtime_minutes": 0,
+        "overtime_cost": 0.0,
+        "moved_ops": 2,
+        "retimed_ops": 7
+      },
+      "concessions": [
+        {
+          "id": "k1",
+          "type": "late_delivery",
+          "job": "J2",
+          "detail": "J2 (Birla Valves) ships 190 min late"
+        }
+      ],
+      "checker": {
+        "valid": true,
+        "violations": []
+      },
+      "merged_with": [
+        "alt_reroute_overtime"
+      ]
+    }
+  ],
+  "infeasible": [
+    {
+      "policy": {
+        "reroute": false,
+        "overtime": true
+      },
+      "label": "Keep machines",
+      "solver_status": "INFEASIBLE",
+      "conflict": [
+        "c1",
+        "c2"
+      ],
+      "conflict_kind": "sufficient",
+      "explanation": "With M2 down until 14:00 and no re-routing, J7 cannot finish by 16:00.",
+      "possible_concessions": [
+        {
+          "type": "relax_hard_due",
+          "constraint": "c2"
+        },
+        {
+          "type": "allow_reroute"
+        }
+      ]
+    }
+  ]
+}
