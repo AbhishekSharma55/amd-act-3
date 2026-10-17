@@ -185,7 +185,9 @@ def run_recovery():
             "samples_per_seed": n, "assumptions": spec["assumptions"], "note": spec["note"]}
     (RESULTS / "recovery.json").write_text(json.dumps({"meta": meta, "rows": rows}, indent=2), encoding="utf-8")
     md = ["# Held-out recovery comparison", "",
-          f"{len(spec['cases'])} frozen synthetic scenarios. Same CP-SAT engine and 10 s budget for every method. "
+          f"{len(spec['cases'])} frozen synthetic scenarios: h1 is the demo/reference case, the others are held out. "
+          f"Same CP-SAT engine with a 10 s cap per policy solve (the CPU reference is one solve; Rehearsal solves "
+          f"2-3 policies), not an equal total budget; every case here solved to optimality well within it. "
           f"Selection seeds {spec['selection_seeds']}; outcomes on separate seeds {spec['evaluation_seeds']} "
           f"x {n} samples. Synthetic uncertainty, not calibrated to a real factory.", "",
           "| Case | Kind | Method | Plan | Valid | Weighted tardiness (min) | Overtime min / cost | "

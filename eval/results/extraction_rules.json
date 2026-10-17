@@ -3,7 +3,7 @@
     "extractor": "rules",
     "model": "rehearsal-rules-v1",
     "host": "local",
-    "run_at": "2026-10-17T19:56:52+05:30",
+    "run_at": "2026-10-17T22:11:57+05:30",
     "labels": "DRAFT: one builder's labels, not yet independently labeled and reconciled",
     "messages": 23,
     "complete_change_accuracy": "13/23",
@@ -399,7 +399,7 @@
           "blocking": false
         }
       ],
-      "latency_ms": 0,
+      "latency_ms": 1,
       "model": "rehearsal-rules-v1",
       "raw_output": "{\"constraints\": [{\"type\": \"machine_down\", \"params\": {\"machine\": \"M1\", \"from\": \"11:00\", \"until\": \"13:00\"}, \"source_span\": \"M1 is down from 11:00 until 13:00, J4 is now urgent, J6 must ship by 17:00 and no overtime today\"}, {\"type\": \"due_date\", \"params\": {\"job\": \"J4\", \"time\": \"17:00\", \"hard\": true}, \"source_span\": \"M1 is down from 11:00 until 13:00, J4 is now urgent, J6 must ship by 17:00 and no overtime today\"}, {\"type\": \"due_date\", \"params\": {\"job\": \"J6\", \"time\": \"17:00\", \"hard\": true}, \"source_span\": \"M1 is down from 11:00 until 13:00, J4 is now urgent, J6 must ship by 17:00 and no overtime today\"}, {\"type\": \"overtime\", \"params\": {\"allowed\": false, \"until\": \"13:00\"}, \"source_span\": \"M1 is down from 11:00 until 13:00, J4 is now urgent, J6 must ship by 17:00 and no overtime today\"}]}"
     },

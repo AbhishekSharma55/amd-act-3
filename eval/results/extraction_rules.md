@@ -7,7 +7,7 @@ Builder-labeled set of 23 messages (DRAFT: one builder's labels, not yet indepen
 | extractor | rules |
 | model | rehearsal-rules-v1 |
 | host | local |
-| run at | 2026-10-17T19:56:52+05:30 |
+| run at | 2026-10-17T22:11:57+05:30 |
 | messages | 23 |
 | complete change accuracy | 13/23 |
 | false acceptances | 2 |
@@ -30,7 +30,7 @@ Builder-labeled set of 23 messages (DRAFT: one builder's labels, not yet indepen
 | m09 | overtime cutoff | yes | 1/1 | 0 | False / False | 0 |
 | m10 | contradiction | yes | 1/1 | 0 | True / True | 0 |
 | m11 | out of scope | no | 0/0 | 0 | True / False | 0 |
-| m12 | multi-fact | no | 3/4 | 1 | False / False | 0 |
+| m12 | multi-fact | no | 3/4 | 1 | False / False | 1 |
 | m13 | Hinglish | no | 1/2 | 0 | True / True | 0 |
 | m14 | priority | yes | 1/1 | 0 | False / False | 0 |
 | m15 | unknown job | yes | 0/0 | 0 | True / True | 0 |

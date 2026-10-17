@@ -1,6 +1,6 @@
 # Held-out recovery comparison
 
-7 frozen synthetic scenarios. Same CP-SAT engine and 10 s budget for every method. Selection seeds [101, 102, 103]; outcomes on separate seeds [9001, 9002, 9003, 9004, 9005] x 500 samples. Synthetic uncertainty, not calibrated to a real factory.
+7 frozen synthetic scenarios: h1 is the demo/reference case, the others are held out. Same CP-SAT engine with a 10 s cap per policy solve (the CPU reference is one solve; Rehearsal solves 2-3 policies), not an equal total budget; every case here solved to optimality well within it. Selection seeds [101, 102, 103]; outcomes on separate seeds [9001, 9002, 9003, 9004, 9005] x 500 samples. Synthetic uncertainty, not calibrated to a real factory.
 
 | Case | Kind | Method | Plan | Valid | Weighted tardiness (min) | Overtime min / cost | Risky promises exposed | Held-out E[weighted late min] | Held-out P(all promises kept) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
