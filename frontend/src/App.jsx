@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Timeline from "./components/Timeline.jsx";
 import CheckerResult from "./components/CheckerResult.jsx";
+import ApprovalPanel from "./components/ApprovalPanel.jsx";
 import { createApi } from "./lib/api.js";
 import {
   annotateChanges,
@@ -583,21 +584,29 @@ export default function App() {
                 </table>
               </div>
             </section>
-
-            <footer className="workspace-footer">
-              <span>
-                REHEARSAL <span> / </span> Understand the plan before you
-                commit.
-              </span>
-              <p>
-                {view === "failure"
-                  ? "Recorded simulation with synthetic uncertainty. Not calibrated to a real factory."
-                  : view === "recovery"
-                    ? "Saved schedule and independent check. No live solve or approval has run."
-                : "Message understanding and recovery tools are being built."}
-              </p>
-            </footer>
           </>
+        )}
+
+        <ApprovalPanel
+          runId={sampleSolve.run_id}
+          alternative={sampleSolve.alternatives[0]}
+          sample
+          hidden={loading || Boolean(error) || view !== "recovery"}
+        />
+
+        {!loading && !error && displayedFactory && (
+          <footer className="workspace-footer">
+            <span>
+              REHEARSAL <span> / </span> Understand the plan before you commit.
+            </span>
+            <p>
+              {view === "failure"
+                ? "Recorded simulation with synthetic uncertainty. Not calibrated to a real factory."
+                : view === "recovery"
+                  ? "Saved synthetic recovery plan. Approval rechecks its stored schedule before export."
+                  : "Message understanding and recovery tools are being built."}
+            </p>
+          </footer>
         )}
       </main>
     </>

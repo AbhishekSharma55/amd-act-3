@@ -1,4 +1,4 @@
-# Factory view and independent check · issues #3–4
+# Factory view, independent check and approval · issues #3–4/#8
 
 See [verification notes and screenshots](../docs/FACTORY_VIEW_QA.md) for the
 completed browser and API checks.
@@ -7,10 +7,12 @@ rejection display and live-data boundaries added in issue #4.
 
 React/Vite frontend for Rehearsal. This phase displays the committed production
 schedule and two clearly labeled, recorded synthetic examples. It does not call
-AMD, solve schedules, run simulations, or approve anything. The independent
-Python checker now produces the saved verification reports shown beside the
+AMD, solve schedules, or run simulations. The independent
+Python checker produces the saved verification reports shown beside the
 sample plans. Those reports are labeled as saved; live factory responses and
-sampled futures never inherit a passing sample badge.
+sampled futures never inherit a passing sample badge. Approval/export can now
+run against the service's stored synthetic example: it rechecks the plan,
+requires all tradeoffs and returns CSV/JSON downloads. See the setup below.
 
 ## Run
 
@@ -57,6 +59,26 @@ Sample failure always uses that example's own checked sample fixture and says
 so above the timeline. These views do not call future `/solve` or `/replay`
 endpoints and cannot be mistaken for freshly calculated results.
 
+## Try approval and export
+
+Start `app.approval_dev:app` using [the approval setup](../backend/README-approval.md)
+instead of the factory-only development server. In **Sample recovery**, review
+the tradeoffs, enter a name and approve the sample. The backend independently
+checks its stored plan before returning downloads. It uses saved synthetic inputs
+and a `MOCK` model trace; no AMD key or payment is needed. Running `npm run dev`
+alone still supports browsing, while approval requires this service.
+
+`ApprovalPanel` accepts `runId`, `alternative`, optional `sample`, `hidden` and
+`onInvalidRun`. It always calls the real `/api/approve` transport, including for
+samples. A new run/alternative resets the form and discards pending/stale results;
+hiding it to inspect another timeline preserves the same plan's decision.
+Unknown/expired/locked runs block submission and can return to a fresh solve via
+`onInvalidRun`. Pass the selected live solve's IDs/alternative when that feature
+lands. The current app intentionally approves only its saved example.
+
+See [approval verification notes](../docs/APPROVAL_QA.md) for screenshots, tested
+retries and downloaded-record checks.
+
 ## Integration contracts
 
 `src/components/CheckerResult.jsx` accepts `result: {valid, violations}` plus
@@ -85,8 +107,10 @@ additional AMD request is needed.
 body means a JSON POST. `options.signal` supports cancellation. Successful mock
 responses are deep copies. Errors carry `code`, `status`, `retryable`, and the
 backend's canonical message. Existing factory/extract/solve/replay/approve mock
-responses follow `plan/03_API_CONTRACT.md`; mock `/health` is intentionally
-unsupported rather than inventing AMD configuration. `App.jsx` owns this first
+responses are saved in `shared/mocks/` and follow `plan/03_API_CONTRACT.md`.
+The mock transport refuses `/approve`: recorded artifacts cannot confirm a new
+approval. Mock `/health` is intentionally unsupported rather than inventing
+AMD configuration. `App.jsx` owns this first
 page's state. Future feature panels should import the shared transport.
 
 `src/components/Timeline.jsx` is independent of the examples:
@@ -108,8 +132,8 @@ page's state. Future feature panels should import the shared transport.
 The viewport derives its bounds from shift, schedule, outages and due markers,
 so overtime is not clipped. The selected-operation detail lives outside the
 SVG. The component itself does not know solver, checker, replay, concession, or
-AMD semantics. Frozen styling describes started work; approval decisions belong
-to the future server flow.
+AMD semantics. Frozen styling describes started work; the approval service owns
+approval decisions.
 
 `src/lib/timeline.js` supplies strict clock parsing, schedule-derived delivery
 outcomes, stable operation keys, and optional sample annotations.

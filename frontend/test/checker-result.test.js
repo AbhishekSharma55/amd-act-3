@@ -46,7 +46,7 @@ test("missing, malformed and contradictory reports cannot produce a passing badg
 
 test("reusable result renders every backend violation as text and a rejection badge", async () => {
   const server = await createServer({
-    server: { middlewareMode: true },
+    server: { middlewareMode: true, ws: false },
     appType: "custom",
   });
   try {
