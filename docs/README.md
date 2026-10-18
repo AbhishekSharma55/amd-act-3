@@ -25,6 +25,6 @@ deployment had not yet been verified.
   [running-outage replay](RUNNING_OUTAGE_QA.md)
 - [Original PR review](reviews/2026-10-17-muskan-prs.md)
 
-Video, slides, repository visibility, joint final QA and actual hackathon
+Video, slides, joint final QA and actual hackathon
 submission remain separate from documentation. Research and original plans
 remain under `research/`, `context/` and `plan/` for provenance.

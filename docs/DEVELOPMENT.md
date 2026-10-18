@@ -130,5 +130,5 @@ python scripts/container_smoke.py http://localhost:7860 --mode amd \
 | Root page missing from backend | Build the frontend before starting the production backend. For hot reload, use Vite instead. |
 | Docker socket permission denied on Linux | Open a new login session after joining the Docker group, or use `sg docker -c 'docker compose up --build --detach'`. |
 
-Public submission access and final video/slides are separate tasks. Setup does
-not require changing repository visibility or the saved evaluation evidence.
+Final video/slides and submission are separate tasks. Local setup uses the
+public repository and does not require changing the saved evaluation evidence.

@@ -99,6 +99,6 @@ ownership or relicense them under MIT. Referenced datasets/repositories in that
 archive are not runtime dependencies merely because they were researched.
 
 The original archive/history is preserved and is excluded from the Docker build.
-Repository visibility and the appropriate public submission packaging of that
-archive remain part of final submission preparation; this documentation change
-does not publish it or change repository visibility.
+The repository is public for the hackathon submission. Archived third-party
+material retains its original ownership and terms; public access does not
+relicense that material under this project's MIT license.

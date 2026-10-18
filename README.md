@@ -101,8 +101,7 @@ with `docker compose down`.
 
 See [Docker settings and troubleshooting](docs/DOCKER.md) and
 [native development, Windows setup and tests](docs/DEVELOPMENT.md).
-Repository access is currently private; cloning requires an invited GitHub
-account until public submission access is arranged.
+The repository is public and can be cloned directly for the hackathon submission.
 
 ## Evidence
 
