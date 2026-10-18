@@ -1,0 +1,23 @@
+So, imagine it’s ten in the morning, and one of your machines suddenly stops. You’ve still got an important order that needs to go out at four. Now you’ve got to work out what to move, what’ll be late, and what you can actually promise. That’s where Rehearsal comes in.
+
+Let me show you. This is our demo shop: seven orders and three machines. These are made-up orders, with deadlines and jobs that are already running.
+
+I’ll use this message: Mill M two is down until two p.m. J seven still needs to ship at four, and overtime needs approval. Now, when I click Read message, DeepSeek V four Flash on AMD Token Factory turns that into suggested planning changes.
+
+You can click any of these suggestions and see the words it came from. We check the machines, times, and conflicts against the shop’s data. And this overtime suggestion still needs a person’s approval before it can actually be used.
+
+Okay, let’s find a recovery plan. If we keep everything on its original machines, we can’t meet J seven’s deadline. Moving work to another qualified machine keeps J seven on time, but J two ends up one hundred and ninety minutes late. You can see that tradeoff right here. And this recovery plan has passed a separate schedule check.
+
+Now, getting a plan is one thing. We also want to see what happens if a repair takes longer, or a job runs a bit slow. So I’ll click Rehearse plan. That runs five hundred simulated scenarios, keeping the machine order fixed.
+
+Okay, look at J four. It’s on time in the plan, but it only makes it in two hundred and thirty-nine of these five hundred scenarios. Click Show a failure, and we can see where it gets delayed. Those numbers come from our simulation assumptions, not real factory measurements.
+
+For this demo, I’ll accept J two’s late delivery, add my name, and approve the plan. The server checks it again before giving us the downloads. There’s a dispatch CSV, plus a record of the changes, approvals, AMD response, and simulation results.
+
+Now, just to show you what happens with an unclear message: Mill four is down after lunch. We don’t have a Mill four, and we don’t have clear times. So it flags those fields and blocks planning until they’re sorted out.
+
+And here’s the actual AMD call in the run inspector. You can see the model, how long it took, and what it returned. AMD handles reading the message. The OR-Tools solver, separate schedule checker, and NumPy simulation run on CPU.
+
+We also tried twenty-three messages we wrote ourselves. Our basic rules got thirteen right. The AMD model got twenty-three using Muskan’s labels, and twenty-one using mine. We used these messages to improve the prompts, so these are early development results, with the labels still being finalized.
+
+The aim is to help a planner see the options, understand the risks, and keep a clear record of the decision. Next, we want to try this with real planners and measure whether it helps. I’m Abhishek, and I built this with Muskan. We’re Forge Ahead, and this is Rehearsal.

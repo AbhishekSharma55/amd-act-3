@@ -61,6 +61,11 @@ The application serves local WOFF2 assets from `frontend/public/fonts/`:
 The original notices are copied into the built frontend and remain available
 alongside the font files. They are not covered by the project's MIT grant.
 
+The submission PDF embeds Liberation Sans and Liberation Mono. Their original
+copyright and SIL Open Font License notices are retained in
+[submission/FONT_NOTICES.txt](submission/FONT_NOTICES.txt). PowerPoint references
+Arial and Liberation Mono by font name; the PowerPoint does not bundle those fonts.
+
 ## Hosted model and platform
 
 The configured AMD Token Factory model is `DeepSeek-V4-Flash`. Saved live

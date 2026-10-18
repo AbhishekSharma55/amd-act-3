@@ -1,0 +1,1381 @@
+{
+  "pages": 10,
+  "elements": [
+    {
+      "slide": 1,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 1,
+      "text": "INTELLIGENT INDUSTRY",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 1,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 1,
+      "text": "01",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 1,
+      "text": "Rehearsal.",
+      "x": 38,
+      "y": 107,
+      "w": 390,
+      "h": 70.86
+    },
+    {
+      "slide": 1,
+      "text": "Test the recovery\nbefore changing\nthe shift.",
+      "x": 40,
+      "y": 197,
+      "w": 365,
+      "h": 111
+    },
+    {
+      "slide": 1,
+      "text": "Checked recovery decisions\nfor production planners.",
+      "x": 40,
+      "y": 337,
+      "w": 350,
+      "h": 47.459999999999994
+    },
+    {
+      "slide": 1,
+      "text": "Abhishek Sharma + Muskan Verma",
+      "x": 40,
+      "y": 430,
+      "w": 440,
+      "h": 18.21
+    },
+    {
+      "slide": 1,
+      "text": "Working AWS app \u2022 Real AMD extraction \u2022 Synthetic demo data",
+      "x": 448,
+      "y": 462,
+      "w": 470,
+      "h": 15.87
+    },
+    {
+      "slide": 2,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 2,
+      "text": "THE DECISION",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 2,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 2,
+      "text": "02",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 2,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 2,
+      "text": "One breakdown.\nSeven delivery promises.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 2,
+      "text": "The production planner has to decide what to move, what runs late, and what to approve.",
+      "x": 40,
+      "y": 173,
+      "w": 870,
+      "h": 20.549999999999997
+    },
+    {
+      "slide": 2,
+      "text": "10:00",
+      "x": 58,
+      "y": 253,
+      "w": 246,
+      "h": 42.78
+    },
+    {
+      "slide": 2,
+      "text": "M2 stops",
+      "x": 58,
+      "y": 309,
+      "w": 245,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 2,
+      "text": "Work is already in progress.",
+      "x": 58,
+      "y": 353,
+      "w": 240,
+      "h": 21.72
+    },
+    {
+      "slide": 2,
+      "text": "16:00",
+      "x": 359,
+      "y": 253,
+      "w": 246,
+      "h": 42.78
+    },
+    {
+      "slide": 2,
+      "text": "J7 must ship",
+      "x": 359,
+      "y": 309,
+      "w": 245,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 2,
+      "text": "Its hard deadline must hold.",
+      "x": 359,
+      "y": 353,
+      "w": 240,
+      "h": 21.72
+    },
+    {
+      "slide": 2,
+      "text": "A decision",
+      "x": 660,
+      "y": 253,
+      "w": 246,
+      "h": 42.78
+    },
+    {
+      "slide": 2,
+      "text": "Own the tradeoff",
+      "x": 660,
+      "y": 309,
+      "w": 245,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 2,
+      "text": "A revised plan needs a clear handoff.",
+      "x": 660,
+      "y": 353,
+      "w": 240,
+      "h": 40.44
+    },
+    {
+      "slide": 2,
+      "text": "FIRST USER",
+      "x": 40,
+      "y": 451,
+      "w": 110,
+      "h": 14.7
+    },
+    {
+      "slide": 2,
+      "text": "A production planner in a make-to-order machine shop",
+      "x": 158,
+      "y": 445,
+      "w": 745,
+      "h": 24.06
+    },
+    {
+      "slide": 3,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 3,
+      "text": "FROM A MESSAGE TO A DECISION",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 3,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 3,
+      "text": "03",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 3,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 3,
+      "text": "The note becomes\na plan you can inspect.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 3,
+      "text": "\u201cMill M2 is unavailable until 14:00. Order J7 still needs to ship at 16:00.\nOvertime requires approval.\u201d",
+      "x": 57,
+      "y": 204,
+      "w": 842,
+      "h": 45.12
+    },
+    {
+      "slide": 3,
+      "text": "READ ON AMD",
+      "x": 50,
+      "y": 312,
+      "w": 143,
+      "h": 15.87
+    },
+    {
+      "slide": 3,
+      "text": "REVIEW",
+      "x": 230,
+      "y": 312,
+      "w": 143,
+      "h": 15.87
+    },
+    {
+      "slide": 3,
+      "text": "SOLVE + CHECK",
+      "x": 410,
+      "y": 312,
+      "w": 143,
+      "h": 15.87
+    },
+    {
+      "slide": 3,
+      "text": "REHEARSE",
+      "x": 590,
+      "y": 312,
+      "w": 143,
+      "h": 15.87
+    },
+    {
+      "slide": 3,
+      "text": "APPROVE + EXPORT",
+      "x": 770,
+      "y": 312,
+      "w": 143,
+      "h": 15.87
+    },
+    {
+      "slide": 3,
+      "text": "Machine outage",
+      "x": 41,
+      "y": 374,
+      "w": 282,
+      "h": 17.04
+    },
+    {
+      "slide": 3,
+      "text": "M2 \u00b7 10:00\u201314:00",
+      "x": 41,
+      "y": 399,
+      "w": 282,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 3,
+      "text": "Hard deadline",
+      "x": 342,
+      "y": 374,
+      "w": 282,
+      "h": 17.04
+    },
+    {
+      "slide": 3,
+      "text": "J7 \u00b7 16:00",
+      "x": 342,
+      "y": 399,
+      "w": 282,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 3,
+      "text": "Proposed option",
+      "x": 643,
+      "y": 374,
+      "w": 282,
+      "h": 17.04
+    },
+    {
+      "slide": 3,
+      "text": "Overtime \u00b7 approval needed",
+      "x": 643,
+      "y": 399,
+      "w": 282,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 3,
+      "text": "Unknown machines and missing required times are flagged for human review.",
+      "x": 41,
+      "y": 451,
+      "w": 874,
+      "h": 20.549999999999997
+    },
+    {
+      "slide": 4,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 4,
+      "text": "THE CHECKED RECOVERY",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 4,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 4,
+      "text": "04",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 4,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 4,
+      "text": "Save J7.\nShow the cost.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 4,
+      "text": "KEEP ORIGINAL MACHINES",
+      "x": 58,
+      "y": 211,
+      "w": 380,
+      "h": 17.04
+    },
+    {
+      "slide": 4,
+      "text": "Infeasible",
+      "x": 57,
+      "y": 251,
+      "w": 380,
+      "h": 48.629999999999995
+    },
+    {
+      "slide": 4,
+      "text": "J7\u2019s hard deadline cannot be met\nunder this policy.",
+      "x": 58,
+      "y": 315,
+      "w": 366,
+      "h": 49.8
+    },
+    {
+      "slide": 4,
+      "text": "The hard date is not silently moved.",
+      "x": 58,
+      "y": 394,
+      "w": 367,
+      "h": 19.38
+    },
+    {
+      "slide": 4,
+      "text": "RE-ROUTE TO QUALIFIED MACHINES",
+      "x": 504,
+      "y": 211,
+      "w": 391,
+      "h": 17.04
+    },
+    {
+      "slide": 4,
+      "text": "J7 on time",
+      "x": 502,
+      "y": 251,
+      "w": 391,
+      "h": 48.629999999999995
+    },
+    {
+      "slide": 4,
+      "text": "J2: 190 minutes late",
+      "x": 504,
+      "y": 315,
+      "w": 380,
+      "h": 32.25
+    },
+    {
+      "slide": 4,
+      "text": "0 overtime minutes \u00b7 Independent checker passed",
+      "x": 504,
+      "y": 393,
+      "w": 383,
+      "h": 18.21
+    },
+    {
+      "slide": 4,
+      "text": "That late delivery is an explicit concession for a person to approve.",
+      "x": 41,
+      "y": 454,
+      "w": 866,
+      "h": 22.89
+    },
+    {
+      "slide": 5,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 5,
+      "text": "REHEARSE BEFORE COMMITTING",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 5,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 5,
+      "text": "05",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 5,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 5,
+      "text": "On paper, on time.\nIn rehearsal, exposed.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 5,
+      "text": "J4",
+      "x": 40,
+      "y": 191,
+      "w": 180,
+      "h": 21.72
+    },
+    {
+      "slide": 5,
+      "text": "239 / 500",
+      "x": 37,
+      "y": 218,
+      "w": 415,
+      "h": 79.05
+    },
+    {
+      "slide": 5,
+      "text": "simulated scenarios finish on time",
+      "x": 41,
+      "y": 301,
+      "w": 414,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 5,
+      "text": "Planned finish: 16:35  \u00b7  Due: 17:00",
+      "x": 40,
+      "y": 387,
+      "w": 430,
+      "h": 24.06
+    },
+    {
+      "slide": 5,
+      "text": "A CONCRETE COUNTEREXAMPLE",
+      "x": 510,
+      "y": 212,
+      "w": 388,
+      "h": 17.04
+    },
+    {
+      "slide": 5,
+      "text": "Sampled future #24",
+      "x": 509,
+      "y": 246,
+      "w": 380,
+      "h": 34.589999999999996
+    },
+    {
+      "slide": 5,
+      "text": "J4 finishes at 18:01",
+      "x": 510,
+      "y": 296,
+      "w": 382,
+      "h": 29.909999999999997
+    },
+    {
+      "slide": 5,
+      "text": "61 minutes late. Its M1 operation waits\n70 minutes longer than planned.",
+      "x": 510,
+      "y": 343,
+      "w": 386,
+      "h": 42.78
+    },
+    {
+      "slide": 5,
+      "text": "500 samples \u00b7 seed 7 \u00b7 duration factors 0.9\u20131.3 \u00b7 repairs 0\u201390 min late",
+      "x": 40,
+      "y": 444,
+      "w": 880,
+      "h": 18.21
+    },
+    {
+      "slide": 5,
+      "text": "Synthetic uncertainty; these counts are not measured factory reliability.",
+      "x": 40,
+      "y": 467,
+      "w": 880,
+      "h": 17.04
+    },
+    {
+      "slide": 6,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 6,
+      "text": "HUMAN APPROVAL AND HANDOFF",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 6,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 6,
+      "text": "06",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 6,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 6,
+      "text": "A decision someone owns.\nA record you can keep.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 6,
+      "text": "01",
+      "x": 40,
+      "y": 196,
+      "w": 48,
+      "h": 26.4
+    },
+    {
+      "slide": 6,
+      "text": "Accept the tradeoff",
+      "x": 96,
+      "y": 192,
+      "w": 350,
+      "h": 26.4
+    },
+    {
+      "slide": 6,
+      "text": "Required late-delivery and overtime concessions are explicit.",
+      "x": 96,
+      "y": 223,
+      "w": 350,
+      "h": 38.099999999999994
+    },
+    {
+      "slide": 6,
+      "text": "02",
+      "x": 40,
+      "y": 284,
+      "w": 48,
+      "h": 26.4
+    },
+    {
+      "slide": 6,
+      "text": "Approve a stored plan",
+      "x": 96,
+      "y": 280,
+      "w": 350,
+      "h": 26.4
+    },
+    {
+      "slide": 6,
+      "text": "The server checks its own schedule again before export.",
+      "x": 96,
+      "y": 311,
+      "w": 350,
+      "h": 38.099999999999994
+    },
+    {
+      "slide": 6,
+      "text": "03",
+      "x": 40,
+      "y": 372,
+      "w": 48,
+      "h": 26.4
+    },
+    {
+      "slide": 6,
+      "text": "Keep both exports",
+      "x": 96,
+      "y": 368,
+      "w": 350,
+      "h": 26.4
+    },
+    {
+      "slide": 6,
+      "text": "Dispatch CSV + a decision JSON with AMD trace and rehearsal evidence.",
+      "x": 96,
+      "y": 399,
+      "w": 350,
+      "h": 38.099999999999994
+    },
+    {
+      "slide": 6,
+      "text": "ACTUAL DISPATCH EXPORT \u00b7 EXCERPT",
+      "x": 503,
+      "y": 212,
+      "w": 398,
+      "h": 15.87
+    },
+    {
+      "slide": 6,
+      "text": "machine  job  op  start  end\nM1       J1   2   10:10  11:20\nM1       J7   2   11:20  13:40\nM1       J6   2   13:40  15:05\nM1       J4   2   15:05  16:35",
+      "x": 503,
+      "y": 253,
+      "w": 394,
+      "h": 128
+    },
+    {
+      "slide": 6,
+      "text": "Approval locks the decision. Identical retries return the same exports.",
+      "x": 40,
+      "y": 465,
+      "w": 873,
+      "h": 19.38
+    },
+    {
+      "slide": 7,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 7,
+      "text": "APPLICATION OF TECHNOLOGY",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 7,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 7,
+      "text": "07",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 7,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 7,
+      "text": "AMD reads the message.\nThe checks control the decision.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 7,
+      "text": "AMD TOKEN FACTORY",
+      "x": 57,
+      "y": 207,
+      "w": 355,
+      "h": 17.04
+    },
+    {
+      "slide": 7,
+      "text": "DeepSeek-V4-Flash",
+      "x": 57,
+      "y": 235,
+      "w": 351,
+      "h": 34.589999999999996
+    },
+    {
+      "slide": 7,
+      "text": "Typed proposals + exact source spans",
+      "x": 57,
+      "y": 273,
+      "w": 353,
+      "h": 18.21
+    },
+    {
+      "slide": 7,
+      "text": "WEB CONTAINER \u00b7 CPU",
+      "x": 57,
+      "y": 330,
+      "w": 354,
+      "h": 17.04
+    },
+    {
+      "slide": 7,
+      "text": "React + FastAPI",
+      "x": 57,
+      "y": 357,
+      "w": 350,
+      "h": 28.74
+    },
+    {
+      "slide": 7,
+      "text": "OR-Tools CP-SAT \u2192 independent checker\n\u2192 NumPy rehearsal \u2192 approval / exports",
+      "x": 57,
+      "y": 394,
+      "w": 355,
+      "h": 38.099999999999994
+    },
+    {
+      "slide": 7,
+      "text": "VERIFIED LIVE REQUEST",
+      "x": 473,
+      "y": 208,
+      "w": 423,
+      "h": 17.04
+    },
+    {
+      "slide": 7,
+      "text": "Provider",
+      "x": 473,
+      "y": 246,
+      "w": 148,
+      "h": 18.21
+    },
+    {
+      "slide": 7,
+      "text": "AMD Token Factory",
+      "x": 628,
+      "y": 246,
+      "w": 272,
+      "h": 19.38
+    },
+    {
+      "slide": 7,
+      "text": "Model",
+      "x": 473,
+      "y": 280,
+      "w": 148,
+      "h": 18.21
+    },
+    {
+      "slide": 7,
+      "text": "DeepSeek-V4-Flash",
+      "x": 628,
+      "y": 280,
+      "w": 272,
+      "h": 19.38
+    },
+    {
+      "slide": 7,
+      "text": "Host",
+      "x": 473,
+      "y": 314,
+      "w": 148,
+      "h": 18.21
+    },
+    {
+      "slide": 7,
+      "text": "developer.amd.com.cn",
+      "x": 628,
+      "y": 314,
+      "w": 272,
+      "h": 19.38
+    },
+    {
+      "slide": 7,
+      "text": "Latency / attempts",
+      "x": 473,
+      "y": 348,
+      "w": 148,
+      "h": 18.21
+    },
+    {
+      "slide": 7,
+      "text": "7,866 ms / 1 attempt",
+      "x": 628,
+      "y": 348,
+      "w": 272,
+      "h": 19.38
+    },
+    {
+      "slide": 7,
+      "text": "Fallback",
+      "x": 473,
+      "y": 382,
+      "w": 148,
+      "h": 18.21
+    },
+    {
+      "slide": 7,
+      "text": "Disabled; no fallback used",
+      "x": 628,
+      "y": 382,
+      "w": 272,
+      "h": 19.38
+    },
+    {
+      "slide": 7,
+      "text": "No GPU replay or GPU speedup is claimed. The model API is the AMD workload.",
+      "x": 40,
+      "y": 465,
+      "w": 880,
+      "h": 18.21
+    },
+    {
+      "slide": 8,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 8,
+      "text": "EVIDENCE AND ITS LIMITS",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 8,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 8,
+      "text": "08",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 8,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 8,
+      "text": "Small tests.\nVisible limits.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 8,
+      "text": "Extractor / labels",
+      "x": 40,
+      "y": 191,
+      "w": 353,
+      "h": 18.21
+    },
+    {
+      "slide": 8,
+      "text": "Complete changes",
+      "x": 420,
+      "y": 191,
+      "w": 175,
+      "h": 18.21
+    },
+    {
+      "slide": 8,
+      "text": "Wrong \u201cOK\u201d",
+      "x": 625,
+      "y": 191,
+      "w": 125,
+      "h": 18.21
+    },
+    {
+      "slide": 8,
+      "text": "Review raised",
+      "x": 775,
+      "y": 191,
+      "w": 145,
+      "h": 18.21
+    },
+    {
+      "slide": 8,
+      "text": "Rules / Muskan",
+      "x": 47,
+      "y": 234,
+      "w": 339,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "13 / 23",
+      "x": 427,
+      "y": 234,
+      "w": 161,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "2",
+      "x": 632,
+      "y": 234,
+      "w": 111,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "9 / 12",
+      "x": 782,
+      "y": 234,
+      "w": 131,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "AMD / Muskan",
+      "x": 47,
+      "y": 288,
+      "w": 339,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "23 / 23",
+      "x": 427,
+      "y": 288,
+      "w": 161,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "0",
+      "x": 632,
+      "y": 288,
+      "w": 111,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "12 / 12",
+      "x": 782,
+      "y": 288,
+      "w": 131,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "Same AMD / Abhishek",
+      "x": 47,
+      "y": 342,
+      "w": 339,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "21 / 23",
+      "x": 427,
+      "y": 342,
+      "w": 161,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "0",
+      "x": 632,
+      "y": 342,
+      "w": 111,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "9 / 10",
+      "x": 782,
+      "y": 342,
+      "w": 131,
+      "h": 22.89
+    },
+    {
+      "slide": 8,
+      "text": "23 team-written messages; they informed prompt tuning. Two provisional label sets.\nNo independent benchmark or final reconciled extraction score is claimed.",
+      "x": 41,
+      "y": 398,
+      "w": 877,
+      "h": 38.099999999999994
+    },
+    {
+      "slide": 8,
+      "text": "Also recorded: 7 frozen synthetic recovery scenarios, including an infeasible case.\nThe repository retains unchanged outcomes and tradeoffs, not just improvements.",
+      "x": 41,
+      "y": 452,
+      "w": 877,
+      "h": 33.42
+    },
+    {
+      "slide": 9,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 9,
+      "text": "BUSINESS VALUE AND THE NEXT PILOT",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 9,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 9,
+      "text": "09",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 9,
+      "text": "Evidence / source",
+      "x": 38,
+      "y": 490,
+      "w": 800,
+      "h": 12.36
+    },
+    {
+      "slide": 9,
+      "text": "A clear first user.\nA measurable next step.",
+      "x": 38,
+      "y": 83,
+      "w": 884,
+      "h": 83
+    },
+    {
+      "slide": 9,
+      "text": "WHO USES IT",
+      "x": 59,
+      "y": 211,
+      "w": 380,
+      "h": 17.04
+    },
+    {
+      "slide": 9,
+      "text": "Production planners",
+      "x": 58,
+      "y": 249,
+      "w": 380,
+      "h": 36.93
+    },
+    {
+      "slide": 9,
+      "text": "Small, make-to-order machine shops\nhandling disruption-driven replanning.",
+      "x": 59,
+      "y": 297,
+      "w": 375,
+      "h": 45.12
+    },
+    {
+      "slide": 9,
+      "text": "The aim: faster, clearer recovery decisions\nwith an auditable handoff.",
+      "x": 59,
+      "y": 374,
+      "w": 375,
+      "h": 42.78
+    },
+    {
+      "slide": 9,
+      "text": "SHADOW PILOT",
+      "x": 493,
+      "y": 203,
+      "w": 412,
+      "h": 17.04
+    },
+    {
+      "slide": 9,
+      "text": "Use real historical disruptions",
+      "x": 493,
+      "y": 237,
+      "w": 415,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 9,
+      "text": "Replay cases alongside a planner\u2019s current workflow.",
+      "x": 493,
+      "y": 265,
+      "w": 415,
+      "h": 19.38
+    },
+    {
+      "slide": 9,
+      "text": "Measure the decision",
+      "x": 493,
+      "y": 310,
+      "w": 415,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 9,
+      "text": "Time to a correct approved plan; missed commitments and wrong accepted changes.",
+      "x": 493,
+      "y": 338,
+      "w": 415,
+      "h": 35.76
+    },
+    {
+      "slide": 9,
+      "text": "Start with the handoff",
+      "x": 493,
+      "y": 383,
+      "w": 415,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 9,
+      "text": "Validate CSV exports before connecting factory systems.",
+      "x": 493,
+      "y": 411,
+      "w": 415,
+      "h": 19.38
+    },
+    {
+      "slide": 9,
+      "text": "Current limits: synthetic data \u00b7 one-day fixture \u00b7 no ERP integration \u00b7 no validated ROI",
+      "x": 40,
+      "y": 464,
+      "w": 880,
+      "h": 17.04
+    },
+    {
+      "slide": 10,
+      "text": "REHEARSAL",
+      "x": 68,
+      "y": 29,
+      "w": 180,
+      "h": 17.04
+    },
+    {
+      "slide": 10,
+      "text": "FORGE AHEAD",
+      "x": 420,
+      "y": 30,
+      "w": 490,
+      "h": 14.7
+    },
+    {
+      "slide": 10,
+      "text": "FORGE AHEAD  /  AMD DEVELOPER HACKATHON: ACT III",
+      "x": 38,
+      "y": 513,
+      "w": 600,
+      "h": 12.36
+    },
+    {
+      "slide": 10,
+      "text": "10",
+      "x": 894,
+      "y": 511,
+      "w": 30,
+      "h": 14.7
+    },
+    {
+      "slide": 10,
+      "text": "Rehearse before\nyou commit.",
+      "x": 39,
+      "y": 107,
+      "w": 870,
+      "h": 135
+    },
+    {
+      "slide": 10,
+      "text": "Abhishek Sharma + Muskan Verma",
+      "x": 42,
+      "y": 270,
+      "w": 850,
+      "h": 29.909999999999997
+    },
+    {
+      "slide": 10,
+      "text": "Intelligent Industry  /  AMD Developer Hackathon: ACT III",
+      "x": 42,
+      "y": 313,
+      "w": 870,
+      "h": 21.72
+    },
+    {
+      "slide": 10,
+      "text": "OPEN THE LIVE APP",
+      "x": 60,
+      "y": 395,
+      "w": 384,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 10,
+      "text": "VIEW CODE + EVIDENCE",
+      "x": 504,
+      "y": 395,
+      "w": 400,
+      "h": 25.229999999999997
+    },
+    {
+      "slide": 10,
+      "text": "github.com/AbhishekSharma55/amd-act-3",
+      "x": 42,
+      "y": 462,
+      "w": 850,
+      "h": 21.72
+    },
+    {
+      "slide": 10,
+      "text": "WATCH THE DEMO  /  youtu.be/XCLzMpVXXHU",
+      "x": 42,
+      "y": 488,
+      "w": 850,
+      "h": 18.21
+    }
+  ]
+}

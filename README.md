@@ -8,6 +8,8 @@ rehearse how each plan could fail, and approve the tradeoffs before exporting
 new dispatch instructions.
 
 **[Open the live app](https://rehearsal-act3.aa0brkr65f1ep.us-east-1.cs.amazonlightsail.com/)** ·
+[Watch the demo](https://youtu.be/XCLzMpVXXHU) ·
+[Pitch slides (PDF)](submission/Rehearsal_Pitch_Deck.pdf) ·
 [Run locally](#run-locally) · [Architecture](docs/ARCHITECTURE.md) ·
 [Verification](#evidence) · [Licenses](THIRD_PARTY_NOTICES.md)
 
@@ -177,6 +179,7 @@ scheduled **15 November 2026, 00:01:47 IST** expiry are documented in
 | `docs/` | Architecture, setup, deployment and verification reports |
 | `deploy/lightsail/` | Deployment helper, expiry configuration and public verification evidence |
 | `licenses/` | Dependency inventory and preserved upstream notices |
+| `submission/` | Pitch deck PDF, editable PowerPoint, video link and narration |
 | `plan/`, `context/`, `research/` | Original design and research provenance; historical plans may differ from the shipped app |
 
 ## License and credits
@@ -188,5 +191,4 @@ logos and archived source material retain their own terms; see
 
 The original hackathon context and research history are preserved. They are
 background sources, not required runtime assets or material relicensed by this
-project. Video, slides and final submission are tracked separately from this
-documentation task.
+project. The pitch deck and video link are in [submission materials](submission/README.md).

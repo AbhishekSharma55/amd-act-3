@@ -2,6 +2,8 @@
 * text=auto eol=lf
 *.png binary
 *.woff2 binary
+*.pdf binary
+*.pptx binary
 
 # Preserve upstream notice formatting, including original trailing spaces.
 licenses/PYTHON_NOTICES.txt -whitespace
